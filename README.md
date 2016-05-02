@@ -24,7 +24,7 @@ Here is a listing and their meaning of the functions used on the Merlin_shortene
 - {gift}: _Gift:_ Does something when you play this card from your hand.
 - {production}: _Production:_ Does something at the start of each of your turns.
 - {combat}: _Combat:_ Does something whenever this creature fights another creature.
-- {protector}: _Protection:_ The next time this creature would take damage, it ignores it and loses Protection instead.
+- {protection}: _Protection:_ The next time this creature would take damage, it ignores it and loses Protection instead.
 - {taunt}: _Taunt:_ Opponent's creatures adjacent to this one can't do anything else than attacking it.
 - {haste}: _Haste:_ Can attack, harvest and move the turn you play it.
 - {last_words}: _Last Words:_ Does something when this creature dies.

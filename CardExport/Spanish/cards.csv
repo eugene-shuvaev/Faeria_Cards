@@ -1,0 +1,493 @@
+1.name;Granjero
+1.text;
+2.name;Arquero en la cima
+2.text;{ranged_attack}
+3.name;Guerrero de Syland
+3.text;
+4.name;Caballerizo mayor de Syland
+9.name;Ingeniero imperial
+9.text;{gift}: Activa todas las habilidades de producción.
+10.name;¡En formación!
+10.text;Añade dos <b>Guardias imperiales</b> de 2/2 con {taunt} a tu mano.
+11.name;Fortaleza andante
+11.text;
+12.name;Fragua de vapor
+12.text;{production}: Una criatura aliada al azar gana +1/+0.
+13.name;Cobrador de impuestos
+13.text;{combat}: Gana {faeria|1}.
+14.name;Cántico de juventud
+14.text;Roba una carta y gana 4 de vida.
+15.name;Apoyo
+15.text;Le da {protection} a una criatura.
+16.name;Guardia imperial
+16.text;{taunt}
+22.name;Luchador de libertad
+22.text;{haste}
+23.name;Fogata
+23.text;Le da +1/+1 a una criatura.
+24.name;Vuelo del halcón
+24.text;Inflige 1 de daño a una criatura.
+29.name;Maestro espadachín
+29.text;Tiene +2/+0 durante tu turno.
+30.name;Yak de campiña
+30.text;
+32.name;Estampida de yak
+32.text;Invoca tres <b>Yak enfurecidos</b> de 2/2 con {haste}.
+33.name;Castigo
+33.text;Inflige 2 de daño a una criatura. Si es una criatura neutral, inflige 5.
+34.name;El favorito de la reina
+34.text;{protection}
+35.name;Guardia de la reina
+35.text;{taunt}\n{combat}: Gana {faeria|1}.
+36.name;Magda, reina de Meroval
+36.text;Tus legendarias cuestan {faeria|2} menos.\n{production}: Añade una carta legendaria a tu mano.
+37.name;Bufón de la corte
+37.text;{taunt}\n{gift}: Una criatura al azar de tu mano gana +2/+2.
+38.name;Guardia del rey
+38.text;{taunt}\n{combat}: Roba una carta.
+39.name;Héroe improbable
+39.text;La primera vez que lucha y sobrevive, gana +3/+3 y {charge|3}.
+40.name;Magnus, rey de Meroval
+40.text;{charge|3}\n{combat}: Roba una carta, cuesta {faeria|0}.
+41.name;Portador de la peste
+41.text;{last_words}: Inflige 2 de daño a TODAS las criaturas.
+42.name;Máquina de asedio
+43.name;Sharra, la cazadragones
+43.text;Ignora todo el daño igual o superior a 4.
+44.name;Hambruna
+44.text;Inflige 1 de daño a TODAS las criaturas.
+45.text;{options|Roba gratis Apoyo.|Roba gratis Castigo.}\nAñade <b>Apoyo</b> a tu mano. Cuesta {faeria|0}.\nAñade <b>Castigo</b> a tu mano. Cuesta {faeria|0}.
+46.name;Cartógrafo
+46.text;{last_words}: Crea un lago, un bosque, una montaña o un desierto al azar.
+47.name;Estatua reluciente
+47.text;{taunt}\n{production}: Ganas 1 de vida.
+48.name;Anciano del poblado
+48.text;{last_words}: Roba una carta.
+49.name;Narrador
+49.text;{gift}: Cada jugador roba 2 cartas y gana 2 de vida.
+50.name;Monje errante
+50.text;Gana +1/+0 al robar una carta.
+51.name;Sicario de la fragua
+51.text;
+52.name;Fiel al rey
+52.text;{protection}
+53.name;Día de los dragones
+53.text;Añade cuatro <b>Dragones</b> a tu mano. Cuesta {faeria|4} menos.
+54.name;Aventurero osado
+54.text;{gift}: Gana +2/+2 por cada enemigo adyacente.
+55.name;Hombre del mazo
+55.text;
+56.name;Barón Thulgar
+56.text;{last_words}: Cada jugador roba una carta. Cuesta {faeria|0}.
+57.name;Sabiduría
+57.text;Roba 2 cartas.
+58.name;Yak guerrero
+58.text;Tiene +2/+0 mientras tu oponente tenga 10 de vida o menos.
+59.name;Defensor de la patria
+59.text;{taunt}\nSolo puede invocarse junto a ti.
+60.name;Asesino de la reina
+60.text;{deathtouch}
+61.name;Forajido perseguido
+61.text;{last_words}: Tu oponente roba una carta y gana {faeria|2}.
+62.name;Cazafortunas
+62.text;Cuando una criatura recoge faeria, una criatura al azar tuya gana +1/+1.
+63.name;Explorador extraño
+63.text;{gift}: Añade una <b>Fogata</b> a tu mano.
+64.name;Cementerio aislado
+64.text;{activate}: Sacrifica a una criatura para dar +2/+2 a una criatura aliada al azar.
+65.name;Explorador de la jungla
+65.text;{gift}: Gana +1/+1 si controlas 2 lagos. Gana +0/+2 si controlas 2 bosques.
+66.name;Explorador fogoso
+66.text;{gift}: Gana +1/+1 si controlas 2 lagos. Gana +2/+0 si controlas 2 montañas.
+67.name;Explorador del oasis
+67.text;{gift}: Gana +1/+1 si controlas 2 lagos. Gana +1/+1 si controlas 2 desiertos.
+68.name;Explorador de la taiga
+68.text;{gift}: Gana +2/+0 si controlas 2 montañas. Gana +0/+2 si controlas 2 bosques.
+69.name;Explorador de la sabana
+69.text;{gift}: Gana +1/+1 si controlas 2 desiertos. Gana +0/+2 si controlas 2 bosques.
+70.name;Explorador de arenisca
+70.text;{gift}: Gana +2/+0 si controlas 2 montañas. Gana +1/+1 si controlas 2 desiertos.
+71.name;Pez rubí
+71.text;{aquatic}
+72.name;Ladrón popular
+72.text;{options|Gana +2/+2|Roba 2 cartas.}\nGana +2/+2.\nRoba 2 cartas.
+73.name;Cisterna de Gabria
+73.text;{production}: Gana {faeria|3}. Inflige 1 de daño a esta estructura.
+74.name;Tyranax
+74.text;
+75.name;Hechicera gabriana
+75.text;{gift}: El ataque de otra criatura se iguala al de su vida.
+76.name;Comandante gabriano
+77.name;Alcaide gabriano
+77.text;{gift}: Le da {protection} a una criatura.
+83.name;Guerrero tritón
+83.text;{jump}
+84.name;Bestia mística
+84.text;{gift}: Gana +2/+2 y {charge|2} si tu oponente tiene {faeria|10} o más.
+85.name;Fantasma del espejo
+85.text;{gift}: Transforma a otra criatura en un <b>Espectro del espejo</b> de 4/4.
+86.name;Jefe tritón
+87.name;Sapo ninja
+87.text;{jump}, {haste}
+88.name;Maleficio
+88.text;Transforma una criatura en una <b>Rana</b> de 2/2 con {jump}.
+93.name;Encantamiento de Gabria
+94.name;Creación de Aurora
+94.text;Añade una copia de una criatura a tu mano. Cuesta {faeria|5} menos.
+95.name;Acechador oscuro
+95.text;Cuesta {faeria|2} menos si has usado un evento durante el turno.
+96.name;Espiral mágica
+96.text;Añade dos cartas azules al azar a tu mano.
+97.name;Noble gabriano
+97.text;{gift}: Invoca un <b>Pez rubí</b> de 1/1 (puedes invocarlo en una casilla de océano).
+102.name;Discípulo de Aurora
+102.text;Cuando uses un evento, gana +1/+1.
+103.name;Caparazón robusto
+103.text;{aquatic}
+104.name;Baeru, la primera ola
+104.text;{aquatic}\n{production}: Transforma las tierras adyacentes en lagos.
+105.name;Ser tempestuoso
+105.text;{last_words}: Gana {faeria|10} y roba una carta.
+106.name;Historia de la Vieja tortuga
+107.name;Coloso rompeolas
+108.name;Orosei, sueño del piélago
+108.text;{flying}, {charge|2}\n{gift}: Transforma todas tus criaturas en criaturas que cuestan {faeria|2} más.
+109.name;Agua elemental
+109.text;{jump}\n{gift}: Crea un lago.
+110.name;Seda de gema feérica
+110.text;{flying}\nLa primera vez que robas un evento, gana +2/+0, {protection} y {charge|2}.
+111.name;Torre hundida
+111.text;{activate}: Mueve una tierra. Inflige 1 de daño a esta estructura.
+112.name;Brizna cerúlea
+112.text;Cuando recoges faeria del pozo de un oponente, gana +1/+1.
+113.name;Santuario tritón
+113.text;Cuando recoges faeria, la estructura gana 1 de vida.\n{activate}: Destrúyela y consigue tanta faeria como vida tiene.
+114.name;Sueño de Aurora
+114.text;Roba hasta que tengas 9 cartas. Reduce el coste de todas las cartas en tu mano a {faeria|0}.
+115.name;Lancero de las nieves
+115.text;{jump}\nCuando uses un evento, gana +2/+0 durante el turno (límite +6/+0).
+116.name;Luduan
+116.text;Cuando esta criatura recoge faeria del pozo de un oponente, añade una carta azul al azar a tu mano. Cuesta {faeria|2} menos.
+117.name;Huevo de las maravillas
+117.text;Cuando usas una criatura, el Huevo de las maravillas se convierte en ella.
+118.name;Arconte gabriano
+119.name;Tritón saltador
+119.text;{aquatic}, {jump}
+120.name;Corriente cambiante
+120.text;{options|Mueve un suelo|Roba una carta}\nMueve un suelo.\nRoba una carta.
+121.name;Profeta de las mareas
+121.text;{gift}: Mueve una tierra dos veces.
+122.name;Visión de humildad
+122.text;Reduce a la mitad el ataque y la vida base de una criatura (redondeando).
+123.name;Heraldo antiguo
+123.text;{gift}: La siguiente criatura que robes con 5 de vida o más costará {faeria|2} menos.
+124.name;Banquete tritón
+124.text;Le da +1/+1, {protection} y {jump} a una criatura.
+125.name;Aurora, la leyenda
+125.text;{gift}: Cambia el ataque y la vida base de una criatura aliada a 6/6.
+126.name;Creador de olas
+126.text;Al final del turno de tu oponente, TODOS los jugadores tienen faeria {faeria|3}.
+127.name;Evolución improbable
+127.text;Transforma una criatura en una criatura al azar que cuesta {faeria|2} más.
+128.name;Engaño de Aurora
+128.text;Obtén el control de una criatura con 2 de ataque o menos.
+129.name;Sapos guerreros
+129.text;Invoca dos <b>Ranas</b> de 2/2 con {jump}.
+130.name;Caído del cielo
+130.text;Gana {faeria|12}.
+131.name;Guerrero sagami
+131.text;{combat}: Gana +1/+1.
+132.name;Coleccionista de huesos
+132.text;Cuando una criatura adyacente muere, gana +1/+1.
+133.name;Taumaturgo sagami
+133.text;{last_words}: Una criatura aliada al azar gana +3/+5.
+134.name;Anciano sagami
+134.text;{combat}: Una criatura aliada al azar gana +1/+1.
+135.name;Maestro de bestias antiguo
+135.text;Cuando invocas una criatura con 5 de vida o más, gana +1/+1.
+136.name;Gracia de Gea
+136.text;Tú y tu criatura ganáis 3 de vida.
+137.name;Líder tiki
+137.text;{gift}: Le da {taunt} a una criatura.
+138.name;Trasgo floral
+138.text;{last_words}: Añade una carta verde al azar a tu mano. Cuesta {faeria|3} menos.
+139.name;Ermitaño del Bosque Antiguo
+139.text;{last_words}: Una criatura aliada al azar gana +2/+4.
+140.name;Vigilante tiki
+140.text;{gift}: Le da +2/+2 a una criatura.
+141.name;Flautista tiki
+141.text;{gift}: Le da +0/+4 a una criatura.
+142.name;Danza chamánica
+142.text;Le da +0/+5 y {taunt} a una criatura.
+143.name;Tótem tiki
+143.text;La primera vez que invoques una criatura cada turno, gana +1/+1.
+144.name;Úrsido poseído
+144.text;Cuando inflige daño, ataca el doble.
+149.name;Treant
+149.text;{last_words}: Una criatura al azar de tu mano gana +5/+5.
+150.name;Gólem thyriano
+150.text;
+151.name;Sembrador
+151.text;{gift}: Crea un bosque adyacente al azar.
+152.name;Enredadera
+152.text;{taunt}\n{last_words}: Crea un bosque al azar.
+153.name;Oso del arbolado
+153.text;
+154.name;Curandero tiki
+154.text;{gift}: Ganas 5 de vida.
+155.name;Santuario de Ruunin
+155.text;Cuando te infligen daño a ti o a tu criatura, esta estructura lo recibe.
+156.name;Roble patriarca
+156.text;{gift}: Gana +0/+1 por cada bosque que controlas.
+157.name;Árbol de faeria
+157.text;{production}: Esta estructura gana 1 de vida.\nCuando tenga 6 de vida o más, destrúyela y gana {faeria|10}.
+158.name;Sauce viviente
+158.text;{taunt}
+159.name;Crecimiento silvestre
+159.text;Crea dos bosques al azar.
+168.name;Coloso prístino
+169.name;Tethra, alma agreste
+169.text;{flying}, {charge|2}\n{gift}: Le da +5/+5 a una criatura.
+170.name;Bosque elemental
+170.text;{taunt}\n{gift}: Crea un bosque.
+171.name;Seda de flor feérica
+171.text;{flying}\nLa primera vez que robas un evento, gana +1/+4, {taunt} y {charge|2}.
+172.name;Torre descuidada
+172.text;{activate}: Le da +1/+1 a una criatura. Inflige 1 de daño a esta estructura.
+173.name;Brizna floral
+173.text;Cuando creas un bosque, gana +1/+1.
+174.name;Espíritu del renacimiento
+174.text;Cuando una criatura aliada muere, una criatura al azar de tu mano gana +1/+1.
+175.name;Abrazo del Bosque Antiguo
+175.text;Le da +2/+4 a una criatura.
+176.name;Campeón de Ruunin
+176.text;Cuando esta criatura ataca a un dios, añade una carta verde de criatura al azar a tu mano. Gana +3/+3.
+177.name;Fuerza de plantas
+177.text;
+178.name;Guardián de la arboleda
+178.text;{taunt}
+179.name;Tarum, el mundo de los bosques
+180.name;Ídolo llorón
+180.text;Cuando te infligen daño, gana {faeria|1}.
+181.name;Hálito de vida
+181.text;Roba una carta y gana 3 de vida.
+182.name;Vengador de Ruunin
+182.text;{taunt}\nGana 1 de vida cada vez que te infligen daño durante la partida.
+183.name;Jabalí antiguo
+183.text;Cuesta {faeria|2} menos si controlas una criatura con 5 de vida o más.
+184.name;Dominio de Ruunin
+184.text;{options|Le da +2/+2 a una criatura.|Gana 5 de vida.}\nLe da +2/+2 a una criatura.\nGana 5 de vida.
+185.name;Voz del hambre
+185.text;{gift}: Destruye todas las criaturas aliadas adyacentes. Gana ataque y vida igual a sus vidas combinadas.
+186.name;Vástago
+186.text;{production}: Si esta criatura tiene menos de 5 de vida, gana +1/+1.
+187.name;Éredon, voz de todos
+187.text;{last_words}: Todas las criaturas de tu mazo y mano ganan +1/+1.
+188.name;Alimenta el bosque
+188.text;Destruye una criatura aliada para ganar faeria igual a su vida y roba una carta.
+189.name;Presencia de Ruunin
+189.text;Añade una carta verde al azar a tu mano. Gana +6/+6.
+190.name;Ruunin, la implacable
+190.text;{last_words}: Devuelve a Ruunin a tu mano y reduce su coste {faeria|2}.
+191.name;Bandolero oculto
+191.text;{combat}: Gana {faeria|2}.
+192.name;Señor de la guerra Kobold
+192.text;{combat}: Una criatura al azar tuya gana +3/+0.
+193.name;Bestia de la guerra Kobold
+193.text;
+194.name;Don de acero
+194.text;Le da +3/+0 a una criatura.
+195.name;Jefe oculto
+195.text;{combat}: Gana {faeria|2}.
+196.name;Arquitecto
+196.text;{gift}: Le da 2 de vida a una estructura.
+197.name;Insaciable
+197.text;{gift}: Si tu oponente tiene 10 de vida o menos, gana +2/+2.
+198.name;Barracón Kobold
+198.text;Las criaturas adyacentes tienen +2/+0.
+199.name;Semilla del odio
+199.text;Cuesta {faeria|1} menos por cada criatura invocada por ti con más ataque que vida.
+200.name;Ogro combatiente
+200.text;{taunt}
+201.name;Negociador audaz
+201.text;{gift}: Una carta al azar de tu mano cuesta {faeria|7} menos.
+202.name;Seifer, el sanguinario
+202.text;Cuando Seifer destruye una criatura, gana ataque y vida igual a los de dicha criatura.
+203.name;Ogro bárbaro
+203.text;
+204.name;Krog, el rey de los ogros
+204.text;{combat}: Una carta al azar de tu mano cuesta {faeria|6} menos.
+205.name;Afilador
+205.text;{gift}: Gana +2/+0 si se invoca junto al pozo de un oponente.
+206.name;Lanzarrocas
+206.text;{ranged_attack}\n{combat}: Gana {faeria|2}.
+211.name;Bestia shedim
+211.text;{combat}: Inflige 2 de daño a tu oponente.
+212.name;Cantante sanguinario
+212.text;Inflige 1 de daño a tu oponente cuando una criatura enemiga muere.
+213.name;Carne de cañón de Seifer
+213.text;{last_words}: Inflige 2 de daño a tu oponente.
+214.name;Escupefuegos
+214.text;{gift}: Inflige 1 de daño a un enemigo.
+215.name;Señor del terror
+215.text;{deathtouch}
+216.name;Alimaña shedim
+216.text;{gift}: Gana +2/+2 si tienes otra criatura con más ataque que vida.
+217.name;Obelisco sanguinario
+217.text;Cuando una criatura enemiga muere en combate, inflige 1 de daño a tu oponente y gana {faeria|1}.
+218.name;Guardia sombrío
+218.text;{taunt}\n{combat}: Inflige 2 de daño a tu oponente.
+223.name;Lanzabombas
+223.text;{gift}: Inflige 4 de daño a una criatura o estructura enemiga adyacente.
+224.name;Cañón móvil
+224.text;{gift}: Le da {ranged_attack} a una criatura aliada.
+225.name;Estallido
+225.text;{options|Inflige 3 de daño a una criatura.|Gasta {faeria|3} más para infligir además 3 de daño a todas las criaturas adyacentes.}\nInflige 3 de daño a una criatura.\nGasta {faeria|3} más para infligir además 3 de daño a todas las criaturas adyacentes.
+226.name;Lanzallamas
+226.text;{ranged_attack}\nCuando esta criatura ataca a un dios, inflige 1 de daño a todas las criaturas enemigas.
+231.name;Coloso volcánico
+232.name;Garudan, corazón de la montaña
+232.text;{flying}, {charge|2}\n{gift}: Inflige 3 de daño a todas las criaturas enemigas.
+233.name;Fuego elemental
+233.text;{gift}: Crea una montaña.\n{combat}: Inflige 2 de daño a una criatura enemiga al azar.
+234.name;Seda de llama feérica
+234.text;{flying}\nLa primera vez que robas un evento, gana +3/+1 y {ranged_attack}.
+235.name;Torre abandonada
+235.text;{activate}: Inflige 1 de daño. Inflige 1 de daño a esta estructura.
+236.name;Brizna ardiente
+236.text;Gana +2/+1 cuando una criatura enemiga muere.
+237.name;Terremoto
+237.text;{gift}: Inflige 1 de daño a TODOS los enemigos.
+238.name;Guerrero de las llamas
+239.name;Salamandra ígnea
+239.text;{gift}: Inflige 2 de daño a todos los enemigos adyacentes.
+240.name;Duende del pozo sangriento
+241.name;Ira de Seifer
+241.text;Inflige 2 de daño a una criatura. Si muere, inflige 2 de daño a quien la controla.
+242.name;Planta piraña
+242.text;{taunt}\n{production}: Inflige 2 de daño a enemigos adyacentes.
+243.name;Bomba de fuego
+243.text;Inflige 4 de daño a una criatura o a una estructura.
+244.name;Tormenta de fuego
+244.text;Inflige 3 de daño a todas las criaturas enemigas.
+245.name;Rabia bélica
+245.text;Cuando atacan a esta criatura, inflige el mismo daño a tu oponente.
+246.name;Gólem derrumbado
+247.name;Danza del ogro
+247.text;Una carta al azar de tu mano cuesta {faeria|7} menos.
+248.name;Meteoro
+248.text;Elige un espacio. Destruye todas las criaturas, estructuras y suelos adyacentes a dicho espacio.
+249.name;Diablo rojo
+249.text;{gift}: Gana {faeria|5}.
+250.name;Ignus, la primera llama
+250.text;Cuando uses +{faeria|1} de la rueda de poder, inflige 1 de daño a un enemigo.
+251.name;Monje oradrim
+251.text;{haste}\nCuando esta criatura ataca a un dios, roba una carta.
+252.name;Plegaria de Khalim
+252.text;Gana {faeria|2} y roba una carta. Solo puedes usarla si has atacado a un dios este turno. Puedes orar sólo 1/turno.
+253.name;Seguidor de Khalim
+253.text;{haste}\nGana +2/+0 contra dioses.
+254.name;Templario oradrim
+254.text;Gana +3/+0 contra dioses.
+255.name;Sagitario oradrim
+255.text;{ranged_attack}\nCuando atacas a un dios, gana {faeria|1}.
+256.name;Fanático oradrim
+256.text;{jump}\n{gift}: Mueve una criatura que controlas.
+257.name;Tornado del desierto
+257.text;Teletransporta a una criatura a un desierto que controles.
+258.name;Puerta del viento
+258.text;Puedes invocar criaturas en espacios adyacentes a esta estructura.\n{activate}: Mueve Puerta del viento.
+259.name;Espíritu malévolo
+259.text;{gift}: Drenas 3 de vida a tu oponente.
+260.name;Khalim, prodigio del cielo
+260.text;{flying}, {charge|2}\nCuando Khalim ataca a un dios, añade un <b>Seguidor de Khalim</b> a tu mano. Cuesta {faeria|0}.
+261.name;Sombra asesina
+261.text;
+262.name;Necrófago mortífero
+262.text;{last_words}: Gana {faeria|3}.
+263.name;Última pesadilla
+263.text;Destruye una criatura.
+264.name;Pacto de almas
+264.text;Gana {faeria|2} y te inflige 2 de daño.
+265.name;Altar de las almas
+265.text;{activate}: Te inflige 2 de daño y añade una <b>Sombra asesina</b> de 6/1 a tu mano. Cuesta {faeria|1}.
+266.name;Demonio shaytan
+266.text;{production}: Te inflige 2 de daño.
+267.name;Guardia celeste de Khalim
+267.text;{flying}\nPuede invocarse en cualquier lugar adyacente a una criatura aliada.
+268.name;Céfiro
+268.text;Le da +1/+0, {flying} y {charge|2} a una criatura.
+273.name;Soldado del viento
+273.text;{haste}, {charge|3}\nEl Soldado del viento muere al acabar el turno.
+274.name;Drakkar celeste
+274.text;{flying}\nCuando robes una criatura voladora, gana +1/+1.
+275.name;Emisario céfiro
+275.text;{flying}.\nTiene +2/+0 mientras controlas a otra criatura voladora.
+276.name;Carroñero shaytan
+276.text;Cuesta {faeria|2} menos si has atacado a un dios este turno.
+277.name;Bestia de las dunas
+277.text;{flying}, {charge|2}\nNo puede recoger faeria.
+278.name;Campeón céfiro
+278.text;{flying}, {charge|5}\n{gift}: Mueve una criatura.
+287.name;Coloso huracanado
+288.name;Azarai, ira del desierto
+288.text;{flying}, {charge|2}\n{gift}: Azarai drena 2 de ataque a cada criatura enemiga.
+289.name;Aire elemental
+289.text;{flying}\n{gift}: Crea un desierto.
+290.name;Seda de sol feérica
+290.text;{flying}\nLa primera vez que robas un evento, gana +3/+1 y {charge|3}.
+291.name;Torre celestial
+292.name;Brizna eólica
+292.text;{flying}, {charge|3}\nCuando atacas a un dios, gana +3/+0.
+293.name;Ráfaga
+293.text;{options|Mueve una criatura aliada.| Puedes usar {faeria|3} más para mover a una criatura enemiga en su lugar.}\nMueve una criatura aliada. \nPuedes usar {faeria|3} más para mover a una criatura enemiga en su lugar.
+294.name;Aviario dorado
+294.text;Todas tus criaturas voladoras tienen +2/+0.
+295.name;Cruzado ferviente
+295.text;{charge|2}\nGana +2/+2 cada vez que atacas a un dios si está en tu mano o en tu mazo.
+296.name;Soldado keldran
+296.text;
+297.name;Señor del erial
+297.text;{gift}: Puedes sacrificar a otra criatura para ganar {faeria|3}.
+298.name;Asesino shaytan
+298.text;{deathtouch}\n{gift}: Puedes sacrificar a otra criatura para que esta gane {protection}.
+299.name;Demonio combatiente
+299.text;{gift}: Puedes sacrificar a otra criatura, invocando un <b>Demonio alado</b> de 5/2 con {flying} en su lugar.
+300.name;Caminante mortífero
+300.text;{deathtouch}.\nDebes sacrificar una criatura para invocarla.
+301.name;Oda al olvido
+301.text;Destruye una criatura aliada. Invoca un <b>Caballero del olvido</b> de 6/3 con {charge|3} en su lugar.
+302.name;Vampiro shaytan
+302.text;{gift}: Drena 2 de vida a todas las criaturas enemigas adyacentes.
+303.name;Iona, amada por todos
+303.text;{flying}\nNo pueden atacarle.
+304.name;Demonio alado
+304.text;{flying}
+305.name;Caballero del olvido
+305.text;{charge|3}
+306.name;Drenaje de almas
+306.text;Drena 2 de vida a una criatura.
+307.name;Arenas asfixiantes
+307.text;Destruye una criatura con 3 de ataque o menos.
+308.name;Portal del olvido
+308.text;{activate}: Destruye una criatura aliada. Esta estructura gana 4 de vida. Cuando tiene más de 13, se destruye e invoca a Ostrogoda.
+309.name;Arquero huracanado
+309.text;{ranged_attack}\nCuando uses un evento, gana +1/+0 durante el turno.
+310.name;Percherón huracanado
+310.text;{charge|2}\nCuando uses un evento, gana +2/+0 durante el turno (límite +6/+0).
+311.name;Depredador de la cúspide
+311.text;{jump}\n{gift}: Gana ataque y vida igual a cualquier criatura.
+312.name;Bégimo rocagélida
+312.text;{taunt}, {protection}
+313.name;Espíritu alma gemela
+314.name;Campeón bélico
+314.text;Cuando luche una de tus criaturas, gana +1/+1.
+315.name;Devoraalmas
+315.text;Gana +1/+1 por cada criatura aliada que haya muerto durante la partida.
+316.name;Espectro flamígero
+316.text;{flying}, {haste},\n{charge|2}\n{combat}: Inflige 3 de daño a tu oponente.
+328.text;{flying}, {haste}, {charge|5}\nLos pozos dejan de producir faeria.
+329.name;Bandido despiadado
+329.text;
+335.name;Lanzador rebelde
+335.text;{gift}: Inflige 2 de daño a tu oponente.

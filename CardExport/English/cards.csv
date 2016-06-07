@@ -96,8 +96,8 @@
 62.text;Whenever this creature gathers faeria, a random creature you control gains +1/+1.
 63.name;Outland Ranger
 63.text;{gift} - Add a <b>Campfire</b> to your hand.
-64.name;Outcast Cemetery
-64.text;{activate} - Sacrifice a creature to give a random friendly creature +2/+2.
+64.name;Outcast Tower
+64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
 65.name;Rainforest Explorer
 65.text;{gift} - Gain +1/+1 if you control 2 lakes. Gain +0/+2 if you control 2 forests.
 66.name;Caldera Explorer
@@ -282,8 +282,8 @@
 179.text;{taunt}\n{last_words} - Fill the world with forests.
 180.name;Weeping Idol
 180.text;Whenever you are dealt damage, gain {faeria|1}.
-181.name;Breath of Life
-181.text;Draw a card and gain 3 Life.
+181.name;Earthcraft
+181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
 182.name;Ruunin's Avenger
 182.text;{taunt}\nGain 1 Life for each time you've been dealt damage this game.
 183.name;Ancient Boar
@@ -331,7 +331,7 @@
 204.name;Krog, the Ogre King
 204.text;{combat} - A random card in your hand costs {faeria|6} less.
 205.name;Axe Grinder
-205.text;{gift} - Gets +2/+0 if summoned adjacent to an enemy well.
+205.text;{gift} - Gets +1/+1 if summoned adjacent to an enemy well.
 206.name;Boulder Thrower
 206.text;{ranged_attack}\n{combat} - You gain {faeria|2}.
 211.name;Shedim Brute
@@ -345,7 +345,7 @@
 215.name;Lord of Terror
 215.text;{deathtouch}
 216.name;Shedim Pest
-216.text;{gift} - Gets +2/+2 if you have another creature with more power than life.
+216.text;{gift} - Gets +2/+2 if you have another creature with more Attack than Life.
 217.name;Blood Obelisk
 217.text;Whenever an enemy creature dies in combat, deal 1 damage to your opponent and gain {faeria|1}.
 218.name;Grim Guard
@@ -355,7 +355,7 @@
 224.name;Cannon Carrier
 224.text;{gift} - Give {ranged_attack} to a friendly creature.
 225.name;Flame Burst
-225.text;{options|Deal 3 damage to a creature.|Pay {faeria|3} more to also deal 3 damage to all adjacent creatures.}\nDeal 3 damage to a creature.\nPay {faeria|3} more to also deal 3 damage to all adjacent creatures.
+225.text;Deal 3 damage.
 226.name;Flame Thrower
 226.text;{ranged_attack}\nWhenever this creature attacks a god, deal 1 damage to all enemy creatures.
 231.name;Volcanic Colossus
@@ -373,7 +373,7 @@
 237.name;Groundshaker
 237.text;{gift} - Deal 1 damage to ALL enemies.
 238.name;Firebringer
-238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life.
+238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
 239.name;Blazing Salamander
 239.text;{gift} - Deal 2 damage to all adjacent enemy creatures.
 240.name;Bloodwell Sprite
@@ -389,7 +389,7 @@
 245.name;Battle Rager
 245.text;Whenever this creature is dealt damage, deal that much damage to your opponent.
 246.name;Crumbling Golem
-246.text;Whenever your opponent plays a card, deal 1 damage to the Golem.
+246.text;Whenever your opponent plays a creature, deal 1 damage to the Golem.
 247.name;Ogre Dance
 247.text;A random card in your hand costs {faeria|7} less.
 248.name;Meteor
@@ -415,7 +415,7 @@
 258.name;Wind Gate
 258.text;You can summon creatures on spaces adjacent to this structure.\n{activate} - Move Wind Gate.
 259.name;Malevolent Spirit
-259.text;{gift} - You drain 3 Life from your opponent.
+259.text;{gift} - You drain 2 life from your opponent.
 260.name;Khalim, Sky Prodigy
 260.text;{flying}, {charge|2}\nWhen Khalim attacks a god, add a <b>Khalim's Follower</b> to your hand. It costs {faeria|0}.
 261.name;Slaughtering Shadow
@@ -463,7 +463,7 @@
 294.name;Golden Aviary
 294.text;All your flying creatures have +2/+0.
 295.name;Zealous Crusader
-295.text;{charge|2}\nGain +2/+2 each time you attack a god while in your deck or hand.
+295.text;{charge|2}\nGain +2/+2 each time you attack a god (while in your deck or hand).
 296.name;Keldran Soldier
 296.text;
 297.name;Lord of the Wastes
@@ -506,9 +506,41 @@
 315.text;Gain +1/+1 for each friendly creature that has died this game.
 316.name;Scourgeflame Specter
 316.text;{flying}, {haste},\n{charge|2}\n{combat} - Deal 3 damage to your opponent.
-328.name;Ostregoth, Hand of Oblivion
-328.text;{flying}, {haste}, {charge|5}\nFaeria wells can't produce faeria.
 329.name;Cutthroat Bandit
 329.text;
 335.name;Rebel Slinger 
 335.text;{gift} - Deal 2 damage to your opponent.
+339.name;Shard of Pandora
+339.text;
+340.name;Seeds of Syland
+340.text;Create 2 prairies at random for each player.
+341.name;Noodle Bowl
+341.text;Summon a <b>Triton Warrior</b> on a random land for each player.
+342.name;Gabrian Jar
+342.text;Each player gains {faeria|3}.
+343.name;Titan's Eye
+343.text;Add a Surge of Strength to each player's hand.
+344.name;Dragon Statuette
+344.text;Add a 6/6 Crystal Dragon to each player's hand.
+345.name;Merchant's Stone
+345.text;Add a Flipping the Table to each player's hand.
+346.name;Jeweled Boots
+346.text;Add a Charge! to each player's hand.
+347.name;Forgotten Ring
+347.text;Add a random neutral creature to each player's hand. It gets +2/+2.
+348.name;Eredon's Drums
+348.text;ALL creatures gain +2/+2, wherever they are.
+349.name;Conch Horn
+349.text;Add an Echo to each player's hand.
+350.name;Aurora's Tea Pot
+350.text;Halve the power and life of ALL creatures.
+351.name;Disk of Time
+351.text;Reduce the cost of all events in each player's hand and deck by {faeria|1}.
+352.name;Necklace of the Damned
+352.text;Add a 2/1 Plague Bearer to each player's hand.
+353.name;Garudan's Scale
+353.text;Deal 2 damage to ALL creatures.
+354.name;Eboshi's Toque
+354.text;Add a Feast! to each player's hand.
+355.name;Tear of the Serpent World
+355.text;Transform all cards in all hands and decks into cards of a higher rarity. They cost {faeria|1} less.

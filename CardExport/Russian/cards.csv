@@ -5,6 +5,7 @@
 3.name;Силандский воин
 3.text;
 4.name;Силандский конюх
+4.text;{gift} - Give a friendly creature {charge|3} this turn.
 9.name;Имперский инженер
 9.text;{gift} - Активирует все ваши производственные способности.
 10.name;Держать строй!
@@ -52,10 +53,12 @@
 41.name;Разносчик чумы
 41.text;{last_words} - ВСЕ существа получают 2 ед. урона.
 42.name;Осадное орудие
+42.text;{ranged_attack}\nWhenever this creature attacks, it gains +1/+0 afterwards.
 43.name;Шарра, убийца драконов
 43.text;Игнорирует весь урон, равный 4 или более.
 44.name;Голод
 44.text;Наносит 1 ед. урона ВСЕМ существам.
+45.name;Royal Judge
 45.text;{options|Вытянуть из колоды Щит.|Вытянуть из колоды Кару.}\nСреди карт в ваше руке появляется <b>Щит</b>. Он стоит {faeria|0}.\nСреди карт в вашей руке появляется <b>Кара</b>. Она стоит {faeria|0}.
 46.name;Картограф
 46.text;{last_words} - Случайным образом создает озеро, лес, гору и пустыню.
@@ -93,8 +96,8 @@
 62.text;Каждый раз, когда это существо собирает фейри, одно из ваших случайно выбранных существ получает +1/+1.
 63.name;Странник из чужих земель
 63.text;{gift} - Добавляет <b>Костер</b> к картам в вашей руке.
-64.name;Кладбище изгоев
-64.text;{activate} - Пожертвуйте существом, чтобы дать другому случайно выбранному дружественному существу +2/+2.
+64.name;Outcast Tower
+64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
 65.name;Исследователь джунглей
 65.text;{gift} - Получает +1/+1, если в вашем распоряжении есть 2 клетки озера. Получает +0/+2, если в вашем распоряжении есть 2 клетки леса.
 66.name;Исследователь кальдеры
@@ -118,8 +121,11 @@
 75.name;Габрианская чаровница
 75.text;{gift} - Атака другого существа становится равной его запасу жизни.
 76.name;Габрианский командир
+76.text;{aquatic}, {charge|3}\nThe first time you draw a card with original cost {faeria|7}+, gain {flying}.
 77.name;Габрианский надзиратель
 77.text;{gift} - Дает существу способность {protection}.
+82.name;Spring Mochi
+82.text;{gift} - The next card with original cost {faeria|7}+ you draw costs {faeria|3} less.
 83.name;Воин-тритон
 83.text;{jump}
 84.name;Мистический зверь
@@ -127,11 +133,13 @@
 85.name;Зеркальный призрак
 85.text;{gift} - Трансформирует другое существо в <b>Зеркального призрака</b> 4/4.
 86.name;Повар-тритон
+86.text;{gift} - Add a <b>Triton Banquet</b> to your hand.
 87.name;Жаба-ниндзя
 87.text;{jump}, {haste}
 88.name;Олягушение
 88.text;Трансформирует существо в <b>Лягушку</b> 2/2 со способностью {jump}.
 93.name;Габрианские чары
+93.text;A creature's Attack becomes equal to its Life.\nDraw a card.
 94.name;Создание Авроры
 94.text;Добавляет копию существа к картам в вашей руке. Оно стоит на {faeria|5} меньше.
 95.name;Темный бродяга
@@ -149,7 +157,9 @@
 105.name;Порождение бури
 105.text;{last_words} - Вы получаете {faeria|10} и вытягиваете карту.
 106.name;Сказка о старой черепахе
+106.text;Add 3 random blue cards to your hand. They cost {faeria|3} less.
 107.name;Колосс-волнорез
+107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
 108.name;Оросей, Сон Бездны
 108.text;{flying}, {charge|2}\n{gift} - Трансформирует всех прочих ваших существ в существ со стоимостью на {faeria|2} больше.
 109.name;Водяной элементаль
@@ -171,6 +181,7 @@
 117.name;Яйцо чудес
 117.text;Когда вы вытягивает карту существа, Яйцо чудес становится его копией.
 118.name;Габрианский архонт
+118.text;{charge|2}.\nGain +2/+2 if you've played two cards with original cost {faeria|7}+.
 119.name;Тритон-ныряльщик
 119.text;{aquatic}, {jump}
 120.name;Обновляющий прилив
@@ -246,6 +257,7 @@
 159.name;Безудержный рост
 159.text;Создает две случайных клетки леса.
 168.name;Первобытный Колосс
+168.text;Costs {faeria|1} less for each special land you have (minimum cost: {faeria|6}).
 169.name;Тетра, Дух Природы
 169.text;{flying}, {charge|2}\n{gift} - Дает существу +5/+5.
 170.name;Древесный элементаль
@@ -267,10 +279,11 @@
 178.name;Хранитель рощи
 178.text;{taunt}
 179.name;Тарум, Лесной Мир
+179.text;{taunt}\n{last_words} - Fill the world with forests.
 180.name;Рыдающий идол
 180.text;Вы получаете {faeria|1} каждый раз, когда вам наносят урон.
-181.name;Дыхание жизни
-181.text;Вы вытягиваете карту и получаете 3 оч. жизни.
+181.name;Earthcraft
+181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
 182.name;Мститель Руунин
 182.text;{taunt}\nПолучает 1 оч. жизни за каждый раз, когда вы получали урон во время этой игры.
 183.name;Древний вепрь
@@ -318,7 +331,7 @@
 204.name;Крог, Король огров
 204.text;{combat} - Стоимость случайно выбранной карты у вас в руке уменьшается на {faeria|6}.
 205.name;Точильщик топоров
-205.text;{gift} - Получает +2/+0, если призвано на клетку, смежную с колодцем противника.
+205.text;{gift} - Получает +1/+1, если призвано на клетку, смежную с колодцем противника.
 206.name;Метатель булыжников
 206.text;{ranged_attack}\n{combat} - Вы получаете {faeria|2}.
 211.name;Шедимский дикарь
@@ -342,10 +355,11 @@
 224.name;Канонир
 224.text;{gift} - Дает способность {ranged_attack} дружественному существу.
 225.name;Всплеск пламени
-225.text;{options|Наносит 3 ед. урона существу.|Потратьте еще {faeria|3}, чтобы также нанести 3 ед. урона существам на соседних с целью клетках}\nНаносит 3 ед. урона существу.\nПотратьте еще {faeria|3}, чтобы также нанести 3 ед. урона существам на соседних с целью клетках.
+225.text;Deal 3 damage.
 226.name;Огнемет
 226.text;{ranged_attack}\nКогда это существо атакует бога, оно наносит 1 ед. урона всем существам противника.
 231.name;Вулканический Колосс
+231.text;Costs {faeria|1} less for each enemy creature that has died in combat (minimum cost: {faeria|5}).
 232.name;Гарудан, Сердце Гор
 232.text;{flying}, {charge|2}\n{gift} - Наносит 3 ед. урона всем вражеским существам.
 233.name;Огненный элементаль
@@ -359,9 +373,11 @@
 237.name;Землетряс
 237.text;{gift} - Наносит 1 ед. урона ВСЕМ врагам.
 238.name;Воспламенитель
+238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
 239.name;Пылающая саламандра
 239.text;{gift} - Наносит 2 ед. урона всем вражеским существам на соседних клетках.
 240.name;Дух кровавого истока
+240.text;Whenever you harvest from an opponent's well, deal 1 damage to your opponent.
 241.name;Гнев Сайфера
 241.text;Наносит 2 ед. урона существу. В случае его смерти наносит 2 ед. урона тому, кто им управляет.
 242.name;Пожирающее растение
@@ -373,6 +389,7 @@
 245.name;Свирепый боец
 245.text;Каждый раз, когда это существо получает урон, такое же количество урона получает ваш противник.
 246.name;Рассыпающийся голем
+246.text;Whenever your opponent plays a creature, deal 1 damage to the Golem.
 247.name;Танец огра
 247.text;Стоимость случайно выбранной карты у вас в руке уменьшается на {faeria|7}.
 248.name;Метеор
@@ -398,7 +415,7 @@
 258.name;Врата ветра
 258.text;Вы можете призывать существ на соседних с этим сооружением клетках.\n{activate} - Передвинуть Врата ветра.
 259.name;Зловредный дух
-259.text;{gift} - Вы похищаете 3 оч. жизни у противника.
+259.text;{gift} - Вы похищаете 2 оч. жизни у противника.
 260.name;Халим, Дар Небес
 260.text;{flying}, {charge|2}\nКогда Халим атакует бога, карта <b>Последователя Халим</b> добавляется к вам в руку. Карта стоит {faeria|0}.
 261.name;Убийственная тень
@@ -430,6 +447,7 @@
 278.name;Чемпион ветророжденных
 278.text;{flying}, {charge|5}\n{gift} - Переместите существо.
 287.name;Колосс урагана
+287.text;Costs {faeria|1} less for each event you've played (minimum cost: {faeria|4}).
 288.name;Азарай, Ярость Пустыни
 288.text;{flying}, {charge|2}\n{gift} - Азарай вытягивает 2 ед. атаки из всех вражеских существ.
 289.name;Воздушный элементаль
@@ -437,6 +455,7 @@
 290.name;Фея солнечного шелка
 290.text;{flying}\nПолучает +3/+1 и способность {charge|3}, когда вы в первый раз вытягиваете карту события.
 291.name;Небесная башня
+291.text;{activate} - Give a creature {charge|5} this turn. Deal 1 damage to this structure.
 292.name;Ветреная дымка
 292.text;{flying}, {charge|3}\nПолучает +3/+0 каждый раз, когда вы атакуете бога.
 293.name;Порыв ветра
@@ -480,14 +499,48 @@
 312.name;Ледяной Бегемот
 312.text;{taunt}, {protection}
 313.name;Дух единства
+313.text;{flying} \nCan be summoned adjacent to a friendly creature.\n{gift} - Summon another Twinsoul Spirit.
 314.name;Чемпион побоища
 314.text;Получает +1/+1, когда любое ваше существо вступает в бой.
 315.name;Пожиратель душ
 315.text;Получает +1/+1 за каждое дружественное существо, погибшее во время этой игры.
 316.name;Опаляющий призрак
 316.text;{flying}, {haste},\n{charge|2}\n{combat} - Наносит 3 ед. урона вашему противнику.
-328.text;{flying}, {haste}, {charge|5}\nКолодцы фейри не производят фейри.
 329.name;Бандит-головорез
 329.text;
 335.name;Мятежный пращник
 335.text;{gift} - Наносит 2 ед. урона вашему противнику.
+339.name;Осколок Пандоры
+339.text;
+340.name;Силандские семена
+340.text;Создает 2 степи для каждого игрока в случайных клетках.
+341.name;Миска лапши
+341.text;Призывает <b>Воина-тритона</b> для каждого игрока на случайных землях.
+342.name;Габрианский сосуд
+342.text;Каждый игрок получает {faeria|3}.
+343.name;Око титана
+343.text;Add a Surge of Strength to each player's hand.
+344.name;Dragon Statuette
+344.text;Add a 6/6 Crystal Dragon to each player's hand.
+345.name;Камень купца
+345.text;Add a Flipping the Table to each player's hand.
+346.name;Jeweled Boots
+346.text;Добавляет <b>На штурм!</b> к картам в руке каждого игрока.
+347.name;Забытый перстень
+347.text;Добавляет случайно выбранное нейтральное существо к картам в руке каждого игрока. Оно получает +2/+2.
+348.name;Барабан Эредона
+348.text;ВСЕ существа получают +2/+2 (где бы они ни находились).
+349.name;Conch Horn
+349.text;Add an Echo to each player's hand.
+350.name;Aurora's Tea Pot
+350.text;Halve the power and life of ALL creatures.
+351.name;Диск времени
+351.text;Reduce the cost of all events in each player's hand and deck by {faeria|1}.
+352.name;Necklace of the Damned
+352.text;Add a 2/1 Plague Bearer to each player's hand.
+353.name;Чешуйка Гарудана
+353.text;Наносит 2 ед. урона ВСЕМ существам.
+354.name;Королевский кубок
+354.text;Добавляет <b>Пир!</b> к картам в руке каждого игрока.
+355.name;Tear of the Serpent World
+355.text;Превращает все карты в руке и колодах всех игроков в карты большей редкости. Их стоимость снижается на {faeria|1}.

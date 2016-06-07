@@ -5,6 +5,7 @@
 3.name;Guerreiro de Syland
 3.text;
 4.name;Grão-Cavaleiro de Syland
+4.text;{gift} - Give a friendly creature {charge|3} this turn.
 9.name;Engenheiro Imperial
 9.text;{gift} - Acione todas as suas habilidades de produção.
 10.name;Manter posições!
@@ -52,10 +53,12 @@
 41.name;Portador da Calamidade
 41.text;{last_words} - Causa 2 de dano em TODAS as criaturas.
 42.name;Máquina de Cerco
+42.text;{ranged_attack}\nWhenever this creature attacks, it gains +1/+0 afterwards.
 43.name;Sharra, Matadora de Dragões
 43.text;Ignora qualquer dano igual ou maior que 4.
 44.name;Fome
 44.text;Causa 1 de dano em TODAS as criaturas.
+45.name;Royal Judge
 45.text;{options|Compre uma carta Salvaguarda sem custo.|Compre uma carta Punição sem custo.}\n- Acrescente uma carta <b>Salvaguarda</b> à sua mão. Custa {faeria|0}.\n- Acrescente uma carta <b>Punição</b> à sua mão. Custa {faeria|0}.
 46.name;Cartógrafo
 46.text;{last_words} - Crie um lago, uma floresta, uma montanha e um deserto aleatoriamente.
@@ -93,8 +96,8 @@
 62.text;Sempre que essa criatura recolher faeria, uma criatura aleatória sob seu controle ganha +1/+1.
 63.name;Patrulheiro Estrangeiro
 63.text;{gift} - Acrescente uma <b>Fogueira</b> à sua mão.
-64.name;Cemitério Proscrito
-64.text;{activate} - Sacrifique uma criatura para uma outra criatura aliada aleatória ganhar +2/+2.
+64.name;Outcast Tower
+64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
 65.name;Explorador da Selva
 65.text;{gift} - Ganha +1/+1 se você controlar 2 lagos. Ganha +0/+2 se você controlar 2 florestas.
 66.name;Explorador do Vulcão
@@ -118,8 +121,11 @@
 75.name;Feiticeira Gabriana
 75.text;{gift} - O ataque de outra criatura se torna igual à vida dela.
 76.name;Comandante Gabriano
+76.text;{aquatic}, {charge|3}\nThe first time you draw a card with original cost {faeria|7}+, gain {flying}.
 77.name;Guardiã Gabriana
 77.text;{gift} -Dê {protection} a uma criatura.
+82.name;Spring Mochi
+82.text;{gift} - The next card with original cost {faeria|7}+ you draw costs {faeria|3} less.
 83.name;Guerreiro Anfíbio
 83.text;{jump}
 84.name;Fera Mística
@@ -127,11 +133,13 @@
 85.name;Fantasma Espelhado
 85.text;{gift} - Transforme outra criatura em um <b>Fantasma Espelhado</b> com 4/4.
 86.name;Cozinheiro Anfíbio
+86.text;{gift} - Add a <b>Triton Banquet</b> to your hand.
 87.name;Sapo Ninja
 87.text;{jump}, {haste}
 88.name;Sapificar
 88.text;Transforme uma criatura em um <b>Sapo</b> com 2/2 e {jump}.
 93.name;Feitiço Gabriano
+93.text;A creature's Attack becomes equal to its Life.\nDraw a card.
 94.name;Criação de Aurora
 94.text;Acrescente uma cópia de uma criatura à sua mão. Custa menos {faeria|5}.
 95.name;Observador Sombrio
@@ -149,7 +157,9 @@
 105.name;Rebento da Tempestade
 105.text;{last_words} - Ganhe {faeria|10} e compre uma carta.
 106.name;História da Velha Tartaruga
+106.text;Add 3 random blue cards to your hand. They cost {faeria|3} less.
 107.name;Colosso da Arrebentação
+107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
 108.name;Orosei, Sonho das Profundezas
 108.text;{flying}, {charge|2}\n{gift} - Transforme todas as suas outras criaturas em criaturas que custam mais {faeria|2}.
 109.name;Elemental da Água
@@ -171,6 +181,7 @@
 117.name;Ovo das Maravilhas
 117.text;Quando você comprar uma criatura, o Ovo das Maravilhas se torna uma cópia dele.
 118.name;Arconte Gabriano
+118.text;{charge|2}.\nGain +2/+2 if you've played two cards with original cost {faeria|7}+.
 119.name;Mergulhador Anfíbio
 119.text;{aquatic}, {jump}
 120.name;Maré Mutável
@@ -246,6 +257,7 @@
 159.name;Crescimento Selvagem
 159.text;Crie duas florestas aleatoriamente.
 168.name;Colosso Primitivo
+168.text;Costs {faeria|1} less for each special land you have (minimum cost: {faeria|6}).
 169.name;Tethra, Alma da Floresta
 169.text;{flying}, {charge|2}\n{gift} - Dê +5/+5 a uma criatura.
 170.name;Elemental da Madeira
@@ -267,10 +279,11 @@
 178.name;Guardião do Bosque
 178.text;{taunt}
 179.name;Tarum, o Mundo Florestal
+179.text;{taunt}\n{last_words} - Fill the world with forests.
 180.name;Ídolo Lacrimejante
 180.text;Sempre que sofrer dano, ganhe {faeria|1}.
-181.name;Sopro de Vida
-181.text;Compre uma carta e ganhe 3 de vida.
+181.name;Earthcraft
+181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
 182.name;Vingador de Ruunin
 182.text;{taunt}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
 183.name;Javali Ancestral
@@ -318,7 +331,7 @@
 204.name;Krog, o Rei Ogro
 204.text;{combat} - Uma carta aleatória em sua mão custa menos de {faeria|6}.
 205.name;Amolador de Machado
-205.text;{gift} - Ganha +2/+0 se invocada adjacente a um poço do oponente.
+205.text;{gift} - Ganha +1/+1 se invocada adjacente a um poço do oponente.
 206.name;Atirador de Rochas
 206.text;{ranged_attack}\n{combat} - Ganhe {faeria|2}.
 211.name;Brutamonte de Shedim
@@ -342,10 +355,11 @@
 224.name;Carregador de Canhão
 224.text;{gift} - Dê {ranged_attack} a uma criatura aliada.
 225.name;Explosão de Chamas
-225.text;{options|Causa 3 de dano a uma criatura.|Pague mais {faeria|3} para causar também 3 de dano a todas as criaturas adjacentes.}\nCausa 3 de dano a uma criatura.\nPague mais {faeria|3} para causar também 3 de dano a todas as criaturas adjacentes.
+225.text;Deal 3 damage.
 226.name;Lançador de Chamas
 226.text;{ranged_attack}\nSempre que essa criatura atacar um deus, causa 1 de dano em todas as criaturas inimigas.
 231.name;Colosso Vulcânico
+231.text;Costs {faeria|1} less for each enemy creature that has died in combat (minimum cost: {faeria|5}).
 232.name;Garudan, Coração da Montanha
 232.text;{flying}, {charge|2}\n{gift} - Causa 3 de dano a todas as criaturas inimigas.
 233.name;Elemental do Fogo
@@ -359,9 +373,11 @@
 237.name;Terremoto
 237.text;{gift} - Causa 1 de dano em TODOs os inimigos.
 238.name;Servidor do Fogo
+238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
 239.name;Salamandra Incandescente
 239.text;{gift} - Causa 2 de dano a todas as criaturas inimigas adjacentes.
 240.name;Espírito Sanguinolento
+240.text;Whenever you harvest from an opponent's well, deal 1 damage to your opponent.
 241.name;Ira de Seifer
 241.text;Causa 2 de dano a uma criatura. Se a criatura morrer, cause 2 de dano no seu controlador.
 242.name;Planta Devoradora
@@ -373,6 +389,7 @@
 245.name;Lutador Colérico
 245.text;Sempre que essa criatura sofrer dano, cause o mesmo dano no seu adversário.
 246.name;Golem Decadente
+246.text;Whenever your opponent plays a creature, deal 1 damage to the Golem.
 247.name;Dança dos Ogros
 247.text;Uma carta aleatória em sua mão custa menos de {faeria|7}.
 248.name;Meteoro
@@ -398,7 +415,7 @@
 258.name;Portal do Vento
 258.text;Você pode invocar criaturas adjacentes a esta estrutura.\n{activate} - Mova o Portal do Vento.
 259.name;Espírito Maléfico
-259.text;{gift} - Você drena 3 de vida do seu adversário.
+259.text;{gift} - Você drena 2 de vida do seu adversário.
 260.name;Khalim, Prodígio do Céu
 260.text;{flying}, {charge|2}\nQuando Khalim atacar um deus, acrescente um <b>Seguidor de Khalim</b> à sua mão. Ele custa {faeria|0}.
 261.name;Sombra Assassina
@@ -430,6 +447,7 @@
 278.name;Campeão Aéreo
 278.text;{flying}, {charge|5}\n{gift} - Mova uma criatura.
 287.name;Colosso do Vendaval
+287.text;Costs {faeria|1} less for each event you've played (minimum cost: {faeria|4}).
 288.name;Azarai, Ira do Deserto
 288.text;{flying}, {charge|2}\n{gift} - Azarai drena 2 de Ataque de cada criatura inimiga.
 289.name;Elemental do Ar
@@ -437,6 +455,7 @@
 290.name;Fada Etérea do Sol
 290.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +3/+1 e {charge|3}.
 291.name;Torre Celestial
+291.text;{activate} - Give a creature {charge|5} this turn. Deal 1 damage to this structure.
 292.name;Centelha de Vento
 292.text;{flying}, {charge|3}\nSempre que atacar um deus, ganha +3/+0.
 293.name;Vento Ligeiro
@@ -480,14 +499,48 @@
 312.name;Besta Rocha-de-Gelo
 312.text;{taunt}, {protection}
 313.name;Espírito de Alma Gêmea
+313.text;{flying} \nCan be summoned adjacent to a friendly creature.\n{gift} - Summon another Twinsoul Spirit.
 314.name;Campeão da Tormenta de Guerra
 314.text;Ganha +1/+1 toda vez que QUALQUER uma das suas criaturas combater.
 315.name;Devorador de Almas
 315.text;Ganha +1/+1 para cada criatura aliada que tenha morrido nessa partida.
 316.name;Espectro do Flagelo Ardente
 316.text;{flying}, {haste},\n{charge|2}\n{combat} - Cause 3 de dano em seu adversário.
-328.text;{flying}, {haste}, {charge|5}\nOs poços não produzem faeria.
 329.name;Ladra Degoladora
 329.text;
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano no deus adversário.
+339.name;Fragmento de Pandora
+339.text;
+340.name;Sementes de Syland
+340.text;Cria 2 pradarias aleatoriamente para cada jogador.
+341.name;Tigela de Miojo
+341.text;Invoque um <b>Guerreiro Anfíbio</b> num terreno aleatório para cada jogador.
+342.name;Jarra Gabriana
+342.text;Cada jogador ganha {faeria|3}.
+343.name;Olho de Titã
+343.text;Add a Surge of Strength to each player's hand.
+344.name;Dragon Statuette
+344.text;Add a 6/6 Crystal Dragon to each player's hand.
+345.name;Pedra de Mercador
+345.text;Add a Flipping the Table to each player's hand.
+346.name;Jeweled Boots
+346.text;Acrescente uma <b>Avançar!/b> à mão de cada jogador.
+347.name;Anel Esquecido
+347.text;Acrescente uma criatura neutra aleatória à mão de cada jogador. Ela ganha +2/+2.
+348.name;Tambores de Eredon
+348.text;TODAS as criaturas ganham +2/+2 (onde quer que estejam).
+349.name;Conch Horn
+349.text;Add an Echo to each player's hand.
+350.name;Aurora's Tea Pot
+350.text;Halve the power and life of ALL creatures.
+351.name;Disco do Tempo
+351.text;Reduce the cost of all events in each player's hand and deck by {faeria|1}.
+352.name;Necklace of the Damned
+352.text;Add a 2/1 Plague Bearer to each player's hand.
+353.name;Escama de Garudan
+353.text;Causa 2 de dano em TODAS as criaturas.
+354.name;O Cálice da Rainha
+354.text;Acrescente um <b>Banquete!/b> à mão de cada jogador.
+355.name;Tear of the Serpent World
+355.text;Transforme todas as cartas em todos os baralhos em cartas de raridade maior. Custam menos {faeria|1}.

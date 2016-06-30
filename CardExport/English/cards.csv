@@ -61,7 +61,7 @@
 45.name;Royal Judge
 45.text;{options|Draw a free Safeguard.|Draw a free Punishment.}\nAdd a <b>Safeguard</b> to your hand. It costs {faeria|0}.\nAdd a <b>Punishment</b> to your hand. It costs {faeria|0}.
 46.name;Cartographer
-46.text;{last_words} - Create a lake, a forest, a mountain and a desert at random.
+46.text;{last_words} - Add an <b>Explore</b> card to your hand.
 47.name;Shimmering Statue
 47.text;{taunt}\n{production} - You gain 1 life.
 48.name;Village Elder
@@ -131,7 +131,7 @@
 84.name;Mystic Beast
 84.text;{gift} - Gets +2/+2 and Charge 2 if your opponent has {faeria|10} or more.
 85.name;Mirror Phantasm
-85.text;{gift} - Transform another creature into a 4/4 <b>Mirror Phantasm</b>.
+85.text;{gift} - Transform another creature into a 5/5 <b>Mirror Phantasm</b>.
 86.name;Triton Chef
 86.text;{gift} - Add a <b>Triton Banquet</b> to your hand.
 87.name;Ninja Toad
@@ -155,9 +155,9 @@
 104.name;Baeru, the First Wave
 104.text;{aquatic}\n{production} - Transform all adjacent lands into lakes.
 105.name;Stormspawn
-105.text;{last_words} - Gain {faeria|10} and draw a card.
+105.text;{last_words} - Gain {faeria|10}.
 106.name;Tale of the Old Turtle
-106.text;Add 3 random blue cards to your hand. They cost {faeria|3} less.
+106.text;Draw 3 cards. All creatures drawn this way costs {faeria|2} less.
 107.name;Wavecrash Colossus
 107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
 108.name;Orosei, Dream of the Deep
@@ -165,7 +165,7 @@
 109.name;Water Elemental
 109.text;{jump}\n{gift} - Create a lake.
 110.name;Gemsilk Faerie
-110.text;{flying}\nThe first time you draw an event, gain +2/+0, {protection} and {charge|2}.
+110.text;{flying}\nThe first time you draw an event, gain +2/+2 and {charge|2}.
 111.name;Sunken Tower
 111.text;{activate} - Move a land. Deal 1 damage to this structure.
 112.name;Azure Wisp
@@ -189,7 +189,7 @@
 121.name;Prophet of Tides
 121.text;{gift} - Move a land twice.
 122.name;Humbling Vision
-122.text;Reduce a creature's base Attack and Life by half (rounded up).
+122.text;Halve a creature's base Attack and Life (rounded up).
 123.name;Ancient Herald
 123.text;{gift} - The next creature with 5 Life or more you draw costs {faeria|2} less.
 124.name;Triton Banquet
@@ -229,7 +229,7 @@
 141.name;Tiki Piper
 141.text;{gift} - Give a creature +0/+4.
 142.name;Shamanic Dance
-142.text;Give a creature +0/+5 and {taunt}.
+142.text;Give a creature +0/+4 and {taunt}.
 143.name;Tiki Totem
 143.text;The first time each turn you summon a creature, it gains +1/+1.
 144.name;Possessed Ursus
@@ -273,7 +273,7 @@
 175.name;Elderwood Embrace
 175.text;Give a creature +2/+4.
 176.name;Ruunin's Champion
-176.text;Whenever this creature attacks a god, add a random green creature to your hand. It gets +3/+3.
+176.text;Whenever this creature attacks a god, add a random green creature to your hand. It gets +2/+2.
 177.name;Verduran Force
 177.text;
 178.name;Grove Guardian
@@ -319,7 +319,7 @@
 198.name;Kobold Barracks
 198.text;Adjacent friendly creatures have +2/+0.
 199.name;Hate Seed
-199.text;Costs {faeria|1} less for each creature with higher attack than life you've summoned.
+199.text;Costs {faeria|1} less for each creature with higher Attack than Life you've summoned.
 200.name;Ogre Battler
 200.text;{taunt}
 201.name;Bold Bargainer
@@ -363,7 +363,7 @@
 232.name;Garudan, Heart of the Mountain
 232.text;{flying}, {charge|2}\n{gift} - Deal 3 damage to all enemy creatures.
 233.name;Fire Elemental
-233.text;{gift} - Create a mountain.\n{combat} - Deal 2 damage to a random enemy creature.
+233.text;{gift} - Create a mountain.
 234.name;Flamesilk Faerie
 234.text;{flying}\nThe first time you draw an event, gain +3/+1 and {ranged_attack}.
 235.name;Derelict Tower
@@ -415,7 +415,7 @@
 258.name;Wind Gate
 258.text;You can summon creatures on spaces adjacent to this structure.\n{activate} - Move Wind Gate.
 259.name;Malevolent Spirit
-259.text;{gift} - You drain 2 life from your opponent.
+259.text;{gift} - You drain 2 Life from your opponent.
 260.name;Khalim, Sky Prodigy
 260.text;{flying}, {charge|2}\nWhen Khalim attacks a god, add a <b>Khalim's Follower</b> to your hand. It costs {faeria|0}.
 261.name;Slaughtering Shadow
@@ -521,7 +521,7 @@
 343.name;Titan's Eye
 343.text;Add a Surge of Strength to each player's hand.
 344.name;Dragon Statuette
-344.text;Add a 6/6 Crystal Dragon to each player's hand.
+344.text;Add a 6/6 <b>Crystal Dragon</b> to each player's hand.
 345.name;Merchant's Stone
 345.text;Add a Flipping the Table to each player's hand.
 346.name;Jeweled Boots
@@ -537,10 +537,12 @@
 351.name;Disk of Time
 351.text;Reduce the cost of all events in each player's hand and deck by {faeria|1}.
 352.name;Necklace of the Damned
-352.text;Add a 2/1 Plague Bearer to each player's hand.
+352.text;Add a 2/1 <b>Plague Bearer</b> to each player's hand.
 353.name;Garudan's Scale
 353.text;Deal 2 damage to ALL creatures.
 354.name;Eboshi's Toque
 354.text;Add a Feast! to each player's hand.
 355.name;Tear of the Serpent World
 355.text;Transform all cards in all hands and decks into cards of a higher rarity. They cost {faeria|1} less.
+400.name;Three Wishes
+400.text;Gain 4 life. Copy the top 3 cards of your opponent's deck. They cost {faeria|2} less.

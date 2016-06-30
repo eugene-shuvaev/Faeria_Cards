@@ -5,7 +5,7 @@
 3.name;Syland-Krieger
 3.text;
 4.name;Syland-Pferdemeister
-4.text;{gift} - Give a friendly creature {charge|3} this turn.
+4.text;{gift} - Gewährt einer verbündeten Kreatur für diesen Zug {charge|3}.
 9.name;Imperialer Ingenieur
 9.text;{gift} - Aktiviere all deine Produktionsfähigkeiten.
 10.name;Stellung halten!
@@ -53,12 +53,12 @@
 41.name;Plagenbringer
 41.text;{last_words} - Füge ALLEN Kreaturen 2 Schaden zu.
 42.name;Belagerungsgerät
-42.text;{ranged_attack}\nWhenever this creature attacks, it gains +1/+0 afterwards.
+42.text;{ranged_attack}\nWann immer diese Kreatur angreift, erhält sie im Anschluss +1/+0.
 43.name;Sharra, Drachentöterin
 43.text;Ignoriert allen Schaden größer gleich 4.
 44.name;Hungersnot
 44.text;Füge ALLEN Kreaturen 1 Schaden zu.
-45.name;Royal Judge
+45.name;Königlicher Richter
 45.text;{options|Ziehe eine Schutzkuppel.|Ziehe eine Bestrafung.}\nNimm eine <b>Schutzkuppel</b> auf deine Hand. Sie kostet {faeria|0}.\nNimm eine <b>Bestrafung</b> auf deine Hand. Sie kostet {faeria|0}.
 46.name;Kartograph
 46.text;{last_words} - Platziert zufällig einen See, einen Wald, einen Berg und eine Wüste.
@@ -121,11 +121,11 @@
 75.name;Magierin von Gabria
 75.text;{gift} - Der Angriff einer anderen Kreatur wird auf die Höhe ihres Lebens gesetzt.
 76.name;Feldherr von Gabria
-76.text;{aquatic}, {charge|3}\nThe first time you draw a card with original cost {faeria|7}+, gain {flying}.
+76.text;{aquatic}, {charge|3}\nErhalte {flying} beim ersten Mal, wenn du eine Karte mit Grundkosten von {faeria|7} oder höher ziehst.
 77.name;Wächter von Gabria
 77.text;{gift} - Gewährt einer Kreatur {protection}.
-82.name;Spring Mochi
-82.text;{gift} - The next card with original cost {faeria|7}+ you draw costs {faeria|3} less.
+82.name;Frühlings-Mochi
+82.text;{gift} - Die nächste Karte mit Grundkosten von {faeria|7} oder höher, die du ziehst, kostet {faeria|3} weniger.
 83.name;Triton-Krieger
 83.text;{jump}
 84.name;Mystische Bestie
@@ -133,13 +133,13 @@
 85.name;Spiegeltrick
 85.text;{gift} - Verwandle eine andere Kreatur in einen 4/4 <b>Spiegeltrick</b>.
 86.name;Triton-Koch
-86.text;{gift} - Add a <b>Triton Banquet</b> to your hand.
+86.text;{gift} - Nimm ein <b>Triton-Bankett</b> auf deine Hand.
 87.name;Ninja-Kröte
 87.text;{jump}, {haste}
 88.name;Verhexung
 88.text;Verwandle eine Kreatur in einen 2/2 <b>Frosch</b> mit {jump}.
 93.name;Verzauberung von Gabria
-93.text;A creature's Attack becomes equal to its Life.\nDraw a card.
+93.text;Der Angriff einer Kreatur nimmt den Wert ihres Lebens an.\nZiehe eine Karte.
 94.name;Auroras Schöpfung
 94.text;Nimm die Kopie einer Kreatur auf deine Hand. Sie kostet {faeria|5} weniger.
 95.name;Dunkler Pirscher
@@ -157,9 +157,9 @@
 105.name;Sturmbrut
 105.text;{last_words} - Erhalte {faeria|10} und ziehe eine Karte.
 106.name;Sage der Alten Schildkröte
-106.text;Add 3 random blue cards to your hand. They cost {faeria|3} less.
+106.text;Nimm 3 zufällige blaue Karten auf deine Hand. Sie kosten {faeria|3} weniger.
 107.name;Wellenbrecher
-107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
+107.text;Kostet {faeria|1} weniger für jedes Mal, dass du von dem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|4}).
 108.name;Orosei, Traum der Tiefe
 108.text;{flying}, {charge|2}\n{gift} - Verwandle alle deine anderen Kreaturen in Kreaturen, die {faeria|2} mehr kosten.
 109.name;Wasserelementar
@@ -181,7 +181,7 @@
 117.name;Ei der Wunder
 117.text;Wenn du eine Kreatur ziehst, wird Ei der Wunder zu einer Kopie dieser Kreatur.
 118.name;Archon von Gabria
-118.text;{charge|2}.\nGain +2/+2 if you've played two cards with original cost {faeria|7}+.
+118.text;{charge|2}.\nErhalte +2/+2, wenn du zwei Karten mit Grundkosten von {faeria|7} oder höher gespielt hast.
 119.name;Triton-Taucher
 119.text;{aquatic}, {jump}
 120.name;Wechselnde Gezeiten
@@ -257,7 +257,7 @@
 159.name;Wildwuchs
 159.text;Platziert zufällig zwei Wälder.
 168.name;Urkoloss
-168.text;Costs {faeria|1} less for each special land you have (minimum cost: {faeria|6}).
+168.text;Kostet {faeria|1} weniger für jedes besondere Land, das du besitzt (Mindestkosten: {faeria|6}).
 169.name;Tethra, Seele der Wildnis
 169.text;{flying}, {charge|2}\n{gift} - Gewährt einer Kreatur +5/+5.
 170.name;Holzelementar
@@ -279,7 +279,7 @@
 178.name;Wächter des Hains
 178.text;{taunt}
 179.name;Tarum, der Weltenwald
-179.text;{taunt}\n{last_words} - Fill the world with forests.
+179.text;{taunt}\n{last_words} - Fülle das Spielbrett mit Wäldern.
 180.name;Weinende Statue
 180.text;Erhalte immer, wenn dir Schaden zugefügt wird, {faeria|1}.
 181.name;Earthcraft
@@ -359,7 +359,7 @@
 226.name;Flammenwerfer
 226.text;{ranged_attack}mFüge allen gegnerischen Kreaturen 1 Schaden zu, wann immer diese Kreatur einen Gott angreift.
 231.name;Vulkan-Koloss
-231.text;Costs {faeria|1} less for each enemy creature that has died in combat (minimum cost: {faeria|5}).
+231.text;Kostet {faeria|1} weniger für jede gegnerische Kreatur, die im Kampf gestorben ist (Mindestkosten: {faeria|5}).
 232.name;Garudan, Herz des Berges
 232.text;{flying}, {charge|2}\n{gift} - Fügt allen feindlichen Kreaturen 3 Schaden zu.
 233.name;Feuerelementar
@@ -373,11 +373,11 @@
 237.name;Das Beben
 237.text;{gift} - Fügt ALLEN Feinden 1 Schaden zu.
 238.name;Feuerbote
-238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
+238.text;Erhalte +1/+1, wann immer du eine Kreatur mit höherem Angriff als Leben beschwörst, solang er in deinem Deck ODER auf deiner Hand ist.
 239.name;Lodernder Salamander
 239.text;{gift} - Fügt allen angrenzenden feindlichen Kreaturen 2 Schaden zu.
 240.name;Blutbrunnengeist
-240.text;Whenever you harvest from an opponent's well, deal 1 damage to your opponent.
+240.text;Fügt deinem Gegner 1 Schaden zu, wann immer du von einem gegnerischen Brunnen sammelst.
 241.name;Seifers Zorn
 241.text;Füge einer Kreatur 2 Schaden zu. Stirbt sie, füge dem, der sie kontrolliert, 2 Schaden zu.
 242.name;Schlingpflanze
@@ -389,7 +389,7 @@
 245.name;Rausch des Kampfes
 245.text;Immer, wenn dieser Kreatur Schaden zugefügt wird, fügt sie deinem Gegner denselben Schaden zu.
 246.name;Zerfallender Golem
-246.text;Whenever your opponent plays a creature, deal 1 damage to the Golem.
+246.text;Fügt diesem Golem immer 1 Schaden zu, wenn dein Gegner eine Kreatur spielt.
 247.name;Oger-Tanz
 247.text;Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
 248.name;Meteor
@@ -447,7 +447,7 @@
 278.name;Held der Windnatur
 278.text;{flying}, {charge|5}\n{gift} - Bewege eine Kreatur.
 287.name;Sturm-Koloss
-287.text;Costs {faeria|1} less for each event you've played (minimum cost: {faeria|4}).
+287.text;Kostet {faeria|1} weniger für jedes Ereignis, das du gespielt hast (Mindestkosten: {faeria|4}).
 288.name;Azarai, Zorn der Wüste
 288.text;{flying}, {charge|2}\n{gift} - Azarai entzieht jeder feindlichen Kreatur 2 Angriff.
 289.name;Luftelementar
@@ -455,7 +455,7 @@
 290.name;Seidensonnen-Fee
 290.text;{flying}\nErhält +3/+1 und {charge|3}, wenn du das erste Mal ein Ereignis ziehst.
 291.name;Himmlischer Turm
-291.text;{activate} - Give a creature {charge|5} this turn. Deal 1 damage to this structure.
+291.text;{activate} - Gewährt einer Kreatur für diesen Zug {charge|5}. Fügt dieser Struktur 1 Schaden zu.
 292.name;Wind-Irrlicht
 292.text;{flying}, {charge|3}\nErhält immer, wenn du einen Gott angreifst, +3/+0.
 293.name;Windblitz
@@ -499,7 +499,7 @@
 312.name;Eis-Behemoth
 312.text;{taunt}, {protection}
 313.name;Geist mit zwei Seelen
-313.text;{flying} \nCan be summoned adjacent to a friendly creature.\n{gift} - Summon another Twinsoul Spirit.
+313.text;{flying}\nKann neben einer verbündeten Kreatur beschworen werden.\n{gift} - Beschwört einen weiteren <b>Geist mit zwei Seelen</b>.
 314.name;Held der Stürme
 314.text;Erhält immer, wenn IRGENDEINE deiner Kreaturen kämpft, +1/+1.
 315.name;Seelenfresser
@@ -519,28 +519,30 @@
 342.name;Gefäß von Gabria
 342.text;Jeder Spieler erhält {faeria|3}.
 343.name;Titanenauge
-343.text;Add a Surge of Strength to each player's hand.
-344.name;Dragon Statuette
-344.text;Add a 6/6 Crystal Dragon to each player's hand.
+343.text;Fügt der Hand jedes Spielers einen <b>Kraftrausch</b> hinzu.
+344.name;Drachenstatuette
+344.text;Fügt der Hand jedes Spielers einen <b>Kristalldrachen</b> mit 6/6 hinzu.
 345.name;Händlerstein
-345.text;Add a Flipping the Table to each player's hand.
-346.name;Jeweled Boots
+345.text;Fügt der Hand jedes Spielers ein <b>Tisch umwerfen</b> hinzu.
+346.name;Juwelenstiefel
 346.text;Fügt der Hand jedes Spielers <b>Stürmen!</b> hinzu.
 347.name;Vergessener Ring
 347.text;Fügt der Hand jedes Spielers eine zufällige neutrale Kreatur hinzu. Sie erhält +2/+2.
 348.name;Eredons Trommeln
 348.text;ALLE Kreaturen erhalten +2/+2 (egal, wo sie sich befinden).
-349.name;Conch Horn
-349.text;Add an Echo to each player's hand.
-350.name;Aurora's Tea Pot
-350.text;Halve the power and life of ALL creatures.
+349.name;Muschelhorn
+349.text;Fügt der Hand jedes Spielers ein <b>Echo</b> hinzu.
+350.name;Auroras Teekessel
+350.text;Halbiert den Angriff und das Leben ALLER Kreaturen.
 351.name;Scheibe der Zeit
-351.text;Reduce the cost of all events in each player's hand and deck by {faeria|1}.
+351.text;Verringert die Kosten aller Ereignisse auf der Hand und im Deck jedes Spielers um {faeria|1}.
 352.name;Necklace of the Damned
-352.text;Add a 2/1 Plague Bearer to each player's hand.
+352.text;Add a 2/1 <b>Plague Bearer</b> to each player's hand.
 353.name;Garudans Schuppe
 353.text;Fügt ALLEN Kreaturen 2 Schaden zu.
 354.name;Der Kelch der Königin
 354.text;Fügt der Hand jedes Spielers <b>Festmahl!</b> hinzu.
-355.name;Tear of the Serpent World
+355.name;Träne der Schlangenwelt
 355.text;Verwandelt alle Karten auf jeder Hand und in allen Decks in Karten größerer Seltenheit. Diese kosten {faeria|1} weniger.
+400.name;Three Wishes
+400.text;Gain 4 life. Copy the top 3 cards of your opponent's deck. They cost {faeria|2} less.

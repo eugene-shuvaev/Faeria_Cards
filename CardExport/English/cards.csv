@@ -505,44 +505,70 @@
 315.name;Soul Eater
 315.text;Gain +1/+1 for each friendly creature that has died this game.
 316.name;Scourgeflame Specter
-316.text;{flying}, {haste},\n{charge|2}\n{combat} - Deal 3 damage to your opponent.
+316.text;{flying}, {haste}.\n{charge|2}\n{combat} - Deal 3 damage to your opponent.
 329.name;Cutthroat Bandit
 329.text;
 335.name;Rebel Slinger 
 335.text;{gift} - Deal 2 damage to your opponent.
-339.name;Shard of Pandora
-339.text;
-340.name;Seeds of Syland
-340.text;Create 2 prairies at random for each player.
-341.name;Noodle Bowl
-341.text;Summon a <b>Triton Warrior</b> on a random land for each player.
-342.name;Gabrian Jar
-342.text;Each player gains {faeria|3}.
-343.name;Titan's Eye
-343.text;Add a Surge of Strength to each player's hand.
-344.name;Dragon Statuette
-344.text;Add a 6/6 <b>Crystal Dragon</b> to each player's hand.
-345.name;Merchant's Stone
-345.text;Add a Flipping the Table to each player's hand.
-346.name;Jeweled Boots
-346.text;Add a Charge! to each player's hand.
-347.name;Forgotten Ring
-347.text;Add a random neutral creature to each player's hand. It gets +2/+2.
-348.name;Eredon's Drums
-348.text;ALL creatures gain +2/+2, wherever they are.
-349.name;Conch Horn
-349.text;Add an Echo to each player's hand.
-350.name;Aurora's Tea Pot
-350.text;Halve the power and life of ALL creatures.
-351.name;Disk of Time
-351.text;Reduce the cost of all events in each player's hand and deck by {faeria|1}.
-352.name;Necklace of the Damned
-352.text;Add a 2/1 <b>Plague Bearer</b> to each player's hand.
-353.name;Garudan's Scale
-353.text;Deal 2 damage to ALL creatures.
-354.name;Eboshi's Toque
-354.text;Add a Feast! to each player's hand.
-355.name;Tear of the Serpent World
-355.text;Transform all cards in all hands and decks into cards of a higher rarity. They cost {faeria|1} less.
-400.name;Three Wishes
-400.text;Gain 4 life. Copy the top 3 cards of your opponent's deck. They cost {faeria|2} less.
+350.name;Three Wishes
+350.text;Gain 4 life and copy the top 3 cards of your opponent's deck. They cost {faeria|2} less. You cannot wish for more wishes.
+403.name;Dark Crystal
+403.text;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
+404.name;Yakhorn Warhorn
+404.text;Summon three 2/4 <b>Angry Prairie Yaks</b> with haste.
+405.name;Omega Weapon
+405.text;{flying}.\n{gift} - Destroy all adjacent creatures, structures and lands.
+406.name;Ocarina
+406.text;Take an extra turn after this one.
+407.name;Djinn's Lamp
+407.text;{options|Add 3 random green cards to your hand. They cost {faeria|3} less|Add 3 random blue cards to your hand. They cost {faeria|3} less|Add 3 random red cards to your hand. They cost {faeria|3} less|Add 3 random yellow cards to your hand. They cost {faeria|3} less}\nChoose a color. Add 3 random cards of that color to your hand. They cost {faeria|3} less.
+408.name;Urn of Gabria
+408.text;Draw 2 cards and gain {faeria|2}.
+409.name;Iona's Mirror
+409.text;Add two copies of the last <b>Treasure</b> your opponent played to your hand.
+410.name;Bloodstone Golem
+410.text;{production} - Create {faeria|1} in each well.\nWhenever faeria is harvested, deal 1 damage to your opponent.
+411.name;Chalice from the Palace
+411.text;Give a random friendly creature +1/+1 . Six times.
+412.name;Eredon's Drum
+412.text;Give all your creatures +2/+2, wherever they are.
+413.name;Cloud Machine
+413.text;Friendly creatures have {flying}, {jump} and +1/+0.
+414.name;Ring of Dominion
+414.text;{options|Transform a land to a forest. Gain control of it.|Transform a land to a lake. Gain control of it.|Transform a land to mountain. Gain control of it.|Transform a land to a desert. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
+415.name;The World's Tear
+415.text;Transform a creature that attacked a god this turn into a 10/10 <b>Sky Swallower</b> with {flying}.
+416.name;Clockwork Yak
+416.text;
+417.name;Equinox Automaton
+417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to each god.
+418.name;Magda's Rose
+418.text;Gain control of an enemy creature.
+419.name;Aurora's Tea Pot
+419.text;Change the base Attack and Life of all friendly creatures to 6/6.
+420.name;Stone of Fair Fortune
+420.text;Shuffle 3 random <b>Treasures</b> into your deck.
+421.name;Secrets of Strength
+421.text;Give a creature {flying}, {charge|3} and +4/+4.
+422.name;Void Guardian
+422.text;{gift} - Destroy your deck.
+423.name;Crystal Dragon
+423.text;{flying}. {charge|3}.
+424.name;Flameburst Ruby
+424.text;{options|Deal 3 damage.|Deal 3 damage to everything.}\n- Deal 3 damage.\n- Deal 3 damage to everything.
+425.name;Hammer of Aoros
+425.text;Deal 3 damage. At the end of your turn, the <b>Hammer</b> returns to your hand.
+426.name;Earthfire Shaker
+426.text;{gift} - Deal 2 damage to all enemies. For each enemy destroyed, gain +2/+2.
+427.name;Death's Desire
+427.text;Destroy a creature. Its controller gains faeria equal to its cost and draws 2 cards.
+428.name;Bottled Lightning
+428.text;Deal 6 damage to a creature and 3 damage to all adjacent enemies.
+429.name;Dancing Blade
+429.text;{flying}, {jump}\n{production} - Deal 4 damage to all adjacent enemies.
+430.name;Doom Scythe
+430.text;Destroy a creature. Summon a 6/1 <b>Slaughtering Shadow</b> in its place.
+431.name;Jeweled Magpie
+431.text;{flying}, {haste}.\nWhenever this creature attacks a god, add a random <b>Treasure</b> to your hand.
+432.name;Wheel of Chaos
+432.text;{options|Destroy 2 unoccupied lands.|Destroy a creature with 5 Attack or less.|Gain 7 life.}\n- Destroy 2 unoccupied lands.\n- Destroy a creature with 5 Attack or less.\n- Gain 7 Life.

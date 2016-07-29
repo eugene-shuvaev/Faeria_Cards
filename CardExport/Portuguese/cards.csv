@@ -61,7 +61,7 @@
 45.name;Juiz Real
 45.text;{options|Compre uma carta Salvaguarda sem custo.|Compre uma carta Punição sem custo.}\n- Acrescente uma carta <b>Salvaguarda</b> à sua mão. Custa {faeria|0}.\n- Acrescente uma carta <b>Punição</b> à sua mão. Custa {faeria|0}.
 46.name;Cartógrafo
-46.text;{last_words} - Add an <b>Explore</b> card to your hand.
+46.text;{last_words} - Acrescente uma <b>Explorar</b> à sua mão.
 47.name;Monumento Cintilante
 47.text;{taunt}\n{production} - Você ganha 1 de vida.
 48.name;Ancião da Aldeia
@@ -96,8 +96,8 @@
 62.text;Sempre que essa criatura recolher faeria, uma criatura aleatória sob seu controle ganha +1/+1.
 63.name;Patrulheiro Estrangeiro
 63.text;{gift} - Acrescente uma <b>Fogueira</b> à sua mão.
-64.name;Outcast Tower
-64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
+64.name;Torre Proscrita
+64.text;Os poços de faeria estão vazios.\n{production} - Cause 1 de dano a esta estrutura.
 65.name;Explorador da Selva
 65.text;{gift} - Ganha +1/+1 se você controlar 2 lagos. Ganha +0/+2 se você controlar 2 florestas.
 66.name;Explorador do Vulcão
@@ -157,7 +157,7 @@
 105.name;Rebento da Tempestade
 105.text;{last_words} - Ganhe {faeria|10}.
 106.name;História da Velha Tartaruga
-106.text;Draw 3 cards. All creatures drawn this way costs {faeria|2} less.
+106.text;Compre 3 cartas. Todas as criaturas compradas desta forma custam menos {faerial|2}.
 107.name;Colosso da Arrebentação
 107.text;Custa menos {faeria|1} sempre que você tiver recolhido faeria de um poço inimigo (custo mínimo: {faeria|4}).
 108.name;Orosei, Sonho das Profundezas
@@ -282,8 +282,8 @@
 179.text;{taunt}\n{last_words} - Preencha o mundo com florestas.
 180.name;Ídolo Lacrimejante
 180.text;Sempre que sofrer dano, ganhe {faeria|1}.
-181.name;Earthcraft
-181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
+181.name;Molda-Terreno
+181.text;Compre uma carta e {options|Crie uma floresta|Crie um lago|Crie uma montanha|Crie um deserto}\nCrie uma floresta.\nCrie um lago.\nCrie uma montanha.\nCrie um deserto.
 182.name;Vingador de Ruunin
 182.text;{taunt}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
 183.name;Javali Ancestral
@@ -355,7 +355,7 @@
 224.name;Carregador de Canhão
 224.text;{gift} - Dê {ranged_attack} a uma criatura aliada.
 225.name;Explosão de Chamas
-225.text;Deal 3 damage.
+225.text;Cause 3 de dano.
 226.name;Lançador de Chamas
 226.text;{ranged_attack}\nSempre que essa criatura atacar um deus, causa 1 de dano em todas as criaturas inimigas.
 231.name;Colosso Vulcânico
@@ -510,39 +510,65 @@
 329.text;
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano no deus adversário.
-339.name;Fragmento de Pandora
-339.text;
-340.name;Sementes de Syland
-340.text;Cria 2 pradarias aleatoriamente para cada jogador.
-341.name;Tigela de Miojo
-341.text;Invoque um <b>Guerreiro Anfíbio</b> num terreno aleatório para cada jogador.
-342.name;Jarra Gabriana
-342.text;Cada jogador ganha {faeria|3}.
-343.name;Olho de Titã
-343.text;Acrescente um <b>Surto de Força</b> à mão de cada jogador.
-344.name;Estatueta de Dragão
-344.text;Acrescente um <b>Cristal de Dragão/b> de 6/6 à mão de cada jogador.
-345.name;Pedra de Mercador
-345.text;Acrescente uma <b>Virando a Mesa</b> na mão de cada jogador.
-346.name;Botas Embelezadas
-346.text;Acrescente uma <b>Avançar!/b> à mão de cada jogador.
-347.name;Anel Esquecido
-347.text;Acrescente uma criatura neutra aleatória à mão de cada jogador. Ela ganha +2/+2.
-348.name;Tambores de Eredon
-348.text;TODAS as criaturas ganham +2/+2 (onde quer que estejam).
-349.name;Trombeta de Concha
-349.text;Acrescente um <b>Eco</b> à mão de cada jogador.
-350.name;Bule de Aurora
-350.text;Divide ao meio o ataque e a vida de TODAS as criaturas.
-351.name;Disco do Tempo
-351.text;Reduza o custo de todos os eventos na mão e no baralho de cada jogador em {faeria|1}.
-352.name;Necklace of the Damned
-352.text;Add a 2/1 <b>Plague Bearer</b> to each player's hand.
-353.name;Escama de Garudan
-353.text;Causa 2 de dano em TODAS as criaturas.
-354.name;O Cálice da Rainha
-354.text;Acrescente um <b>Banquete!/b> à mão de cada jogador.
-355.name;Lágrima do Mundo Serpente
-355.text;Transforme todas as cartas em todos os baralhos em cartas de raridade maior. Custam menos {faeria|1}.
-400.name;Three Wishes
-400.text;Gain 4 life. Copy the top 3 cards of your opponent's deck. They cost {faeria|2} less.
+350.name;Três Desejos
+350.text;Ganhe 4 de vida e copie as 3 cartas no topo do baralho do seu adversário. Elas custam menos {faerial|2}. Você não pode desejar ter mais desejos.
+403.name;Cristal Sombrio
+403.text;Drene 4 de vida do seu adversário, cause 3 de dano em todas criaturas inimigas e compre 2 cartas.
+404.name;Berrante de Chifre de Iaque
+404.text;Invoque três <b>Iaques dos Prados Furiosos</b> 2/4 com rapidez.
+405.name;Arma Ômega
+405.text;{flying}.\n{gift} - Destrua todos os terrenos, as criaturas e as estruturas adjacentes.
+406.name;Ocarina
+406.text;Ganhe um turno extra depois deste.
+407.name;A Lâmpada do Gênio
+407.text;{options|Adicione 3 cartas verdes aleatórias à sua mão. Elas custam menos {faeria|3}|Adicione 3 cartas azuis aleatórias à sua mão. Elas custam menos {faeria|3}|Adicione 3 cartas vermelhas aleatórias à sua mão. Elas custam menos {faeria|3}|Adicione 3 cartas amarelas aleatórias à sua mão. Elas custam menos {faeria|3}\nEscolha uma cor. Adicione 3 cartas aleatórias daquela cor à sua mão. Elas custam menos {faeria|3}.
+408.name;A Urna de Gabria
+408.text;Compre 2 cartas e ganhe {faeria|3}.
+409.name;O Espelho da Iona
+409.text;Adicione duas cópias do último <b>Tesouro</b> que seu adversário jogou à sua mão.
+410.name;Golem de Jaspe Sanguíneo
+410.text;{production} - Gere {faeria|1} em cada poço.\nSempre que coletar faeria, cause 1 de dano em seu adversário.
+411.name;O Cálice do Palácio
+411.text;Dê +1/+1 a uma criatura aliada aleatória, cinco vezes.
+412.name;Tambor de Eredon
+412.text;Dê +2/+2 a todas suas criaturas, onde quer que estejam.
+413.name;Máquina Levitante
+413.text;Criaturas aliadas ganham {flying}, {jump} e +1/+0.
+414.name;Anel do Domínio
+414.text;{options|Transforme um terreno em um terreno verde. Ele fica sob seu controle.|Transforme um terreno em um terreno azul. Ele fica sob seu controle.|Transforme um terreno em um terreno vermelho. Ele fica sob seu controle.|Transforme um terreno em um terreno amarelo. Ele fica sob seu controle.}\nTransforme um terreno em uma cor à sua escolha. Ele fica sob seu controle.
+415.name;A Fenda do Mundo
+415.text;Transforme uma criatura que atacou um deus neste turno em um <b>Devorador Celeste</b> 10/10 com {flying}.
+416.name;Iaque Mecânico
+416.text;
+417.name;Autômato do Equinócio
+417.text;{gift} - Você ganha 6 de vida.\n{last_words} - Cause 6 de dano em cada deus.
+418.name;A Rosa da Magda
+418.text;Ganhe controle sobre uma criatura inimiga.
+419.name;Bule de Aurora
+419.text;Altere o ataque base e a vida base de todas criaturas aliadas para 6/6.
+420.name;Baú do Tesouro
+420.text;Embaralhe 3 <b>Tesouros</b> aleatórios no seu baralho.
+421.name;Segredos da Força
+421.text;Dê {flying}, {charge|3} e +4/+4 a uma criatura.
+422.name;Guardião do Vazio
+422.text;{gift} - Destrua seu baralho.
+423.name;Dragão de Cristal
+423.text;{flying}. {charge|3}.
+424.name;Escama de Garudan
+424.text;{options|Cause 3 de dano.|Cause 3 de dano em tudo.}\n- Cause 3 de dano.\n- Cause 3 de dano em tudo.
+425.name;Martelo de Aoros
+425.text;Cause 3 de dano. Ao fim do seu turno, o <b>Martelo</b> retorna à sua mão.
+426.name;Gêiser Destruidor
+426.text;{gift} - Cause 2 de dano em todos adversários. Ganhe +2/+2 por cada inimigo destruído.
+427.name;Diadema da Vida
+427.text;Destrua uma criatura. O controlador dela ganha faeria equivalente ao seu custo e compra 2 cartas.
+428.name;Raio Aprisionado
+428.text;Cause 6 de dano em uma criatura e 3 de dano em todos inimigos adjacentes.
+429.name;Lâmina Dançante
+429.text;{flying}, {jump}\n{production} - Cause 4 de dano em todos inimigos adjacentes.
+430.name;Pingente da Aniquilação
+430.text;Destrua uma criatura. Invoque uma <b>Sombra Assassina</b> 6/1 no lugar dela.
+431.name;Pega-rabilonga Adornada
+431.text;{flying}, {haste}.\nSempre que esta criatura atacar um deus, adicione um <b>Tesouro</b> aleatório à sua mão.
+432.name;Roda do Caos
+432.text;{options|Destrua 2 terrenos desocupados.|Destrua uma criatura com 5 de ataque ou menos.|Ganhe 7 de vida.}\n- Destrua 2 terrenos desocupados.\n- Destrua uma criatura com 5 de ataque ou menos.\n- Ganhe 7 de vida.

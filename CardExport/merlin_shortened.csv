@@ -251,24 +251,37 @@
 313;HUMAN;Twinsoul Spirit;creature;;4;3;;;3;4;3;"{flying}  Can be summoned adjacent to a friendly creature. {gift} - Summon another Twinsoul Spirit.";;0;101000;RARE
 314;HUMAN;Warstorm Champion;creature;;6;;3;3;;4;8;Whenever ANY of your creatures fight, gain +1/+1.;;0;101000;RARE
 315;HUMAN;Soul Eater;creature;;5;;3;;3;1;1;Gain +1/+1 for each friendly creature that has died this game.;;0;101000;RARE
-316;HUMAN;Scourgeflame Specter;creature;;6;;;3;3;3;5;"{flying}, {haste}, {charge|2} {combat} - Deal 3 damage to your opponent.";;0;101000;RARE
+316;HUMAN;Scourgeflame Specter;creature;;6;;;3;3;3;5;"{flying}, {haste}. {charge|2} {combat} - Deal 3 damage to your opponent.";;0;101000;RARE
 329;HUMAN;Cutthroat Bandit;creature;;3;;;;;4;1;;;2;100002;COMMON
 335;HUMAN;Rebel Slinger ;creature;;3;;;;;2;2;{gift} - Deal 2 damage to your opponent.;;2;100002;COMMON
-339;PANDORA;Shard of Pandora;artifact;;0;;;;;;;;;0;106666;COMMON
-340;PANDORA;Seeds of Syland;artifact;;0;;;;;;;Create 2 prairies at random for each player.;;0;106666;EXCEPTIONAL
-341;PANDORA;Noodle Bowl;artifact;;0;;;;;;;Summon a <b>Triton Warrior</b> on a random land for each player.;;0;106666;EXCEPTIONAL
-342;PANDORA;Gabrian Jar;artifact;;0;;;;;;;Each player gains {faeria|3}.;;0;106666;EXCEPTIONAL
-343;PANDORA;Titan's Eye;artifact;;0;;;;;;;Add a Surge of Strength to each player's hand.;;0;106666;EXCEPTIONAL
-344;PANDORA;Dragon Statuette;artifact;;0;;;;;;;Add a 6/6 <b>Crystal Dragon</b> to each player's hand.;;0;106666;EXCEPTIONAL
-345;PANDORA;Merchant's Stone;artifact;;0;;;;;;;Add a Flipping the Table to each player's hand.;;0;106666;EXCEPTIONAL
-346;PANDORA;Jeweled Boots;artifact;;0;;;;;;;Add a Charge! to each player's hand.;;0;106666;EXCEPTIONAL
-347;PANDORA;Forgotten Ring;artifact;;0;;;;;;;Add a random neutral creature to each player's hand. It gets +2/+2.;;0;106666;EXCEPTIONAL
-348;PANDORA;Eredon's Drums;artifact;;0;;;;;;;ALL creatures gain +2/+2, wherever they are.;;0;106666;RARE
-349;PANDORA;Conch Horn;artifact;;0;;;;;;;Add an Echo to each player's hand.;;0;106666;RARE
-350;PANDORA;Aurora's Tea Pot;artifact;;0;;;;;;;Halve the power and life of ALL creatures.;;0;106666;RARE
-351;PANDORA;Disk of Time;artifact;;0;;;;;;;Reduce the cost of all events in each player's hand and deck by {faeria|1}.;;0;106666;RARE
-352;PANDORA;Necklace of the Damned;artifact;;0;;;;;;;Add a 2/1 <b>Plague Bearer</b> to each player's hand.;;0;106666;RARE
-353;PANDORA;Garudan's Scale;artifact;;0;;;;;;;Deal 2 damage to ALL creatures.;;0;106666;RARE
-354;PANDORA;Eboshi's Toque;artifact;;0;;;;;;;Add a Feast! to each player's hand.;;0;106666;RARE
-355;PANDORA;Tear of the Serpent World;artifact;;0;;;;;;;Transform all cards in all hands and decks into cards of a higher rarity. They cost {faeria|1} less.;;0;106666;LEGENDARY
-400;HUMAN;Three Wishes;event;;0;2;2;2;2;;;Gain 4 life. Copy the top 3 cards of your opponent's deck. They cost {faeria|2} less.;;0;101000;RARE
+350;HUMAN;Three Wishes;event;;0;2;2;2;2;;;Gain 4 life and copy the top 3 cards of your opponent's deck. They cost {faeria|2} less. You cannot wish for more wishes.;;0;101000;RARE
+403;PANDORA;Dark Crystal;event;;7;;;;;;;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.;;0;106666;EXCEPTIONAL
+404;PANDORA;Yakhorn Warhorn;event;;7;;;;;;;Summon three 2/4 <b>Angry Prairie Yaks</b> with haste.;;0;106666;EXCEPTIONAL
+405;PANDORA;Omega Weapon;creature;;16;;;;;8;8;"{flying}. {gift} - Destroy all adjacent creatures, structures and lands.";;0;106666;EXCEPTIONAL
+406;PANDORA;Ocarina;event;;10;;;;;;;Take an extra turn after this one.;;0;106666;EXCEPTIONAL
+407;PANDORA;Djinn's Lamp;event;;3;;;;;;;"{options|Add 3 random green cards to your hand. They cost {faeria|3} less|Add 3 random blue cards to your hand. They cost {faeria|3} less|Add 3 random red cards to your hand. They cost {faeria|3} less|Add 3 random yellow cards to your hand. They cost {faeria|3} less} Choose a color. Add 3 random cards of that color to your hand. They cost {faeria|3} less.";;0;106666;EXCEPTIONAL
+408;PANDORA;Urn of Gabria;event;;0;;;;;;;Draw 2 cards and gain {faeria|3}.;;0;106666;EXCEPTIONAL
+409;PANDORA;Iona's Mirror;event;;2;;;;;;;Add two copies of the last <b>Treasure</b> your opponent played to your hand.;;0;106666;EXCEPTIONAL
+410;PANDORA;Bloodstone Golem;creature;;3;;;;;4;5;"{production} - Create {faeria|1} in each well. Whenever faeria is harvested, deal 1 damage to your opponent.";;0;106666;EXCEPTIONAL
+411;PANDORA;Chalice from the Palace;event;;2;;;;;;;Give a random friendly creature +1/+1 . Five times.;;0;106666;EXCEPTIONAL
+412;PANDORA;Eredon's Drum;event;;7;;;;;;;Give all your creatures +2/+2, wherever they are.;;0;106666;EXCEPTIONAL
+413;PANDORA;Cloud Machine;structure;;3;;;;;;4;Friendly creatures have {flying}, {jump} and +1/+0.;;0;106666;EXCEPTIONAL
+414;PANDORA;Ring of Dominion;event;;1;;;;;;;"{options|Transform a land to a green land. Gain control of it.|Transform a land to a blue land. Gain control of it.|Transform a land to a red land. Gain control of it.|Transform a land to a yellow land. Gain control of it.} Transform a land into the color of your choice. Gain control of it.";;0;106666;EXCEPTIONAL
+415;PANDORA;The World's Tear;event;;2;;;;;;;Transform a creature that attacked a god this turn into a 10/10 <b>Sky Swallower</b> with {flying}.;;0;106666;EXCEPTIONAL
+416;PANDORA;Clockwork Yak;creature;;4;;;;;6;9;;;0;106666;EXCEPTIONAL
+417;PANDORA;Equinox Automaton;creature;;9;;;;;6;6;"{gift} - You gain 6 Life. {last_words} - Deal 6 damage to each god.";;0;106666;EXCEPTIONAL
+418;PANDORA;Magda's Rose;event;;9;;;;;;;Gain control of an enemy creature.;;0;106666;EXCEPTIONAL
+419;PANDORA;Aurora's Tea Pot;event;;5;;;;;;;Change the base Attack and Life of all friendly creatures to 6/6.;;0;106666;EXCEPTIONAL
+420;PANDORA;Treasure Trove;event;;0;;;;;;;Shuffle 3 random <b>Treasures</b> into your deck.;;0;106666;EXCEPTIONAL
+421;PANDORA;Secrets of Strength;event;;4;;;;;;;Give a creature {flying}, {charge|3} and +4/+4.;;0;106666;EXCEPTIONAL
+422;PANDORA;Void Guardian;creature;;0;;;;;7;7;{gift} - Destroy your deck.;;0;106666;EXCEPTIONAL
+423;PANDORA;Crystal Dragon;creature;;4;;;;;6;6;{flying}. {charge|3}.;;0;106666;EXCEPTIONAL
+424;PANDORA;Garudan's Scale;event;;1;;;;;;;"{options|Deal 3 damage.|Deal 3 damage to everything.} - Deal 3 damage. - Deal 3 damage to everything.";;0;106666;EXCEPTIONAL
+425;PANDORA;Hammer of Aoros;event;;3;;;;;;;Deal 3 damage. At the end of your turn, the <b>Hammer</b> returns to your hand.;;0;106666;EXCEPTIONAL
+426;PANDORA;Earthfire Shaker;creature;;6;;;;;2;2;{gift} - Deal 2 damage to all enemies. For each enemy destroyed, gain +2/+2.;;0;106666;EXCEPTIONAL
+427;PANDORA;Death's Desire;event;;0;;;;;;;Destroy a creature. Its controller gains faeria equal to its cost and draws 2 cards.;;0;106666;EXCEPTIONAL
+428;PANDORA;Bottled Lightning;event;;6;;;;;;;Deal 6 damage to a creature and 3 damage to all adjacent enemies.;;0;106666;EXCEPTIONAL
+429;PANDORA;Dancing Blade;creature;;5;;;;;4;9;"{flying}, {jump} {production} - Deal 4 damage to all adjacent enemies.";;0;106666;EXCEPTIONAL
+430;PANDORA;Doom Scythe;event;;5;;;;;;;Destroy a creature. Summon a 6/1 <b>Slaughtering Shadow</b> in its place.;;0;106666;EXCEPTIONAL
+431;PANDORA;Jeweled Magpie;creature;;3;;;;;1;5;"{flying}, {haste}. Whenever this creature attacks a god, add a random <b>Treasure</b> to your hand.";;0;106666;EXCEPTIONAL
+432;PANDORA;Wheel of Chaos;event;;2;;;;;;;"{options|Destroy 2 unoccupied lands.|Destroy a creature with 5 Attack or less.|Gain 7 life.} - Destroy 2 unoccupied lands. - Destroy a creature with 5 Attack or less. - Gain 7 Life.";;0;106666;EXCEPTIONAL

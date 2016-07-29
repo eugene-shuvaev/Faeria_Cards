@@ -61,7 +61,7 @@
 45.name;Juez real
 45.text;{options|Roba gratis Apoyo.|Roba gratis Castigo.}\nAñade <b>Apoyo</b> a tu mano. Cuesta {faeria|0}.\nAñade <b>Castigo</b> a tu mano. Cuesta {faeria|0}.
 46.name;Cartógrafo
-46.text;{last_words} - Add an <b>Explore</b> card to your hand.
+46.text;{last_words}: Añade un <b>Explorar</b> a tu mano.
 47.name;Estatua reluciente
 47.text;{taunt}\n{production}: Ganas 1 de vida.
 48.name;Anciano del poblado
@@ -96,8 +96,8 @@
 62.text;Cuando una criatura recoge faeria, una criatura al azar tuya gana +1/+1.
 63.name;Explorador extraño
 63.text;{gift}: Añade una <b>Fogata</b> a tu mano.
-64.name;Outcast Tower
-64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
+64.name;Torre aislada
+64.text;Los pozos de faeria se han secado.\n{production}: Inflige 1 de daño a esta estructura.
 65.name;Explorador de la jungla
 65.text;{gift}: Gana +1/+1 si controlas 2 lagos. Gana +0/+2 si controlas 2 bosques.
 66.name;Explorador fogoso
@@ -157,7 +157,7 @@
 105.name;Ser tempestuoso
 105.text;{last_words}: Gana {faeria|10}.
 106.name;Historia de la Vieja tortuga
-106.text;Draw 3 cards. All creatures drawn this way costs {faeria|2} less.
+106.text;Roba 3 cartas. Todas las criaturas robadas con este método cuestan {faeria|2} menos.
 107.name;Coloso rompeolas
 107.text;Cuesta {faeria|1} menos por cada vez que hayas cosechado de un pozo enemigo (coste mínimo: {faeria|4}).
 108.name;Orosei, sueño del piélago
@@ -282,8 +282,8 @@
 179.text;{taunt}\n{last_words}: Llena el mundo de bosques.
 180.name;Ídolo llorón
 180.text;Cuando te infligen daño, gana {faeria|1}.
-181.name;Earthcraft
-181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
+181.name;Arte terrestre
+181.text;Roba una carta y {options|Create a forest|Create a lake|Create a mountain|Create a desert}\ncrea un bosque.\ncrea un lago.\ncrea una montaña.\ncrea un desierto.
 182.name;Vengador de Ruunin
 182.text;{taunt}\nGana 1 de vida cada vez que te infligen daño durante la partida.
 183.name;Jabalí antiguo
@@ -355,7 +355,7 @@
 224.name;Cañón móvil
 224.text;{gift}: Le da {ranged_attack} a una criatura aliada.
 225.name;Estallido
-225.text;Deal 3 damage.
+225.text;Inflige 3 de daño.
 226.name;Lanzallamas
 226.text;{ranged_attack}\nCuando esta criatura ataca a un dios, inflige 1 de daño a todas las criaturas enemigas.
 231.name;Coloso volcánico
@@ -510,39 +510,65 @@
 329.text;
 335.name;Lanzador rebelde
 335.text;{gift}: Inflige 2 de daño a tu oponente.
-339.name;Fragmento de Pandora
-339.text;
-340.name;Semillas de Syland
-340.text;Crea 2 campiñas al azar para cada jugador.
-341.name;Cuenco de fideos
-341.text;Invoca un <b>Guerrero tritón</b> en una tierra al azar para cada jugador.
-342.name;Vasija gabriana
-342.text;Cada jugador gana {faeria|3}.
-343.name;Ojo de titán
-343.text;Añade una <b>Oleada de fuerza</b> a la mano de cada jugador.
-344.name;Estatuilla de dragón
-344.text;Añade un <b>Dragón de cristal</b> 6/6 a la mano de cada jugador.
-345.name;Piedra del mercader
-345.text;Añade un <b>Cambio de tornas</b> a la mano de cada jugador.
-346.name;Botas engarzadas
-346.text;Añade un <b>¡A la carga!</b> a la mano de cada jugador.
-347.name;Anillo olvidado
-347.text;Añade una criatura neutral al azar a la mano de cada jugador. Gana +2/+2.
-348.name;Tambor de Eredon
-348.text;TODAS las criaturas ganan +2/+2 (estén donde estén).
-349.name;Cuerno de caracola
-349.text;Añade un <b>Eco</b> a la mano de cada jugador.
-350.name;Tetera de Aurora
-350.text;Reduce a la mitad el ataque y la vida de TODAS las criaturas.
-351.name;Disco del tiempo
-351.text;Reduce en {faeria|1} el coste de todos los eventos en la mano y en el mazo de cada jugador.
-352.name;Necklace of the Damned
-352.text;Add a 2/1 <b>Plague Bearer</b> to each player's hand.
-353.name;Escama de Garudan
-353.text;Inflige 2 de daño a TODAS las criaturas.
-354.name;Cáliz de la reina
-354.text;Añade un <b>¡Festín!</b> a la mano de cada jugador.
-355.name;Lágrima del mundo reptil
-355.text;Transforma todas las cartas en todos los mazos y manos en cartas de mayor rareza. Cuestan {faeria|1} menos.
-400.name;Three Wishes
-400.text;Gain 4 life. Copy the top 3 cards of your opponent's deck. They cost {faeria|2} less.
+350.name;Tres deseos
+350.text;Gana 4 de vida y copia las tres mejores cartas del mazo de tu oponente. Cuestan {faeria|2} menos. No puedes pedir más deseos.
+403.name;Cristal oscuro
+403.text;Drena 4 de vida a tu oponente, inflige 3 de daño a todas las criaturas enemigas y roba 2 cartas.
+404.name;Cuerno de guerra de yak
+404.text;Invoca tres <b>Yak de campiña enfurecidos</b> de 2/4 con acelerón.
+405.name;Arma Omega
+405.text;{flying}.\n{gift}: Destruye todas las criaturas, estructuras y tierras adyacentes.
+406.name;Ocarina
+406.text;Disfruta de un turno adicional después de este.
+407.name;Lámpara de djinn
+407.text;{options|Añade 3 cartas verdes al azar a tu mano. Cuestan {faeria|3} menos|Añade 3 cartas azules al azar a tu mano. Cuestan {faeria|3} menos|Añade 3 cartas rojas al azar a tu mano. Cuestan {faeria|3} menos|Añade 3 cartas amarillas al azar a tu mano. Cuestan {faeria|3} menos}\nElige un color. Añade 3 cartas al azar de ese color a tu mano. Cuestan {faeria|3} menos.
+408.name;Urna de Gabria
+408.text;Roba 2 cartas y gana {faeria|3}.
+409.name;Espejo de Iona
+409.text;Añade dos copias del último <b>tesoro</b> jugado por tu oponente a tu mano.
+410.name;Gólem rocasangrienta
+410.text;{production}: Crea {faeria|1} en cada pozo.\nAl cosechar faeria, inflige 1 de daño a tu oponente.
+411.name;Cáliz palaciego
+411.text;Le da cinco veces +1/+1 a una criatura aliada al azar.
+412.name;Tambor de Eredon
+412.text;Le da a todas tus criaturas +2/+2 estén donde estén.
+413.name;Creanubes
+413.text;Las criaturas aliadas tienen {flying}, {jump} y +1/+0.
+414.name;Anillo del dominio
+414.text;{options|Transforma una tierra en una tierra verde y obtiene su control.|Transforma una tierra en una tierra azul y obtiene su control.|Transforma una tierra en una tierra roja y obtiene su control.|Transforma una tierra en una tierra amarilla y obtiene su control.}\nTransforma una tierra en un color de tu elección y obtiene su control.
+415.name;Llanto mundano
+415.text;Transforma una criatura que haya atacado a un dios este turno en un <b>Devoracielos</b> de 10/10 con {flying}.
+416.name;Yak mecánico
+416.text;
+417.name;Autómata del equinoccio
+417.text;{gift}: Ganas 6 de vida.\n{last_words}: Inflige 6 de daño a cada dios.
+418.name;Rosa de Magda
+418.text;Obtén el control de una criatura enemiga.
+419.name;Tetera de Aurora
+419.text;Cambia el ataque y la vida base de todas las criaturas aliadas a 6/6.
+420.name;Tesoros valiosos
+420.text;Añade 3 <b>tesoros</b> al azar a tu mazo.
+421.name;Secretos de fuerza
+421.text;Le da a una criatura {flying}, {charge|3} y +4/+4.
+422.name;Guardián de la nada
+422.text;{gift}: Destruye tu mazo.
+423.name;Dragón de cristal
+423.text;{flying}, {charge|3}.
+424.name;Escama de Garudan
+424.text;{options|Inflige 3 de daño.|Inflige 3 de daño a todo.}\n- Inflige 3 de daño.\n- Inflige 3 de daño a todo.
+425.name;Martillo de Aoros
+425.text;Inflige 3 de daño. Al final de tu turno, el <b>Martillo</b> regresa a tu mano.
+426.name;Temblor de fuego terrenal
+426.text;{gift}: Inflige 2 de daño a todos los enemigos. Por cada enemigo destruido, gana +2/+2.
+427.name;Aro de vida
+427.text;Destruye una criatura. Su controlador gana su coste en faeria y roba 2 cartas.
+428.name;Relámpago embotellado
+428.text;Inflige 6 de daño a una criatura y 3 de daño a todos los enemigos adyacentes.
+429.name;Cuchilla danzante
+429.text;{flying}, {jump}\n{production}: Inflige 4 de daño a todos los enemigos adyacentes.
+430.name;Colgante del destino
+430.text;Destruye una criatura. Invoca una <b>Sombra asesina</b> de 6/1 en su lugar.
+431.name;Urraca engarzada
+431.text;{flying}, {haste}.\nCuando esta criatura ataca a un dios, añade un <b>tesoro</b> al azar a tu mano.
+432.name;Rueda del caos
+432.text;{options|Destruye 2 tierras sin ocupar.|Destruye una criatura de ataque 5 o inferior.|Gana 7 de vida.}\n- Destruye 2 tierras sin ocupar.\n- Destruye una criatura de ataque 5 o inferior.\n- Gana 7 de vida.

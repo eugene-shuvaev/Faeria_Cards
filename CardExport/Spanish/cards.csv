@@ -516,20 +516,20 @@
 403.text;Drena 4 de vida a tu oponente, inflige 3 de daño a todas las criaturas enemigas y roba 2 cartas.
 404.name;Cuerno de guerra de yak
 404.text;Invoca tres <b>Yak de campiña enfurecidos</b> de 2/4 con acelerón.
-405.name;Arma Omega
+405.name;Astral Weapon
 405.text;{flying}.\n{gift}: Destruye todas las criaturas, estructuras y tierras adyacentes.
 406.name;Ocarina
 406.text;Disfruta de un turno adicional después de este.
 407.name;Lámpara de djinn
 407.text;{options|Añade 3 cartas verdes al azar a tu mano. Cuestan {faeria|3} menos|Añade 3 cartas azules al azar a tu mano. Cuestan {faeria|3} menos|Añade 3 cartas rojas al azar a tu mano. Cuestan {faeria|3} menos|Añade 3 cartas amarillas al azar a tu mano. Cuestan {faeria|3} menos}\nElige un color. Añade 3 cartas al azar de ese color a tu mano. Cuestan {faeria|3} menos.
 408.name;Urna de Gabria
-408.text;Roba 2 cartas y gana {faeria|3}.
+408.text;Roba 2 cartas y gana {faeria|2}.
 409.name;Espejo de Iona
 409.text;Añade dos copias del último <b>tesoro</b> jugado por tu oponente a tu mano.
 410.name;Gólem rocasangrienta
 410.text;{production}: Crea {faeria|1} en cada pozo.\nAl cosechar faeria, inflige 1 de daño a tu oponente.
 411.name;Cáliz palaciego
-411.text;Le da cinco veces +1/+1 a una criatura aliada al azar.
+411.text;Le da seis veces +1/+1 a una criatura aliada al azar.
 412.name;Tambor de Eredon
 412.text;Le da a todas tus criaturas +2/+2 estén donde estén.
 413.name;Creanubes

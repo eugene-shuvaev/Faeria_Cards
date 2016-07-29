@@ -516,20 +516,20 @@
 403.text;Draine 4 points de vie à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
 404.name;Goryak Gueryak
 404.text;Invoquez trois <b>Yaks enragés des prairies</b> 2/4 avec {haste}.
-405.name;Arma Oméga
+405.name;Arme Astrale
 405.text;{flying}.\n{gift} - Détruit toutes les créatures, structures et terrains adjacents.
 406.name;Ocarina
 406.text;Rejouez après ce tour.
 407.name;Lampe du génie
 407.text;{options|Ajoute 3 cartes vertes aléatoires à votre main. Leur coût est réduit de {faeria|3}.|Ajoute 3 cartes bleues aléatoires à votre main. Leur coût est réduit de {faeria|3}.|Ajoute 3 cartes rouges aléatoires à votre main. Leur coût est réduit de {faeria|3}.|Ajoute 3 cartes jaunes aléatoires à votre main. Leur coût est réduit de {faeria|3}.}\nChoisissez une couleur. Ajoute 3 cartes aléatoires de cette couleur à votre main. Leur coût est réduit de {faeria|3}.
 408.name;Urne de Gabria
-408.text;Piochez 2 cartes et gagnez {faeria|3}.
+408.text;Piochez 2 cartes et gagnez {faeria|2}.
 409.name;Miroir d'Iona
 409.text;Ajoute deux exemplaires du dernier <b>trésor</b> joué par l'adversaire à votre main.
 410.name;Golem de pierre de sang
 410.text;{production} - Crée {faeria|1} dans chaque puits.\nInflige 1 point de dégât à votre adversaire à chaque récolte de faeria.
 411.name;Calice du palais
-411.text;Donne à une créature alliée aléatoire +1/+1, cinq fois.
+411.text;Donne à une créature alliée aléatoire +1/+1, six fois.
 412.name;Tambour d'Eredon
 412.text;Donne à toutes les créatures +2/+2, quelle que soit leur position.
 413.name;Attrape nuages

@@ -516,20 +516,20 @@
 403.text;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
 404.name;Kriegshorn aus Yakhorn
 404.text;Beschwört drei 2/4 <b>Wilde Prärie-Yaks</b> mit Hast.
-405.name;Omegawaffe
+405.name;Astral Weapon
 405.text;{flying}.\n{gift} - Zerstört alle angrenzenden Kreaturen, Strukturen und Länder.
 406.name;Okarina
 406.text;Führe nach diesem Zug einen weiteren Zug durch.
 407.name;Dschinnlampe
 407.text;{options|Nimm 3 zufällige grüne Karten auf deine Hand. Sie kosten {faeria|3} weniger.|Nimm 3 zufällige blaue Karten auf deine Hand. Sie kosten {faeria|3} weniger.|Nimm 3 zufällige rote Karten auf deine Hand. Sie kosten {faeria|3} weniger.|Nimm 3 zufällige gelbe Karten auf deine Hand. Sie kosten {faeria|3} weniger.}\nWähle eine Farbe. Nimm 3 zufällige Karten von dieser Farbe auf deine Hand. Sie kosten {faeria|3} weniger.
 408.name;Urne von Gabria
-408.text;Ziehe 2 Karten und erhalte {faeria|3}.
+408.text;Ziehe 2 Karten und erhalte {faeria|2}.
 409.name;Spiegel von Iona
 409.text;Nimm zwei Exemplare des <b>Schatzes</b> auf deine Hand, den dein Gegner zuletzt gespielt hat.
 410.name;Blutsteingolem
 410.text;{production} - Erzeugt in jedem Brunnen {faeria|1}.\nWann immer Faeria gesammelt wird, erleidet dein Gegner 1 Schaden.
 411.name;Kelch aus dem Palast
-411.text;Gewährt einer zufälligen verbündeten Kreatur +1/+1, fünfmal verwendbar.
+411.text;Gewährt einer zufälligen verbündeten Kreatur +1/+1, sechsmal verwendbar.
 412.name;Eredons Trommeln
 412.text;Gewährt all deinen Kreaturen +2/+2, egal, wo sie sich befinden.
 413.name;Wolkenmaschine

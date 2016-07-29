@@ -257,13 +257,13 @@
 350;HUMAN;Three Wishes;event;;0;2;2;2;2;;;Gain 4 life and copy the top 3 cards of your opponent's deck. They cost {faeria|2} less. You cannot wish for more wishes.;;0;101000;RARE
 403;PANDORA;Dark Crystal;event;;7;;;;;;;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.;;0;106666;EXCEPTIONAL
 404;PANDORA;Yakhorn Warhorn;event;;7;;;;;;;Summon three 2/4 <b>Angry Prairie Yaks</b> with haste.;;0;106666;EXCEPTIONAL
-405;PANDORA;Omega Weapon;creature;;16;;;;;8;8;"{flying}. {gift} - Destroy all adjacent creatures, structures and lands.";;0;106666;EXCEPTIONAL
+405;PANDORA;Astral Weapon;creature;;16;;;;;8;8;"{flying}. {gift} - Destroy all adjacent creatures, structures and lands.";;0;106666;EXCEPTIONAL
 406;PANDORA;Ocarina;event;;10;;;;;;;Take an extra turn after this one.;;0;106666;EXCEPTIONAL
 407;PANDORA;Djinn's Lamp;event;;3;;;;;;;"{options|Add 3 random green cards to your hand. They cost {faeria|3} less|Add 3 random blue cards to your hand. They cost {faeria|3} less|Add 3 random red cards to your hand. They cost {faeria|3} less|Add 3 random yellow cards to your hand. They cost {faeria|3} less} Choose a color. Add 3 random cards of that color to your hand. They cost {faeria|3} less.";;0;106666;EXCEPTIONAL
-408;PANDORA;Urn of Gabria;event;;0;;;;;;;Draw 2 cards and gain {faeria|3}.;;0;106666;EXCEPTIONAL
+408;PANDORA;Urn of Gabria;event;;0;;;;;;;Draw 2 cards and gain {faeria|2}.;;0;106666;EXCEPTIONAL
 409;PANDORA;Iona's Mirror;event;;2;;;;;;;Add two copies of the last <b>Treasure</b> your opponent played to your hand.;;0;106666;EXCEPTIONAL
 410;PANDORA;Bloodstone Golem;creature;;3;;;;;4;5;"{production} - Create {faeria|1} in each well. Whenever faeria is harvested, deal 1 damage to your opponent.";;0;106666;EXCEPTIONAL
-411;PANDORA;Chalice from the Palace;event;;2;;;;;;;Give a random friendly creature +1/+1 . Five times.;;0;106666;EXCEPTIONAL
+411;PANDORA;Chalice from the Palace;event;;2;;;;;;;Give a random friendly creature +1/+1 . Six times.;;0;106666;EXCEPTIONAL
 412;PANDORA;Eredon's Drum;event;;7;;;;;;;Give all your creatures +2/+2, wherever they are.;;0;106666;EXCEPTIONAL
 413;PANDORA;Cloud Machine;structure;;3;;;;;;4;Friendly creatures have {flying}, {jump} and +1/+0.;;0;106666;EXCEPTIONAL
 414;PANDORA;Ring of Dominion;event;;1;;;;;;;"{options|Transform a land to a green land. Gain control of it.|Transform a land to a blue land. Gain control of it.|Transform a land to a red land. Gain control of it.|Transform a land to a yellow land. Gain control of it.} Transform a land into the color of your choice. Gain control of it.";;0;106666;EXCEPTIONAL

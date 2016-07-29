@@ -523,13 +523,13 @@
 407.name;A Lâmpada do Gênio
 407.text;{options|Adicione 3 cartas verdes aleatórias à sua mão. Elas custam menos {faeria|3}|Adicione 3 cartas azuis aleatórias à sua mão. Elas custam menos {faeria|3}|Adicione 3 cartas vermelhas aleatórias à sua mão. Elas custam menos {faeria|3}|Adicione 3 cartas amarelas aleatórias à sua mão. Elas custam menos {faeria|3}\nEscolha uma cor. Adicione 3 cartas aleatórias daquela cor à sua mão. Elas custam menos {faeria|3}.
 408.name;A Urna de Gabria
-408.text;Compre 2 cartas e ganhe {faeria|3}.
+408.text;Compre 2 cartas e ganhe {faeria|2}.
 409.name;O Espelho da Iona
 409.text;Adicione duas cópias do último <b>Tesouro</b> que seu adversário jogou à sua mão.
 410.name;Golem de Jaspe Sanguíneo
 410.text;{production} - Gere {faeria|1} em cada poço.\nSempre que coletar faeria, cause 1 de dano em seu adversário.
 411.name;O Cálice do Palácio
-411.text;Dê +1/+1 a uma criatura aliada aleatória, cinco vezes.
+411.text;Dê +1/+1 a uma criatura aliada aleatória, seis vezes.
 412.name;Tambor de Eredon
 412.text;Dê +2/+2 a todas suas criaturas, onde quer que estejam.
 413.name;Máquina Levitante

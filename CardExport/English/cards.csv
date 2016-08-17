@@ -129,7 +129,7 @@
 83.name;Triton Warrior
 83.text;{jump}
 84.name;Mystic Beast
-84.text;{gift} - Gets +2/+2 and Charge 2 if your opponent has {faeria|10} or more.
+84.text;{gift} - Gets +2/+0 and {jump} if summoned adjacent to an enemy well.
 85.name;Mirror Phantasm
 85.text;{gift} - Transform another creature into a 5/5 <b>Mirror Phantasm</b>.
 86.name;Triton Chef
@@ -187,7 +187,7 @@
 120.name;Shifting Tide
 120.text;{options|Move a land|Draw a card}\nMove a land.\nDraw a card.
 121.name;Prophet of Tides
-121.text;{gift} - Move a land twice.
+121.text;{gift} - Move a land you control twice.
 122.name;Humbling Vision
 122.text;Halve a creature's base Attack and Life (rounded up).
 123.name;Ancient Herald
@@ -251,7 +251,7 @@
 156.name;Oak Father
 156.text;{gift} - Gain +0/+1 for each forest you control.
 157.name;Faeria Tree
-157.text;{production} - This structure gains +1 Life.\nWhen this has 6 or more Life, destroy it and gain {faeria|10}.
+157.text;{production} - This structure gains +1 Life.\nWhen this has 5 or more Life, destroy it and gain {faeria|10}.
 158.name;Living Willow
 158.text;{taunt}
 159.name;Wild Growth
@@ -272,8 +272,8 @@
 174.text;Whenever a friendly creature dies, a random creature in your hand gains +1/+1.
 175.name;Elderwood Embrace
 175.text;Give a creature +2/+4.
-176.name;Ruunin's Champion
-176.text;Whenever this creature attacks a god, add a random green creature to your hand. It gets +2/+2.
+176.name;Ruunin's Messenger
+176.text;{jump}\nWhenever this creature attacks a god, add a random green creature to your hand. It costs {faeria|2} less.
 177.name;Verduran Force
 177.text;
 178.name;Grove Guardian
@@ -284,7 +284,7 @@
 180.text;Whenever you are dealt damage, gain {faeria|1}.
 181.name;Earthcraft
 181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
-182.name;Ruunin's Avenger
+182.name;Wild Avenger
 182.text;{taunt}\nGain 1 Life for each time you've been dealt damage this game.
 183.name;Ancient Boar
 183.text;If you control a creature with 5 Life or more, costs {faeria|2} less.
@@ -376,7 +376,7 @@
 238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
 239.name;Blazing Salamander
 239.text;{gift} - Deal 2 damage to all adjacent enemy creatures.
-240.name;Bloodwell Sprite
+240.name;Bloodstone Sprite
 240.text;Whenever you harvest from an opponent's well, deal 1 damage to your opponent.
 241.name;Seifer's Wrath
 241.text;Deal 2 damage to a creature. If it dies, deal 2 damage to its controller.
@@ -421,7 +421,7 @@
 261.name;Slaughtering Shadow
 261.text;
 262.name;Deathwish Ghoul
-262.text;{last_words} - Gain {faeria|3}.
+262.text;{last_words} - Gain {faeria|2}.
 263.name;Last Nightmare
 263.text;Destroy a creature.
 264.name;Soul Pact
@@ -477,7 +477,7 @@
 301.name;Oath to Oblivion
 301.text;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Knight</b> with {charge|3} in its place.
 302.name;Shaytan Vampire
-302.text;{gift} - This creature drains 2 life from all adjacent enemy creatures.
+302.text;Whenever Shaytan Vampire damages a god, you gain that much life.
 303.name;Iona, Beloved by All
 303.text;{flying}\nCan't be attacked.
 304.name;Demon Wing
@@ -503,7 +503,7 @@
 314.name;Warstorm Champion
 314.text;Whenever ANY of your creatures fight, gain +1/+1.
 315.name;Soul Eater
-315.text;Gain +1/+1 for each friendly creature that has died this game.
+315.text;{flying}, {charge|3}\nGain +1/+1 for each friendly creature that has died this game.
 316.name;Scourgeflame Specter
 316.text;{flying}, {haste}.\n{charge|2}\n{combat} - Deal 3 damage to your opponent.
 329.name;Cutthroat Bandit
@@ -511,7 +511,7 @@
 335.name;Rebel Slinger 
 335.text;{gift} - Deal 2 damage to your opponent.
 350.name;Three Wishes
-350.text;Gain 4 life and copy the top 3 cards of your opponent's deck. They cost {faeria|2} less. You cannot wish for more wishes.
+350.text;Gain 3 life and copy the top 3 cards of your opponent's deck. They cost {faeria|3} less. You cannot wish for more wishes.
 403.name;Dark Crystal
 403.text;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn
@@ -548,7 +548,7 @@
 419.text;Change the base Attack and Life of all friendly creatures to 6/6.
 420.name;Stone of Fair Fortune
 420.text;Shuffle 3 random <b>Treasures</b> into your deck.
-421.name;Secrets of Strength
+421.name;Secret of Strength
 421.text;Give a creature {flying}, {charge|3} and +4/+4.
 422.name;Void Guardian
 422.text;{gift} - Destroy your deck.

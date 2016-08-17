@@ -187,7 +187,7 @@
 120.name;Wechselnde Gezeiten
 120.text;{options|Bewege ein Land.|Ziehe eine Karte.}\nBewege ein Land.\nZiehe eine Karte.
 121.name;Prophet der Gezeiten
-121.text;{gift} - Bewege ein Land zweimal.
+121.text;{gift} - Move a land you control twice.
 122.name;Vision der Demut
 122.text;Verringert den Grundangriff und das Leben einer Kreatur um die Hälfte (wird aufgerundet).
 123.name;Uralter Bote
@@ -251,7 +251,7 @@
 156.name;Eichenvater
 156.text;{gift} - Erhält +0/+1 für jeden Wald unter deiner Kontrolle.
 157.name;Faeria-Baum
-157.text;{production} - Diese Struktur erhält +1 Leben.\nWenn sie 6 oder mehr Leben hat, zerstöre sie und erhalte {faeria|10}.
+157.text;{production} - Diese Struktur erhält +1 Leben.\nWenn sie 5 oder mehr Leben hat, zerstöre sie und erhalte {faeria|10}.
 158.name;Lebende Weide
 158.text;{taunt}
 159.name;Wildwuchs
@@ -272,8 +272,8 @@
 174.text;Immer, wenn eine verbündete Kreatur stirbt, erhält eine zufällige Kreatur auf deiner Hand +1/+1.
 175.name;Umarmung von Elderwald
 175.text;Gewährt einer Kreatur +2/+4.
-176.name;Ruunins Champion
-176.text;Wann immer diese Kreatur einen Gott angreift, nimm eine zufällige grüne Kreatur auf die Hand. Sie erhält +2/+2.
+176.name;Ruunin's Messenger
+176.text;{jump}\nWhenever this creature attacks a god, add a random green creature to your hand. It costs {faeria|2} less.
 177.name;Grüne Macht
 177.text;
 178.name;Wächter des Hains
@@ -284,7 +284,7 @@
 180.text;Erhalte immer, wenn dir Schaden zugefügt wird, {faeria|1}.
 181.name;Erdenwerk
 181.text;Ziehe eine Karte und {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nPlatziere einen Wald.\nPlatziere einen See.\nPlatziere einen Berg.\nPlatziere eine Wüste.
-182.name;Ruunins Rächer
+182.name;Wild Avenger
 182.text;{taunt}\nDu erhältst 1 Leben für jedes Mal, dass dir in dieser Partie Schaden zugefügt wurde.
 183.name;Uralter Eber
 183.text;Kostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
@@ -376,7 +376,7 @@
 238.text;Erhalte +1/+1, wann immer du eine Kreatur mit höherem Angriff als Leben beschwörst, solang er in deinem Deck ODER auf deiner Hand ist.
 239.name;Lodernder Salamander
 239.text;{gift} - Fügt allen angrenzenden feindlichen Kreaturen 2 Schaden zu.
-240.name;Blutbrunnengeist
+240.name;Bloodstone Sprite
 240.text;Fügt deinem Gegner 1 Schaden zu, wann immer du von einem gegnerischen Brunnen sammelst.
 241.name;Seifers Zorn
 241.text;Füge einer Kreatur 2 Schaden zu. Stirbt sie, füge dem, der sie kontrolliert, 2 Schaden zu.
@@ -421,7 +421,7 @@
 261.name;Schatten des Schlächters
 261.text;
 262.name;Todesghul
-262.text;{last_words} - Erhalte {faeria|3}.
+262.text;{last_words} - Erhalte {faeria|2}.
 263.name;Letzter Alptraum
 263.text;Zerstöre eine Kreatur.
 264.name;Teufelspakt
@@ -477,7 +477,7 @@
 301.name;Schwur des Vergessens
 301.text;Zerstöre eine verbündete Kreatur. Beschwöre einen 6/3 <b>Ritter des Vergessens</b> mit {charge|3} an ihrer Stelle.
 302.name;Vampir der Shaytan
-302.text;{gift} - Diese Kreatur entzieht allen angrenzenden feindlichen Kreaturen 2 Leben.
+302.text;Whenever Shaytan Vampire damages a god, you gain that much life.
 303.name;Iona, von allen Geliebte
 303.text;{flying}\nKann nicht angegriffen werden.
 304.name;Dämonenschwinge
@@ -503,7 +503,7 @@
 314.name;Held der Stürme
 314.text;Erhält immer, wenn IRGENDEINE deiner Kreaturen kämpft, +1/+1.
 315.name;Seelenfresser
-315.text;Erhält für jede in dieser Partie gestorbene verbündete Kreatur +1/+1.
+315.text;{flying}, {charge|3}\nErhält für jede in dieser Partie gestorbene verbündete Kreatur +1/+1.
 316.name;Schemenhafte Flammengeißel
 316.text;{flying}, {haste},\n{charge|2}\n{combat} - Fügt deinem Gegner 3 Schaden zu.
 329.name;Halsabschneider
@@ -511,7 +511,7 @@
 335.name;Rebellenwerfer
 335.text;{gift} - Fügt deinem Gegner 2 Schaden zu.
 350.name;Drei Wünsche
-350.text;Erhalte 4 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|2} weniger. Mehr Wünsche wünschen ist nicht erlaubt.
+350.text;Erhalte 3 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|3} weniger. Mehr Wünsche wünschen ist nicht erlaubt.
 403.name;Dunkler Kristall
 403.text;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
 404.name;Kriegshorn aus Yakhorn
@@ -535,7 +535,7 @@
 413.name;Wolkenmaschine
 413.text;Verbündete Kreaturen erhalten {flying}, {jump} und +1/+0.
 414.name;Ring der Herrschaft
-414.text;{options|Verwandle ein Land in ein grünes Land. Erhalte darüber die Kontrolle.|Verwandle ein Land in ein blaues Land. Erhalte darüber die Kontrolle.|Verwandle ein Land in ein rotes Land. Erhalte darüber die Kontrolle.|Verwandle ein Land in ein gelbes Land. Erhalte darüber die Kontrolle.}\nVerwandle ein Land in ein Land der Farbe deiner Wahl. Erhalte darüber die Kontrolle.
+414.text;{options|Transform a land to a forest. Gain control of it.|Transform a land to a lake. Gain control of it.|Transform a land to mountain. Gain control of it.|Transform a land to a desert. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
 415.name;Die Träne der Welt
 415.text;Verwandle eine Kreatur, die in diesem Zug einen Gott angegriffen hat, in einen <b>Himmelsschlucker</b> mit 10/10 und {flying}.
 416.name;Uhrwerk-Yak
@@ -546,27 +546,27 @@
 418.text;Erhalte die Kontrolle über eine feindliche Kreatur.
 419.name;Auroras Teekessel
 419.text;Ändert Grundangriff und Leben aller verbündeten Kreaturen auf 6/6.
-420.name;Schatzgrube
+420.name;Stone of Fair Fortune
 420.text;Mische 3 zufällige <b>Schätze</b> in dein Deck.
-421.name;Geheimnisse der Stärke
+421.name;Secret of Strength
 421.text;Gewährt einer Kreatur {flying}, {charge|3} und +4/+4.
 422.name;Hüter der Leere
 422.text;{gift} - Zerstört dein Deck.
 423.name;Kristalldrache
 423.text;{flying}. {charge|3}.
-424.name;Garudans Schuppe
+424.name;Flameburst Ruby
 424.text;{options|Füge 3 Schaden zu.|Füge allem 3 Schaden zu.}\n- Füge 3 Schaden zu.\n- Füge allem 3 Schaden zu.
 425.name;Hammer von Aoros
 425.text;Fügt 3 Schaden zu. Nimm den <b>Hammer</b> am Ende deines Zuges auf deine Hand zurück.
 426.name;Erdfeuerbrecher
 426.text;{gift} - Fügt allen Gegnern 2 Schaden zu. Gewährt für jeden zerstörten Gegner +2/+2.
-427.name;Diadem des Lebens
+427.name;Death's Desire
 427.text;Zerstört eine Kreatur. Der Besitzer erhält so viel Faeria, wie die Kreatur gekostet hat, und er zieht 2 Karten.
 428.name;Flaschenblitz
 428.text;Fügt einer Kreatur 6 Schaden und allen angrenzenden Gegnern 3 Schaden zu.
 429.name;Tanzende Klinge
 429.text;{flying}, {jump}\n{production} - Fügt allen angrenzenden Gegnern 4 Schaden zu.
-430.name;Anhänger der Verdammnis
+430.name;Doom Scythe
 430.text;Zerstört eine Kreatur. Beschwört an ihrer Stelle einen 6/1 <b>Schatten des Schlächters</b>.
 431.name;Juwelenelster
 431.text;{flying}, {haste}.\nNimm einen zufälligen <b>Schatz</b> auf deine Hand, wann immer diese Kreatur einen Gott angreift.

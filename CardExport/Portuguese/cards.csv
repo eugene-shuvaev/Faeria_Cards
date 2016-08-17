@@ -187,7 +187,7 @@
 120.name;Maré Mutável
 120.text;{options|Mova um terreno|Compre uma carta}\nMova um terreno.\nCompre uma carta.
 121.name;Profeta das Marés
-121.text;{gift} - Mova um terreno duas vezes.
+121.text;{gift} - Move a land you control twice.
 122.name;Visão da Humildade
 122.text;Reduz o Ataque base e Vida base da criatura pela metade (arredondado para cima).
 123.name;Arauto Ancestral
@@ -251,7 +251,7 @@
 156.name;Pai Carvalho
 156.text;{gift} - Ganha +0/+1 para cada floresta que você controlar.
 157.name;Árvore de Faeria
-157.text;{production} - Essa estrutura ganha +1 de vida.\nQuando ela tiver 6 ou mais de vida, destrua-a e ganhe {faeria|10}.
+157.text;{production} - Essa estrutura ganha +1 de vida.\nQuando ela tiver 5 ou mais de vida, destrua-a e ganhe {faeria|10}.
 158.name;Salgueiro Vivente
 158.text;{taunt}
 159.name;Crescimento Selvagem
@@ -272,8 +272,8 @@
 174.text;Sempre que uma criatura aliada morrer, uma criatura aleatória em sua mão ganha +1/+1.
 175.name;Abraço do Bosque Ancestral
 175.text;Dê +2/+4 a uma criatura.
-176.name;Campeão de Ruunin
-176.text;Sempre que essa criatura atacar um deus, acrescente uma criatura verde aleatória à sua mão. Ela ganha +2/+2.
+176.name;Ruunin's Messenger
+176.text;{jump}\nWhenever this creature attacks a god, add a random green creature to your hand. It costs {faeria|2} less.
 177.name;Força Verdurana
 177.text;
 178.name;Guardião do Bosque
@@ -284,7 +284,7 @@
 180.text;Sempre que sofrer dano, ganhe {faeria|1}.
 181.name;Molda-Terreno
 181.text;Compre uma carta e {options|Crie uma floresta|Crie um lago|Crie uma montanha|Crie um deserto}\nCrie uma floresta.\nCrie um lago.\nCrie uma montanha.\nCrie um deserto.
-182.name;Vingador de Ruunin
+182.name;Wild Avenger
 182.text;{taunt}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
 183.name;Javali Ancestral
 183.text;Custa menos {faeria|2} se você controlar uma criatura que tenha 5 ou mais de vida.
@@ -376,7 +376,7 @@
 238.text;Ganha +1/+1 sempre que você invocar uma criatura com ataque maior que a vida enquanto estiver no seu baralho OU na sua mão.
 239.name;Salamandra Incandescente
 239.text;{gift} - Causa 2 de dano a todas as criaturas inimigas adjacentes.
-240.name;Espírito Sanguinolento
+240.name;Bloodstone Sprite
 240.text;Sempre que você recolher faeria de um poço do adversário, cause 1 de dano em seu adversário.
 241.name;Ira de Seifer
 241.text;Causa 2 de dano a uma criatura. Se a criatura morrer, cause 2 de dano no seu controlador.
@@ -421,7 +421,7 @@
 261.name;Sombra Assassina
 261.text;
 262.name;Carniçal Sedento de Morte
-262.text;{last_words} - Ganhe {faeria|3}.
+262.text;{last_words} - Ganhe {faeria|2}.
 263.name;Último Pesadelo
 263.text;Destrua uma criatura.
 264.name;Pacto de Alma
@@ -477,7 +477,7 @@
 301.name;Juramento do Esquecimento
 301.text;Destrua uma criatura aliada. Invoque um <b>Cavaleiro do Esquecimento</b> 6/3 com {charge|3} no lugar dela.
 302.name;Vampiro de Shaytan
-302.text;{gift} - Essa criatura drena 2 de vida de todas as criaturas inimigas adjacentes.
+302.text;Whenever Shaytan Vampire damages a god, you gain that much life.
 303.name;Iona, Amada por Todos
 303.text;{flying}\nNão pode ser atacada.
 304.name;Asa Demônio
@@ -503,7 +503,7 @@
 314.name;Campeão da Tormenta de Guerra
 314.text;Ganha +1/+1 toda vez que QUALQUER uma das suas criaturas combater.
 315.name;Devorador de Almas
-315.text;Ganha +1/+1 para cada criatura aliada que tenha morrido nessa partida.
+315.text;{flying}, {charge|3}\nGanha +1/+1 para cada criatura aliada que tenha morrido nessa partida.
 316.name;Espectro do Flagelo Ardente
 316.text;{flying}, {haste},\n{charge|2}\n{combat} - Cause 3 de dano em seu adversário.
 329.name;Ladra Degoladora
@@ -511,7 +511,7 @@
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano no deus adversário.
 350.name;Três Desejos
-350.text;Ganhe 4 de vida e copie as 3 cartas no topo do baralho do seu adversário. Elas custam menos {faerial|2}. Você não pode desejar ter mais desejos.
+350.text;Ganhe 3 de vida e copie as 3 cartas no topo do baralho do seu adversário. Elas custam menos {faerial|3}. Você não pode desejar ter mais desejos.
 403.name;Cristal Sombrio
 403.text;Drene 4 de vida do seu adversário, cause 3 de dano em todas criaturas inimigas e compre 2 cartas.
 404.name;Berrante de Chifre de Iaque
@@ -535,7 +535,7 @@
 413.name;Máquina Levitante
 413.text;Criaturas aliadas ganham {flying}, {jump} e +1/+0.
 414.name;Anel do Domínio
-414.text;{options|Transforme um terreno em um terreno verde. Ele fica sob seu controle.|Transforme um terreno em um terreno azul. Ele fica sob seu controle.|Transforme um terreno em um terreno vermelho. Ele fica sob seu controle.|Transforme um terreno em um terreno amarelo. Ele fica sob seu controle.}\nTransforme um terreno em uma cor à sua escolha. Ele fica sob seu controle.
+414.text;{options|Transform a land to a forest. Gain control of it.|Transform a land to a lake. Gain control of it.|Transform a land to mountain. Gain control of it.|Transform a land to a desert. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
 415.name;A Fenda do Mundo
 415.text;Transforme uma criatura que atacou um deus neste turno em um <b>Devorador Celeste</b> 10/10 com {flying}.
 416.name;Iaque Mecânico
@@ -546,27 +546,27 @@
 418.text;Ganhe controle sobre uma criatura inimiga.
 419.name;Bule de Aurora
 419.text;Altere o ataque base e a vida base de todas criaturas aliadas para 6/6.
-420.name;Baú do Tesouro
+420.name;Stone of Fair Fortune
 420.text;Embaralhe 3 <b>Tesouros</b> aleatórios no seu baralho.
-421.name;Segredos da Força
+421.name;Secret of Strength
 421.text;Dê {flying}, {charge|3} e +4/+4 a uma criatura.
 422.name;Guardião do Vazio
 422.text;{gift} - Destrua seu baralho.
 423.name;Dragão de Cristal
 423.text;{flying}. {charge|3}.
-424.name;Escama de Garudan
+424.name;Flameburst Ruby
 424.text;{options|Cause 3 de dano.|Cause 3 de dano em tudo.}\n- Cause 3 de dano.\n- Cause 3 de dano em tudo.
 425.name;Martelo de Aoros
 425.text;Cause 3 de dano. Ao fim do seu turno, o <b>Martelo</b> retorna à sua mão.
 426.name;Gêiser Destruidor
 426.text;{gift} - Cause 2 de dano em todos adversários. Ganhe +2/+2 por cada inimigo destruído.
-427.name;Diadema da Vida
+427.name;Death's Desire
 427.text;Destrua uma criatura. O controlador dela ganha faeria equivalente ao seu custo e compra 2 cartas.
 428.name;Raio Aprisionado
 428.text;Cause 6 de dano em uma criatura e 3 de dano em todos inimigos adjacentes.
 429.name;Lâmina Dançante
 429.text;{flying}, {jump}\n{production} - Cause 4 de dano em todos inimigos adjacentes.
-430.name;Pingente da Aniquilação
+430.name;Doom Scythe
 430.text;Destrua uma criatura. Invoque uma <b>Sombra Assassina</b> 6/1 no lugar dela.
 431.name;Pega-rabilonga Adornada
 431.text;{flying}, {haste}.\nSempre que esta criatura atacar um deus, adicione um <b>Tesouro</b> aleatório à sua mão.

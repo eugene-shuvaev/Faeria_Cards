@@ -187,7 +187,7 @@
 120.name;Corriente cambiante
 120.text;{options|Mueve un suelo|Roba una carta}\nMueve un suelo.\nRoba una carta.
 121.name;Profeta de las mareas
-121.text;{gift}: Mueve una tierra dos veces.
+121.text;{gift} - Move a land you control twice.
 122.name;Visión de humildad
 122.text;Reduce a la mitad el ataque y la vida base de una criatura (redondeando).
 123.name;Heraldo antiguo
@@ -251,7 +251,7 @@
 156.name;Roble patriarca
 156.text;{gift}: Gana +0/+1 por cada bosque que controlas.
 157.name;Árbol de faeria
-157.text;{production}: Esta estructura gana 1 de vida.\nCuando tenga 6 de vida o más, destrúyela y gana {faeria|10}.
+157.text;{production}: Esta estructura gana 1 de vida.\nCuando tenga 5 de vida o más, destrúyela y gana {faeria|10}.
 158.name;Sauce viviente
 158.text;{taunt}
 159.name;Crecimiento silvestre
@@ -272,8 +272,8 @@
 174.text;Cuando una criatura aliada muere, una criatura al azar de tu mano gana +1/+1.
 175.name;Abrazo del Bosque Antiguo
 175.text;Le da +2/+4 a una criatura.
-176.name;Campeón de Ruunin
-176.text;Cuando esta criatura ataca a un dios, añade una carta verde de criatura al azar a tu mano. Gana +2/+2.
+176.name;Ruunin's Messenger
+176.text;{jump}\nWhenever this creature attacks a god, add a random green creature to your hand. It costs {faeria|2} less.
 177.name;Fuerza de plantas
 177.text;
 178.name;Guardián de la arboleda
@@ -284,7 +284,7 @@
 180.text;Cuando te infligen daño, gana {faeria|1}.
 181.name;Arte terrestre
 181.text;Roba una carta y {options|Create a forest|Create a lake|Create a mountain|Create a desert}\ncrea un bosque.\ncrea un lago.\ncrea una montaña.\ncrea un desierto.
-182.name;Vengador de Ruunin
+182.name;Wild Avenger
 182.text;{taunt}\nGana 1 de vida cada vez que te infligen daño durante la partida.
 183.name;Jabalí antiguo
 183.text;Cuesta {faeria|2} menos si controlas una criatura con 5 de vida o más.
@@ -376,7 +376,7 @@
 238.text;Gana +1/+1 cuando invocas una criatura con más ataque que vida si está en tu mano o en tu mazo.
 239.name;Salamandra ígnea
 239.text;{gift}: Inflige 2 de daño a todos los enemigos adyacentes.
-240.name;Duende del pozo sangriento
+240.name;Bloodstone Sprite
 240.text;Cuando cosechas de un pozo enemigo, inflige 1 de daño a tu oponente.
 241.name;Ira de Seifer
 241.text;Inflige 2 de daño a una criatura. Si muere, inflige 2 de daño a quien la controla.
@@ -421,7 +421,7 @@
 261.name;Sombra asesina
 261.text;
 262.name;Necrófago mortífero
-262.text;{last_words}: Gana {faeria|3}.
+262.text;{last_words}: Gana {faeria|2}.
 263.name;Última pesadilla
 263.text;Destruye una criatura.
 264.name;Pacto de almas
@@ -477,7 +477,7 @@
 301.name;Oda al olvido
 301.text;Destruye una criatura aliada. Invoca un <b>Caballero del olvido</b> de 6/3 con {charge|3} en su lugar.
 302.name;Vampiro shaytan
-302.text;{gift}: Drena 2 de vida a todas las criaturas enemigas adyacentes.
+302.text;Whenever Shaytan Vampire damages a god, you gain that much life.
 303.name;Iona, amada por todos
 303.text;{flying}\nNo pueden atacarle.
 304.name;Demonio alado
@@ -503,7 +503,7 @@
 314.name;Campeón bélico
 314.text;Cuando luche una de tus criaturas, gana +1/+1.
 315.name;Devoraalmas
-315.text;Gana +1/+1 por cada criatura aliada que haya muerto durante la partida.
+315.text;{flying}, {charge|3}\nGana +1/+1 por cada criatura aliada que haya muerto durante la partida.
 316.name;Espectro flamígero
 316.text;{flying}, {haste},\n{charge|2}\n{combat}: Inflige 3 de daño a tu oponente.
 329.name;Bandido despiadado
@@ -511,7 +511,7 @@
 335.name;Lanzador rebelde
 335.text;{gift}: Inflige 2 de daño a tu oponente.
 350.name;Tres deseos
-350.text;Gana 4 de vida y copia las tres mejores cartas del mazo de tu oponente. Cuestan {faeria|2} menos. No puedes pedir más deseos.
+350.text;Gana 3 de vida y copia las tres mejores cartas del mazo de tu oponente. Cuestan {faeria|3} menos. No puedes pedir más deseos.
 403.name;Cristal oscuro
 403.text;Drena 4 de vida a tu oponente, inflige 3 de daño a todas las criaturas enemigas y roba 2 cartas.
 404.name;Cuerno de guerra de yak
@@ -535,7 +535,7 @@
 413.name;Creanubes
 413.text;Las criaturas aliadas tienen {flying}, {jump} y +1/+0.
 414.name;Anillo del dominio
-414.text;{options|Transforma una tierra en una tierra verde y obtiene su control.|Transforma una tierra en una tierra azul y obtiene su control.|Transforma una tierra en una tierra roja y obtiene su control.|Transforma una tierra en una tierra amarilla y obtiene su control.}\nTransforma una tierra en un color de tu elección y obtiene su control.
+414.text;{options|Transform a land to a forest. Gain control of it.|Transform a land to a lake. Gain control of it.|Transform a land to mountain. Gain control of it.|Transform a land to a desert. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
 415.name;Llanto mundano
 415.text;Transforma una criatura que haya atacado a un dios este turno en un <b>Devoracielos</b> de 10/10 con {flying}.
 416.name;Yak mecánico
@@ -546,27 +546,27 @@
 418.text;Obtén el control de una criatura enemiga.
 419.name;Tetera de Aurora
 419.text;Cambia el ataque y la vida base de todas las criaturas aliadas a 6/6.
-420.name;Tesoros valiosos
+420.name;Stone of Fair Fortune
 420.text;Añade 3 <b>tesoros</b> al azar a tu mazo.
-421.name;Secretos de fuerza
+421.name;Secret of Strength
 421.text;Le da a una criatura {flying}, {charge|3} y +4/+4.
 422.name;Guardián de la nada
 422.text;{gift}: Destruye tu mazo.
 423.name;Dragón de cristal
 423.text;{flying}, {charge|3}.
-424.name;Escama de Garudan
+424.name;Flameburst Ruby
 424.text;{options|Inflige 3 de daño.|Inflige 3 de daño a todo.}\n- Inflige 3 de daño.\n- Inflige 3 de daño a todo.
 425.name;Martillo de Aoros
 425.text;Inflige 3 de daño. Al final de tu turno, el <b>Martillo</b> regresa a tu mano.
 426.name;Temblor de fuego terrenal
 426.text;{gift}: Inflige 2 de daño a todos los enemigos. Por cada enemigo destruido, gana +2/+2.
-427.name;Aro de vida
+427.name;Death's Desire
 427.text;Destruye una criatura. Su controlador gana su coste en faeria y roba 2 cartas.
 428.name;Relámpago embotellado
 428.text;Inflige 6 de daño a una criatura y 3 de daño a todos los enemigos adyacentes.
 429.name;Cuchilla danzante
 429.text;{flying}, {jump}\n{production}: Inflige 4 de daño a todos los enemigos adyacentes.
-430.name;Colgante del destino
+430.name;Doom Scythe
 430.text;Destruye una criatura. Invoca una <b>Sombra asesina</b> de 6/1 en su lugar.
 431.name;Urraca engarzada
 431.text;{flying}, {haste}.\nCuando esta criatura ataca a un dios, añade un <b>tesoro</b> al azar a tu mano.

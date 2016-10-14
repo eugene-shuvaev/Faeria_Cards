@@ -161,7 +161,7 @@
 107.name;Wellenbrecher
 107.text;Kostet {faeria|1} weniger für jedes Mal, dass du von dem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|4}).
 108.name;Orosei, Traum der Tiefe
-108.text;{flying}, {charge|2}\n{gift} - Verwandle alle deine anderen Kreaturen in Kreaturen, die {faeria|2} mehr kosten.
+108.text;{flying}, {charge|2}\n{gift} - Verwandelt alle deine anderen Kreaturen in Kreaturen, die {faeria|2} mehr kosten.
 109.name;Wasserelementar
 109.text;{jump}\n{gift} - Platziere einen See.
 110.name;Seidengemmen-Fee
@@ -205,7 +205,7 @@
 129.name;Kampfkröten
 129.text;Beschwöre zwei 2/2 <b>Frösche</b> mit {jump}.
 130.name;Glücksfall
-130.text;Erhalte {faeria|12}.
+130.text;Erhalte {faeria|13}.
 131.name;Sagami-Krieger
 131.text;{combat} - Erhält +1/+1.
 132.name;Knochensammler
@@ -255,7 +255,7 @@
 158.name;Lebende Weide
 158.text;{taunt}
 159.name;Wildwuchs
-159.text;Platziert zufällig zwei Wälder.
+159.text;Platziert zufällig.
 168.name;Urkoloss
 168.text;Kostet {faeria|1} weniger für jedes besondere Land, das du besitzt (Mindestkosten: {faeria|6}).
 169.name;Tethra, Seele der Wildnis
@@ -314,7 +314,7 @@
 195.text;{combat} - Erhalte {faeria|2}.
 196.name;Architekt
 196.text;{gift} - Gewährt einer Struktur +2 Leben.
-197.name;Exalted Ogre
+197.name;Erhabener Oger
 197.text;{gift} - Erhält +2/+2, wenn dein Gegner 10 oder weniger Leben hat.
 198.name;Kobold-Kaserne
 198.text;Angrenzende verbündete Kreaturen erhalten +2/+0.
@@ -329,7 +329,7 @@
 203.name;Barbarischer Oger
 203.text;
 204.name;Krog, der Oger-König
-204.text;{combat} - Eine zufällige Karte auf deiner Hand kostet {faeria|6} weniger.
+204.text;{combat} - Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
 205.name;Axtschleifer
 205.text;{gift} - Erhält +1/+1, wenn es angrenzend zu einem gegnerischen Brunnen beschworen wird.
 206.name;Felsenwerfer
@@ -389,7 +389,7 @@
 245.name;Rausch des Kampfes
 245.text;Immer, wenn dieser Kreatur Schaden zugefügt wird, fügt sie deinem Gegner denselben Schaden zu.
 246.name;Zerfallender Golem
-246.text;Fügt diesem Golem immer 1 Schaden zu, wenn dein Gegner eine Kreatur spielt.
+246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
 247.name;Oger-Tanz
 247.text;Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
 248.name;Meteor
@@ -541,7 +541,7 @@
 416.name;Uhrwerk-Yak
 416.text;
 417.name;Automat des Äquinoktiums
-417.text;{gift} - Du erhältst 6 Leben.\n{last_words} - Fügt jedem Gott 6 Schaden zu.
+417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
 418.name;Magdas Rose
 418.text;Erhalte die Kontrolle über eine feindliche Kreatur.
 419.name;Auroras Teekessel
@@ -556,7 +556,7 @@
 423.text;{flying}. {charge|3}.
 424.name;Rubin der Flammenexplosion
 424.text;{options|Füge 3 Schaden zu.|Füge allem 3 Schaden zu.}\n- Füge 3 Schaden zu.\n- Füge allem 3 Schaden zu.
-425.name;Hammer von Aoros
+425.name;Hammer der Zerstörung
 425.text;Fügt 3 Schaden zu. Nimm den <b>Hammer</b> am Ende deines Zuges auf deine Hand zurück.
 426.name;Erdfeuerbrecher
 426.text;{gift} - Fügt allen Gegnern 2 Schaden zu. Gewährt für jeden zerstörten Gegner +2/+2.
@@ -565,7 +565,7 @@
 428.name;Flaschenblitz
 428.text;Fügt einer Kreatur 6 Schaden und allen angrenzenden Gegnern 3 Schaden zu.
 429.name;Tanzende Klinge
-429.text;{flying}, {jump}\n{production} - Fügt allen angrenzenden Gegnern 4 Schaden zu.
+429.text;{flying}, {jump}\nFügt am Ende deines Zugs allen angrenzenden Gegnern 3 Schaden zu.
 430.name;Verdammnissense
 430.text;Zerstört eine Kreatur. Beschwört an ihrer Stelle einen 6/1 <b>Schatten des Schlächters</b>.
 431.name;Juwelenelster

@@ -161,7 +161,7 @@
 107.name;Wavecrash Colossus
 107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
 108.name;Orosei, Dream of the Deep
-108.text;{flying}, {charge|2}\n{gift} - Transform all your other creatures into creatures who cost {faeria|2} more.
+108.text;{flying}, {charge|2}\n{gift} - Transform all your other creatures into creatures that cost {faeria|2} more.
 109.name;Water Elemental
 109.text;{jump}\n{gift} - Create a lake.
 110.name;Gemsilk Faerie
@@ -205,7 +205,7 @@
 129.name;Battle Toads
 129.text;Summon two 2/2 <b>Frogs</b> with {jump}.
 130.name;Windfall
-130.text;Gain {faeria|12}.
+130.text;Gain {faeria|13}.
 131.name;Sagami Warrior
 131.text;{combat} - Gain +1/+1.
 132.name;Bone Collector
@@ -329,7 +329,7 @@
 203.name;Barbarian Ogre
 203.text;
 204.name;Krog, the Ogre King
-204.text;{combat} - A random card in your hand costs {faeria|6} less.
+204.text;{combat} - A random card in your hand costs {faeria|7} less.
 205.name;Axe Grinder
 205.text;{gift} - Gain +1/+1 if summoned adjacent to an opponent's well.
 206.name;Boulder Thrower
@@ -389,7 +389,7 @@
 245.name;Battle Rager
 245.text;Whenever this creature is dealt damage, deal that much damage back to your opponent.
 246.name;Crumbling Golem
-246.text;Whenever your opponent plays a creature, deal 1 damage to this Golem.
+246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
 247.name;Ogre Dance
 247.text;A random card in your hand costs {faeria|7} less.
 248.name;Meteor
@@ -541,7 +541,7 @@
 416.name;Clockwork Yak
 416.text;
 417.name;Equinox Automaton
-417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to each god.
+417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
 418.name;Magda's Rose
 418.text;Gain control of an enemy creature.
 419.name;Aurora's Teapot
@@ -556,8 +556,8 @@
 423.text;{flying}. {charge|3}.
 424.name;Flame Burst Ruby
 424.text;{options|Deal 3 damage.|Deal 3 damage to everything.}\n- Deal 3 damage.\n- Deal 3 damage to everything.
-425.name;Hammer of Aoros
-425.text;Deal 3 damage. At the end of your turn, the <b>Hammer</b> returns to your hand.
+425.name;Hammer of Destruction
+425.text;Deal 5 damage. Shuffle the <b>Hammer</b> into your deck.
 426.name;Earthfire Shaker
 426.text;{gift} - Deal 2 damage to all enemies. For each enemy destroyed, gain +2/+2.
 427.name;Death's Desire
@@ -565,7 +565,7 @@
 428.name;Bottled Lightning
 428.text;Deal 6 damage to a creature and 3 damage to all adjacent enemies.
 429.name;Dancing Blade
-429.text;{flying}, {jump}\n{production} - Deal 4 damage to all adjacent enemies.
+429.text;{flying}, {jump}\nAt the end of your turn, deal 3 damage to all adjacent enemies.
 430.name;Doom Scythe
 430.text;Destroy a creature. Summon a 6/1 <b>Slaughtering Shadow</b> in its place.
 431.name;Jeweled Magpie

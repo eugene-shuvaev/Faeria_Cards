@@ -129,7 +129,7 @@
 83.name;Guerriero di Tritone
 83.text;{jump}
 84.name;Bestia Mistica
-84.text;{gift} - Ottiene +2/+2 e {charge|2} se il tuo avversario ha almeno {faeria|10}.
+84.text;{gift} - Gets +2/+0 and {jump} if summoned adjacent to an enemy well.
 85.name;Fantasma dello Specchio
 85.text;{gift} - Trasforma un'altra creatura in un <b>Fantasma dello specchio</b> 5/5.
 86.name;Cuoco di Tritone
@@ -205,7 +205,7 @@
 129.name;Rospi da Battaglia
 129.text;Evoca due <b>Rane</b> 2/2 con {jump}.
 130.name;Dono Celeste
-130.text;Guadagni {faeria|12}.
+130.text;Guadagni {faeria|13}.
 131.name;Guerriero Sagami
 131.text;{combat} - Ottiene +1/+1.
 132.name;Collezionista di Ossa
@@ -255,7 +255,7 @@
 158.name;Salice Vivente
 158.text;{taunt}
 159.name;Espansione Selvaggia
-159.text;Posiziona due foreste a caso.
+159.text;Posiziona due foreste.
 168.name;Colosso Primordiale
 168.text;Costa {faeria|1} in meno per ogni territorio speciale in tuo possesso (costo minimo: {faeria|6}).
 169.name;Tethra, Anima Selvaggia
@@ -314,7 +314,7 @@
 195.text;{combat} - Guadagni {faeria|2}.
 196.name;Architetto
 196.text;{gift} - Dona 2 punti vita a una struttura.
-197.name;Exalted Ogre
+197.name;Orco Esaltato
 197.text;{gift} - Se il tuo avversario ha 10 punti vita o meno, ottiene +2/+2.
 198.name;Caserma di Kobold
 198.text;Le creature alleate confinanti ottengono +2/+0.
@@ -329,7 +329,7 @@
 203.name;Orco Barbaro
 203.text;
 204.name;Krog, Re degli Orchi
-204.text;{combat} - Riduce il costo di una carta casuale nella tua mano di {faeria|6}.
+204.text;{combat} - Riduce il costo di una carta casuale nella tua mano di {faeria|7}.
 205.name;Molatore di Asce
 205.text;{gift} - Ottiene +1/+1 se posizionato a fianco di un pozzo nemico.
 206.name;Lanciasassi
@@ -389,7 +389,7 @@
 245.name;Furia da Combattimento
 245.text;Quando questa creatura viene danneggiata, infliggi lo stesso danno al tuo avversario.
 246.name;Golem in Frantumi
-246.text;Quando l'avversario gioca una creatura, infliggi 1 danno a questo Golem.
+246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
 247.name;Danza degli Orchi
 247.text;Una carta casuale nella tua mano costa {faeria|7} in meno.
 248.name;Meteora
@@ -541,7 +541,7 @@
 416.name;Yak Meccanico
 416.text;
 417.name;Equinozio Meccanico
-417.text;{gift} - Ottieni 6 di punti vita.\n{last_words} - Infliggi 6 danni a ogni dio.
+417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
 418.name;Rosa di Magda
 418.text;Ottieni il controllo di una creatura nemica.
 419.name;Teiera di Aurora
@@ -556,7 +556,7 @@
 423.text;{flying}. {charge|3}.
 424.name;Rubino dell'eruzione
 424.text;{options|Infliggi 3 danni.|Infliggi 3 danni a tutto.}\n- Infliggi 3 danni.\n- Infliggi 3 danni a tutto.
-425.name;Martello di Aoros
+425.name;Martello della distruzione
 425.text;Infliggi 3 danni. Alla fine del tuo turno, il <b>Martello</b> ritorna nella tua mano.
 426.name;Scuotitore Primordiale
 426.text;{gift} - Infligge 2 danni a tutti i nemici. Ottiene +2/+2 per ogni nemico distrutto in questo modo.
@@ -565,7 +565,7 @@
 428.name;Fulmini in Bottiglia
 428.text;Infliggi 6 danni a una creatura e 3 danni a tutti i nemici adiacenti.
 429.name;Lama Danzante
-429.text;{flying}, {jump}\n{production} - Infligge 4 danni a tutti i nemici adiacenti.
+429.text;{flying}, {jump}\nAlla fine del tuo turno, infligge 3 danni a tutti i nemici adiacenti.
 430.name;Falce del Destino
 430.text;Distruggi una creatura. Al suo posto, posiziona un'<b>Ombra Sterminatrice</b> 6/1.
 431.name;Gazza Dorata

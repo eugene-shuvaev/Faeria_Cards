@@ -161,7 +161,7 @@
 107.name;Colosse brise-lames
 107.text;Coûte {faeria|1} de moins pour chaque récolte depuis un puits adverse (coût minimum : {faeria|4}).
 108.name;Orosei mythe des profondeurs
-108.text;{flying}, {charge|2}\n{gift} - Transforme toutes les autres créatures en créatures au coût accru de {faeria|2}.
+108.text;{flying}, {charge|2}\n{gift} - Transforme toutes vos autres créatures en créatures au coût accru de {faeria|2}.
 109.name;Élémentaire d'eau
 109.text;{jump}\n{gift} - Crée un lac.
 110.name;Fée de Gemmesoie
@@ -205,7 +205,7 @@
 129.name;Crapauds de combat
 129.text;Invoquez deux <b>Grenouilles</b> 2/2 avec {jump}.
 130.name;Cadeau du ciel
-130.text;Gagnez {faeria|12}.
+130.text;Gagnez {faeria|13}.
 131.name;Guerrier sagami
 131.text;{combat} - Gagnez +1/+1.
 132.name;Collectionneuse d'os
@@ -255,7 +255,7 @@
 158.name;Saule vivant
 158.text;{taunt}
 159.name;Croissance sauvage
-159.text;Crée deux forêts de façon aléatoire.
+159.text;Crée deux forêts.
 168.name;Colosse primordial
 168.text;Coûte {faeria|1} de moins pour chaque terrain spécial que vous possédez (coût minimum : {faeria|6}).
 169.name;Tethra, âme sauvage
@@ -314,7 +314,7 @@
 195.text;{combat} - Gagnez {faeria|2}.
 196.name;Architecte
 196.text;{gift} - Donne 2 points de vie à une structure.
-197.name;Exalted Ogre
+197.name;Ogre exalté
 197.text;{gift} - Si votre adversaire a 10 points de vie ou moins, gagnez +2/+2.
 198.name;Caserne kobold
 198.text;Les créatures alliées adjacentes gagnent +2/+0.
@@ -329,7 +329,7 @@
 203.name;Ogre barbare
 203.text;
 204.name;Krog le Roi des ogres
-204.text;{combat} - Une carte aléatoire de votre main coûte {faeria|6} de moins.
+204.text;{combat} - Une carte aléatoire de votre main coûte {faeria|7} de moins.
 205.name;Affûteur de haches
 205.text;{gift} - Gagnez +1/+1 si invoqué à proximité d'un puits adverse.
 206.name;Lanceur de rochers
@@ -389,7 +389,7 @@
 245.name;Combattant enragé
 245.text;Chaque fois que cette créature subit des dégâts, inflige à votre adversaire un nombre de dégâts équivalent.
 246.name;Golem croulant
-246.text;Chaque fois que votre adversaire joue une créature, le golem subit 1 point de dégâts.
+246.text;Chaque fois que votre adversaire invoque une créature, le golem subit 1 point de dégâts.
 247.name;Bal des ogres
 247.text;Une carte aléatoire de votre main coûte {faeria|7} de moins.
 248.name;Météore
@@ -541,7 +541,7 @@
 416.name;Yak mécanique
 416.text;
 417.name;Automate équinoxial
-417.text;{gift} - Vous gagnez 6 points de vie.\n{last_words} - Inflige 6 points de dégâts à chaque divinité.
+417.text;{gift} - Vous gagnez 6 points de vie.\n{last_words} - Inflige 6 points de dégâts à votre adversaire.
 418.name;Rose de Magda
 418.text;Prenez le contrôle d'une créature ennemie.
 419.name;Théière d'Aurora
@@ -556,7 +556,7 @@
 423.text;{flying}. {charge|3}.
 424.name;Rubis d'explosion de flammes
 424.text;{options|Inflige 3 points de dégâts.|Inflige 3 points de dégâts à toutes les cibles.}\n- Inflige 3 points de dégâts.\n- Inflige 3 points de dégâts à toutes les cibles.
-425.name;Marteau d'Aoros
+425.name;Marteau du chaos
 425.text;Inflige 3 points de dégâts. Le <b>Marteau d'Aoros</b> revient dans votre main à la fin de votre tour.
 426.name;Ébranleur de volcans
 426.text;{gift} - Inflige 2 points de dégâts tous les ennemis. Vous gagnez +2/+2 pour chaque ennemi détruit.
@@ -565,7 +565,7 @@
 428.name;Foudre en bouteille
 428.text;Inflige 6 points de dégâts à une créature et 3 points de dégâts à tous les ennemis adjacents.
 429.name;Lame dansante
-429.text;{flying}, {jump}\n{production} - Inflige 4 points de dégâts à tous les ennemis adjacents.
+429.text;{flying}, {jump}\nInflige 3 points de dégâts à tous les ennemis adjacents à la fin de votre tour.
 430.name;Faux de la ruine
 430.text;Détruit une créature. Invoque une <b>Ombre des abîmes</b> 6/1 à sa place.
 431.name;Pie sertie

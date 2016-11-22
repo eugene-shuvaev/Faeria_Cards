@@ -193,13 +193,13 @@
 123.name;Uralter Bote
 123.text;{gift} - Die nächste Kreatur mit 5 oder mehr Leben, die du ziehst, kostet {faeria|2} weniger.
 124.name;Triton-Bankett
-124.text;Gewährt einer Kreatur +1/+1, {protection} und {jump}.
+124.text;Gewährt einer Kreatur +1/+1 und {jump}.
 125.name;Aurora, die Mystikerin
 125.text;{gift} - Ändert Grundangriff und Leben einer verbündeten Kreatur auf 6/6.
 126.name;Flutenbringer
 126.text;Setze am Ende des gegnerischen Zugs das Faeria ALLER Spieler auf {faeria|3}.
-127.name;Entfesselte Entwicklung
-127.text;Verwandle eine Kreatur in eine zufällige Kreatur, die {faeria|2} mehr kostet.
+127.name;Failed Experiment
+127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
 128.name;Auroras Trick
 128.text;Erhalte Kontrolle über eine Kreatur mit 2 oder weniger Angriff.
 129.name;Kampfkröten
@@ -207,7 +207,7 @@
 130.name;Glücksfall
 130.text;Erhalte {faeria|13}.
 131.name;Sagami-Krieger
-131.text;{combat} - Erhält +1/+1.
+131.text;{dash|2}
 132.name;Knochensammler
 132.text;Erhält immer, wenn eine angrenzende Kreatur stirbt, +1/+1.
 133.name;Seelengebundener Sagami
@@ -255,7 +255,7 @@
 158.name;Lebende Weide
 158.text;{taunt}
 159.name;Wildwuchs
-159.text;Platziert zufällig.
+159.text;Platziert zufällig zwei Wälder.
 168.name;Urkoloss
 168.text;Kostet {faeria|1} weniger für jedes besondere Land, das du besitzt (Mindestkosten: {faeria|6}).
 169.name;Tethra, Seele der Wildnis
@@ -285,7 +285,7 @@
 181.name;Erdenwerk
 181.text;Ziehe eine Karte und {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nPlatziere einen Wald.\nPlatziere einen See.\nPlatziere einen Berg.\nPlatziere eine Wüste.
 182.name;Wilder Rächer
-182.text;{taunt}\nDu erhältst 1 Leben für jedes Mal, dass dir in dieser Partie Schaden zugefügt wurde.
+182.text;{taunt}, {dash|2}\nDu erhältst 1 Leben für jedes Mal, dass dir in dieser Partie Schaden zugefügt wurde.
 183.name;Uralter Eber
 183.text;Kostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
 184.name;Ruunins Befehl
@@ -301,7 +301,7 @@
 189.name;Ruunins Gegenwart
 189.text;Nimm eine zufällige grüne Kreatur auf deine Hand. Sie erhält +6/+6.
 190.name;Ruunin, die Unnachgiebige
-190.text;{last_words} - Nimm Ruunin zurück auf deine Hand und senke ihre Kosten um {faeria|2}.
+190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
 191.name;Straßenräuber
 191.text;{combat} - Erhalte {faeria|2}.
 192.name;Kriegsherr der Kobolde
@@ -325,7 +325,7 @@
 201.name;Dreister Hehler
 201.text;{gift} - Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
 202.name;Seifer, der blutige Tyrann
-202.text;Wenn Seifer eine Kreatur zerstört, erhält er zusätzlich Angriff und Leben in Höhe des ursprünglichen Angriffs und Lebens der zerstörten Kreatur.
+202.text;{slam}\nWenn Seifer eine Kreatur zerstört, erhält er zusätzlich Angriff und Leben in Höhe des ursprünglichen Angriffs und Lebens der zerstörten Kreatur.
 203.name;Barbarischer Oger
 203.text;
 204.name;Krog, der Oger-König
@@ -389,7 +389,7 @@
 245.name;Rausch des Kampfes
 245.text;Immer, wenn dieser Kreatur Schaden zugefügt wird, fügt sie deinem Gegner denselben Schaden zu.
 246.name;Zerfallender Golem
-246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
+246.text;Fügt diesem Golem immer 1 Schaden zu, wenn dein Gegner eine Kreatur spielt.
 247.name;Oger-Tanz
 247.text;Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
 248.name;Meteor
@@ -405,7 +405,7 @@
 253.name;Khalims Anhänger
 253.text;{haste}\nErhält +2/+0 gegen Götter.
 254.name;Templer der Oradrim
-254.text;Erhält +3/+0 gegen Götter.
+254.text;{dash|1}.\nErhält +3/+0 gegen Götter.
 255.name;Schütze der Oradrim
 255.text;{ranged_attack}\nErhalte {faeria|1}, wann immer du einen Gott angreifst.
 256.name;Fanatiker der Oradrim
@@ -505,7 +505,7 @@
 315.name;Seelenfresser
 315.text;{flying}, {charge|3}\nErhält für jede in dieser Partie gestorbene verbündete Kreatur +1/+1.
 316.name;Schemenhafte Flammengeißel
-316.text;{flying}, {haste},\n{charge|2}\n{combat} - Fügt deinem Gegner 3 Schaden zu.
+316.text;{flying}, {haste}, {charge|2}.\n{combat} - Fügt deinem Gegner 3 Schaden zu.
 329.name;Halsabschneider
 329.text;
 335.name;Rebellenwerfer
@@ -541,7 +541,7 @@
 416.name;Uhrwerk-Yak
 416.text;
 417.name;Automat des Äquinoktiums
-417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
+417.text;{gift} - Du erhältst 6 Leben.\n{last_words} - Füge deinem Gegner 6 Schaden zu.
 418.name;Magdas Rose
 418.text;Erhalte die Kontrolle über eine feindliche Kreatur.
 419.name;Auroras Teekessel
@@ -557,7 +557,7 @@
 424.name;Rubin der Flammenexplosion
 424.text;{options|Füge 3 Schaden zu.|Füge allem 3 Schaden zu.}\n- Füge 3 Schaden zu.\n- Füge allem 3 Schaden zu.
 425.name;Hammer der Zerstörung
-425.text;Fügt 3 Schaden zu. Nimm den <b>Hammer</b> am Ende deines Zuges auf deine Hand zurück.
+425.text;Füge 5 Schaden zu. Mische den <b>Hammer</b> in dein Deck.
 426.name;Erdfeuerbrecher
 426.text;{gift} - Fügt allen Gegnern 2 Schaden zu. Gewährt für jeden zerstörten Gegner +2/+2.
 427.name;Begierde des Todes

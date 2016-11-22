@@ -193,13 +193,13 @@
 123.name;Arauto Ancestral
 123.text;{gift} - A próxima criatura que você comprar que tenha 5 de vida ou mais custará menos {faeria|2}.
 124.name;Banquete Anfíbio
-124.text;Dê +1/+1, {protection} e {jump} a uma criatura.
+124.text;Dê +1/+1 e {jump} a uma criatura.
 125.name;Aurora, Criadora de Mitos
 125.text;{gift} - Altere o Ataque base e a Vida base de uma criatura aliada para 6/6.
 126.name;Criador de Ondas
 126.text;Ao fim do turno do seu oponente, limite a faeria de TODOS os jogadores a {faeria|3}.
-127.name;Evolução Desenfreada
-127.text;Transforme uma criatura aleatória em uma que custe mais {faeria|2}.
+127.name;Failed Experiment
+127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
 128.name;Truque de Aurora
 128.text;Ganhe controle sobre uma criatura com 2 de ataque ou menos.
 129.name;Sapos de Batalha
@@ -207,7 +207,7 @@
 130.name;Sorte Inesperada
 130.text;Ganhe {faeria|13}.
 131.name;Guerreiro Sagami
-131.text;{combat} - Ganha +1/+1.
+131.text;{dash|2}
 132.name;Coletor de Ossos
 132.text;Sempre que uma criatura adjacente morrer, ganha +1/+1.
 133.name;Sagami de Alma Atada
@@ -255,7 +255,7 @@
 158.name;Salgueiro Vivente
 158.text;{taunt}
 159.name;Crescimento Selvagem
-159.text;Crie duas florestas.
+159.text;Crie duas florestas aleatoriamente.
 168.name;Colosso Primitivo
 168.text;Custa menos {faeria|1} para cada terreno especial que você tiver (custo mínimo: {faeria|6}).
 169.name;Tethra, Alma da Floresta
@@ -285,7 +285,7 @@
 181.name;Molda-Terreno
 181.text;Compre uma carta e {options|Crie uma floresta|Crie um lago|Crie uma montanha|Crie um deserto}\nCrie uma floresta.\nCrie um lago.\nCrie uma montanha.\nCrie um deserto.
 182.name;Vingador Selvagem
-182.text;{taunt}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
+182.text;{taunt}, {dash|2}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
 183.name;Javali Ancestral
 183.text;Custa menos {faeria|2} se você controlar uma criatura que tenha 5 ou mais de vida.
 184.name;Ordem de Ruunin
@@ -301,7 +301,7 @@
 189.name;Presença de Ruunin
 189.text;Acrescente uma criatura verde aleatória à sua mão. Ela ganha +6/+6.
 190.name;Ruunin, a Implacável
-190.text;{last_words} - Devolva Ruunin à sua mão e reduza seu custo em {faeria|2}.
+190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
 191.name;Bandido Subterrâneo
 191.text;{combat} - Ganhe {faeria|2}.
 192.name;Comandante Kobold
@@ -325,7 +325,7 @@
 201.name;Regateador Ousado
 201.text;{gift} - Uma carta aleatória em sua mão custa menos de {faeria|7}.
 202.name;Seifer, Tirano Sanguinário
-202.text;Quando Seifer destrói uma criatura, ele ganha ataque e vida iguais aos que a criatura possuía originalmente.
+202.text;{slam}\nQuando Seifer destrói uma criatura, ele ganha ataque e vida iguais aos que a criatura possuía originalmente.
 203.name;Ogro Bárbaro
 203.text;
 204.name;Krog, o Rei Ogro
@@ -389,7 +389,7 @@
 245.name;Lutador Colérico
 245.text;Sempre que essa criatura sofrer dano, cause o mesmo dano no seu adversário.
 246.name;Golem Decadente
-246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
+246.text;Sempre que seu adversário invocar uma criatura, cause 1 de dano nesse Golem.
 247.name;Dança dos Ogros
 247.text;Uma carta aleatória em sua mão custa menos de {faeria|7}.
 248.name;Meteoro
@@ -405,7 +405,7 @@
 253.name;Seguidor de Khalim
 253.text;{haste}\nGanha +2/+0 contra deuses.
 254.name;Templário de Oradrim
-254.text;Ganha +3/+0 contra deuses.
+254.text;{dash|1}.\nGanha +3/+0 contra deuses.
 255.name;Sagitário de Oradrim
 255.text;{ranged_attack}\nSempre que atacar um deus, ganhe {faeria|1}.
 256.name;Fanático de Oradrim
@@ -505,7 +505,7 @@
 315.name;Devorador de Almas
 315.text;{flying}, {charge|3}\nGanha +1/+1 para cada criatura aliada que tenha morrido nessa partida.
 316.name;Espectro do Flagelo Ardente
-316.text;{flying}, {haste},\n{charge|2}\n{combat} - Cause 3 de dano em seu adversário.
+316.text;{flying}, {haste}, {charge|2}.\n{combat} - Cause 3 de dano em seu adversário.
 329.name;Ladra Degoladora
 329.text;
 335.name;Atirador Rebelde
@@ -541,7 +541,7 @@
 416.name;Iaque Mecânico
 416.text;
 417.name;Autômato do Equinócio
-417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
+417.text;{gift} - Você ganha 6 de vida.\n{last_words} - Causa 6 de dano no seu adversário.
 418.name;A Rosa da Magda
 418.text;Ganhe controle sobre uma criatura inimiga.
 419.name;Bule de Aurora
@@ -557,7 +557,7 @@
 424.name;Rubi da Explosão de Chamas
 424.text;{options|Cause 3 de dano.|Cause 3 de dano em tudo.}\n- Cause 3 de dano.\n- Cause 3 de dano em tudo.
 425.name;Martelo da Destruição
-425.text;Cause 3 de dano. Ao fim do seu turno, o <b>Martelo</b> retorna à sua mão.
+425.text;Causa 5 de dano. Embaralhe o <b>Martelo</b> no seu baralho.
 426.name;Gêiser Destruidor
 426.text;{gift} - Cause 2 de dano em todos adversários. Ganhe +2/+2 por cada inimigo destruído.
 427.name;Desejo da Morte

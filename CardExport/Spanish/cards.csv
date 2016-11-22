@@ -193,13 +193,13 @@
 123.name;Heraldo antiguo
 123.text;{gift}: La siguiente criatura que robes con 5 de vida o más costará {faeria|2} menos.
 124.name;Banquete tritón
-124.text;Le da +1/+1, {protection} y {jump} a una criatura.
+124.text;Le da +1/+1 y {jump} a una criatura.
 125.name;Aurora, la leyenda
 125.text;{gift}: Cambia el ataque y la vida base de una criatura aliada a 6/6.
 126.name;Creador de olas
 126.text;Al final del turno de tu oponente, TODOS los jugadores tienen faeria {faeria|3}.
-127.name;Evolución improbable
-127.text;Transforma una criatura en una criatura al azar que cuesta {faeria|2} más.
+127.name;Failed Experiment
+127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
 128.name;Engaño de Aurora
 128.text;Obtén el control de una criatura con 2 de ataque o menos.
 129.name;Sapos guerreros
@@ -207,7 +207,7 @@
 130.name;Caído del cielo
 130.text;Gana {faeria|13}.
 131.name;Guerrero sagami
-131.text;{combat}: Gana +1/+1.
+131.text;{dash|2}
 132.name;Coleccionista de huesos
 132.text;Cuando una criatura adyacente muere, gana +1/+1.
 133.name;Taumaturgo sagami
@@ -255,7 +255,7 @@
 158.name;Sauce viviente
 158.text;{taunt}
 159.name;Crecimiento silvestre
-159.text;Crea dos bosques.
+159.text;Crea dos bosques al azar.
 168.name;Coloso prístino
 168.text;Cuesta {faeria|1} menos por cada tierra especial que tengas (coste mínimo: {faeria|6}).
 169.name;Tethra, alma agreste
@@ -285,7 +285,7 @@
 181.name;Arte terrestre
 181.text;Roba una carta y {options|Create a forest|Create a lake|Create a mountain|Create a desert}\ncrea un bosque.\ncrea un lago.\ncrea una montaña.\ncrea un desierto.
 182.name;Vengador salvaje
-182.text;{taunt}\nGana 1 de vida cada vez que te infligen daño durante la partida.
+182.text;{taunt}, {dash|2}\nGana 1 de vida cada vez que te infligen daño durante la partida.
 183.name;Jabalí antiguo
 183.text;Cuesta {faeria|2} menos si controlas una criatura con 5 de vida o más.
 184.name;Dominio de Ruunin
@@ -301,7 +301,7 @@
 189.name;Presencia de Ruunin
 189.text;Añade una carta verde al azar a tu mano. Gana +6/+6.
 190.name;Ruunin, la implacable
-190.text;{last_words}: Devuelve a Ruunin a tu mano y reduce su coste {faeria|2}.
+190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
 191.name;Bandolero oculto
 191.text;{combat}: Gana {faeria|2}.
 192.name;Señor de la guerra Kobold
@@ -325,7 +325,7 @@
 201.name;Negociador audaz
 201.text;{gift}: Una carta al azar de tu mano cuesta {faeria|7} menos.
 202.name;Seifer, el sanguinario
-202.text;Cuando Seifer destruye una criatura, gana ataque y vida igual a los de dicha criatura.
+202.text;{slam}\nCuando Seifer destruye una criatura, gana ataque y vida igual a los de dicha criatura.
 203.name;Ogro bárbaro
 203.text;
 204.name;Krog, el rey de los ogros
@@ -389,7 +389,7 @@
 245.name;Rabia bélica
 245.text;Cuando atacan a esta criatura, inflige el mismo daño a tu oponente.
 246.name;Gólem derrumbado
-246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
+246.text;Cuando tu oponente invoca a una criatura, inflige 1 de daño a este Gólem.
 247.name;Danza del ogro
 247.text;Una carta al azar de tu mano cuesta {faeria|7} menos.
 248.name;Meteoro
@@ -405,7 +405,7 @@
 253.name;Seguidor de Khalim
 253.text;{haste}\nGana +2/+0 contra dioses.
 254.name;Templario oradrim
-254.text;Gana +3/+0 contra dioses.
+254.text;{dash|1}.\nGana +3/+0 contra dioses.
 255.name;Sagitario oradrim
 255.text;{ranged_attack}\nCuando atacas a un dios, gana {faeria|1}.
 256.name;Fanático oradrim
@@ -505,7 +505,7 @@
 315.name;Devoraalmas
 315.text;{flying}, {charge|3}\nGana +1/+1 por cada criatura aliada que haya muerto durante la partida.
 316.name;Espectro flamígero
-316.text;{flying}, {haste},\n{charge|2}\n{combat}: Inflige 3 de daño a tu oponente.
+316.text;{flying}, {haste}, {charge|2}.\n{combat}: Inflige 3 de daño a tu oponente.
 329.name;Bandido despiadado
 329.text;
 335.name;Lanzador rebelde
@@ -541,7 +541,7 @@
 416.name;Yak mecánico
 416.text;
 417.name;Autómata del equinoccio
-417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
+417.text;{gift}- Ganas 6 de vida.\n{last_words}: Inflige 6 de daño a tu oponente.
 418.name;Rosa de Magda
 418.text;Obtén el control de una criatura enemiga.
 419.name;Tetera de Aurora
@@ -557,7 +557,7 @@
 424.name;Rubí explosivo
 424.text;{options|Inflige 3 de daño.|Inflige 3 de daño a todo.}\n- Inflige 3 de daño.\n- Inflige 3 de daño a todo.
 425.name;Martillo de destrucción
-425.text;Inflige 3 de daño. Al final de tu turno, el <b>Martillo</b> regresa a tu mano.
+425.text;Inflige 5 de daño. Añade el <b>Martillo</b> a tu mazo.
 426.name;Temblor de fuego terrenal
 426.text;{gift}: Inflige 2 de daño a todos los enemigos. Por cada enemigo destruido, gana +2/+2.
 427.name;Deseo mortal

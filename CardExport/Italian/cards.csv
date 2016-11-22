@@ -193,13 +193,13 @@
 123.name;Vecchio Messaggero
 123.text;{gift} - La prossima creatura che peschi e che possiede almeno 5 punti vita ti costerà {faeria|2} in meno.
 124.name;Banchetto di Tritone
-124.text;Dona +1/+1, {protection} e {jump} a una creatura.
+124.text;Dona +1/+1 e {jump} a una creatura.
 125.name;Aurora, Creatrice di Miti
 125.text;{gift} - L'attacco e i punti vita di una creatura alleata diventano 6/6.
 126.name;Cavaliere delle Onde
 126.text;Alla fine del turno dell'avversario, imposta il faeria di TUTTI i giocatori a {faeria|3}.
-127.name;Evoluzione Incontrollata
-127.text;Trasforma una creatura in una creatura casuale con un costo pari o superiore a {faeria|2}.
+127.name;Failed Experiment
+127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
 128.name;Trucco di Aurora
 128.text;Ottieni il controllo di una creatura con attacco pari o inferiore a 2.
 129.name;Rospi da Battaglia
@@ -207,7 +207,7 @@
 130.name;Dono Celeste
 130.text;Guadagni {faeria|13}.
 131.name;Guerriero Sagami
-131.text;{combat} - Ottiene +1/+1.
+131.text;{dash|2}
 132.name;Collezionista di Ossa
 132.text;Quando una creatura confinante muore, ottiene +1/+1.
 133.name;Vincolatore Sagami
@@ -255,7 +255,7 @@
 158.name;Salice Vivente
 158.text;{taunt}
 159.name;Espansione Selvaggia
-159.text;Posiziona due foreste.
+159.text;Posiziona due foreste a caso.
 168.name;Colosso Primordiale
 168.text;Costa {faeria|1} in meno per ogni territorio speciale in tuo possesso (costo minimo: {faeria|6}).
 169.name;Tethra, Anima Selvaggia
@@ -285,7 +285,7 @@
 181.name;Arte della Terra
 181.text;Pesca una carta e {options|Crea una foresta|Crea un lago|Crea una montagna|Crea un deserto}\nCrea una foresta.\nCrea un lago.\nCrea una montagna.\nCrea un deserto.
 182.name;Vendicatore Spietato
-182.text;{taunt}\nOttiene 1 punto vita per tutte le volte che hai subito danno in questa partita.
+182.text;{taunt}, {dash|2}\nOttiene 1 punto vita per tutte le volte che hai subito danno in questa partita.
 183.name;Vecchio Cinghiale
 183.text;Costo ridotto di {faeria|2} se controlli una creatura con almeno 5 punti vita.
 184.name;Comando di Ruunin
@@ -301,7 +301,7 @@
 189.name;Spirito di Ruunin
 189.text;Aggiungi una creatura verde alla tua mano. Ottiene +6/+6.
 190.name;Ruunin l'Implacabile
-190.text;{last_words} - Riprendi in mano Ruunin e riduci il suo costo di {faeria|2}.
+190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
 191.name;Brigante dei Sotterranei
 191.text;{combat} - Guadagni {faeria|2}.
 192.name;Condottiero Kobold
@@ -325,7 +325,7 @@
 201.name;Mercante Coraggioso
 201.text;{gift} - Riduce il costo di una carta casuale nella tua mano di {faeria|7}.
 202.name;Seifer, Tiranno Sanguinario
-202.text;Quando Seifer distrugge una creatura, guadagna attacco e punti vita pari all'attacco e ai punti vita iniziali della creatura distrutta.
+202.text;{slam}\nQuando Seifer distrugge una creatura, guadagna attacco e punti vita pari all'attacco e ai punti vita iniziali della creatura distrutta.
 203.name;Orco Barbaro
 203.text;
 204.name;Krog, Re degli Orchi
@@ -389,7 +389,7 @@
 245.name;Furia da Combattimento
 245.text;Quando questa creatura viene danneggiata, infliggi lo stesso danno al tuo avversario.
 246.name;Golem in Frantumi
-246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
+246.text;Quando l'avversario evoca una creatura, infliggi 1 danno a questo Golem.
 247.name;Danza degli Orchi
 247.text;Una carta casuale nella tua mano costa {faeria|7} in meno.
 248.name;Meteora
@@ -405,7 +405,7 @@
 253.name;Seguace di Khalim
 253.text;{haste}\nOttiene +2/+0 contro gli dei.
 254.name;Templare Oradriano
-254.text;Ottiene +3/+0 contro gli dei.
+254.text;{dash|1}.\nOttiene +3/+0 contro gli dei.
 255.name;Sagittario Oradriano
 255.text;{ranged_attack}\nQuando attacchi un dio guadagni {faeria|1}.
 256.name;Fanatico Oradriano
@@ -505,7 +505,7 @@
 315.name;Mangiatore di Anime
 315.text;{flying}, {charge|3}\nOttieni +1/+1 per ogni creatura alleata morta in questa partita.
 316.name;Spettro delle Fiamme
-316.text;{flying}, {haste}.\n{charge|2}\n{combat} - Infliggi 3 danni al tuo avversario.
+316.text;{flying}, {haste}, {charge|2}.\n{combat} - Infliggi 3 danni al tuo avversario.
 329.name;Bandito Tagliagole
 329.text;
 335.name;Lancio Ribelle
@@ -541,7 +541,7 @@
 416.name;Yak Meccanico
 416.text;
 417.name;Equinozio Meccanico
-417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
+417.text;{gift} - Ottieni 6 punti vita.\n{last_words} - Infliggi 6 danni all'avversario.
 418.name;Rosa di Magda
 418.text;Ottieni il controllo di una creatura nemica.
 419.name;Teiera di Aurora
@@ -557,7 +557,7 @@
 424.name;Rubino dell'eruzione
 424.text;{options|Infliggi 3 danni.|Infliggi 3 danni a tutto.}\n- Infliggi 3 danni.\n- Infliggi 3 danni a tutto.
 425.name;Martello della distruzione
-425.text;Infliggi 3 danni. Alla fine del tuo turno, il <b>Martello</b> ritorna nella tua mano.
+425.text;Infliggi 5 danni. Mescola il <b>Martello</b> nel mazzo.
 426.name;Scuotitore Primordiale
 426.text;{gift} - Infligge 2 danni a tutti i nemici. Ottiene +2/+2 per ogni nemico distrutto in questo modo.
 427.name;Desiderio di Morte

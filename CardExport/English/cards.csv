@@ -193,13 +193,13 @@
 123.name;Ancient Herald
 123.text;{gift} - The next creature you draw with 5 Life or more costs {faeria|2} less.
 124.name;Triton Banquet
-124.text;Give a creature +1/+1, {protection} and {jump}.
+124.text;Give a creature +1/+1 and {jump}.
 125.name;Aurora, Myth Maker
 125.text;{gift} - Change a friendly creature's base Attack and Life to 6/6.
 126.name;Wavecrafter
 126.text;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.
-127.name;Unbound Evolution
-127.text;Transform a creature into a random creature that costs {faeria|2} more.
+127.name;Failed Experiment
+127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
 128.name;Aurora's Trick
 128.text;Gain control of a creature with 2 Attack or less.
 129.name;Battle Toads
@@ -207,7 +207,7 @@
 130.name;Windfall
 130.text;Gain {faeria|13}.
 131.name;Sagami Warrior
-131.text;{combat} - Gain +1/+1.
+131.text;{dash|2}
 132.name;Bone Collector
 132.text;Whenever an adjacent creature dies, gain +1/+1.
 133.name;Soulbound Sagami
@@ -285,7 +285,7 @@
 181.name;Earthcraft
 181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
 182.name;Wild Avenger
-182.text;{taunt}\nGain 1 Life for each time you've been dealt damage this game.
+182.text;{taunt}, {dash|2}\nGain 1 Life for each time you've been dealt damage this game.
 183.name;Ancient Boar
 183.text;If you control a creature with 5 Life or more, costs {faeria|2} less.
 184.name;Ruunin's Command
@@ -301,7 +301,7 @@
 189.name;Ruunin's Presence
 189.text;Add a random green creature to your hand. It gains +6/+6.
 190.name;Ruunin, the Relentless
-190.text;{last_words} - Return Ruunin to your hand and reduce her cost by {faeria|2}.
+190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
 191.name;Underground Brigand
 191.text;{combat} - Gain {faeria|2}.
 192.name;Kobold Warlord
@@ -325,7 +325,7 @@
 201.name;Bold Bargainer
 201.text;{gift} - A random card in your hand costs {faeria|7} less.
 202.name;Seifer, Blood Tyrant
-202.text;When Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's original Attack and Life.
+202.text;{slam}\nWhen Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's original Attack and Life.
 203.name;Barbarian Ogre
 203.text;
 204.name;Krog, the Ogre King
@@ -405,7 +405,7 @@
 253.name;Khalim's Follower
 253.text;{haste}\nGain +2/+0 against gods.
 254.name;Oradrim Templar
-254.text;Gain +3/+0 against gods.
+254.text;{dash|1}.\nGain +3/+0 against gods.
 255.name;Oradrim Sagittarius
 255.text;{ranged_attack}\nWhenever you attack a god, gain {faeria|1}.
 256.name;Oradrim Fanatic
@@ -505,7 +505,7 @@
 315.name;Soul Eater
 315.text;{flying}, {charge|3}\nGain +1/+1 for each friendly creature that has died this game.
 316.name;Scourgeflame Specter
-316.text;{flying}, {haste},\n{charge|2}\n{combat} - Deal 3 damage to your opponent.
+316.text;{flying}, {haste}, {charge|2}.\n{combat} - Deal 3 damage to your opponent.
 329.name;Cutthroat Bandit
 329.text;
 335.name;Rebel Slinger 

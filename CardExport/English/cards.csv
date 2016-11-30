@@ -17,7 +17,7 @@
 13.name;Tax Collector
 13.text;{combat} - Gain {faeria|1}.
 14.name;Healing Song
-14.text;Draw a card and gain 4 Life.
+14.text;Draw a card and gain 5 Life.
 15.name;Safeguard
 15.text;Give a creature {protection}.
 16.name;Imperial Guard
@@ -47,7 +47,7 @@
 38.name;King's Guard
 38.text;{taunt}\n{combat} - Draw a card.
 39.name;Unlikely Hero
-39.text;The first time this creature fights another creature and survives, it gains +3/+3 and {charge|3}.
+39.text;The first time this creature fights and survives, it gains +3/+3 and {charge|3}.
 40.name;Magnus, King of Meroval
 40.text;{charge|3}\n{combat} - Draw a card. It costs {faeria|0}.
 41.name;Plague Bearer
@@ -159,7 +159,7 @@
 106.name;Tale of the Old Turtle
 106.text;Draw 3 cards. All creatures drawn this way cost {faeria|2} less.
 107.name;Wavecrash Colossus
-107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
+107.text;{slam}\nCosts {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|5}).
 108.name;Orosei, Dream of the Deep
 108.text;{flying}, {charge|2}\n{gift} - Transform all your other creatures into creatures that cost {faeria|2} more.
 109.name;Water Elemental
@@ -212,8 +212,8 @@
 132.text;Whenever an adjacent creature dies, gain +1/+1.
 133.name;Soulbound Sagami
 133.text;{last_words} - A random friendly creature gains +3/+5.
-134.name;Sagami Elder
-134.text;{combat} - A random friendly creature gains +1/+1.
+134.name;Sagami Huntmaster
+134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
 135.name;Ancient Beastmaster
 135.text;When you summon a creature with 5 Life or more, it gains +1/+1.
 136.name;Gaea's Grace
@@ -245,11 +245,11 @@
 153.name;Deepwood Grizzly
 153.text;
 154.name;Tiki Healer
-154.text;{gift} - You gain 5 Life.
+154.text;{gift} - You gain 6 Life.
 155.name;Ruunin's Shrine
-155.text;Whenever damage would be dealt to you or a creature you control, it's dealt to this structure instead.
+155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
 156.name;Oak Father
-156.text;{gift} - Gain +0/+1 for each forest you control.
+156.text;{slam}\n{gift} - Gain +0/+1 for each forest you control.
 157.name;Faeria Tree
 157.text;{production} - This structure gains +1 Life.\nWhen it has 5 or more Life, destroy it and gain {faeria|10}.
 158.name;Living Willow
@@ -285,9 +285,9 @@
 181.name;Earthcraft
 181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
 182.name;Wild Avenger
-182.text;{taunt}, {dash|2}\nGain 1 Life for each time you've been dealt damage this game.
+182.text;{taunt}, {dash|2}\nGain 1 life for each time you've been dealt damage this game.
 183.name;Ancient Boar
-183.text;If you control a creature with 5 Life or more, costs {faeria|2} less.
+183.text;{dash|2}\nIf you control a creature with 5 Life or more, costs {faeria|2} less.
 184.name;Ruunin's Command
 184.text;{options|Give a creature +2/+2.|Gain 5 life.}\n- Give a creature +2/+2.\n- Gain 5 Life.
 185.name;Voice of Hunger
@@ -309,7 +309,7 @@
 193.name;Kobold Warbeast
 193.text;
 194.name;Gift of Steel
-194.text;Give a creature +3/+0.
+194.text;Give +3/+0 to a creature. That creature also gains 3 Life if it has a <b>Combat</b> ability.
 195.name;Underground Boss
 195.text;{combat} - Gain {faeria|2}.
 196.name;Architect
@@ -333,7 +333,7 @@
 205.name;Axe Grinder
 205.text;{gift} - Gain +1/+1 if summoned adjacent to an opponent's well.
 206.name;Boulder Thrower
-206.text;{ranged_attack}\n{combat} - Gain {faeria|2}.
+206.text;{ranged_attack}, {slam}
 211.name;Shedim Brute
 211.text;{combat} - Deal 2 damage to your opponent.
 212.name;Blood Singer
@@ -359,7 +359,7 @@
 226.name;Flame Thrower
 226.text;{ranged_attack}\nWhenever this creature attacks a god, deal 1 damage to all enemy creatures.
 231.name;Volcanic Colossus
-231.text;Costs {faeria|1} less for each enemy creature that has died in combat (minimum cost: {faeria|5}).
+231.text;{ranged_attack}\nCosts {faeria|1} less for each enemy creature that has died in combat (minimum cost: {faeria|7}).
 232.name;Garudan, Heart of the Mountain
 232.text;{flying}, {charge|2}\n{gift} - Deal 3 damage to all enemy creatures.
 233.name;Fire Elemental
@@ -397,7 +397,7 @@
 249.name;Red Devil
 249.text;{gift} - Gain {faeria|5}.
 250.name;Ignus, the First Flame
-250.text;Whenever you select +{faeria|1} from the power wheel, deal 1 damage to an enemy.
+250.text;Whenever you select +{faeria|1} from the power wheel, deal 4 damage randomly split among enemies.
 251.name;Oradrim Monk
 251.text;{haste}\nWhenever this creature attacks a god, draw a card.
 252.name;Khalim's Prayer
@@ -405,7 +405,7 @@
 253.name;Khalim's Follower
 253.text;{haste}\nGain +2/+0 against gods.
 254.name;Oradrim Templar
-254.text;{dash|1}.\nGain +3/+0 against gods.
+254.text;{dash|1}\nGain +3/+0 against gods.
 255.name;Oradrim Sagittarius
 255.text;{ranged_attack}\nWhenever you attack a god, gain {faeria|1}.
 256.name;Oradrim Fanatic
@@ -425,7 +425,7 @@
 263.name;Last Nightmare
 263.text;Destroy a creature.
 264.name;Soul Pact
-264.text;Gain {faeria|2} and deal 2 damage to yourself.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.
 265.name;Altar of Souls
 265.text;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|1}.
 266.name;Shaytan Demon
@@ -447,7 +447,7 @@
 278.name;Windborne Champion
 278.text;{flying}, {charge|5}\n{gift} - Move a creature.
 287.name;Windstorm Colossus
-287.text;Costs {faeria|1} less for each event you've played (minimum cost: {faeria|4}).
+287.text;{dash|3}\nCosts {faeria|1} less for each event you've played (minimum cost: {faeria|5}).
 288.name;Azarai, Wrath of the Desert
 288.text;{flying}, {charge|2}\n{gift} - Azarai drains 2 Attack from each enemy creature.
 289.name;Air Elemental
@@ -477,7 +477,7 @@
 301.name;Oath to Oblivion
 301.text;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Knight</b> with {charge|3} in its place.
 302.name;Shaytan Vampire
-302.text;Whenever Shaytan Vampire damages a god, you gain that much life.
+302.text;{dash|1}\nWhenever Shaytan Vampire damages a god, you gain that much life.
 303.name;Iona, Beloved by All
 303.text;{flying}\nCan't be attacked.
 304.name;Demon Wing
@@ -501,7 +501,7 @@
 313.name;Twinsoul Spirit
 313.text;{flying}\nCan be summoned adjacent to a friendly creature.\n{gift} - Summon another <b>Twinsoul Spirit</b>.
 314.name;Warstorm Champion
-314.text;Whenever ANY of your creatures fight, gain +1/+1.
+314.text;{slam}, {dash|2}\n{gift} - Deal 4 damage randomly split among enemies. Give +4/+4 randomly split among allies.
 315.name;Soul Eater
 315.text;{flying}, {charge|3}\nGain +1/+1 for each friendly creature that has died this game.
 316.name;Scourgeflame Specter
@@ -512,6 +512,26 @@
 335.text;{gift} - Deal 2 damage to your opponent.
 350.name;Three Wishes
 350.text;Gain 3 life and copy the top 3 cards of your opponent's deck. They cost {faeria|3} less. You cannot wish for more wishes.
+351.name;Rebel Glider 
+351.text;{flying}, {dash|2}\nCan't harvest faeria.
+352.name;Radiance, Imperial Airship
+352.text;{flying}, {slam}, {dash|3}\nRadiance's faeria cost equals your life total. 
+353.name;Forbidden Library
+353.text;{production} - Draw a card, gain {faeria|2} and deal 2 damage to yourself.
+354.name;Dream Reaver
+354.text;{dash|3}\n{gift} - Halve the enemy god's life, rounded up.
+355.name;Feral Kodama
+355.text;{slam}, {jump}
+356.name;God Hunter
+356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
+357.name;Blood Song
+357.text;Deal 1 damage to yourself, reduce the cost of a random card in your hand by {faeria|2}. Repeat 4 times.
+358.name;Hellfire
+358.text;Deal 10 damage randomly split among enemies.
+359.name;Doomsday
+359.text;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures.
+360.name;Annoying Gnat
+360.text;{flying}.\n{last_words} - Deal 2 damage to yourself. Summon this creature in a random space.
 403.name;Dark Crystal
 403.text;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn
@@ -529,7 +549,7 @@
 410.name;Bloodstone Golem
 410.text;{production} - Create {faeria|1} in each well.\nWhenever faeria is harvested, deal 1 damage to your opponent.
 411.name;Chalice from the Palace
-411.text;Give a random friendly creature +1/+1 . Six times.
+411.text;Give +6/+6 randomly split among friendly creatures.
 412.name;Eredon's Drum
 412.text;Give all your creatures +2/+2, wherever they are.
 413.name;Cloud Machine
@@ -539,7 +559,7 @@
 415.name;The World's Tear
 415.text;Transform a creature that attacked a god this turn into a 10/10 <b>Sky Swallower</b> with {flying}.
 416.name;Clockwork Yak
-416.text;
+416.text;{dash|2}
 417.name;Equinox Automaton
 417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
 418.name;Magda's Rose

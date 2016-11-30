@@ -17,7 +17,7 @@
 13.name;Steuereintreiber
 13.text;{combat} - Erhalte {faeria|1}.
 14.name;Kantate der Heilung
-14.text;Ziehe eine Karte und erhalte 4 Leben.
+14.text;Ziehe eine Karte und erhalte 5 Leben.
 15.name;Schutzkuppel
 15.text;Gewährt einer Kreatur {protection}.
 16.name;Imperialer Wächter
@@ -47,7 +47,7 @@
 38.name;Wächter des Königs
 38.text;{taunt}\n{combat} - Ziehe eine Karte.
 39.name;Ungewöhnlicher Held
-39.text;Nach dem ersten Kampf, den diese Kreatur überlebt, erhält sie +3/+3 und {charge|3}.
+39.text;The first time this creature fights and survives, it gains +3/+3 and {charge|3}.
 40.name;Magnus, König von Meroval
 40.text;{charge|3}\n{combat} - Ziehe eine Karte. Diese kostet {faeria|0}.
 41.name;Plagenbringer
@@ -159,7 +159,7 @@
 106.name;Sage der Alten Schildkröte
 106.text;Ziehe 3 Karten. Alle Kreaturen, die auf diese Art gezogen werden, kosten {faeria|2} weniger.
 107.name;Wellenbrecher
-107.text;Kostet {faeria|1} weniger für jedes Mal, dass du von dem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|4}).
+107.text;{slam}\nKostet {faeria|1} weniger für jedes Mal, dass du von dem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|5}).
 108.name;Orosei, Traum der Tiefe
 108.text;{flying}, {charge|2}\n{gift} - Verwandelt alle deine anderen Kreaturen in Kreaturen, die {faeria|2} mehr kosten.
 109.name;Wasserelementar
@@ -198,8 +198,8 @@
 125.text;{gift} - Ändert Grundangriff und Leben einer verbündeten Kreatur auf 6/6.
 126.name;Flutenbringer
 126.text;Setze am Ende des gegnerischen Zugs das Faeria ALLER Spieler auf {faeria|3}.
-127.name;Failed Experiment
-127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
+127.name;Gescheitertes Experiment
+127.text;Die nächste Kreatur, die du spielst, kostet {faeria|3} weniger. Sie stirbt sofort.
 128.name;Auroras Trick
 128.text;Erhalte Kontrolle über eine Kreatur mit 2 oder weniger Angriff.
 129.name;Kampfkröten
@@ -212,8 +212,8 @@
 132.text;Erhält immer, wenn eine angrenzende Kreatur stirbt, +1/+1.
 133.name;Seelengebundener Sagami
 133.text;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
-134.name;Sagami-Ältester
-134.text;{combat} - Eine zufällige verbündete Kreatur erhält +1/+1.
+134.name;Sagami-Jägermeister
+134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
 135.name;Uralter Bändiger
 135.text;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
 136.name;Gaeas Gnade
@@ -245,11 +245,11 @@
 153.name;Düsterforst-Bär
 153.text;
 154.name;Tiki-Heiler
-154.text;{gift} - Du erhältst 5 Leben.
+154.text;{gift} - Du erhältst 6 Leben.
 155.name;Ruunins Schrein
-155.text;Immer, wenn dir oder einer Kreatur unter deiner Kontrolle Schaden zugefügt wird, wird er stattdessen dieser Struktur zugefügt.
+155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
 156.name;Eichenvater
-156.text;{gift} - Erhält +0/+1 für jeden Wald unter deiner Kontrolle.
+156.text;{slam}\n{gift} - Erhält +0/+1 für jeden Wald unter deiner Kontrolle.
 157.name;Faeria-Baum
 157.text;{production} - Diese Struktur erhält +1 Leben.\nWenn sie 5 oder mehr Leben hat, zerstöre sie und erhalte {faeria|10}.
 158.name;Lebende Weide
@@ -287,7 +287,7 @@
 182.name;Wilder Rächer
 182.text;{taunt}, {dash|2}\nDu erhältst 1 Leben für jedes Mal, dass dir in dieser Partie Schaden zugefügt wurde.
 183.name;Uralter Eber
-183.text;Kostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
+183.text;{dash|2}\nKostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
 184.name;Ruunins Befehl
 184.text;{options|Gewährt einer Kreatur +2/+2.|Erhalte 5 Leben.}\nGewährt einer Kreatur +2/+2.\nErhalte 5 Leben.
 185.name;Stimme des Hungers
@@ -301,7 +301,7 @@
 189.name;Ruunins Gegenwart
 189.text;Nimm eine zufällige grüne Kreatur auf deine Hand. Sie erhält +6/+6.
 190.name;Ruunin, die Unnachgiebige
-190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
+190.text;{last_words} - Nimm Ruunin zurück auf deine Hand. Immer wenn sie stirbt, kostet sie {faeria|2} weniger.
 191.name;Straßenräuber
 191.text;{combat} - Erhalte {faeria|2}.
 192.name;Kriegsherr der Kobolde
@@ -309,7 +309,7 @@
 193.name;Kriegsbestie der Kobolde
 193.text;
 194.name;Geschenk des Stahls
-194.text;Gewährt einer Kreatur +3/+0.
+194.text;Gewährt einer Kreatur +3/+0. Die Kreatur erhält zusätzlich 3 Leben, wenn sie eine <b>Kampf</b>-Fähigkeit hat.
 195.name;Geheimer Anführer
 195.text;{combat} - Erhalte {faeria|2}.
 196.name;Architekt
@@ -333,7 +333,7 @@
 205.name;Axtschleifer
 205.text;{gift} - Erhält +1/+1, wenn es angrenzend zu einem gegnerischen Brunnen beschworen wird.
 206.name;Felsenwerfer
-206.text;{ranged_attack}\n{combat} - Erhalte {faeria|2}.
+206.text;{ranged_attack}, {slam}
 211.name;Brutaler Shedim
 211.text;{combat} - Fügt deinem Gegner 2 Schaden zu.
 212.name;Blutsänger
@@ -359,7 +359,7 @@
 226.name;Flammenwerfer
 226.text;{ranged_attack}mFüge allen gegnerischen Kreaturen 1 Schaden zu, wann immer diese Kreatur einen Gott angreift.
 231.name;Vulkan-Koloss
-231.text;Kostet {faeria|1} weniger für jede gegnerische Kreatur, die im Kampf gestorben ist (Mindestkosten: {faeria|5}).
+231.text;{ranged_attack}\nKostet {faeria|1} weniger für jede gegnerische Kreatur, die im Kampf gestorben ist (Mindestkosten: {faeria|7}).
 232.name;Garudan, Herz des Berges
 232.text;{flying}, {charge|2}\n{gift} - Fügt allen feindlichen Kreaturen 3 Schaden zu.
 233.name;Feuerelementar
@@ -397,7 +397,7 @@
 249.name;Roter Teufel
 249.text;{gift} - Erhalte {faeria|5}.
 250.name;Ignus, die Flamme des Ursprungs
-250.text;Füge immer, wenn du die +{faeria|1}-Kraft wählst, einem Feind 1 Schaden zu.
+250.text;Verursache immer, wenn du die +{faeria|1}-Kraft wählst, 4 Schaden, der zufällig auf die Gegner verteilt wird.
 251.name;Mönch der Oradrim
 251.text;{haste}\nZiehe immer, wenn diese Kreatur einen Gott angreift, eine Karte.
 252.name;Khalims Gebet
@@ -405,7 +405,7 @@
 253.name;Khalims Anhänger
 253.text;{haste}\nErhält +2/+0 gegen Götter.
 254.name;Templer der Oradrim
-254.text;{dash|1}.\nErhält +3/+0 gegen Götter.
+254.text;{dash|1}\nErhält +3/+0 gegen Götter.
 255.name;Schütze der Oradrim
 255.text;{ranged_attack}\nErhalte {faeria|1}, wann immer du einen Gott angreifst.
 256.name;Fanatiker der Oradrim
@@ -425,7 +425,7 @@
 263.name;Letzter Alptraum
 263.text;Zerstöre eine Kreatur.
 264.name;Teufelspakt
-264.text;Erhalte {faeria|2} und fügt dir selbst 2 Schaden zu.
+264.text;Ziehe 1 Karte und erhalte {faeria|2}. Dir wird 3 Schaden zugefügt.
 265.name;Altar der Seelen
 265.text;{activate} - Fügt dir selbst 2 Schaden zu und nimm einen 6/1 <b>Schatten des Schlächters</b> auf deine Hand. Er kostet {faeria|1}.
 266.name;Dämon der Shaytan
@@ -447,7 +447,7 @@
 278.name;Held der Windnatur
 278.text;{flying}, {charge|5}\n{gift} - Bewege eine Kreatur.
 287.name;Sturm-Koloss
-287.text;Kostet {faeria|1} weniger für jedes Ereignis, das du gespielt hast (Mindestkosten: {faeria|4}).
+287.text;{dash|3}\nKostet {faeria|1} weniger für jedes Ereignis, das du gespielt hast (Mindestkosten: {faeria|5}).
 288.name;Azarai, Zorn der Wüste
 288.text;{flying}, {charge|2}\n{gift} - Azarai entzieht jeder feindlichen Kreatur 2 Angriff.
 289.name;Luftelementar
@@ -501,7 +501,7 @@
 313.name;Geist mit zwei Seelen
 313.text;{flying}\nKann neben einer verbündeten Kreatur beschworen werden.\n{gift} - Beschwört einen weiteren <b>Geist mit zwei Seelen</b>.
 314.name;Held der Stürme
-314.text;Erhält immer, wenn IRGENDEINE deiner Kreaturen kämpft, +1/+1.
+314.text;{slam}, {dash|2}\n{gift} - Verursache 4 Schaden, der zufällig auf die Gegner verteilt wird. Gewährt die Werte +4/+4, welche zufällig auf Verbündete verteilt werden.
 315.name;Seelenfresser
 315.text;{flying}, {charge|3}\nErhält für jede in dieser Partie gestorbene verbündete Kreatur +1/+1.
 316.name;Schemenhafte Flammengeißel
@@ -512,6 +512,26 @@
 335.text;{gift} - Fügt deinem Gegner 2 Schaden zu.
 350.name;Drei Wünsche
 350.text;Erhalte 3 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|3} weniger. Mehr Wünsche wünschen ist nicht erlaubt.
+351.name;Rebellengleiter
+351.text;{flying}, {dash|2}\nKann kein Faeria sammeln.
+352.name;Silberstrahl, Imperiales Luftschiff
+352.text;{flying}, {slam}, {dash|3}\nDie Faeria-Kosten des Silberstrahls entsprechen deinem gesamten Leben.
+353.name;Verbotene Bibliothek
+353.text;{production} - Ziehe eine Karte und erhalte {faeria|2}. Dir wird 2 Schaden zugefügt.
+354.name;Traumschächter
+354.text;{dash|3}\n{gift} - Halbiert das Leben des gegnerischen Gottes (wird aufgerundet).
+355.name;Tiergeist-Kodama
+355.text;{slam}, {jump}
+356.name;Gottesjäger
+356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
+357.name;Blutgesang
+357.text;Fügt dir selbst 1 Schaden zu und verringert die Kosten einer zufälligen Karte auf deiner Hand um {faeria|2}. 4 Mal wiederholbar.
+358.name;Höllenfeuer
+358.text;Verursacht 10 Schaden, der zufällig auf die Gegner verteilt wird.
+359.name;Apokalypse
+359.text;Setzt dein Faeria auf {faeria|0}. Du verlierst die Hälfte deines Lebens (wird abgerundet). Vernichtet ALLE Kreaturen und Strukturen.
+360.name;Nervtötermücke
+360.text;{flying}.\n{last_words} - Fügt dir selbst 2 Schaden zu. Diese Kreatur wird auf einem zufälligen Feld beschworen.
 403.name;Dunkler Kristall
 403.text;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
 404.name;Kriegshorn aus Yakhorn
@@ -529,7 +549,7 @@
 410.name;Blutsteingolem
 410.text;{production} - Erzeugt in jedem Brunnen {faeria|1}.\nWann immer Faeria gesammelt wird, erleidet dein Gegner 1 Schaden.
 411.name;Kelch aus dem Palast
-411.text;Gewährt einer zufälligen verbündeten Kreatur +1/+1, sechsmal verwendbar.
+411.text;Gewährt die Werte +6/+6, welche zufällig auf verbündete Kreaturen verteilt werden.
 412.name;Eredons Trommeln
 412.text;Gewährt all deinen Kreaturen +2/+2, egal, wo sie sich befinden.
 413.name;Wolkenmaschine

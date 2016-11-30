@@ -17,7 +17,7 @@
 13.name;Percepteur
 13.text;{combat} - Gagnez {faeria|1}.
 14.name;Cantique de Jouvence
-14.text;Piochez une carte et gagnez 4 points de vie.
+14.text;Piochez une carte et gagnez 5 points de vie.
 15.name;Sauvegarde
 15.text;Confère {protection} à une créature.
 16.name;Garde impérial
@@ -47,7 +47,7 @@
 38.name;Garde du Roi
 38.text;{taunt}\n{combat} - Piochez une carte.
 39.name;Héros improbable
-39.text;La première fois que cette créature en affronte une autre et survit, gagne +3/+3 et {charge|3}.
+39.text;La première fois que cette créature combat et survit, gagne +3/+3 et {charge|3}.
 40.name;Magnus, roi de Meroval
 40.text;{charge|3}\n{combat} - Piochez une carte pour {faeria|0}.
 41.name;Pestiféré
@@ -159,7 +159,7 @@
 106.name;Fable de la vieille tortue
 106.text;Piochez 3 cartes. Toutes les créatures piochées ainsi coûtent {faeria|2} de moins.
 107.name;Colosse brisécume
-107.text;Coûte {faeria|1} de moins pour chaque récolte depuis un puits adverse (coût minimum : {faeria|4}).
+107.text;{slam}\nCoûte {faeria|1} de moins pour chaque récolte depuis un puits adverse (coût minimum : {faeria|5}).
 108.name;Orosei, Songe des Profondeurs
 108.text;{flying}, {charge|2}\n{gift} - Transforme toutes vos autres créatures en créatures au coût accru de {faeria|2}.
 109.name;Élémentaire d'eau
@@ -212,8 +212,8 @@
 132.text;Lorsqu'une créature adjacente meurt, gagne +1/+1.
 133.name;Sagami à l'âme recluse
 133.text;{last_words} - Donne +3/+5 à une créature alliée aléatoire.
-134.name;Ancien sagami
-134.text;{combat} - Donne +1/+1 à une créature alliée aléatoire.
+134.name;Maître-chasse sagami
+134.text;{gift} - Téléporte une créature alliée sur un terrain adjacent à cette créature.
 135.name;Belluaire antique
 135.text;Lorsque vous invoquez une créature à la vie supérieure ou égale à 5, lui donne +1/+1.
 136.name;Grâce de Gaïa
@@ -245,11 +245,11 @@
 153.name;Grizzly des bois enfouis
 153.text;
 154.name;Soigneur tiki
-154.text;{gift} - Vous rend 5 PV.
+154.text;{gift} - Vous rend 6 PV.
 155.name;Autel de Ruunin
-155.text;Chaque fois que vous ou une créature sous votre contrôle recevez des blessures, elles sont redirigées vers cette structure.
+155.text;{gift} - Gagnez {faeria|3}.\n{last_words} - Votre adversaire gagne {faeria|3}.
 156.name;Chêne patriarche
-156.text;{gift} - Gagne +0/+1 pour chaque forêt sous votre contrôle.
+156.text;{slam}\n{gift} - Gagne +0/+1 pour chaque forêt sous votre contrôle.
 157.name;Arbre à faeria
 157.text;{production} - Gagne 1 PV. Si cette structure a 5 PV ou plus, s'autodétruit et gagnez {faeria|10}.
 158.name;Saule vivant
@@ -285,9 +285,9 @@
 181.name;Vortex élémentaire
 181.text;Piochez une carte et {options|Crée une forêt|Crée un lac|Crée une montagne|Crée un désert}\nCrée une forêt.\nCrée un lac.\nCrée une montagne.\nCrée un désert.
 182.name;Vengeur sauvage
-182.text;{taunt}, {dash|2}\nGagne +0/+1 pour chaque fois où vous subissez des dégâts pendant la partie.
+182.text;{taunt}, {dash|2}\nGagne 1 PV pour chaque fois où vous subissez des dégâts pendant la partie.
 183.name;Sanglier antique
-183.text;Si vous contrôlez une créature à la vie supérieure ou égale à 5, coûte {faeria|2} de moins.
+183.text;{dash|2}\nSi vous contrôlez une créature à la vie supérieure ou égale à 5, coûte {faeria|2} de moins.
 184.name;Commandement de Ruunin
 184.text;{options|Donne +2/+2 à une créature.|Vous rend 5 PV.}\nDonne +2/+2 à une créature.\nVous rend 5 PV.
 185.name;Râle de la faim
@@ -301,7 +301,7 @@
 189.name;Présence de Ruunin
 189.text;Ajoute une créature verte aléatoire à votre main. Elle gagne +6/+6.
 190.name;Ruunin, l'Éternel
-190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
+190.text;{last_words} - Replacez Ruunin dans votre main. Elle coûte {faeria|2} de moins pour chacune de ses morts.
 191.name;Brigand des catacombes
 191.text;{combat} - Gagnez {faeria|2}.
 192.name;Seigneur de guerre kobold
@@ -309,7 +309,7 @@
 193.name;Bête de guerre kobold
 193.text;
 194.name;Don d'acier
-194.text;Donne +3/+0 à une créature.
+194.text;Donne +3/+0 à une créature. Cette créature gagne aussi 3 PV si elle a une compétence <b>Combat</b>.
 195.name;Patron des catacombes
 195.text;{combat} - Gagnez {faeria|2}.
 196.name;Architecte
@@ -333,7 +333,7 @@
 205.name;Affûteur de haches
 205.text;{gift} - Gagne +1/+1 si invoqué à proximité d'un puits adverse.
 206.name;Lanceur de rochers
-206.text;{ranged_attack}\n{combat} - Gagnez {faeria|2}.
+206.text;{ranged_attack}, {slam}
 211.name;Brute shedime
 211.text;{combat} - Inflige 2 points de dégâts à votre adversaire.
 212.name;Chante-sang
@@ -359,7 +359,7 @@
 226.name;Lance-flammes
 226.text;{ranged_attack}\nChaque fois que cette créature attaque une divinité, inflige 1 point de dégâts à toutes les créatures ennemies.
 231.name;Colosse volcanique
-231.text;Coûte {faeria|1} de moins pour chaque créature ennemie morte au combat (coût minimum : {faeria|5}).
+231.text;{ranged_attack}\nCoûte {faeria|1} de moins pour chaque créature ennemie morte au combat (coût minimum : {faeria|7}).
 232.name;Garudan, Cœur de la Montagne
 232.text;{flying}, {charge|2}\n{gift} - Inflige 3 points de dégâts à toutes les créatures ennemies.
 233.name;Élémentaire de feu
@@ -397,7 +397,7 @@
 249.name;Diable rouge
 249.text;{gift} - Gagnez {faeria|5}.
 250.name;Ignus, la Flamme Originelle
-250.text;Chaque fois que vous sélectionnez +{faeria|1} dans la roue des pouvoirs, inflige 1 point de dégâts à un ennemi.
+250.text;Chaque fois que vous sélectionnez +{faeria|1} dans la roue des pouvoirs, inflige 4 points de dégâts répartis aléatoirement entre les ennemis.
 251.name;Moine oradrim
 251.text;{haste}\nChaque fois que cette créature attaque une divinité, piochez une carte.
 252.name;Prière de Khalim
@@ -405,7 +405,7 @@
 253.name;Disciple de Khalim
 253.text;{haste}\nGagne +2/+0 contre les divinités.
 254.name;Templier oradrim
-254.text;{dash|1}.\nGagne +3/+0 contre les divinités.
+254.text;{dash|1}\nGagne +3/+0 contre les divinités.
 255.name;Sagittaire oradrim
 255.text;{ranged_attack}\nChaque fois que vous attaquez une divinité, gagnez {faeria|1}.
 256.name;Fanatique oradrim
@@ -425,7 +425,7 @@
 263.name;Dernier cauchemar
 263.text;Détruit une créature.
 264.name;Pacte d'âme
-264.text;Vous inflige 2 points de dégâts. Gagnez {faeria|2}.
+264.text;Piochez 1 carte, gagnez {faeria|2} et infligez-vous 3 points de dégâts.
 265.name;Autel des âmes
 265.text;{activate} - Vous inflige 2 points de dégâts et ajoute une <b>Ombre du carnage</b> 6/1 à votre main pour {faeria|1}.
 266.name;Démon shaytan
@@ -447,7 +447,7 @@
 278.name;Champion des vents
 278.text;{flying}, {charge|5}\n{gift} - Déplace une créature.
 287.name;Colosse tempétueux
-287.text;Coûte {faeria|1} de moins pour chaque événement que vous avez joué (coût minimum : {faeria|4}).
+287.text;{dash|3}\nCoûte {faeria|1} de moins pour chaque événement que vous avez joué (coût minimum : {faeria|5}).
 288.name;Azarai, Fureur du Désert
 288.text;{flying}, {charge|2}\n{gift} - Azarai draine 2 points d'attaque à chaque créature ennemie.
 289.name;Élémentaire d'air
@@ -501,7 +501,7 @@
 313.name;Âme sœur
 313.text;{flying}\nPeut être invoquée sur toute case adjacente à créature alliée.\n{gift} - Invoque une autre <b>Âme sœur</b>.
 314.name;Champion des tempêtes
-314.text;Lorsqu'une de vos créatures combat, gagne +1/+1.
+314.text;{slam}, {dash|2}\n{gift} - Inflige 4 dégâts répartis aléatoirement entre les ennemis et distribue quatre bonus +1/+1 aléatoirement entre les créatures alliées.
 315.name;Mangeur d'âmes
 315.text;{flying}, {charge|3}\nGagne +1/+1 pour chaque créature alliée morte durant cette partie.
 316.name;Spectre fléau-des-flammes
@@ -512,6 +512,26 @@
 335.text;{gift} - Inflige 2 points de dégâts à votre adversaire.
 350.name;Trois voeux
 350.text;Vous rend 3 PV et place une copie des 3 premières cartes du deck de votre adversaire dans votre main. Leur coût est réduit de {faeria|3}. Impossible d'utiliser un voeu pour demander d'autres voeux.
+351.name;Planeur rebelle
+351.text;{flying}, {dash|2}\nNe peut pas récolter de faeria.
+352.name;Radiance, Vaisseau Impérial
+352.text;{flying}, {slam}, {dash|3}\nLe coût en faeria de Radiance est égal à vos PV.
+353.name;Bibliothèque interdite
+353.text;{production} - Piochez 1 carte, gagnez {faeria|2} et infligez-vous 2 points de dégâts.
+354.name;Dévoreur de rêves
+354.text;{dash|3}\n{gift} - Réduisez de moitié les PV de la divinité ennemie, arrondis au supérieur.
+355.name;Kodama sauvage
+355.text;{slam}, {jump}
+356.name;Traqueur de dieux
+356.text;{jump}\nNe peut pas récolter de faeria.\nNe peut pas attaquer de créatures (à moins qu'elles aient <b>Provocation</b>)
+357.name;Chant diabolique
+357.text;Infligez-vous 1 point de dégâts et réduisez de {faeria|2} le coût d'une carte aléatoire de votre main. Répétez 4 fois.
+358.name;Feux de l'enfer
+358.text;Inflige 10 points de dégâts répartis aléatoirement entre les ennemis.
+359.name;Jugement dernier
+359.text;Vous tombez à {faeria|0}. Réduisez vos PV de moitié (arrondi à l'inférieur). Détruisez TOUTES les créatures et structures.
+360.name;Moucheron têtu
+360.text;{flying}.\n{last_words} - Infligez-vous 2 points de dégâts. Invoquez cette créature sur un terrain aléatoire.
 403.name;Cristal obscur
 403.text;Draine 4 points de vie à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
 404.name;Trompe en corne de yak
@@ -529,7 +549,7 @@
 410.name;Golem pierre-de-sang
 410.text;À chaque récolte de faeria, inflige 1 point de dégât à votre adversaire.\n{production} - Crée {faeria|1} dans chaque puits.
 411.name;Calice du palais
-411.text;Donne à une créature alliée aléatoire +1/+1, six fois.
+411.text;Distribue six bonus +1/+1 aléatoirement entre les créatures alliées.
 412.name;Tambour d'Eredon
 412.text;Donne à toutes les créatures +2/+2, où qu'elles soient.
 413.name;Fabrique de nuages

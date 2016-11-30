@@ -17,7 +17,7 @@
 13.name;Coletor de Impostos
 13.text;{combat} - Ganhe {faeria|1}.
 14.name;Canção da Cura
-14.text;Compre uma carta e ganhe 4 de vida.
+14.text;Compre uma carta e ganhe 5 de vida.
 15.name;Salvaguarda
 15.text;Dê {protection} a uma criatura.
 16.name;Guarda Imperial
@@ -47,7 +47,7 @@
 38.name;Guarda do Rei
 38.text;{taunt}\n{combat} - Compre uma carta.
 39.name;Herói Improvável
-39.text;Na primeira vez em que essa criatura lutar contra outra criatura e sobreviver, ela ganha +3/+3 e {charge|3}.
+39.text;The first time this creature fights and survives, it gains +3/+3 and {charge|3}.
 40.name;Magnus, Rei de Meroval
 40.text;{charge|3}\n{combat} - Compre uma carta. Ela custa {faeria|0}.
 41.name;Portador da Calamidade
@@ -159,7 +159,7 @@
 106.name;História da Velha Tartaruga
 106.text;Compre 3 cartas. Todas as criaturas compradas desta forma custam menos {faerial|2}.
 107.name;Colosso da Arrebentação
-107.text;Custa menos {faeria|1} sempre que você tiver recolhido faeria de um poço inimigo (custo mínimo: {faeria|4}).
+107.text;{slam}\nCusta menos {faeria|1} sempre que você tiver recolhido faeria de um poço inimigo (custo mínimo: {faeria|5}).
 108.name;Orosei, Sonho das Profundezas
 108.text;{flying}, {charge|2}\n{gift} - Transforme todas as suas outras criaturas em criaturas que custam mais {faeria|2}.
 109.name;Elemental da Água
@@ -198,8 +198,8 @@
 125.text;{gift} - Altere o Ataque base e a Vida base de uma criatura aliada para 6/6.
 126.name;Criador de Ondas
 126.text;Ao fim do turno do seu oponente, limite a faeria de TODOS os jogadores a {faeria|3}.
-127.name;Failed Experiment
-127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
+127.name;Experimento Fracassado
+127.text;A próxima criatura que você jogar neste turno custará menos {faeria|3}. Ela morre instantaneamente.
 128.name;Truque de Aurora
 128.text;Ganhe controle sobre uma criatura com 2 de ataque ou menos.
 129.name;Sapos de Batalha
@@ -212,8 +212,8 @@
 132.text;Sempre que uma criatura adjacente morrer, ganha +1/+1.
 133.name;Sagami de Alma Atada
 133.text;{last_words} - Uma criatura aliada aleatória ganha +3/+5.
-134.name;Ancião Sagami
-134.text;{combat} - Uma criatura aliada aleatória ganha +1/+1.
+134.name;Líder dos Caçadores Sagami
+134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
 135.name;Mestre das Feras Ancestral
 135.text;Toda vez que você invocar uma criaturas que tenha 5 ou mais de vida, ela ganha +1/+1.
 136.name;Bênção de Gaia
@@ -245,11 +245,11 @@
 153.name;Gris das Matas
 153.text;
 154.name;Curandeiro Tiki
-154.text;{gift} - Você ganha 5 de vida.
+154.text;{gift} - Você ganha 6 de vida.
 155.name;Altar de Ruunin
-155.text;Sempre que o dano for direcionado a você ou uma criatura sob seu controle, ele será recebido por essa estrutura.
+155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
 156.name;Pai Carvalho
-156.text;{gift} - Ganha +0/+1 para cada floresta que você controlar.
+156.text;{slam}\n{gift} - Ganha +0/+1 para cada floresta que você controlar.
 157.name;Árvore de Faeria
 157.text;{production} - Essa estrutura ganha +1 de vida.\nQuando ela tiver 5 ou mais de vida, destrua-a e ganhe {faeria|10}.
 158.name;Salgueiro Vivente
@@ -287,7 +287,7 @@
 182.name;Vingador Selvagem
 182.text;{taunt}, {dash|2}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
 183.name;Javali Ancestral
-183.text;Custa menos {faeria|2} se você controlar uma criatura que tenha 5 ou mais de vida.
+183.text;{dash|2}\nCusta menos {faeria|2} se você controlar uma criatura que tenha 5 ou mais de vida.
 184.name;Ordem de Ruunin
 184.text;{options|Dê +2/+2 a uma criatura.|Você ganha 5 de vida.}\nDê +2/+2 a uma criatura.\nVocê ganha 5 de vida.
 185.name;Voz da Fome
@@ -301,7 +301,7 @@
 189.name;Presença de Ruunin
 189.text;Acrescente uma criatura verde aleatória à sua mão. Ela ganha +6/+6.
 190.name;Ruunin, a Implacável
-190.text;{last_words} - Return Ruunin to your hand. She costs {faeria|2} less for each time she's died.
+190.text;{last_words} - Devolva Runnin à sua mão. Ela custa menos {faeria|2} toda vez que ela morre.
 191.name;Bandido Subterrâneo
 191.text;{combat} - Ganhe {faeria|2}.
 192.name;Comandante Kobold
@@ -309,7 +309,7 @@
 193.name;Fera de Guerra Kobold
 193.text;
 194.name;Oferta de Aço
-194.text;Dê +3/+0 a uma criatura.
+194.text;Dê +3/+0 a uma criatura. Essa criatura ganha 3 de vida se ela tiver uma habilidade de <b>Combate</b>.
 195.name;Líder Subterrâneo
 195.text;{combat} - Ganhe {faeria|2}.
 196.name;Arquiteto
@@ -333,7 +333,7 @@
 205.name;Amolador de Machado
 205.text;{gift} - Ganha +1/+1 se invocada adjacente a um poço do oponente.
 206.name;Atirador de Rochas
-206.text;{ranged_attack}\n{combat} - Ganhe {faeria|2}.
+206.text;{ranged_attack}, {slam}
 211.name;Brutamonte de Shedim
 211.text;{combat} - Causa 2 de dano em seu adversário.
 212.name;Cantor Sanguinário
@@ -359,7 +359,7 @@
 226.name;Lançador de Chamas
 226.text;{ranged_attack}\nSempre que essa criatura atacar um deus, causa 1 de dano em todas as criaturas inimigas.
 231.name;Colosso Vulcânico
-231.text;Custa menos {faeria|1} para cada criatura inimiga que tenha morrido em combate (custo mínimo: {faeria|5}).
+231.text;{ranged_attack}\nCusta menos {faeria|1} para cada criatura inimiga que tenha morrido em combate (custo mínimo: {faeria|7}).
 232.name;Garudan, Coração da Montanha
 232.text;{flying}, {charge|2}\n{gift} - Causa 3 de dano a todas as criaturas inimigas.
 233.name;Elemental do Fogo
@@ -397,7 +397,7 @@
 249.name;Demônio Vermelho
 249.text;{gift} - Ganhe {faeria|5}.
 250.name;Ignus, a Primeira Chama
-250.text;Sempre que você selecionar +{faeria|1} na roda de poder, cause 1 de dano em um inimigo.
+250.text;Sempre que você selecionar +{faeria|1} na roda de poder, cause 4 de dano, distribuídos aleatoriamente entre inimigos.
 251.name;Monge de Oradrim
 251.text;{haste}\nSempre que essa criatura atacar um deus, compre uma carta.
 252.name;Oração de Khalim
@@ -405,7 +405,7 @@
 253.name;Seguidor de Khalim
 253.text;{haste}\nGanha +2/+0 contra deuses.
 254.name;Templário de Oradrim
-254.text;{dash|1}.\nGanha +3/+0 contra deuses.
+254.text;{dash|1}\nGanha +3/+0 contra deuses.
 255.name;Sagitário de Oradrim
 255.text;{ranged_attack}\nSempre que atacar um deus, ganhe {faeria|1}.
 256.name;Fanático de Oradrim
@@ -425,7 +425,7 @@
 263.name;Último Pesadelo
 263.text;Destrua uma criatura.
 264.name;Pacto de Alma
-264.text;Ganhe {faeria|2} e cause 2 de dano a si mesmo.
+264.text;Compre 1 carta, ganhe {faeria|2} e sofra 3 de dano.
 265.name;Altar das Almas
 265.text;{activate} - Cause 2 de dano a si mesmo e acrescente uma carta <b>Sombra Assassina</b> 6/1 à sua mão. Custa {faeria|1}.
 266.name;Demônio de Shaytan
@@ -447,7 +447,7 @@
 278.name;Campeão Aéreo
 278.text;{flying}, {charge|5}\n{gift} - Mova uma criatura.
 287.name;Colosso do Vendaval
-287.text;Custa menos {faeria|1} para cada evento que tenha sido jogado (custo mínimo: {faeria|4}).
+287.text;{dash|3}\nCusta menos {faeria|1} para cada evento que tenha sido jogado (custo mínimo: {faeria|5}).
 288.name;Azarai, Ira do Deserto
 288.text;{flying}, {charge|2}\n{gift} - Azarai drena 2 de Ataque de cada criatura inimiga.
 289.name;Elemental do Ar
@@ -501,7 +501,7 @@
 313.name;Espírito de Alma Gêmea
 313.text;{flying}\nPode ser invocado adjacente a uma criatura aliada.\n{gift} - Invoca outra <b>Espírito de Alma Gêmea</b>.
 314.name;Campeão da Tormenta de Guerra
-314.text;Ganha +1/+1 toda vez que QUALQUER uma das suas criaturas combater.
+314.text;{slam}, {dash|2}\n{gift} - Cause 4 de dano, distribuídos aleatoriamente entre inimigos. Dê +4/+4 a aliados, distribuídos aleatoriamente.
 315.name;Devorador de Almas
 315.text;{flying}, {charge|3}\nGanha +1/+1 para cada criatura aliada que tenha morrido nessa partida.
 316.name;Espectro do Flagelo Ardente
@@ -512,6 +512,26 @@
 335.text;{gift} - Causa 2 de dano no deus adversário.
 350.name;Três Desejos
 350.text;Ganhe 3 de vida e copie as 3 cartas no topo do baralho do seu adversário. Elas custam menos {faerial|3}. Você não pode desejar ter mais desejos.
+351.name;Planador Rebelde
+351.text;{flying}, {dash|2}\nNão pode recolher faeria.
+352.name;Aeronave Imperial Esplendor
+352.text;{flying}, {slam}, {dash|3}\nO custo de faeria da Esplendor equivale ao total da sua vida.
+353.name;Biblioteca Proibida
+353.text;{production} - Compre uma carta, ganhe {faeria|2} e sofra 2 de dano.
+354.name;Saqueador de Sonhos
+354.text;{dash|3}\n{gift} - Destrua metade da vida do deus inimigo, arredondada para cima.
+355.name;Kodama Feroz
+355.text;{slam}, {jump}
+356.name;Caçador de Deuses
+356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
+357.name;Canto Sanguinário
+357.text;Sofra 1 de dano para reduzir o custo de uma carta aleatória na sua mão em {faeria|2}. Pode repetir 4 vezes.
+358.name;Castigo Infernal
+358.text;Cause 10 de dano, distribuídos aleatoriamente entre inimigos.
+359.name;Apocalipse
+359.text;Define sua faeria em {faeria|0}. Perca metade da sua vida (arredondada para baixo). Destrua TODAS as criaturas e estruturas.
+360.name;Mosquito Irritante
+360.text;{flying},\n{last_words} - Sofra 2 de dano. Invoque essa criatura num hexágono aleatório.
 403.name;Cristal Sombrio
 403.text;Drene 4 de vida do seu adversário, cause 3 de dano em todas criaturas inimigas e compre 2 cartas.
 404.name;Berrante de Chifre de Iaque
@@ -529,7 +549,7 @@
 410.name;Golem de Jaspe Sanguíneo
 410.text;{production} - Gere {faeria|1} em cada poço.\nSempre que coletar faeria, cause 1 de dano em seu adversário.
 411.name;O Cálice do Palácio
-411.text;Dê +1/+1 a uma criatura aliada aleatória, seis vezes.
+411.text;Dê +6/+6 a criaturas aliadas, distribuídos aleatoriamente.
 412.name;Tambor de Eredon
 412.text;Dê +2/+2 a todas suas criaturas, onde quer que estejam.
 413.name;Máquina Levitante

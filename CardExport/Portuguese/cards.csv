@@ -425,7 +425,7 @@
 263.name;Último Pesadelo
 263.text;Destrua uma criatura.
 264.name;Pacto de Alma
-264.text;Compre 1 carta, ganhe {faeria|2} e sofra 3 de dano.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
 265.name;Altar das Almas
 265.text;{activate} - Cause 2 de dano a si mesmo e acrescente uma carta <b>Sombra Assassina</b> 6/1 à sua mão. Custa {faeria|1}.
 266.name;Demônio de Shaytan
@@ -525,7 +525,7 @@
 356.name;Caçador de Deuses
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Canto Sanguinário
-357.text;Sofra 1 de dano para reduzir o custo de uma carta aleatória na sua mão em {faeria|2}. Pode repetir 4 vezes.
+357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Castigo Infernal
 358.text;Cause 10 de dano, distribuídos aleatoriamente entre inimigos.
 359.name;Apocalipse

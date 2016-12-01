@@ -425,7 +425,7 @@
 263.name;Última pesadilla
 263.text;Destruye una criatura.
 264.name;Pacto de almas
-264.text;Roba 1 carta, gana {faeria|2} y te inflige 3 de daño.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
 265.name;Altar de las almas
 265.text;{activate}: Te inflige 2 de daño y añade una <b>Sombra asesina</b> de 6/1 a tu mano. Cuesta {faeria|1}.
 266.name;Demonio shaytan
@@ -525,7 +525,7 @@
 356.name;Cazador de dioses
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Canción de sangre
-357.text;Te inflige 1 de daño y reduce en {faeria|2} el coste de una carta al azar en tu mano. Repite 4 veces.
+357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Fuego infernal
 358.text;Inflige 10 de daño dividido de forma aleatoria entre los enemigos.
 359.name;Juicio final

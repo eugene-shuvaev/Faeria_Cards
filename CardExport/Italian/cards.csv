@@ -425,7 +425,7 @@
 263.name;Incubo Finale
 263.text;Distruggi una creatura.
 264.name;Patto dell'Anima
-264.text;Pesca una carta, guadagna {faeria|2} e infliggi 3 danni a te stesso.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
 265.name;Altare delle Anime
 265.text;{activate} - Infliggi 2 danni a te stesso e aggiungi un'<b>Ombra Sterminatrice</b> 6/1 alla tua mano. La carta ti costerà {faeria|1}.
 266.name;Demone Shayatiano
@@ -525,7 +525,7 @@
 356.name;Cacciatore di dei
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Canzone del Sangue
-357.text;Infliggi 1 danno a te stesso, riduci il costo di una carta a caso della tua mano di {faeria|2}. Ripeti per 4 volte.
+357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Fuoco infernale
 358.text;Infliggi 10 danni distribuiti a caso tra i tuoi nemici.
 359.name;Giorno del Giudizio

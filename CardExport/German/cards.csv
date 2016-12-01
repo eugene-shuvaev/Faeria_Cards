@@ -425,7 +425,7 @@
 263.name;Letzter Alptraum
 263.text;Zerstöre eine Kreatur.
 264.name;Teufelspakt
-264.text;Ziehe 1 Karte und erhalte {faeria|2}. Dir wird 3 Schaden zugefügt.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
 265.name;Altar der Seelen
 265.text;{activate} - Fügt dir selbst 2 Schaden zu und nimm einen 6/1 <b>Schatten des Schlächters</b> auf deine Hand. Er kostet {faeria|1}.
 266.name;Dämon der Shaytan
@@ -525,7 +525,7 @@
 356.name;Gottesjäger
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Blutgesang
-357.text;Fügt dir selbst 1 Schaden zu und verringert die Kosten einer zufälligen Karte auf deiner Hand um {faeria|2}. 4 Mal wiederholbar.
+357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Höllenfeuer
 358.text;Verursacht 10 Schaden, der zufällig auf die Gegner verteilt wird.
 359.name;Apokalypse

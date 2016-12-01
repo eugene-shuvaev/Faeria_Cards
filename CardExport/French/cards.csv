@@ -425,7 +425,7 @@
 263.name;Dernier cauchemar
 263.text;Détruit une créature.
 264.name;Pacte d'âme
-264.text;Piochez 1 carte, gagnez {faeria|2} et infligez-vous 3 points de dégâts.
+264.text;Piochez 1 carte, gagnez {faeria|2} et infligez-vous 3 points de dégâts.\nMettez fin au tour.
 265.name;Autel des âmes
 265.text;{activate} - Vous inflige 2 points de dégâts et ajoute une <b>Ombre du carnage</b> 6/1 à votre main pour {faeria|1}.
 266.name;Démon shaytan
@@ -523,9 +523,9 @@
 355.name;Kodama sauvage
 355.text;{slam}, {jump}
 356.name;Traqueur de dieux
-356.text;{jump}\nNe peut pas récolter de faeria.\nNe peut pas attaquer de créatures (à moins qu'elles aient <b>Provocation</b>)
+356.text;{jump}\nNe peut attaquer que les divinités.\nNe peut pas récolter de faeria.
 357.name;Chant diabolique
-357.text;Infligez-vous 1 point de dégâts et réduisez de {faeria|2} le coût d'une carte aléatoire de votre main. Répétez 4 fois.
+357.text;Réduisez de {faeria|2} le coût d'une carte aléatoire de votre main, 4 fois. Infligez-vous 4 points de dégâts.
 358.name;Feux de l'enfer
 358.text;Inflige 10 points de dégâts répartis aléatoirement entre les ennemis.
 359.name;Jugement dernier

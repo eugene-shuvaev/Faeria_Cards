@@ -425,7 +425,7 @@
 263.name;Последний кошмар
 263.text;Уничтожает существо.
 264.name;Контракт на душу
-264.text;Вы вытягиваете 1 карту, получаете {faeria|2} и наносите себе 3 ед. урона.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
 265.name;Алтарь душ
 265.text;{activate} - Нанесите себе 2 ед. урона и добавьте карту <b>Убийственной тени</b> с 6/1 себе в руку. Стоимость карты: {faeria|1}.
 266.name;Шайтан-демон
@@ -525,7 +525,7 @@
 356.name;Охотник на богов
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Песнь крови
-357.text;Вы наносите себе 1 ед. урона и уменьшаете стоимость случайной карты в вашей руке на {faeria|2}. 4 повтора.
+357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Адское пекло
 358.text;Наносит 10 ед. урона, которые случайным образом распределяются между врагами на поле.
 359.name;Судный день

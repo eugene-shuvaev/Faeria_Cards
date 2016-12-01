@@ -213,7 +213,7 @@
 133.name;Seelengebundener Sagami
 133.text;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
 134.name;Sagami-Jägermeister
-134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
+134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
 135.name;Uralter Bändiger
 135.text;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
 136.name;Gaeas Gnade
@@ -477,7 +477,7 @@
 301.name;Schwur des Vergessens
 301.text;Zerstöre eine verbündete Kreatur. Beschwöre einen 6/3 <b>Ritter des Vergessens</b> mit {charge|3} an ihrer Stelle.
 302.name;Vampir der Shaytan
-302.text;Wann immer Vampir der Shaytan einem Gott Schaden zufügt, erhältst du Leben in Höhe des verursachten Schadens.
+302.text;{dash|1}\nWann immer Vampir der Shaytan einem Gott Schaden zufügt, erhältst du Leben in Höhe des verursachten Schadens.
 303.name;Iona, von allen Geliebte
 303.text;{flying}\nKann nicht angegriffen werden.
 304.name;Dämonenschwinge
@@ -559,7 +559,7 @@
 415.name;Die Träne der Welt
 415.text;Verwandle eine Kreatur, die in diesem Zug einen Gott angegriffen hat, in einen <b>Himmelsschlucker</b> mit 10/10 und {flying}.
 416.name;Uhrwerk-Yak
-416.text;
+416.text;{dash|2}
 417.name;Automat des Äquinoktiums
 417.text;{gift} - Du erhältst 6 Leben.\n{last_words} - Füge deinem Gegner 6 Schaden zu.
 418.name;Magdas Rose

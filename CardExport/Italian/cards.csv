@@ -213,7 +213,7 @@
 133.name;Vincolatore Sagami
 133.text;{last_words} - Una qualunque creatura alleata ottiene +3/+5.
 134.name;Maestro di caccia Sagami
-134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
+134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
 135.name;Vecchio Addestratore
 135.text;Quando evochi una creatura con almeno 5 punti vita, essa ottiene +1/+1.
 136.name;Grazia di Gaia
@@ -477,7 +477,7 @@
 301.name;Promessa d'Oblio
 301.text;Distruggi una creatura alleata. Al suo posto, posiziona un <b>Soldato dell'Oblio</b> 6/3 con {charge|3}.
 302.name;Vampiro Shayatiano
-302.text;Ogni volta che il Vampiro Shayatiano infligge danni a un dio, ottieni l'equivalente in punti vita.
+302.text;{dash|1}\nOgni volta che il Vampiro Shayatiano infligge danni a un dio, ottieni l'equivalente in punti vita.
 303.name;Iona, Adorata da Tutti
 303.text;{flying}\nNon può essere attaccata.
 304.name;Demone Alato
@@ -559,7 +559,7 @@
 415.name;La Lacrima del Mondo
 415.text;Trasforma in un <b>Divora Cieli</b> 10/10 con {flying} la creatura che ha attaccato un dio in questo turno.
 416.name;Yak Meccanico
-416.text;
+416.text;{dash|2}
 417.name;Equinozio Meccanico
 417.text;{gift} - Ottieni 6 punti vita.\n{last_words} - Infliggi 6 danni all'avversario.
 418.name;Rosa di Magda

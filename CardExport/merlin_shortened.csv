@@ -105,14 +105,14 @@
 131;GREEN;Sagami Warrior;creature;;3;;1;;;3;4;{dash|2};;2;101000;COMMON
 132;GREEN;Bone Collector;creature;;2;;1;;;1;3;Whenever an adjacent creature dies, gain +1/+1.;;0;101000;COMMON
 133;GREEN;Soulbound Sagami;creature;;6;;2;;;3;5;{last_words} - A random friendly creature gains +3/+5.;;2;100008;COMMON
-134;GREEN;Sagami Huntmaster;creature;;4;;2;;;2;4;{gift} - Teleport a friendly creature to a land adjacent to this creature.;;0;101000;COMMON
+134;GREEN;Sagami Huntmaster;creature;;4;;2;;;2;4;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.;;0;101000;COMMON
 135;GREEN;Ancient Beastmaster;creature;;4;;2;;;3;4;When you summon a creature with 5 Life or more, it gains +1/+1.;;0;101000;COMMON
 136;GREEN;Gaea's Grace;event;;2;;2;;;;;You and a creature each gain +3 Life.;;0;101000;RARE
 137;GREEN;Tiki Chieftain;creature;;3;;2;;;2;2;{gift} - Give a creature {taunt}.;;2;100006;COMMON
 138;GREEN;Bloomsprite;creature;;2;;2;;;1;1;{last_words} - Add a random green card to your hand. It costs {faeria|3} less.;;2;100005;RARE
 139;GREEN;Elderwood Hermit;creature;;3;;1;;;1;1;{last_words} - A random friendly creature gains +2/+4.;;0;101000;COMMON
 140;GREEN;Tiki Caretaker;creature;;3;;2;;;1;1;{gift} - Give a creature +2/+2.;;2;100006;COMMON
-141;GREEN;Tiki Piper;creature;;2;;2;;;1;1;{gift} - Give a creature +0/+4.;;0;101000;COMMON
+141;GREEN;Tiki Piper;creature;;3;;2;;;1;1;{gift} - Give a creature +0/+4.;;0;101000;COMMON
 142;GREEN;Shamanic Dance;event;;2;;2;;;;;Give a creature +0/+4 and {taunt}.;;2;101000;COMMON
 143;GREEN;Tiki Totem;structure;;3;;2;;;;3;The first creature you summon per turn gains +1/+1.;;0;101000;EPIC
 144;GREEN;Possessed Ursus;creature;;5;;2;;;1;8;Whenever this creature is dealt damage, its Attack doubles.;;0;101000;EPIC
@@ -211,7 +211,7 @@
 261;YELLOW;Slaughtering Shadow;creature;;3;;;;1;6;1;;;2;100017;COMMON
 262;YELLOW;Deathwish Ghoul;creature;;3;;;;2;3;1;{last_words} - Gain {faeria|2}.;;2;100017;COMMON
 263;YELLOW;Last Nightmare;event;;6;;;;3;;;Destroy a creature.;;2;100019;RARE
-264;YELLOW;Soul Pact;event;;0;;;;2;;;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.;;2;101000;COMMON
+264;YELLOW;Soul Pact;event;;0;;;;2;;;"Draw 1 card, gain {faeria|2} and deal 3 damage to yourself. End the turn.";;2;101000;COMMON
 265;YELLOW;Altar of Souls;structure;;3;;;;3;;3;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|1}.;;0;101000;EPIC
 266;YELLOW;Shaytan Demon;creature;;3;;;;2;5;4;{production} - Deal 2 damage to yourself.;;2;100019;COMMON
 267;YELLOW;Khalim's Skyguard;creature;;4;;;;2;4;3;"{flying} Can be summoned anywhere adjacent to a friendly creature.";;2;100020;COMMON
@@ -281,7 +281,7 @@
 354;BLUE;Dream Reaver;creature;;6;6;;;;6;10;"{dash|3} {gift} - Halve the enemy god's life, rounded up.";;0;101000;EPIC
 355;GREEN;Feral Kodama;creature;;6;;4;;;7;7;{slam}, {jump};;0;101000;RARE
 356;GREEN;God Hunter;creature;;3;;2;;;5;4;"{jump} Can only attack gods. Can't harvest faeria.";;0;101000;EPIC
-357;RED;Blood Song;event;;4;;;2;;;;Deal 1 damage to yourself, reduce the cost of a random card in your hand by {faeria|2}. Repeat 4 times.;;0;101000;RARE
+357;RED;Blood Song;event;;4;;;2;;;;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.;;0;101000;RARE
 358;RED;Hellfire;event;;8;;;2;;;;Deal 10 damage randomly split among enemies.;;0;101000;EPIC
 359;YELLOW;Doomsday;event;;4;;;;2;;;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures.;;0;101000;EPIC
 360;YELLOW;Annoying Gnat;creature;;2;;;;1;2;1;"{flying}. {last_words} - Deal 2 damage to yourself. Summon this creature in a random space.";;0;101000;EPIC

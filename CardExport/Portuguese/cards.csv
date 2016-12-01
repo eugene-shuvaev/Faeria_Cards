@@ -213,7 +213,7 @@
 133.name;Sagami de Alma Atada
 133.text;{last_words} - Uma criatura aliada aleatória ganha +3/+5.
 134.name;Líder dos Caçadores Sagami
-134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
+134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
 135.name;Mestre das Feras Ancestral
 135.text;Toda vez que você invocar uma criaturas que tenha 5 ou mais de vida, ela ganha +1/+1.
 136.name;Bênção de Gaia
@@ -477,7 +477,7 @@
 301.name;Juramento do Esquecimento
 301.text;Destrua uma criatura aliada. Invoque um <b>Cavaleiro do Esquecimento</b> 6/3 com {charge|3} no lugar dela.
 302.name;Vampiro de Shaytan
-302.text;Sempre que o Vampiro de Shaytan causar dano em um deus, você ganha o mesmo valor de vida.
+302.text;{dash|1}\nSempre que o Vampiro de Shaytan causar dano em um deus, você ganha o mesmo valor de vida.
 303.name;Iona, Amada por Todos
 303.text;{flying}\nNão pode ser atacada.
 304.name;Asa Demônio
@@ -559,7 +559,7 @@
 415.name;A Fenda do Mundo
 415.text;Transforme uma criatura que atacou um deus neste turno em um <b>Devorador Celeste</b> 10/10 com {flying}.
 416.name;Iaque Mecânico
-416.text;
+416.text;{dash|2}
 417.name;Autômato do Equinócio
 417.text;{gift} - Você ganha 6 de vida.\n{last_words} - Causa 6 de dano no seu adversário.
 418.name;A Rosa da Magda

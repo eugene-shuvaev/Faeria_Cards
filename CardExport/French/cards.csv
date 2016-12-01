@@ -213,7 +213,7 @@
 133.name;Sagami à l'âme recluse
 133.text;{last_words} - Donne +3/+5 à une créature alliée aléatoire.
 134.name;Maître-chasse sagami
-134.text;{gift} - Téléporte une créature alliée sur un terrain adjacent à cette créature.
+134.text;{gift} - Téléporte une créature alliée sur un terrain adjacent au Maître-chasse.
 135.name;Belluaire antique
 135.text;Lorsque vous invoquez une créature à la vie supérieure ou égale à 5, lui donne +1/+1.
 136.name;Grâce de Gaïa
@@ -477,7 +477,7 @@
 301.name;Serment d'oubli
 301.text;Détruit une créature alliée. Invoque un <b>Chevalier de l'oubli</b> 6/3 avec {charge|3} à sa place.
 302.name;Vampire shaytan
-302.text;Chaque fois que cette créature inflige des dégâts à une divinité, vous rend un nombre de points de vie équivalent.
+302.text;{dash|1}\nChaque fois que cette créature inflige des dégâts à une divinité, vous rend un nombre de points de vie équivalent.
 303.name;Iona, la Bienaimée
 303.text;{flying}\nNe peut être attaquée.
 304.name;Aile démoniaque
@@ -559,7 +559,7 @@
 415.name;La larme du monde
 415.text;Transforme une créature qui a attaqué une divinité durant ce tour en <b>Dévoreur céleste</b> 10/10 avec {flying}.
 416.name;Yak mécanique
-416.text;
+416.text;{dash|2}
 417.name;Automate équinoxial
 417.text;{gift} - Vous gagnez 6 points de vie.\n{last_words} - Inflige 6 points de dégâts à votre adversaire.
 418.name;Rose de Magda

@@ -213,7 +213,7 @@
 133.name;Taumaturgo sagami
 133.text;{last_words}: Una criatura aliada al azar gana +3/+5.
 134.name;Jefe cazador sagami
-134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
+134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
 135.name;Maestro de bestias antiguo
 135.text;Cuando invocas una criatura con 5 de vida o más, gana +1/+1.
 136.name;Gracia de Gea
@@ -477,7 +477,7 @@
 301.name;Oda al olvido
 301.text;Destruye una criatura aliada. Invoca un <b>Caballero del olvido</b> de 6/3 con {charge|3} en su lugar.
 302.name;Vampiro shaytan
-302.text;Cuando un Vampiro shaytan inflija daño a un dios, ganarás esa misma cantidad de vida.
+302.text;{dash|1}\nCuando un Vampiro shaytan inflija daño a un dios, ganarás esa misma cantidad de vida.
 303.name;Iona, amada por todos
 303.text;{flying}\nNo pueden atacarle.
 304.name;Demonio alado
@@ -559,7 +559,7 @@
 415.name;Llanto mundano
 415.text;Transforma una criatura que haya atacado a un dios este turno en un <b>Devoracielos</b> de 10/10 con {flying}.
 416.name;Yak mecánico
-416.text;
+416.text;{dash|2}
 417.name;Autómata del equinoccio
 417.text;{gift}- Ganas 6 de vida.\n{last_words}: Inflige 6 de daño a tu oponente.
 418.name;Rosa de Magda

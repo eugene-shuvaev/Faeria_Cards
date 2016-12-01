@@ -213,7 +213,7 @@
 133.name;Soulbound Sagami
 133.text;{last_words} - A random friendly creature gains +3/+5.
 134.name;Sagami Huntmaster
-134.text;{gift} - Teleport a friendly creature to a land adjacent to this creature.
+134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
 135.name;Ancient Beastmaster
 135.text;When you summon a creature with 5 Life or more, it gains +1/+1.
 136.name;Gaea's Grace
@@ -425,7 +425,7 @@
 263.name;Last Nightmare
 263.text;Destroy a creature.
 264.name;Soul Pact
-264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.
+264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
 265.name;Altar of Souls
 265.text;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|1}.
 266.name;Shaytan Demon
@@ -525,7 +525,7 @@
 356.name;God Hunter
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Blood Song
-357.text;Deal 1 damage to yourself, reduce the cost of a random card in your hand by {faeria|2}. Repeat 4 times.
+357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Hellfire
 358.text;Deal 10 damage randomly split among enemies.
 359.name;Doomsday

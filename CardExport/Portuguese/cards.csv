@@ -5,7 +5,7 @@
 3.name;Guerreiro de Syland
 3.text;
 4.name;Grão-Cavaleiro de Syland
-4.text;{gift} - Dê {charge|3} a uma criatura aliada nesse turno.
+4.text;{gift} - Give another friendly creature {charge|3} this turn.
 9.name;Engenheiro Imperial
 9.text;{gift} - Acione todas as suas habilidades de produção.
 10.name;Manter posições!
@@ -195,7 +195,7 @@
 124.name;Banquete Anfíbio
 124.text;Dê +1/+1 e {jump} a uma criatura.
 125.name;Aurora, Criadora de Mitos
-125.text;{gift} - Altere o Ataque base e a Vida base de uma criatura aliada para 6/6.
+125.text;{gift} - Change another friendly creature's base Attack and Life to 6/6.
 126.name;Criador de Ondas
 126.text;Ao fim do turno do seu oponente, limite a faeria de TODOS os jogadores a {faeria|3}.
 127.name;Experimento Fracassado
@@ -213,7 +213,7 @@
 133.name;Sagami de Alma Atada
 133.text;{last_words} - Uma criatura aliada aleatória ganha +3/+5.
 134.name;Líder dos Caçadores Sagami
-134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
 135.name;Mestre das Feras Ancestral
 135.text;Toda vez que você invocar uma criaturas que tenha 5 ou mais de vida, ela ganha +1/+1.
 136.name;Bênção de Gaia
@@ -269,7 +269,7 @@
 173.name;Centelha do Florescer Eterno
 173.text;Sempre que você criar uma floresta, ganha +1/+1.
 174.name;Espírito do Renascimento
-174.text;Sempre que uma criatura aliada morrer, uma criatura aleatória em sua mão ganha +1/+1.
+174.text;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.
 175.name;Abraço do Bosque Ancestral
 175.text;Dê +2/+4 a uma criatura.
 176.name;Mensageiro de Ruunin
@@ -425,7 +425,7 @@
 263.name;Último Pesadelo
 263.text;Destrua uma criatura.
 264.name;Pacto de Alma
-264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
+264.text;Ganhe {faeria|2} e cause 2 de dano a si mesmo.
 265.name;Altar das Almas
 265.text;{activate} - Cause 2 de dano a si mesmo e acrescente uma carta <b>Sombra Assassina</b> 6/1 à sua mão. Custa {faeria|1}.
 266.name;Demônio de Shaytan
@@ -519,7 +519,7 @@
 353.name;Biblioteca Proibida
 353.text;{production} - Compre uma carta, ganhe {faeria|2} e sofra 2 de dano.
 354.name;Saqueador de Sonhos
-354.text;{dash|3}\n{gift} - Destrua metade da vida do deus inimigo, arredondada para cima.
+354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Kodama Feroz
 355.text;{slam}, {jump}
 356.name;Caçador de Deuses
@@ -527,7 +527,7 @@
 357.name;Canto Sanguinário
 357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Castigo Infernal
-358.text;Cause 10 de dano, distribuídos aleatoriamente entre inimigos.
+358.text;Cause 9 de dano, distribuídos aleatoriamente entre inimigos.
 359.name;Apocalipse
 359.text;Define sua faeria em {faeria|0}. Perca metade da sua vida (arredondada para baixo). Destrua TODAS as criaturas e estruturas.
 360.name;Mosquito Irritante

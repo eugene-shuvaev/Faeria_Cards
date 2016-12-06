@@ -5,7 +5,7 @@
 3.name;Guerrier des Sylandes
 3.text;
 4.name;Cavalier des Sylandes
-4.text;{gift} - Confère {charge|3} à une créature alliée jusqu'à la fin du tour.
+4.text;{gift} - Confère {charge|3} à une autre créature alliée jusqu'à la fin du tour.
 9.name;Ingénieur impérial
 9.text;{gift} - Déclenche toutes vos capacités de <b>Production</b>.
 10.name;Serrez les rangs !
@@ -195,7 +195,7 @@
 124.name;Banquet des tritons
 124.text;Donne à une créature +1/+1 et {jump}.
 125.name;Aurora, créatrice de mythes
-125.text;{gift} - Les PV et l'attaque de base d'une créature alliée deviennent égaux à 6/6.
+125.text;{gift} - Les PV et l'attaque de base d'une autre créature alliée deviennent égaux à 6/6.
 126.name;Sculpteur de vagues
 126.text;À la fin du tour de votre adversaire, les faeria de TOUS les joueurs deviennent égaux à {faeria|3}.
 127.name;Expérience ratée
@@ -213,7 +213,7 @@
 133.name;Sagami à l'âme recluse
 133.text;{last_words} - Donne +3/+5 à une créature alliée aléatoire.
 134.name;Maître-chasse sagami
-134.text;{gift} - Téléporte une créature alliée sur un terrain adjacent au Maître-chasse.
+134.text;{gift} - Téléporte une autre créature alliée sur un terrain adjacent au Maître-chasse.
 135.name;Belluaire antique
 135.text;Lorsque vous invoquez une créature à la vie supérieure ou égale à 5, lui donne +1/+1.
 136.name;Grâce de Gaïa
@@ -269,7 +269,7 @@
 173.name;Follet perpétuel
 173.text;Chaque fois que vous créez une forêt, gagne +1/+1.
 174.name;Esprit de la renaissance
-174.text;Chaque fois qu'une créature alliée meurt, donne +1/+1 à une créature aléatoire dans votre main.
+174.text;Chaque fois qu'une autre créature alliée meurt, donne +1/+1 à une créature aléatoire dans votre main.
 175.name;Étreinte de la forêt ancestrale
 175.text;Donne +2/+4 à une créature.
 176.name;Messager de Ruunin
@@ -425,7 +425,7 @@
 263.name;Dernier cauchemar
 263.text;Détruit une créature.
 264.name;Pacte d'âme
-264.text;Piochez 1 carte, gagnez {faeria|2} et infligez-vous 3 points de dégâts.\nMettez fin au tour.
+264.text;Vous inflige 2 points de dégâts. Gagnez {faeria|2}.
 265.name;Autel des âmes
 265.text;{activate} - Vous inflige 2 points de dégâts et ajoute une <b>Ombre du carnage</b> 6/1 à votre main pour {faeria|1}.
 266.name;Démon shaytan
@@ -519,7 +519,7 @@
 353.name;Bibliothèque interdite
 353.text;{production} - Piochez 1 carte, gagnez {faeria|2} et infligez-vous 2 points de dégâts.
 354.name;Dévoreur de rêves
-354.text;{dash|3}\n{gift} - Réduisez de moitié les PV de la divinité ennemie, arrondis au supérieur.
+354.text;{dash|3}\n{gift} - Fixez les PV d'une divinité à 10.
 355.name;Kodama sauvage
 355.text;{slam}, {jump}
 356.name;Traqueur de dieux
@@ -527,11 +527,11 @@
 357.name;Chant diabolique
 357.text;Réduisez de {faeria|2} le coût d'une carte aléatoire de votre main, 4 fois. Infligez-vous 4 points de dégâts.
 358.name;Feux de l'enfer
-358.text;Inflige 10 points de dégâts répartis aléatoirement entre les ennemis.
+358.text;Inflige 9 points de dégâts répartis aléatoirement entre les ennemis.
 359.name;Jugement dernier
 359.text;Vous tombez à {faeria|0}. Réduisez vos PV de moitié (arrondi à l'inférieur). Détruisez TOUTES les créatures et structures.
 360.name;Moucheron têtu
-360.text;{flying}.\n{last_words} - Infligez-vous 2 points de dégâts. Invoquez cette créature sur un terrain aléatoire.
+360.text;{flying}.\n{last_words} - Infligez-vous 2 points de dégâts. Invoquez cette créature sur un espace aléatoire.
 403.name;Cristal obscur
 403.text;Draine 4 points de vie à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
 404.name;Trompe en corne de yak

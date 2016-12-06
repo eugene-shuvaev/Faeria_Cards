@@ -5,7 +5,7 @@
 3.name;Guerriero di Syland
 3.text;
 4.name;Cavaliere di Syland
-4.text;{gift} - Dona {charge|3} a una creatura alleata fino alla fine del turno.
+4.text;{gift} - Give another friendly creature {charge|3} this turn.
 9.name;Ingegnere Imperiale
 9.text;{gift} -Innesca tutte le tue abilità di produzione.
 10.name;Mantenere le righe!
@@ -195,7 +195,7 @@
 124.name;Banchetto di Tritone
 124.text;Dona +1/+1 e {jump} a una creatura.
 125.name;Aurora, Creatrice di Miti
-125.text;{gift} - L'attacco e i punti vita di una creatura alleata diventano 6/6.
+125.text;{gift} - Change another friendly creature's base Attack and Life to 6/6.
 126.name;Cavaliere delle Onde
 126.text;Alla fine del turno dell'avversario, imposta il faeria di TUTTI i giocatori a {faeria|3}.
 127.name;Esperimento fallito
@@ -213,7 +213,7 @@
 133.name;Vincolatore Sagami
 133.text;{last_words} - Una qualunque creatura alleata ottiene +3/+5.
 134.name;Maestro di caccia Sagami
-134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
 135.name;Vecchio Addestratore
 135.text;Quando evochi una creatura con almeno 5 punti vita, essa ottiene +1/+1.
 136.name;Grazia di Gaia
@@ -269,7 +269,7 @@
 173.name;Spiritello Silvano
 173.text;Ottiene +1/+1 ogniqualvolta crei una foresta.
 174.name;Spirito della Rinascita
-174.text;Quando una creatura alleata muore, una creatura qualsiasi nella tua mano ottiene +1/+1.
+174.text;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.
 175.name;Abbraccio del Bosco Antico
 175.text;Dona +2/+4 a una creatura.
 176.name;Messaggero di Ruunin
@@ -425,7 +425,7 @@
 263.name;Incubo Finale
 263.text;Distruggi una creatura.
 264.name;Patto dell'Anima
-264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
+264.text;Guadagni {faeria|2} e infliggi 2 danni a te stesso.
 265.name;Altare delle Anime
 265.text;{activate} - Infliggi 2 danni a te stesso e aggiungi un'<b>Ombra Sterminatrice</b> 6/1 alla tua mano. La carta ti costerà {faeria|1}.
 266.name;Demone Shayatiano
@@ -519,7 +519,7 @@
 353.name;Biblioteca proibita
 353.text;{production} - Pesca una carta, guadagni {faeria|2} e infliggi 2 danni a te stesso.
 354.name;Saccheggiasogni
-354.text;{dash|3}\n{gift} - Dimezza (per eccesso) i punti vita del dio nemico.
+354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Kodama feroce
 355.text;{slam}, {jump}
 356.name;Cacciatore di dei
@@ -527,7 +527,7 @@
 357.name;Canzone del Sangue
 357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Fuoco infernale
-358.text;Infliggi 10 danni distribuiti a caso tra i tuoi nemici.
+358.text;Infliggi 9 danni distribuiti a caso tra i tuoi nemici.
 359.name;Giorno del Giudizio
 359.text;Porta i tuoi faeria a {faeria|0}. Perdi metà dei tuoi punti vita (per difetto). Distruggi TUTTE le creature e le strutture.
 360.name;Moscerino fastidioso

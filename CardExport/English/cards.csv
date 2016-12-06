@@ -5,7 +5,7 @@
 3.name;Syland Warrior
 3.text;
 4.name;Syland Horsemaster
-4.text;{gift} - Give a friendly creature {charge|3} this turn.
+4.text;{gift} - Give another friendly creature {charge|3} this turn.
 9.name;Imperial Engineer
 9.text;{gift} - Trigger all your production abilities.
 10.name;Hold the Line!
@@ -195,7 +195,7 @@
 124.name;Triton Banquet
 124.text;Give a creature +1/+1 and {jump}.
 125.name;Aurora, Myth Maker
-125.text;{gift} - Change a friendly creature's base Attack and Life to 6/6.
+125.text;{gift} - Change another friendly creature's base Attack and Life to 6/6.
 126.name;Wavecrafter
 126.text;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.
 127.name;Failed Experiment
@@ -213,7 +213,7 @@
 133.name;Soulbound Sagami
 133.text;{last_words} - A random friendly creature gains +3/+5.
 134.name;Sagami Huntmaster
-134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
 135.name;Ancient Beastmaster
 135.text;When you summon a creature with 5 Life or more, it gains +1/+1.
 136.name;Gaea's Grace
@@ -269,7 +269,7 @@
 173.name;Everbloom Wisp
 173.text;Whenever you create a forest, gain +1/+1.
 174.name;Spirit of Rebirth
-174.text;Whenever a friendly creature dies, a random creature in your hand gains +1/+1.
+174.text;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.
 175.name;Elderwood Embrace
 175.text;Give a creature +2/+4.
 176.name;Ruunin's Messenger
@@ -425,7 +425,7 @@
 263.name;Last Nightmare
 263.text;Destroy a creature.
 264.name;Soul Pact
-264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
+264.text;Gain {faeria|2} and deal 2 damage to yourself.
 265.name;Altar of Souls
 265.text;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|1}.
 266.name;Shaytan Demon
@@ -519,7 +519,7 @@
 353.name;Forbidden Library
 353.text;{production} - Draw a card, gain {faeria|2} and deal 2 damage to yourself.
 354.name;Dream Reaver
-354.text;{dash|3}\n{gift} - Halve the enemy god's life, rounded up.
+354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Feral Kodama
 355.text;{slam}, {jump}
 356.name;God Hunter
@@ -527,7 +527,7 @@
 357.name;Blood Song
 357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Hellfire
-358.text;Deal 10 damage randomly split among enemies.
+358.text;Deal 9 damage randomly split among enemies.
 359.name;Doomsday
 359.text;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures.
 360.name;Annoying Gnat

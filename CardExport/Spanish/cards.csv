@@ -5,7 +5,7 @@
 3.name;Guerrero de Syland
 3.text;
 4.name;Caballerizo mayor de Syland
-4.text;{gift}: Le da {charge|3} a una criatura aliada durante el turno.
+4.text;{gift} - Give another friendly creature {charge|3} this turn.
 9.name;Ingeniero imperial
 9.text;{gift}: Activa todas las habilidades de producción.
 10.name;¡En formación!
@@ -195,7 +195,7 @@
 124.name;Banquete tritón
 124.text;Le da +1/+1 y {jump} a una criatura.
 125.name;Aurora, la leyenda
-125.text;{gift}: Cambia el ataque y la vida base de una criatura aliada a 6/6.
+125.text;{gift} - Change another friendly creature's base Attack and Life to 6/6.
 126.name;Creador de olas
 126.text;Al final del turno de tu oponente, TODOS los jugadores tienen faeria {faeria|3}.
 127.name;Experimento fallido
@@ -213,7 +213,7 @@
 133.name;Taumaturgo sagami
 133.text;{last_words}: Una criatura aliada al azar gana +3/+5.
 134.name;Jefe cazador sagami
-134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
 135.name;Maestro de bestias antiguo
 135.text;Cuando invocas una criatura con 5 de vida o más, gana +1/+1.
 136.name;Gracia de Gea
@@ -269,7 +269,7 @@
 173.name;Brizna floral
 173.text;Cuando creas un bosque, gana +1/+1.
 174.name;Espíritu del renacimiento
-174.text;Cuando una criatura aliada muere, una criatura al azar de tu mano gana +1/+1.
+174.text;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.
 175.name;Abrazo del Bosque Antiguo
 175.text;Le da +2/+4 a una criatura.
 176.name;Mensajero de Ruunin
@@ -425,7 +425,7 @@
 263.name;Última pesadilla
 263.text;Destruye una criatura.
 264.name;Pacto de almas
-264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
+264.text;Gana {faeria|2} y te inflige 2 de daño.
 265.name;Altar de las almas
 265.text;{activate}: Te inflige 2 de daño y añade una <b>Sombra asesina</b> de 6/1 a tu mano. Cuesta {faeria|1}.
 266.name;Demonio shaytan
@@ -519,7 +519,7 @@
 353.name;Biblioteca prohibida
 353.text;{production} - Roba una carta, gana {faeria|2} y te inflige 2 de daño.
 354.name;Devastador de sueños
-354.text;{dash|3}\n{gift} - Reduce a la mitad la vida del dios enemigo (redondeando hacia arriba).
+354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Kodama salvaje
 355.text;{slam}, {jump}
 356.name;Cazador de dioses
@@ -527,7 +527,7 @@
 357.name;Canción de sangre
 357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Fuego infernal
-358.text;Inflige 10 de daño dividido de forma aleatoria entre los enemigos.
+358.text;Inflige 9 de daño dividido de forma aleatoria entre los enemigos.
 359.name;Juicio final
 359.text;Cambia tu faeria a{faeria|0}. Pierde la mitad de tu vida (redondeando hacia abajo). Destruye a TODAS las criaturas y estructuras.
 360.name;Gnat molesto

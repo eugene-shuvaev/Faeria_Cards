@@ -5,7 +5,7 @@
 3.name;Syland-Krieger
 3.text;
 4.name;Syland-Pferdemeister
-4.text;{gift} - Gewährt einer verbündeten Kreatur für diesen Zug {charge|3}.
+4.text;{gift} - Give another friendly creature {charge|3} this turn.
 9.name;Imperialer Ingenieur
 9.text;{gift} - Aktiviere all deine Produktionsfähigkeiten.
 10.name;Stellung halten!
@@ -195,7 +195,7 @@
 124.name;Triton-Bankett
 124.text;Gewährt einer Kreatur +1/+1 und {jump}.
 125.name;Aurora, die Mystikerin
-125.text;{gift} - Ändert Grundangriff und Leben einer verbündeten Kreatur auf 6/6.
+125.text;{gift} - Change another friendly creature's base Attack and Life to 6/6.
 126.name;Flutenbringer
 126.text;Setze am Ende des gegnerischen Zugs das Faeria ALLER Spieler auf {faeria|3}.
 127.name;Gescheitertes Experiment
@@ -213,7 +213,7 @@
 133.name;Seelengebundener Sagami
 133.text;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
 134.name;Sagami-Jägermeister
-134.text;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
 135.name;Uralter Bändiger
 135.text;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
 136.name;Gaeas Gnade
@@ -269,7 +269,7 @@
 173.name;Nimmerwelkes Irrlicht
 173.text;Erhält immer, wenn du einen Wald platzierst, +1/+1.
 174.name;Geist der Wiedergeburt
-174.text;Immer, wenn eine verbündete Kreatur stirbt, erhält eine zufällige Kreatur auf deiner Hand +1/+1.
+174.text;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.
 175.name;Umarmung von Elderwald
 175.text;Gewährt einer Kreatur +2/+4.
 176.name;Ruunins Bote
@@ -425,7 +425,7 @@
 263.name;Letzter Alptraum
 263.text;Zerstöre eine Kreatur.
 264.name;Teufelspakt
-264.text;Draw 1 card, gain {faeria|2} and deal 3 damage to yourself.\nEnd the turn.
+264.text;Erhalte {faeria|2} und fügt dir selbst 2 Schaden zu.
 265.name;Altar der Seelen
 265.text;{activate} - Fügt dir selbst 2 Schaden zu und nimm einen 6/1 <b>Schatten des Schlächters</b> auf deine Hand. Er kostet {faeria|1}.
 266.name;Dämon der Shaytan
@@ -519,7 +519,7 @@
 353.name;Verbotene Bibliothek
 353.text;{production} - Ziehe eine Karte und erhalte {faeria|2}. Dir wird 2 Schaden zugefügt.
 354.name;Traumschächter
-354.text;{dash|3}\n{gift} - Halbiert das Leben des gegnerischen Gottes (wird aufgerundet).
+354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Tiergeist-Kodama
 355.text;{slam}, {jump}
 356.name;Gottesjäger
@@ -527,7 +527,7 @@
 357.name;Blutgesang
 357.text;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.
 358.name;Höllenfeuer
-358.text;Verursacht 10 Schaden, der zufällig auf die Gegner verteilt wird.
+358.text;Verursacht 9 Schaden, der zufällig auf die Gegner verteilt wird.
 359.name;Apokalypse
 359.text;Setzt dein Faeria auf {faeria|0}. Du verlierst die Hälfte deines Lebens (wird abgerundet). Vernichtet ALLE Kreaturen und Strukturen.
 360.name;Nervtötermücke

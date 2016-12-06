@@ -1,7 +1,7 @@
 1;HUMAN;Farm Boy;creature;;1;;;;;1;1;;;2;100001;COMMON
 2;HUMAN;Hilltop Archer;creature;;4;;;;;2;2;{ranged_attack};;0;101000;COMMON
 3;HUMAN;Syland Warrior;creature;;5;;;;;3;6;;;0;101000;COMMON
-4;HUMAN;Syland Horsemaster;creature;;3;;;;;3;2;{gift} - Give a friendly creature {charge|3} this turn.;;0;101000;COMMON
+4;HUMAN;Syland Horsemaster;creature;;3;;;;;3;2;{gift} - Give another friendly creature {charge|3} this turn.;;0;101000;COMMON
 9;HUMAN;Imperial Engineer;creature;;3;;;;;1;3;{gift} - Trigger all your production abilities.;;0;101000;EPIC
 10;HUMAN;Hold the Line!;event;;1;;;;;;;Add two 2/2 <b>Imperial Guards</b> with {taunt} to your hand.;;0;101000;COMMON
 11;HUMAN;Walking Fortress;creature;;9;;;;;6;10;;;2;100003;COMMON
@@ -96,7 +96,7 @@
 122;BLUE;Humbling Vision;event;;3;2;;;;;;Halve a creature's base Attack and Life (rounded up).;;2;100012;COMMON
 123;BLUE;Ancient Herald;creature;;6;1;;;;5;6;{gift} - The next creature you draw with 5 Life or more costs {faeria|2} less.;;0;101000;COMMON
 124;BLUE;Triton Banquet;event;;3;1;;;;;;Give a creature +1/+1 and {jump}.;;0;101000;RARE
-125;BLUE;Aurora, Myth Maker;creature;;4;2;;;;1;1;{gift} - Change a friendly creature's base Attack and Life to 6/6.;;0;101000;LEGENDARY
+125;BLUE;Aurora, Myth Maker;creature;;4;2;;;;1;1;{gift} - Change another friendly creature's base Attack and Life to 6/6.;;0;101000;LEGENDARY
 126;BLUE;Wavecrafter;creature;;6;3;;;;5;6;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.;;0;101000;EPIC
 127;BLUE;Failed Experiment;event;;0;1;;;;;;The next creature you play this turn costs {faeria|3} less. It dies instantly.;;0;101000;EPIC
 128;BLUE;Aurora's Trick;event;;4;5;;;;;;Gain control of a creature with 2 Attack or less.;;0;101000;EPIC
@@ -105,14 +105,14 @@
 131;GREEN;Sagami Warrior;creature;;3;;1;;;3;4;{dash|2};;2;101000;COMMON
 132;GREEN;Bone Collector;creature;;2;;1;;;1;3;Whenever an adjacent creature dies, gain +1/+1.;;0;101000;COMMON
 133;GREEN;Soulbound Sagami;creature;;6;;2;;;3;5;{last_words} - A random friendly creature gains +3/+5.;;2;100008;COMMON
-134;GREEN;Sagami Huntmaster;creature;;4;;2;;;2;4;{gift} - Teleport a friendly creature to a land adjacent to the Huntmaster.;;0;101000;COMMON
+134;GREEN;Sagami Huntmaster;creature;;4;;2;;;2;4;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.;;0;101000;COMMON
 135;GREEN;Ancient Beastmaster;creature;;4;;2;;;3;4;When you summon a creature with 5 Life or more, it gains +1/+1.;;0;101000;COMMON
 136;GREEN;Gaea's Grace;event;;2;;2;;;;;You and a creature each gain +3 Life.;;0;101000;RARE
 137;GREEN;Tiki Chieftain;creature;;3;;2;;;2;2;{gift} - Give a creature {taunt}.;;2;100006;COMMON
 138;GREEN;Bloomsprite;creature;;2;;2;;;1;1;{last_words} - Add a random green card to your hand. It costs {faeria|3} less.;;2;100005;RARE
 139;GREEN;Elderwood Hermit;creature;;3;;1;;;1;1;{last_words} - A random friendly creature gains +2/+4.;;0;101000;COMMON
 140;GREEN;Tiki Caretaker;creature;;3;;2;;;1;1;{gift} - Give a creature +2/+2.;;2;100006;COMMON
-141;GREEN;Tiki Piper;creature;;3;;2;;;1;1;{gift} - Give a creature +0/+4.;;0;101000;COMMON
+141;GREEN;Tiki Piper;creature;;3;;1;;;1;1;{gift} - Give a creature +0/+4.;;0;101000;COMMON
 142;GREEN;Shamanic Dance;event;;2;;2;;;;;Give a creature +0/+4 and {taunt}.;;2;101000;COMMON
 143;GREEN;Tiki Totem;structure;;3;;2;;;;3;The first creature you summon per turn gains +1/+1.;;0;101000;EPIC
 144;GREEN;Possessed Ursus;creature;;5;;2;;;1;8;Whenever this creature is dealt damage, its Attack doubles.;;0;101000;EPIC
@@ -133,7 +133,7 @@
 171;GREEN;Flowersilk Faerie;creature;;2;;2;;;1;1;"{flying} The first time you draw an event, gain +1/+4, {taunt} and {charge|2}.";;0;101000;EPIC
 172;GREEN;Overgrown Tower;structure;;2;;2;;;;4;{activate} - Give a creature +1/+1. Deal 1 damage to this structure.;;0;101000;RARE
 173;GREEN;Everbloom Wisp;creature;;4;;2;;;1;2;Whenever you create a forest, gain +1/+1.;;0;101000;RARE
-174;GREEN;Spirit of Rebirth;creature;;3;;2;;;3;3;Whenever a friendly creature dies, a random creature in your hand gains +1/+1.;;0;101000;RARE
+174;GREEN;Spirit of Rebirth;creature;;3;;2;;;3;3;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.;;0;101000;RARE
 175;GREEN;Elderwood Embrace;event;;3;;2;;;;;Give a creature +2/+4.;;2;100006;COMMON
 176;GREEN;Ruunin's Messenger;creature;;5;;1;;;3;5;"{jump} Whenever this creature attacks a god, add a random green creature to your hand. It costs {faeria|2} less.";;0;101000;EPIC
 177;GREEN;Verduran Force;creature;;6;;2;;;7;7;;;2;100005;RARE
@@ -211,7 +211,7 @@
 261;YELLOW;Slaughtering Shadow;creature;;3;;;;1;6;1;;;2;100017;COMMON
 262;YELLOW;Deathwish Ghoul;creature;;3;;;;2;3;1;{last_words} - Gain {faeria|2}.;;2;100017;COMMON
 263;YELLOW;Last Nightmare;event;;6;;;;3;;;Destroy a creature.;;2;100019;RARE
-264;YELLOW;Soul Pact;event;;0;;;;2;;;"Draw 1 card, gain {faeria|2} and deal 3 damage to yourself. End the turn.";;2;101000;COMMON
+264;YELLOW;Soul Pact;event;;0;;;;2;;;Gain {faeria|2} and deal 2 damage to yourself.;;2;101000;COMMON
 265;YELLOW;Altar of Souls;structure;;3;;;;3;;3;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|1}.;;0;101000;EPIC
 266;YELLOW;Shaytan Demon;creature;;3;;;;2;5;4;{production} - Deal 2 damage to yourself.;;2;100019;COMMON
 267;YELLOW;Khalim's Skyguard;creature;;4;;;;2;4;3;"{flying} Can be summoned anywhere adjacent to a friendly creature.";;2;100020;COMMON
@@ -235,7 +235,7 @@
 297;YELLOW;Lord of the Wastes;creature;;5;;;;1;7;3;{gift} - You may sacrifice another creature to gain {faeria|3}.;;0;101000;COMMON
 298;YELLOW;Shaytan Assassin;creature;;3;;;;2;1;1;"{deathtouch} {gift} - You may sacrifice another creature to give this creature {protection}.";;0;101000;EPIC
 299;YELLOW;Demon Wrangler;creature;;2;;;;1;2;1;{gift} - You may sacrifice another creature, summoning a 5/2 {flying} <b>Demon Wing</b> in its place.;;0;101000;COMMON
-300;YELLOW;Death Walker;creature;;3;;;;2;6;5;"{deathtouch}. You must sacrifice another creature to summon this creature.";;0;101000;RARE
+300;YELLOW;Death Walker;creature;;3;;;;2;6;4;"{deathtouch}. You must sacrifice another creature to summon this creature.";;0;101000;RARE
 301;YELLOW;Oath to Oblivion;event;;2;;;;2;;;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Knight</b> with {charge|3} in its place.;;0;101000;RARE
 302;YELLOW;Shaytan Vampire;creature;;6;;;;2;6;6;"{dash|1} Whenever Shaytan Vampire damages a god, you gain that much life.";;2;101000;EPIC
 303;YELLOW;Iona, Beloved by All;creature;;2;;;;2;2;1;"{flying} Can't be attacked.";;0;101000;LEGENDARY
@@ -278,13 +278,13 @@
 351;HUMAN;Rebel Glider ;creature;;3;;;;;1;3;"{flying}, {dash|2} Can't harvest faeria.";;0;101000;COMMON
 352;HUMAN;Radiance, Imperial Airship;creature;;20;;;;;10;10;"{flying}, {slam}, {dash|3} Radiance's faeria cost equals your life total. ";;0;101000;LEGENDARY
 353;BLUE;Forbidden Library;structure;;2;2;;;;;2;{production} - Draw a card, gain {faeria|2} and deal 2 damage to yourself.;;0;101000;RARE
-354;BLUE;Dream Reaver;creature;;6;6;;;;6;10;"{dash|3} {gift} - Halve the enemy god's life, rounded up.";;0;101000;EPIC
+354;BLUE;Dream Reaver;creature;;6;6;;;;6;10;"{dash|3} {gift} - Set a god's life to 10.";;0;101000;EPIC
 355;GREEN;Feral Kodama;creature;;6;;4;;;7;7;{slam}, {jump};;0;101000;RARE
 356;GREEN;God Hunter;creature;;3;;2;;;5;4;"{jump} Can only attack gods. Can't harvest faeria.";;0;101000;EPIC
 357;RED;Blood Song;event;;4;;;2;;;;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.;;0;101000;RARE
-358;RED;Hellfire;event;;8;;;2;;;;Deal 10 damage randomly split among enemies.;;0;101000;EPIC
+358;RED;Hellfire;event;;8;;;2;;;;Deal 9 damage randomly split among enemies.;;0;101000;EPIC
 359;YELLOW;Doomsday;event;;4;;;;2;;;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures.;;0;101000;EPIC
-360;YELLOW;Annoying Gnat;creature;;2;;;;1;2;1;"{flying}. {last_words} - Deal 2 damage to yourself. Summon this creature in a random space.";;0;101000;EPIC
+360;YELLOW;Annoying Gnat;creature;;3;;;;2;2;1;"{flying}. {last_words} - Deal 2 damage to yourself. Summon this creature in a random space.";;0;101000;EPIC
 400;PANDORA;Shard of Pandora;artifact;;0;;;;;;;;;0;106666;COMMON
 401;PANDORA;Pandora Awakens!;artifact;;0;;;;;;;Pandora opens, both players receive a <b>Treasure</b>!;;0;106666;RARE
 402;PANDORA;Treasure Found!;artifact;;0;;;;;;;"Both players receive a <b>Treasure</b>! Draw a card.";;0;106666;RARE

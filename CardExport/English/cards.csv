@@ -96,7 +96,7 @@
 62.text;Whenever this creature gathers faeria, a random creature you control gains +1/+1.
 63.name;Outland Ranger
 63.text;{gift} - Add a <b>Campfire</b> to your hand.
-64.name;Outcast Tower
+64.name;Imperial Drain
 64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
 65.name;Rainforest Explorer
 65.text;{gift} - Gain +1/+1 if you control 2 lakes. Gain +0/+2 if you control 2 forests.
@@ -121,7 +121,7 @@
 75.name;Gabrian Enchantress
 75.text;{gift} - Another creature's Attack becomes equal to its Life.
 76.name;Gabrian Commander
-76.text;{aquatic}, {charge|3}\nThe first time you draw a card with a base cost of {faeria|7} or higher, gain {flying}.
+76.text;{aquatic}, {charge|3}\nThe first time you draw a card with a base cost of {faeria|7} or higher, gain {flying} and +1/+1.
 77.name;Gabrian Warden
 77.text;{gift} - Give a creature {protection}.
 82.name;Spring Mochi
@@ -213,7 +213,7 @@
 133.name;Soulbound Sagami
 133.text;{last_words} - A random friendly creature gains +3/+5.
 134.name;Sagami Huntmaster
-134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport an adjacent friendly creature to a land you control.
 135.name;Ancient Beastmaster
 135.text;When you summon a creature with 5 Life or more, it gains +1/+1.
 136.name;Gaea's Grace
@@ -247,7 +247,7 @@
 154.name;Tiki Healer
 154.text;{gift} - You gain 6 Life.
 155.name;Ruunin's Shrine
-155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
+155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Oak Father
 156.text;{slam}\n{gift} - Gain +0/+1 for each forest you control.
 157.name;Faeria Tree
@@ -288,7 +288,7 @@
 182.text;{taunt}, {dash|2}\nGain 1 life for each time you've been dealt damage this game.
 183.name;Ancient Boar
 183.text;{dash|2}\nIf you control a creature with 5 Life or more, costs {faeria|2} less.
-184.name;Ruunin's Command
+184.name;Ruunin's Guidance
 184.text;{options|Give a creature +2/+2.|Gain 5 life.}\n- Give a creature +2/+2.\n- Gain 5 Life.
 185.name;Voice of Hunger
 185.text;{gift} - Destroy all adjacent friendly creatures. Gain Attack AND Life equal to their combined Life.
@@ -432,7 +432,7 @@
 266.text;{production} - Deal 2 damage to yourself.
 267.name;Khalim's Skyguard
 267.text;{flying}\nCan be summoned anywhere adjacent to a friendly creature.
-268.name;Windborne
+268.name;Khalim's Training
 268.text;Give a creature +1/+0, {flying} and {charge|2}.
 273.name;Wind Soldier
 273.text;{haste}, {charge|3}\nWind Soldier dies at end of turn.
@@ -475,21 +475,21 @@
 300.name;Death Walker
 300.text;{deathtouch}.\nYou must sacrifice another creature to summon this creature.
 301.name;Oath to Oblivion
-301.text;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Knight</b> with {charge|3} in its place.
+301.text;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Rider</b> with {charge|3} in its place.
 302.name;Shaytan Vampire
 302.text;{dash|1}\nWhenever Shaytan Vampire damages a god, you gain that much life.
 303.name;Iona, Beloved by All
 303.text;{flying}\nCan't be attacked.
 304.name;Demon Wing
 304.text;{flying}
-305.name;Oblivion Knight
+305.name;Oblivion Rider
 305.text;{charge|3}
 306.name;Soul Drain
 306.text;Drain 2 Life from a creature.
 307.name;Choking Sand
 307.text;Destroy a creature with 3 Attack or less.
 308.name;Doomgate, Door to Oblivion
-308.text;{activate} - Destroy a friendly creature. This structure gains +4 Life. When it has 13 or more, destroy it and summon Ostregoth.
+308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +4 Life.
 309.name;Windstorm Archer
 309.text;{ranged_attack}\nWhenever you play an event, gain +1/+0 this turn.
 310.name;Windstorm Charger
@@ -521,7 +521,7 @@
 354.name;Dream Reaver
 354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Feral Kodama
-355.text;{slam}, {jump}
+355.text;{jump}, {slam}
 356.name;God Hunter
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Blood Song
@@ -531,7 +531,7 @@
 359.name;Doomsday
 359.text;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures.
 360.name;Annoying Gnat
-360.text;{flying}.\n{last_words} - Deal 2 damage to yourself. Summon this creature in a random space.
+360.text;{flying}\nCan't harvest faeria.\n{last_words} - Deal 2 damage to yourself. Summon this creature in a random space.
 403.name;Dark Crystal
 403.text;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn

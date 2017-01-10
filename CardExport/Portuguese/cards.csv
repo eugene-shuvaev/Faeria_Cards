@@ -96,7 +96,7 @@
 62.text;Sempre que essa criatura recolher faeria, uma criatura aleatória sob seu controle ganha +1/+1.
 63.name;Patrulheiro Estrangeiro
 63.text;{gift} - Acrescente uma <b>Fogueira</b> à sua mão.
-64.name;Torre Proscrita
+64.name;Imperial Drain
 64.text;Os poços de faeria estão vazios.\n{production} - Cause 1 de dano a esta estrutura.
 65.name;Explorador da Selva
 65.text;{gift} - Ganha +1/+1 se você controlar 2 lagos. Ganha +0/+2 se você controlar 2 florestas.
@@ -121,7 +121,7 @@
 75.name;Feiticeira Gabriana
 75.text;{gift} - O ataque de outra criatura se torna igual à vida dela.
 76.name;Comandante Gabriano
-76.text;{aquatic}, {charge|3}\nGanha {flying} na primeira vez em que você comprar uma carta com custo base de {faeria|7}+.
+76.text;{aquatic}, {charge|3}\nGanha {flying} e +1/+1 na primeira vez em que você comprar uma carta com custo base de {faeria|7}+.
 77.name;Guardiã Gabriana
 77.text;{gift} -Dê {protection} a uma criatura.
 82.name;Mochi de Primavera
@@ -157,7 +157,7 @@
 105.name;Rebento da Tempestade
 105.text;{last_words} - Ganhe {faeria|10}.
 106.name;História da Velha Tartaruga
-106.text;Compre 3 cartas. Todas as criaturas compradas desta forma custam menos {faerial|2}.
+106.text;Compre 3 cartas. Todas as criaturas compradas desta forma custam menos {faeria|2}.
 107.name;Colosso da Arrebentação
 107.text;{slam}\nCusta menos {faeria|1} sempre que você tiver recolhido faeria de um poço inimigo (custo mínimo: {faeria|5}).
 108.name;Orosei, Sonho das Profundezas
@@ -213,7 +213,7 @@
 133.name;Sagami de Alma Atada
 133.text;{last_words} - Uma criatura aliada aleatória ganha +3/+5.
 134.name;Líder dos Caçadores Sagami
-134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport an adjacent friendly creature to a land you control.
 135.name;Mestre das Feras Ancestral
 135.text;Toda vez que você invocar uma criaturas que tenha 5 ou mais de vida, ela ganha +1/+1.
 136.name;Bênção de Gaia
@@ -247,7 +247,7 @@
 154.name;Curandeiro Tiki
 154.text;{gift} - Você ganha 6 de vida.
 155.name;Altar de Ruunin
-155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
+155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Pai Carvalho
 156.text;{slam}\n{gift} - Ganha +0/+1 para cada floresta que você controlar.
 157.name;Árvore de Faeria
@@ -288,7 +288,7 @@
 182.text;{taunt}, {dash|2}\nGanha 1 de Vida por cada vez que você sofreu dano nessa partida.
 183.name;Javali Ancestral
 183.text;{dash|2}\nCusta menos {faeria|2} se você controlar uma criatura que tenha 5 ou mais de vida.
-184.name;Ordem de Ruunin
+184.name;Ruunin's Guidance
 184.text;{options|Dê +2/+2 a uma criatura.|Você ganha 5 de vida.}\nDê +2/+2 a uma criatura.\nVocê ganha 5 de vida.
 185.name;Voz da Fome
 185.text;{gift} - Destrua todas as criaturas aliadas adjacentes. Ganha ataque e vida igual à soma da vida de todos.
@@ -432,7 +432,7 @@
 266.text;{production} - Cause 2 de dano a si mesmo.
 267.name;Guardião Celeste de Khalim
 267.text;{flying}\nPode ser invocado em qualquer lugar adjacente a uma criatura aliada.
-268.name;Aéreo
+268.name;Khalim's Training
 268.text;Dê +1/+0, {flying} e {charge|2} a uma criatura.
 273.name;Soldado do Vento
 273.text;{haste}, {charge|3}\nSoldado do Vento morre ao fim de seu turno.
@@ -482,14 +482,14 @@
 303.text;{flying}\nNão pode ser atacada.
 304.name;Asa Demônio
 304.text;{flying}
-305.name;Cavaleiro do Esquecimento
+305.name;Oblivion Rider
 305.text;{charge|3}
 306.name;Dreno da Alma
 306.text;Drene 2 de vida de uma criatura.
 307.name;Areia Sufocante
 307.text;Destrua uma criatura com 3 de ataque ou menos.
 308.name;Portal do Esquecimento
-308.text;{activate} - Destrua uma criatura aliada. Essa estrutura ganha +4 de vida. Quando tiver 13 ou mais, destrua-a e invoque Ostregoth.
+308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +4 Life.
 309.name;Arqueiro do Vendaval
 309.text;{ranged_attack}\nSempre que você jogar um evento, ganha +1/+0 nesse turno.
 310.name;Impetuoso do Vendaval
@@ -511,7 +511,7 @@
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano no deus adversário.
 350.name;Três Desejos
-350.text;Ganhe 3 de vida e copie as 3 cartas no topo do baralho do seu adversário. Elas custam menos {faerial|3}. Você não pode desejar ter mais desejos.
+350.text;Ganhe 3 de vida e copie as 3 cartas no topo do baralho do seu adversário. Elas custam menos {faeria|3}. Você não pode desejar ter mais desejos.
 351.name;Planador Rebelde
 351.text;{flying}, {dash|2}\nNão pode recolher faeria.
 352.name;Aeronave Imperial Esplendor
@@ -531,7 +531,7 @@
 359.name;Apocalipse
 359.text;Define sua faeria em {faeria|0}. Perca metade da sua vida (arredondada para baixo). Destrua TODAS as criaturas e estruturas.
 360.name;Mosquito Irritante
-360.text;{flying},\n{last_words} - Sofra 2 de dano. Invoque essa criatura num hexágono aleatório.
+360.text;{flying}\nNão pode recolher faeria.\n{last_words} - Sofra 2 de dano. Invoque essa criatura num hexágono aleatório.
 403.name;Cristal Sombrio
 403.text;Drene 4 de vida do seu adversário, cause 3 de dano em todas criaturas inimigas e compre 2 cartas.
 404.name;Berrante de Chifre de Iaque

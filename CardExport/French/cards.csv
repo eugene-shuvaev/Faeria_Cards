@@ -96,7 +96,7 @@
 62.text;Chaque fois que cette créature récolte des faeria, une créature aléatoire sous votre contrôle gagne +1/+1.
 63.name;Patrouilleuse des Marches
 63.text;{gift} - Ajoute un <b>Feu de camp</b> à votre main.
-64.name;Tour des damnés
+64.name;Siphon à Faeria
 64.text;Les puits à faeria sont vides.\n{production} - S'inflige 1 point de dégâts.
 65.name;Explorateur de la forêt tropicale
 65.text;{gift} - Gagne +1/+1 si vous contrôlez 2 lacs. Gagne +0/+2 si vous contrôlez 2 forêts.
@@ -121,7 +121,7 @@
 75.name;Enchanteresse de Gabria
 75.text;{gift} - L'attaque d'une autre créature devient égale à ses PV.
 76.name;Commandant de Gabria
-76.text;{aquatic}, {charge|3}\nGagne {flying} dès que vous piochez une carte coûtant {faeria|7} ou plus.
+76.text;{aquatic}, {charge|3}\nGagne {flying} et +1/+1 dès que vous piochez une carte coûtant {faeria|7} ou plus.
 77.name;Gardien de Gabria
 77.text;{gift} - Confère {protection} à une créature.
 82.name;Mochi de printemps
@@ -213,7 +213,7 @@
 133.name;Sagami à l'âme recluse
 133.text;{last_words} - Donne +3/+5 à une créature alliée aléatoire.
 134.name;Maître-chasse sagami
-134.text;{gift} - Téléporte une autre créature alliée sur un terrain adjacent au Maître-chasse.
+134.text;{gift} - Téléporte une créature alliée adjacente sur un terrain que vous contrôlez.
 135.name;Belluaire antique
 135.text;Lorsque vous invoquez une créature à la vie supérieure ou égale à 5, lui donne +1/+1.
 136.name;Grâce de Gaïa
@@ -247,7 +247,7 @@
 154.name;Soigneur tiki
 154.text;{gift} - Vous rend 6 PV.
 155.name;Autel de Ruunin
-155.text;{gift} - Gagnez {faeria|3}.\n{last_words} - Votre adversaire gagne {faeria|3}.
+155.text;{gift} - Gagnez {faeria|2}.\n{last_words} - Votre adversaire gagne {faeria|2}.
 156.name;Chêne patriarche
 156.text;{slam}\n{gift} - Gagne +0/+1 pour chaque forêt sous votre contrôle.
 157.name;Arbre à faeria
@@ -288,7 +288,7 @@
 182.text;{taunt}, {dash|2}\nGagne 1 PV pour chaque fois où vous subissez des dégâts pendant la partie.
 183.name;Sanglier antique
 183.text;{dash|2}\nSi vous contrôlez une créature à la vie supérieure ou égale à 5, coûte {faeria|2} de moins.
-184.name;Commandement de Ruunin
+184.name;Ruunin's Guidance
 184.text;{options|Donne +2/+2 à une créature.|Vous rend 5 PV.}\nDonne +2/+2 à une créature.\nVous rend 5 PV.
 185.name;Râle de la faim
 185.text;{gift} - Détruit toutes les créatures alliées adjacentes. Gagne une attaque et des PV équivalents à la somme de leurs PV.
@@ -432,7 +432,7 @@
 266.text;{production} - Vous inflige 2 points de dégâts.
 267.name;Garde céleste de Khalim
 267.text;{flying}\nPeut être invoqué sur toute case adjacente à une créature alliée.
-268.name;Envol
+268.name;Entraînement de Khalim
 268.text;Donne +1/+0, {flying} et {charge|2} à une créature.
 273.name;Soldat du vent
 273.text;{haste}, {charge|3}\nMeurt à la fin du tour.
@@ -475,21 +475,21 @@
 300.name;Marche-mort
 300.text;{deathtouch}.\nVous devez sacrifier une autre créature pour invoquer celle-ci.
 301.name;Serment d'oubli
-301.text;Détruit une créature alliée. Invoque un <b>Chevalier de l'oubli</b> 6/3 avec {charge|3} à sa place.
+301.text;Détruit une créature alliée. Invoque un <b>Chevaucheur de l'oubli</b> 6/3 avec {charge|3} à sa place.
 302.name;Vampire shaytan
 302.text;{dash|1}\nChaque fois que cette créature inflige des dégâts à une divinité, vous rend un nombre de points de vie équivalent.
 303.name;Iona, la Bienaimée
 303.text;{flying}\nNe peut être attaquée.
 304.name;Aile démoniaque
 304.text;{flying}
-305.name;Chevalier de l'oubli
+305.name;Chevaucheur de l'oubli
 305.text;{charge|3}
 306.name;Drain d'âme
 306.text;Draine 2 points de vie à une créature.
 307.name;Sables mouvants
 307.text;Détruit une créature à l'attaque inférieure ou égale à 3.
 308.name;Portail vers l'oubli
-308.text;Quand cette structure a au moins 13 PV, s'autodétruit et invoque <b>Ostregoth</b>.\n{activate} - Détruit une créature alliée. Cette structure gagne 4 PV.
+308.text;Quand cette structure a au moins 13 PV, s'autodétruit et invoque <b>Ostregoth</b>.\n{activate} - Détruit une créature alliée, piochez une carte et cette structure gagne 4 PV.
 309.name;Archer tempétueux
 309.text;{ranged_attack}\nChaque fois que vous jouez un événement, gagne +1/+0 jusqu'à la fin du tour.
 310.name;Chargeur tempétueux
@@ -531,7 +531,7 @@
 359.name;Jugement dernier
 359.text;Vous tombez à {faeria|0}. Réduisez vos PV de moitié (arrondi à l'inférieur). Détruisez TOUTES les créatures et structures.
 360.name;Moucheron têtu
-360.text;{flying}.\n{last_words} - Infligez-vous 2 points de dégâts. Invoquez cette créature sur un espace aléatoire.
+360.text;{flying}\nNe peut pas récolter de faeria.\n{last_words} - Infligez-vous 2 points de dégâts. Invoquez cette créature sur un espace aléatoire.
 403.name;Cristal obscur
 403.text;Draine 4 points de vie à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
 404.name;Trompe en corne de yak

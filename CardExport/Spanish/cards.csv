@@ -96,7 +96,7 @@
 62.text;Cuando una criatura recoge faeria, una criatura al azar tuya gana +1/+1.
 63.name;Explorador extraño
 63.text;{gift}: Añade una <b>Fogata</b> a tu mano.
-64.name;Torre aislada
+64.name;Imperial Drain
 64.text;Los pozos de faeria se han secado.\n{production}: Inflige 1 de daño a esta estructura.
 65.name;Explorador de la jungla
 65.text;{gift}: Gana +1/+1 si controlas 2 lagos. Gana +0/+2 si controlas 2 bosques.
@@ -121,7 +121,7 @@
 75.name;Hechicera gabriana
 75.text;{gift}: El ataque de otra criatura se iguala al de su vida.
 76.name;Comandante gabriano
-76.text;{aquatic}, {charge|3}\nLa primera vez que robes una carta con un coste base de {faeria|7}+, gana {flying}.
+76.text;{aquatic}, {charge|3}\nLa primera vez que robes una carta con un coste base de {faeria|7}+, gana {flying} y +1/+1.
 77.name;Alcaide gabriano
 77.text;{gift}: Le da {protection} a una criatura.
 82.name;Mochi de primavera
@@ -213,7 +213,7 @@
 133.name;Taumaturgo sagami
 133.text;{last_words}: Una criatura aliada al azar gana +3/+5.
 134.name;Jefe cazador sagami
-134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport an adjacent friendly creature to a land you control.
 135.name;Maestro de bestias antiguo
 135.text;Cuando invocas una criatura con 5 de vida o más, gana +1/+1.
 136.name;Gracia de Gea
@@ -247,7 +247,7 @@
 154.name;Curandero tiki
 154.text;{gift}: Ganas 6 de vida.
 155.name;Santuario de Ruunin
-155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
+155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Roble patriarca
 156.text;{slam}\n{gift}: Gana +0/+1 por cada bosque que controlas.
 157.name;Árbol de faeria
@@ -288,7 +288,7 @@
 182.text;{taunt}, {dash|2}\nGana 1 de vida cada vez que te infligen daño durante la partida.
 183.name;Jabalí antiguo
 183.text;{dash|2}\nCuesta {faeria|2} menos si controlas una criatura con 5 de vida o más.
-184.name;Dominio de Ruunin
+184.name;Ruunin's Guidance
 184.text;{options|Le da +2/+2 a una criatura.|Gana 5 de vida.}\nLe da +2/+2 a una criatura.\nGana 5 de vida.
 185.name;Voz del hambre
 185.text;{gift}: Destruye todas las criaturas aliadas adyacentes. Gana ataque y vida igual a sus vidas combinadas.
@@ -432,7 +432,7 @@
 266.text;{production}: Te inflige 2 de daño.
 267.name;Guardia celeste de Khalim
 267.text;{flying}\nPuede invocarse en cualquier lugar adyacente a una criatura aliada.
-268.name;Céfiro
+268.name;Khalim's Training
 268.text;Le da +1/+0, {flying} y {charge|2} a una criatura.
 273.name;Soldado del viento
 273.text;{haste}, {charge|3}\nEl Soldado del viento muere al acabar el turno.
@@ -482,14 +482,14 @@
 303.text;{flying}\nNo pueden atacarle.
 304.name;Demonio alado
 304.text;{flying}
-305.name;Caballero del olvido
+305.name;Oblivion Rider
 305.text;{charge|3}
 306.name;Drenaje de almas
 306.text;Drena 2 de vida a una criatura.
 307.name;Arenas asfixiantes
 307.text;Destruye una criatura con 3 de ataque o menos.
 308.name;Portal del olvido
-308.text;{activate}: Destruye una criatura aliada. Esta estructura gana 4 de vida. Cuando tiene más de 13, se destruye e invoca a Ostrogoda.
+308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +4 Life.
 309.name;Arquero huracanado
 309.text;{ranged_attack}\nCuando uses un evento, gana +1/+0 durante el turno.
 310.name;Percherón huracanado
@@ -531,7 +531,7 @@
 359.name;Juicio final
 359.text;Cambia tu faeria a{faeria|0}. Pierde la mitad de tu vida (redondeando hacia abajo). Destruye a TODAS las criaturas y estructuras.
 360.name;Gnat molesto
-360.text;{flying}.\n{last_words} - Te inflige 2 de daño. Invoca a esta criatura en un espacio al azar.
+360.text;{flying}\nNo puede cosechar faeria.\n{last_words} - Te inflige 2 de daño. Invoca a esta criatura en un espacio al azar.
 403.name;Cristal oscuro
 403.text;Drena 4 de vida a tu oponente, inflige 3 de daño a todas las criaturas enemigas y roba 2 cartas.
 404.name;Cuerno de guerra de yak

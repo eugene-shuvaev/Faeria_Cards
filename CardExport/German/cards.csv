@@ -96,7 +96,7 @@
 62.text;Immer, wenn diese Kreatur Faeria sammelt, erhält eine zufällige Kreatur unter deiner Kontrolle +1/+1.
 63.name;Wildnishüter
 63.text;{gift} - Nimm ein <b>Lagerfeuer</b> auf deine Hand.
-64.name;Turm der Verdammten
+64.name;Imperial Drain
 64.text;Faeria-Brunnen sind leer.\n{production} - Fügt dieser Struktur 1 Schaden zu.
 65.name;Entdecker des Regenwalds
 65.text;{gift} - Erhält +1/+1, wenn du 2 Seen kontrollierst. Erhält +0/+2, wenn du 2 Wälder kontrollierst.
@@ -121,7 +121,7 @@
 75.name;Magierin von Gabria
 75.text;{gift} - Der Angriff einer anderen Kreatur wird auf die Höhe ihres Lebens gesetzt.
 76.name;Feldherr von Gabria
-76.text;{aquatic}, {charge|3}\nErhalte {flying} beim ersten Mal, wenn du eine Karte mit Grundkosten von {faeria|7} oder höher ziehst.
+76.text;{aquatic}, {charge|3}\nErhalte {flying} und +1/+1 beim ersten Mal, wenn du eine Karte mit Grundkosten von {faeria|7} oder höher ziehst.
 77.name;Wächter von Gabria
 77.text;{gift} - Gewährt einer Kreatur {protection}.
 82.name;Frühlings-Mochi
@@ -213,7 +213,7 @@
 133.name;Seelengebundener Sagami
 133.text;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
 134.name;Sagami-Jägermeister
-134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport an adjacent friendly creature to a land you control.
 135.name;Uralter Bändiger
 135.text;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
 136.name;Gaeas Gnade
@@ -247,7 +247,7 @@
 154.name;Tiki-Heiler
 154.text;{gift} - Du erhältst 6 Leben.
 155.name;Ruunins Schrein
-155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
+155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Eichenvater
 156.text;{slam}\n{gift} - Erhält +0/+1 für jeden Wald unter deiner Kontrolle.
 157.name;Faeria-Baum
@@ -288,7 +288,7 @@
 182.text;{taunt}, {dash|2}\nDu erhältst 1 Leben für jedes Mal, dass dir in dieser Partie Schaden zugefügt wurde.
 183.name;Uralter Eber
 183.text;{dash|2}\nKostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
-184.name;Ruunins Befehl
+184.name;Ruunin's Guidance
 184.text;{options|Gewährt einer Kreatur +2/+2.|Erhalte 5 Leben.}\nGewährt einer Kreatur +2/+2.\nErhalte 5 Leben.
 185.name;Stimme des Hungers
 185.text;{gift} - Zerstört alle angrenzenden verbündeten Kreaturen. Erhält Angriff UND Leben in Höhe ihres gesamten Lebens.
@@ -432,7 +432,7 @@
 266.text;{production} - Fügt dir selbst 2 Schaden zu.
 267.name;Khalims himmlischer Wächter
 267.text;{flying}\nKann neben jeder verbündeten Kreatur beschworen werden.
-268.name;Windnatur
+268.name;Khalim's Training
 268.text;Gewährt einer Kreatur +1/+0, {flying} und {charge|2}.
 273.name;Windsoldat
 273.text;{haste}, {charge|3}\nDer Windsoldat stirbt am Ende des Zuges.
@@ -482,14 +482,14 @@
 303.text;{flying}\nKann nicht angegriffen werden.
 304.name;Dämonenschwinge
 304.text;{flying}
-305.name;Ritter des Vergessens
+305.name;Oblivion Rider
 305.text;{charge|3}
 306.name;Seelenentzug
 306.text;Entziehe einer Kreatur 2 Leben.
 307.name;Würgesand
 307.text;Zerstöre eine Kreatur mit 3 oder weniger Angriff.
 308.name;Das Tor zum Vergessen
-308.text;{activate} - Zerstöre eine verbündete Kreatur. Diese Struktur erhält +4 Leben. Hat sie 13 oder mehr Leben, zerstöre sie und beschwöre Ostregoth.
+308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +4 Life.
 309.name;Sturmschütze
 309.text;{ranged_attack}\nErhält immer, wenn du ein Ereignis ausspielst, für diesen Zug +1/+0.
 310.name;Sturmross
@@ -531,7 +531,7 @@
 359.name;Apokalypse
 359.text;Setzt dein Faeria auf {faeria|0}. Du verlierst die Hälfte deines Lebens (wird abgerundet). Vernichtet ALLE Kreaturen und Strukturen.
 360.name;Nervtötermücke
-360.text;{flying}.\n{last_words} - Fügt dir selbst 2 Schaden zu. Diese Kreatur wird auf einem zufälligen Feld beschworen.
+360.text;{flying}\nKann kein Faeria sammeln.\n{last_words} - Fügt dir selbst 2 Schaden zu. Diese Kreatur wird auf einem zufälligen Feld beschworen.
 403.name;Dunkler Kristall
 403.text;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
 404.name;Kriegshorn aus Yakhorn

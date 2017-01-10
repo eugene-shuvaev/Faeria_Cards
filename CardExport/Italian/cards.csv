@@ -96,7 +96,7 @@
 62.text;Ogniqualvolta questa creatura raccoglie faeria, una creatura casuale che controlli ottiene +1/+1.
 63.name;Ranger Straniero
 63.text;{gift} - Aggiungi un <b>Falò</b> alla tua mano.
-64.name;Torre Abbandonata
+64.name;Imperial Drain
 64.text;I pozzi di Faeria sono vuoti.\n{production} - Infliggi 1 danno a questa struttura.
 65.name;Esploratore delle Foreste
 65.text;{gift} - Ottiene +1/+1 se controlli 2 laghi. Ottiene +0/+2 se controlli 2 foreste.
@@ -121,7 +121,7 @@
 75.name;Strega Gabriana
 75.text;{gift} - L'attacco di un'altra creatura diventa pari ai suoi punti vita.
 76.name;Comandante Gabriano
-76.text;{aquatic}, {charge|3}\nLa prima volta che peschi una carta con costo base pari a {faeria|7}+, ottiene {flying}.
+76.text;{aquatic}, {charge|3}\nLa prima volta che peschi una carta con costo base pari a {faeria|7}+, ottiene {flying} e +1/+1.
 77.name;Guardiano Gabriano
 77.text;{gift} - Fornisci {protection} a una creatura.
 82.name;Mochi di Primavera
@@ -213,7 +213,7 @@
 133.name;Vincolatore Sagami
 133.text;{last_words} - Una qualunque creatura alleata ottiene +3/+5.
 134.name;Maestro di caccia Sagami
-134.text;{gift} - Teleport another friendly creature to a land adjacent to the Huntmaster.
+134.text;{gift} - Teleport an adjacent friendly creature to a land you control.
 135.name;Vecchio Addestratore
 135.text;Quando evochi una creatura con almeno 5 punti vita, essa ottiene +1/+1.
 136.name;Grazia di Gaia
@@ -247,7 +247,7 @@
 154.name;Taumaturgo di Tiki
 154.text;{gift} - Ottieni 6 punti vita.
 155.name;Santuario di Ruunin
-155.text;{gift} - Gain {faeria|3}.\n{last_words} - Your opponent gains {faeria|3}.
+155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Padre Quercia
 156.text;{slam}\n{gift} - Ottiene +0/+1 per ogni foresta sotto il tuo controllo.
 157.name;Albero di Faeria
@@ -288,7 +288,7 @@
 182.text;{taunt}, {dash|2}\nOttiene 1 punto vita per tutte le volte che hai subito danno in questa partita.
 183.name;Vecchio Cinghiale
 183.text;{dash|2}\nCosto ridotto di {faeria|2} se controlli una creatura con almeno 5 punti vita.
-184.name;Comando di Ruunin
+184.name;Ruunin's Guidance
 184.text;{options|Dona +2/+2 a una creatura.|Ottieni 5 punti vita.}\n- Dona +2/+2 a una creatura.\n- Ottieni 5 punti vita.
 185.name;Urlo della Fame
 185.text;{gift} - Distruggi tutte le creature confinanti alleate. L'attacco E i punti vita di questa carta aumentano di un valore pari alla somma dei loro punti vita.
@@ -432,7 +432,7 @@
 266.text;{production} - Infliggi 2 danni a te stesso.
 267.name;Guardiano dei Cieli di Khalim
 267.text;{flying}\nSi può posizionare ovunque, a fianco di una creatura alleata.
-268.name;Ali del vento
+268.name;Khalim's Training
 268.text;Dona +1/+0, {flying} e {charge|2} a una creatura.
 273.name;Soldato del Vento
 273.text;{haste}, {charge|3}\nIl Soldato del Vento muore alla fine del turno.
@@ -482,14 +482,14 @@
 303.text;{flying}\nNon può essere attaccata.
 304.name;Demone Alato
 304.text;{flying}
-305.name;Cavaliere dell'Oblio
+305.name;Oblivion Rider
 305.text;{charge|3}
 306.name;Risucchio d'Anima
 306.text;Sottrai 2 punti vita a una creatura.
 307.name;Sabbie Strangolatrici
 307.text;Distruggi una creatura con attacco pari o inferiore a 3.
 308.name;I Cancelli dell'Oblio
-308.text;{activate} - Distruggi una creatura alleata. Questa struttura ottiene 4 punti vita. Quando raggiunge 13 punti vita, puoi distruggerla per evocare Ostregoth.
+308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +4 Life.
 309.name;Arciere delle Tempeste
 309.text;{ranged_attack}\nSe giochi una carta evento, ottiene +1/+0 fino alla fine del turno.
 310.name;Scatena-tempeste
@@ -531,7 +531,7 @@
 359.name;Giorno del Giudizio
 359.text;Porta i tuoi faeria a {faeria|0}. Perdi metà dei tuoi punti vita (per difetto). Distruggi TUTTE le creature e le strutture.
 360.name;Moscerino fastidioso
-360.text;{flying}.\n{last_words} - Infliggi 2 danni a te stesso. Evoca questa creatura su un tassello casuale.
+360.text;{flying}\nNon può estrarre faeria.\n{last_words} - Infliggi 2 danni a te stesso. Evoca questa creatura su un tassello casuale.
 403.name;Cristallo delle Tenebre
 403.text;Sottrai 4 punti vita al tuo avversario, infliggi 3 danni a tutte le creature nemiche e pesca 2 carte.
 404.name;Olifante da Guerra

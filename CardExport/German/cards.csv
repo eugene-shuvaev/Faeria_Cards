@@ -9,7 +9,7 @@
 9.name;Imperialer Ingenieur
 9.text;{gift} - Aktiviere all deine Produktionsfähigkeiten.
 10.name;Stellung halten!
-10.text;Nimm zwei 2/2 <b>Imperiale Wächter</b> mit {taunt} auf deine Hand.
+10.text;Nimm zwei 2/3 <b>Imperiale Wächter</b> mit {taunt} auf deine Hand.
 11.name;Wandelnde Festung
 11.text;
 12.name;Dampfschmiede
@@ -21,7 +21,7 @@
 15.name;Schutzkuppel
 15.text;Gewährt einer Kreatur {protection}.
 16.name;Imperialer Wächter
-16.text;{taunt}
+16.text;{taunt}\n{last_words} - Gain 2 life.
 22.name;Freiheitskämpfer
 22.text;{haste}
 23.name;Lagerfeuer
@@ -87,7 +87,7 @@
 58.name;Kriegs-Yak
 58.text;Hat +2/+0, wenn dein Gegner 10 oder weniger Leben hat.
 59.name;Verteidiger der Heimat
-59.text;{taunt}\nKann nur direkt neben deiner Sphäre beschworen werden.
+59.text;{taunt}\n{gift} - If you were attacked last turn, summon another <b>Defender of the Homeland</b>.
 60.name;Attentäter der Königin
 60.text;{deathtouch}
 61.name;Vogelfreier
@@ -159,7 +159,7 @@
 106.name;Sage der Alten Schildkröte
 106.text;Ziehe 3 Karten. Alle Kreaturen, die auf diese Art gezogen werden, kosten {faeria|2} weniger.
 107.name;Wellenbrecher
-107.text;{slam}\nKostet {faeria|1} weniger für jedes Mal, dass du von dem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|5}).
+107.text;Kostet {faeria|1} weniger für jedes Mal, dass du von dem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|4}).
 108.name;Orosei, Traum der Tiefe
 108.text;{flying}, {charge|2}\n{gift} - Verwandelt alle deine anderen Kreaturen in Kreaturen, die {faeria|2} mehr kosten.
 109.name;Wasserelementar
@@ -181,7 +181,7 @@
 117.name;Ei der Wunder
 117.text;Wenn du eine Kreatur ziehst, wird Ei der Wunder zu einer Kopie dieser Kreatur.
 118.name;Archon von Gabria
-118.text;{charge|2}.\nErhalte +2/+2, wenn du zwei Karten mit Grundkosten von {faeria|7} oder höher gespielt hast.
+118.text;{charge|2}\nErhalte +2/+2, wenn du zwei Karten mit Grundkosten von {faeria|7} oder höher gespielt hast.
 119.name;Triton-Taucher
 119.text;{aquatic}, {jump}
 120.name;Wechselnde Gezeiten
@@ -212,8 +212,8 @@
 132.text;Erhält immer, wenn eine angrenzende Kreatur stirbt, +1/+1.
 133.name;Seelengebundener Sagami
 133.text;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
-134.name;Sagami-Jägermeister
-134.text;{gift} - Teleport an adjacent friendly creature to a land you control.
+134.name;Sagami Grovecaller
+134.text;{gift} - Teleport another friendly creature to a forest you control.
 135.name;Uralter Bändiger
 135.text;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
 136.name;Gaeas Gnade
@@ -249,7 +249,7 @@
 155.name;Ruunins Schrein
 155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Eichenvater
-156.text;{slam}\n{gift} - Erhält +0/+1 für jeden Wald unter deiner Kontrolle.
+156.text;{gift} - Erhält +0/+1 für jeden Wald unter deiner Kontrolle.
 157.name;Faeria-Baum
 157.text;{production} - Diese Struktur erhält +1 Leben.\nWenn sie 5 oder mehr Leben hat, zerstöre sie und erhalte {faeria|10}.
 158.name;Lebende Weide
@@ -301,7 +301,7 @@
 189.name;Ruunins Gegenwart
 189.text;Nimm eine zufällige grüne Kreatur auf deine Hand. Sie erhält +6/+6.
 190.name;Ruunin, die Unnachgiebige
-190.text;{last_words} - Nimm Ruunin zurück auf deine Hand. Immer wenn sie stirbt, kostet sie {faeria|2} weniger.
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand. She gains +2/+2.
 191.name;Straßenräuber
 191.text;{combat} - Erhalte {faeria|2}.
 192.name;Kriegsherr der Kobolde
@@ -325,7 +325,7 @@
 201.name;Dreister Hehler
 201.text;{gift} - Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
 202.name;Seifer, der blutige Tyrann
-202.text;{slam}\nWenn Seifer eine Kreatur zerstört, erhält er zusätzlich Angriff und Leben in Höhe des ursprünglichen Angriffs und Lebens der zerstörten Kreatur.
+202.text;Wenn Seifer eine Kreatur zerstört, erhält er zusätzlich Angriff und Leben in Höhe des ursprünglichen Angriffs und Lebens der zerstörten Kreatur.
 203.name;Barbarischer Oger
 203.text;
 204.name;Krog, der Oger-König
@@ -333,7 +333,7 @@
 205.name;Axtschleifer
 205.text;{gift} - Erhält +1/+1, wenn es angrenzend zu einem gegnerischen Brunnen beschworen wird.
 206.name;Felsenwerfer
-206.text;{ranged_attack}, {slam}
+206.text;{ranged_attack}\nWhen this creature attacks, it also damages each enemy adjacent to the target.
 211.name;Brutaler Shedim
 211.text;{combat} - Fügt deinem Gegner 2 Schaden zu.
 212.name;Blutsänger
@@ -343,9 +343,9 @@
 214.name;Feuerspucker
 214.text;{gift} - Fügt einer feindlichen Kreatur 1 Schaden zu.
 215.name;Herr des Schreckens
-215.text;{deathtouch}
+215.text;{taunt}\nWhenever Lord of Terror is dealt damage, deal 2 damage to your opponent.
 216.name;Shedim-Peiniger
-216.text;{gift} - Erhalte +2/+2, wenn du eine weitere Kreatur mit mehr Angriff als Leben hast.
+216.text;{gift} - Erhalte +2/+0, wenn du eine weitere Kreatur mit mehr Angriff als Leben hast.
 217.name;Blutobelisk
 217.text;Füge deinem Gegner 1 Schaden zu und erhalte {faeria|1}, wann immer eine gegnerische Kreatur im Kampf stirbt.
 218.name;Grausiger Wächter
@@ -455,7 +455,7 @@
 290.name;Seidensonnen-Fee
 290.text;{flying}\nErhält +3/+1 und {charge|3}, wenn du das erste Mal ein Ereignis ziehst.
 291.name;Himmlischer Turm
-291.text;{activate} - Gewährt einer Kreatur für diesen Zug {charge|5}. Fügt dieser Struktur 1 Schaden zu.
+291.text;{activate} - Gewährt einer Kreatur für diesen Zug {charge|3}. Fügt dieser Struktur 1 Schaden zu.
 292.name;Wind-Irrlicht
 292.text;{flying}, {charge|3}\nErhält immer, wenn du einen Gott angreifst, +3/+0.
 293.name;Windblitz
@@ -463,7 +463,7 @@
 294.name;Goldenes Aviarium
 294.text;Alle deine fliegenden Kreaturen haben +2/+0.
 295.name;Inbrünstiger Kreuzritter
-295.text;{charge|2}\nErhält immer, wenn du einen Gott angreifst, +2/+2, solang er in deinem Deck ODER auf deiner Hand ist.
+295.text;{charge|2}\nErhält immer, wenn du einen Gott angreifst, +1/+1, solang er in deinem Deck ODER auf deiner Hand ist.
 296.name;Keldran-Soldat
 296.text;
 297.name;Fürst des Ödlands
@@ -473,11 +473,11 @@
 299.name;Zankender Dämon
 299.text;{gift} - Du kannst eine andere Kreatur opfern, um an seiner Stelle eine 5/2 {flying}e <b>Dämonenschwinge</b> zu beschwören.
 300.name;Todeswandler
-300.text;{deathtouch}.\nDu musst eine andere Kreatur opfern, um diese Kreatur zu beschwören.
+300.text;{deathtouch}\nDu musst eine andere Kreatur opfern, um diese Kreatur zu beschwören.
 301.name;Schwur des Vergessens
 301.text;Zerstöre eine verbündete Kreatur. Beschwöre einen 6/3 <b>Ritter des Vergessens</b> mit {charge|3} an ihrer Stelle.
-302.name;Vampir der Shaytan
-302.text;{dash|1}\nWann immer Vampir der Shaytan einem Gott Schaden zufügt, erhältst du Leben in Höhe des verursachten Schadens.
+302.name;Shaytan Monstrosity
+302.text;{charge|2}\nWhenever a friendly creature dies, this creature drains its attack.
 303.name;Iona, von allen Geliebte
 303.text;{flying}\nKann nicht angegriffen werden.
 304.name;Dämonenschwinge
@@ -489,7 +489,7 @@
 307.name;Würgesand
 307.text;Zerstöre eine Kreatur mit 3 oder weniger Angriff.
 308.name;Das Tor zum Vergessen
-308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +4 Life.
+308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +2 Life.
 309.name;Sturmschütze
 309.text;{ranged_attack}\nErhält immer, wenn du ein Ereignis ausspielst, für diesen Zug +1/+0.
 310.name;Sturmross
@@ -501,11 +501,11 @@
 313.name;Geist mit zwei Seelen
 313.text;{flying}\nKann neben einer verbündeten Kreatur beschworen werden.\n{gift} - Beschwört einen weiteren <b>Geist mit zwei Seelen</b>.
 314.name;Held der Stürme
-314.text;{slam}, {dash|2}\n{gift} - Verursache 4 Schaden, der zufällig auf die Gegner verteilt wird. Gewährt die Werte +4/+4, welche zufällig auf Verbündete verteilt werden.
+314.text;{dash|2}\n{gift} - Verursache 4 Schaden, der zufällig auf die Gegner verteilt wird. Gewährt die Werte +4/+4, welche zufällig auf Verbündete verteilt werden.
 315.name;Seelenfresser
 315.text;{flying}, {charge|3}\nErhält für jede in dieser Partie gestorbene verbündete Kreatur +1/+1.
 316.name;Schemenhafte Flammengeißel
-316.text;{flying}, {haste}, {charge|2}.\n{combat} - Fügt deinem Gegner 3 Schaden zu.
+316.text;{flying}, {haste}, {charge|2}\n{combat} - Fügt deinem Gegner 3 Schaden zu.
 329.name;Halsabschneider
 329.text;
 335.name;Rebellenwerfer
@@ -515,13 +515,13 @@
 351.name;Rebellengleiter
 351.text;{flying}, {dash|2}\nKann kein Faeria sammeln.
 352.name;Silberstrahl, Imperiales Luftschiff
-352.text;{flying}, {slam}, {dash|3}\nDie Faeria-Kosten des Silberstrahls entsprechen deinem gesamten Leben.
+352.text;{flying}, {dash|3}\nRadiance's faeria cost equals your life total.\n{gift} - Gain 1 life for each card in your hand.
 353.name;Verbotene Bibliothek
 353.text;{production} - Ziehe eine Karte und erhalte {faeria|2}. Dir wird 2 Schaden zugefügt.
 354.name;Traumschächter
 354.text;{dash|3}\n{gift} - Set a god's life to 10.
 355.name;Tiergeist-Kodama
-355.text;{slam}, {jump}
+355.text;{jump}\nCan't harvest faeria.\nWhenever this creature attacks a god, gain 5 life.
 356.name;Gottesjäger
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Blutgesang
@@ -529,7 +529,7 @@
 358.name;Höllenfeuer
 358.text;Verursacht 9 Schaden, der zufällig auf die Gegner verteilt wird.
 359.name;Apokalypse
-359.text;Setzt dein Faeria auf {faeria|0}. Du verlierst die Hälfte deines Lebens (wird abgerundet). Vernichtet ALLE Kreaturen und Strukturen.
+359.text;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures. End the turn.
 360.name;Nervtötermücke
 360.text;{flying}\nKann kein Faeria sammeln.\n{last_words} - Fügt dir selbst 2 Schaden zu. Diese Kreatur wird auf einem zufälligen Feld beschworen.
 403.name;Dunkler Kristall
@@ -537,7 +537,7 @@
 404.name;Kriegshorn aus Yakhorn
 404.text;Beschwört drei 2/4 <b>Wilde Prärie-Yaks</b> mit Hast.
 405.name;Astralwaffe
-405.text;{flying}.\n{gift} - Zerstört alle angrenzenden Kreaturen, Strukturen und Länder.
+405.text;{flying}\n{gift} - Zerstört alle angrenzenden Kreaturen, Strukturen und Länder.
 406.name;Okarina
 406.text;Führe nach diesem Zug einen weiteren Zug durch.
 407.name;Dschinnlampe
@@ -573,7 +573,7 @@
 422.name;Hüter der Leere
 422.text;{gift} - Zerstört dein Deck.
 423.name;Kristalldrache
-423.text;{flying}. {charge|3}.
+423.text;{flying}, {charge|3}
 424.name;Rubin der Flammenexplosion
 424.text;{options|Füge 3 Schaden zu.|Füge allem 3 Schaden zu.}\n- Füge 3 Schaden zu.\n- Füge allem 3 Schaden zu.
 425.name;Hammer der Zerstörung
@@ -589,6 +589,6 @@
 430.name;Verdammnissense
 430.text;Zerstört eine Kreatur. Beschwört an ihrer Stelle einen 6/1 <b>Schatten des Schlächters</b>.
 431.name;Juwelenelster
-431.text;{flying}, {haste}.\nNimm einen zufälligen <b>Schatz</b> auf deine Hand, wann immer diese Kreatur einen Gott angreift.
+431.text;{flying}, {haste}\nNimm einen zufälligen <b>Schatz</b> auf deine Hand, wann immer diese Kreatur einen Gott angreift.
 432.name;Rad des Chaos
 432.text;{options|Zerstört 2 unbesetzte Länder.|Zerstört eine Kreatur mit 5 oder weniger Angriff.|Gewährt 7 Leben.}\n- Zerstört 2 unbesetzte Länder.\n- Zerstört eine Kreatur mit 5 oder weniger Angriff.\n- Gewährt 7 Leben.

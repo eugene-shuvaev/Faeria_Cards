@@ -21,7 +21,7 @@
 15.name;Safeguard
 15.text;Give a creature {protection}.
 16.name;Imperial Guard
-16.text;{taunt}\n{last_words} - Gain 2 life.
+16.text;{taunt}\n{last_words} - Gain 2 Life.
 22.name;Freedom Fighter
 22.text;{haste}
 23.name;Campfire
@@ -59,11 +59,11 @@
 44.name;Famine
 44.text;Deal 1 damage to ALL creatures.
 45.name;Royal Judge
-45.text;{options|Draw a free Safeguard.|Draw a free Punishment.}:\n- Add a <b>Safeguard</b> to your hand. It costs {faeria|0}.\n- Add a <b>Punishment</b> to your hand. It costs {faeria|0}.
+45.text;{options|Draw a free Safeguard.|Draw a free Punishment.}\n- Add a <b>Safeguard</b> to your hand. It costs {faeria|0}.\n- Add a <b>Punishment</b> to your hand. It costs {faeria|0}.
 46.name;Cartographer
 46.text;{last_words} - Add an <b>Explore</b> to your hand.
 47.name;Shimmering Statue
-47.text;{taunt}\n{production} - You gain 1 life.
+47.text;{taunt}\n{production} - You gain 1 Life.
 48.name;Village Elder
 48.text;{last_words} - Draw a card.
 49.name;Storyteller
@@ -113,7 +113,7 @@
 71.name;Ruby Fish
 71.text;{aquatic}
 72.name;Lore Thief
-72.text;{options|Gains +2/+2|Draw 2 cards.}\nGain +2/+2.\nDraw 2 cards.
+72.text;{options|Gains +2/+2|Draw 2 cards.}\n- Gain +2/+2.\n- Draw 2 cards.
 73.name;Gabrian Cistern
 73.text;{production} - Gain {faeria|3}. Deal 1 damage to this structure.
 74.name;Tyranax
@@ -185,7 +185,7 @@
 119.name;Triton Diver
 119.text;{aquatic}, {jump}
 120.name;Shifting Tide
-120.text;{options|Move a land|Draw a card}:\n- Move a land.\n- Draw a card.
+120.text;{options|Move a land|Draw a card}\n- Move a land.\n- Draw a card.
 121.name;Prophet of Tides
 121.text;{gift} - Move a land you control twice.
 122.name;Humbling Vision
@@ -283,13 +283,13 @@
 180.name;Weeping Idol
 180.text;Whenever you are dealt damage, gain {faeria|1}.
 181.name;Earthcraft
-181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\nCreate a forest.\nCreate a lake.\nCreate a mountain.\nCreate a desert.
+181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\n- Create a forest.\n- Create a lake.\n- Create a mountain.\n- Create a desert.
 182.name;Wild Avenger
-182.text;{taunt}, {dash|2}\nGain 1 life for each time you've been dealt damage this game.
+182.text;{taunt}, {dash|2}\nGain 1 Life for each time you've been dealt damage this game.
 183.name;Ancient Boar
 183.text;{dash|2}\nIf you control a creature with 5 Life or more, costs {faeria|2} less.
 184.name;Ruunin's Guidance
-184.text;{options|Give a creature +2/+2.|Gain 5 life.}\n- Give a creature +2/+2.\n- Gain 5 Life.
+184.text;{options|Give a creature +2/+2.|Gain 5 Life.}\n- Give a creature +2/+2.\n- Gain 5 Life.
 185.name;Voice of Hunger
 185.text;{gift} - Destroy all adjacent friendly creatures. Gain Attack AND Life equal to their combined Life.
 186.name;Seedling
@@ -297,7 +297,7 @@
 187.name;Eredon, Voice of All
 187.text;{last_words} - All creatures in your deck and hand gain +1/+1.
 188.name;Feed the Forest
-188.text;Destroy a friendly creature to gain faeria equal to its life and draw a card.
+188.text;Destroy a friendly creature to gain faeria equal to its Life and draw a card.
 189.name;Ruunin's Presence
 189.text;Add a random green creature to your hand. It gains +6/+6.
 190.name;Ruunin, the Relentless
@@ -427,7 +427,7 @@
 264.name;Soul Pact
 264.text;Gain {faeria|2} and deal 2 damage to yourself.
 265.name;Altar of Souls
-265.text;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|1}.
+265.text;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|2}.
 266.name;Shaytan Demon
 266.text;{production} - Deal 2 damage to yourself.
 267.name;Khalim's Skyguard
@@ -500,7 +500,7 @@
 312.text;{taunt}, {protection}
 313.name;Twinsoul Spirit
 313.text;{flying}\nCan be summoned adjacent to a friendly creature.\n{gift} - Summon another <b>Twinsoul Spirit</b>.
-314.name;Warstorm Champion
+314.name;Crackthorn Beast
 314.text;{dash|2}\n{gift} - Deal 4 damage randomly split among enemies. Give +4/+4 randomly split among allies.
 315.name;Soul Eater
 315.text;{flying}, {charge|3}\nGain +1/+1 for each friendly creature that has died this game.
@@ -508,20 +508,20 @@
 316.text;{flying}, {haste}, {charge|2}\n{combat} - Deal 3 damage to your opponent.
 329.name;Cutthroat Bandit
 329.text;
-335.name;Rebel Slinger 
+335.name;Rebel Slinger
 335.text;{gift} - Deal 2 damage to your opponent.
 350.name;Three Wishes
-350.text;Gain 3 life and copy the top 3 cards of your opponent's deck. They cost {faeria|3} less. You cannot wish for more wishes.
-351.name;Rebel Glider 
+350.text;Gain 3 Life and copy the top 3 cards of your opponent's deck. They cost {faeria|3} less. You cannot wish for more wishes.
+351.name;Rebel Glider
 351.text;{flying}, {dash|2}\nCan't harvest faeria.
 352.name;Radiance, Imperial Airship
-352.text;{flying}, {dash|3}\nRadiance's faeria cost equals your life total.\n{gift} - Gain 1 life for each card in your hand.
+352.text;{flying}, {dash|3}\nRadiance's faeria cost equals your Life total.\n{gift} - Gain 1 Life for each card in your hand.
 353.name;Forbidden Library
 353.text;{production} - Draw a card, gain {faeria|2} and deal 2 damage to yourself.
 354.name;Dream Reaver
-354.text;{dash|3}\n{gift} - Set a god's life to 10.
+354.text;{dash|3}\n{gift} - Set a god's Life to 10.
 355.name;Feral Kodama
-355.text;{jump}\nCan't harvest faeria.\nWhenever this creature attacks a god, gain 5 life.
+355.text;{jump}\nCan't harvest faeria.\nWhenever this creature attacks a god, gain 5 Life.
 356.name;God Hunter
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Blood Song
@@ -529,11 +529,11 @@
 358.name;Hellfire
 358.text;Deal 9 damage randomly split among enemies.
 359.name;Doomsday
-359.text;Set your faeria to {faeria|0}. Halve your life (rounded down). Destroy ALL creatures and structures. End the turn.
+359.text;Set your faeria to {faeria|0}. Halve your Life (rounded down). Destroy ALL creatures and structures. End the turn.
 360.name;Annoying Gnat
 360.text;{flying}\nCan't harvest faeria.\n{last_words} - Deal 2 damage to yourself. Summon this creature in a random space.
 403.name;Dark Crystal
-403.text;Drain 4 life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
+403.text;Drain 4 Life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn
 404.text;Summon three 2/4 <b>Angry Prairie Yaks</b> with haste.
 405.name;Astral Weapon
@@ -591,4 +591,4 @@
 431.name;Jeweled Magpie
 431.text;{flying}, {haste}\nWhenever this creature attacks a god, add a random <b>Treasure</b> to your hand.
 432.name;Wheel of Chaos
-432.text;{options|Destroy 2 unoccupied lands.|Destroy a creature with 5 Attack or less.|Gain 7 life.}\n- Destroy 2 unoccupied lands.\n- Destroy a creature with 5 Attack or less.\n- Gain 7 Life.
+432.text;{options|Destroy 2 unoccupied lands.|Destroy a creature with 5 Attack or less.|Gain 7 Life.}\n- Destroy 2 unoccupied lands.\n- Destroy a creature with 5 Attack or less.\n- Gain 7 Life.

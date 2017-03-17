@@ -88,7 +88,7 @@
 114;BLUE;Aurora's Dream;event;;24;5;;;;;;Draw until you have 9 cards. Reduce the cost of all cards in your hand to {faeria|0}.;;0;101000;LEGENDARY
 115;BLUE;Snowstorm Lancer;creature;;5;2;;;;3;5;"{jump} Whenever you play an event, gain +2/+0 this turn (limit +6/+0).";;0;101000;COMMON
 116;BLUE;Luduan;creature;;3;1;;;;1;3;Whenever this creature gathers faeria from an opponent's well, add a random blue card to your hand. It costs {faeria|2} less.;;2;101000;EPIC
-117;BLUE;Egg of Wonders;structure;;5;3;;;;;3;When you draw a creature, Egg of Wonders becomes a copy of it.;;0;101000;EPIC
+117;BLUE;Egg of Wonders;structure;;5;3;;;;;3;When you draw a non-legendary creature, Egg of Wonders becomes a copy of it.;;0;101000;EPIC
 118;BLUE;Gabrian Archon;creature;;4;2;;;;4;4;"{charge|2} Gain +2/+2 if you've played two cards with a base cost of {faeria|7} or higher.";;2;101000;COMMON
 119;BLUE;Triton Diver;creature;;3;1;;;;2;2;{aquatic}, {jump};;2;100011;COMMON
 120;BLUE;Shifting Tide;event;;1;1;;;;;;"{options|Move a land|Draw a card} - Move a land. - Draw a card.";;2;101000;COMMON
@@ -286,6 +286,12 @@
 358;RED;Hellfire;event;;7;;;2;;;;Deal 9 damage randomly split among enemies.;;0;101000;EPIC
 359;YELLOW;Doomsday;event;;4;;;;2;;;Set your faeria to {faeria|0}. Halve your Life (rounded down). Destroy ALL creatures and structures. End the turn.;;0;101000;EPIC
 360;YELLOW;Annoying Gnat;creature;;2;;;;2;1;1;"{flying} Can't harvest faeria. {last_words} - Deal 2 damage to yourself. Summon this creature in a random space.";;0;101000;EPIC
+361;HUMAN;Long-horned Yak;creature;;3;;;;;2;2;{last_words} - The next creature you draw gains Attack equal to this creature's.;;0;101000;COMMON
+362;HUMAN;Time of Legends;event;;1;;;;;;;Draw the top legend in your deck. If there are no legends to answer the call, {options|Shuffle a random green legend into your deck|Shuffle a random blue legend into your deck|Shuffle a random red legend into your deck|Shuffle a random yellow legend into your deck} color. Shuffle a random legend of that color into your deck.;;0;101000;LEGENDARY
+363;BLUE;Triton Trainer;creature;;4;2;;;;3;3;"{jump} {gift} - Give the next {jump} creature you summon +2/+2.";;0;101000;RARE
+364;GREEN;Voice of Truth;creature;;4;;2;;;1;5;{gift} - Restore a creature to its original Attack and Life.;;0;101000;RARE
+365;RED;Herald of War;creature;;3;;;2;;3;3;{combat} - Give the next {combat} creature you summon +1/+1.;;0;101000;RARE
+366;YELLOW;Mistral Guide;creature;;4;;;;4;4;4;"{flying} Friendly creatures summoned adjacent to this creature gain {dash|2} and {flying}.";;0;101000;RARE
 400;PANDORA;Shard of Pandora;artifact;;0;;;;;;;;;0;106666;COMMON
 401;PANDORA;Pandora Awakens!;artifact;;0;;;;;;;Pandora opens, both players receive a <b>Treasure</b>!;;0;106666;RARE
 402;PANDORA;Treasure Found!;artifact;;0;;;;;;;"Both players receive a <b>Treasure</b>! Draw a card.";;0;106666;RARE

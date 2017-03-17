@@ -179,7 +179,7 @@
 116.name;Luduan
 116.text;Whenever this creature gathers faeria from an opponent's well, add a random blue card to your hand. It costs {faeria|2} less.
 117.name;Egg of Wonders
-117.text;When you draw a creature, Egg of Wonders becomes a copy of it.
+117.text;When you draw a non-legendary creature, Egg of Wonders becomes a copy of it.
 118.name;Gabrian Archon
 118.text;{charge|2}\nGain +2/+2 if you've played two cards with a base cost of {faeria|7} or higher.
 119.name;Triton Diver
@@ -532,6 +532,18 @@
 359.text;Set your faeria to {faeria|0}. Halve your Life (rounded down). Destroy ALL creatures and structures. End the turn.
 360.name;Annoying Gnat
 360.text;{flying}\nCan't harvest faeria.\n{last_words} - Deal 2 damage to yourself. Summon this creature in a random space.
+361.name;Long-horned Yak
+361.text;{last_words} - The next creature you draw gains Attack equal to this creature's.
+362.name;Time of Legends
+362.text;Draw the top legend in your deck. If there are no legends to answer the call, {options|Shuffle a random green legend into your deck|Shuffle a random blue legend into your deck|Shuffle a random red legend into your deck|Shuffle a random yellow legend into your deck} color. Shuffle a random legend of that color into your deck.
+363.name;Triton Trainer
+363.text;{jump}\n{gift} - Give the next {jump} creature you summon +2/+2.
+364.name;Voice of Truth
+364.text;{gift} - Restore a creature to its original Attack and Life.
+365.name;Herald of War
+365.text;{combat} - Give the next {combat} creature you summon +1/+1.
+366.name;Mistral Guide
+366.text;{flying}\nFriendly creatures summoned adjacent to this creature gain {dash|2} and {flying}.
 403.name;Dark Crystal
 403.text;Drain 4 Life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn

@@ -179,7 +179,7 @@
 116.name;Luduan
 116.text;Sempre que esta criatura coletar faeria de um poço do oponente, acrescenta uma carta azul aleatória em sua mão. Ela custará {faeria|2} a menos.
 117.name;Ovo das Maravilhas
-117.text;Quando você comprar uma criatura, o Ovo das Maravilhas se torna uma cópia dela.
+117.text;Quando você comprar uma criatura não-lendária, o Ovo das Maravilhas se tornará uma cópia dela.
 118.name;Arconte Gabriano
 118.text;{charge|2}\nEsta criatura ganha +2/+2 se você tiver jogado pelo menos duas cartas com custo base de {faeria|7}+.
 119.name;Mergulhador Anfíbio
@@ -251,7 +251,7 @@
 156.name;Pai Carvalho
 156.text;{gift} - Ganha +0/+1 para cada floresta que você controla.
 157.name;Árvore de Faeria
-157.text;{production} - Essa estrutura ganha +1 de vida.\nQuando ela tiver 5 ou mais de vida, destrói e ganha {faeria|10}.
+157.text;{production} - Essa estrutura ganha +1 de vida.\nQuando ela tiver 5 ou mais de vida, ela se destrói e ganha {faeria|10}.
 158.name;Salgueiro Vivente
 158.text;{taunt}
 159.name;Crescimento Selvagem
@@ -466,7 +466,7 @@
 295.text;{charge|2}\nGanha +1/+1 todas as vezes que você atacar um deus enquanto estiver no seu baralho OU na sua mão.
 296.name;Soldado Keldraniano
 296.text;
-297.name;Senhor do Desperdicio
+297.name;Senhor do Desperdício
 297.text;{gift} - Você pode sacrificar outra criatura para ganhar {faeria|3}.
 298.name;Assassino de Shaytan
 298.text;{deathtouch}\n{gift} - Você pode sacrificar outra criatura para esta criatura ganhar {protection}.
@@ -532,6 +532,18 @@
 359.text;Define sua faeria em {faeria|0}. Diminua sua vida pela metade (arredondado para baixo). Destrói TODAS as criaturas e estruturas. Termina o seu turno.
 360.name;Mosquito Irritante
 360.text;{flying}\nNão pode colher faeria.\n{last_words} - Causa 2 de dano a você. Invoca esta criatura num hexágono aleatório.
+361.name;Iaque Longo-Chifre
+361.text;{last_words} - A próxima criatura que você comprar ganha ataque igual ao desta criatura.
+362.name;Hora das Lendas
+362.text;Compra a próxima carta lendária do seu baralho. Se não há lendárias para atender ao chamado, escolha uma cor. Embaralhe uma lendária aleatória dessa cor no seu baralho.{options|Embaralha uma lendária aleatória verde no seu baralho|Embaralha uma lendária aleatória azul no seu baralho|Embaralha uma lendária aleatória vermelha no seu baralho|Embaralha uma lendária aleatória amarela no seu baralho}
+363.name;Treinador Anfíbio
+363.text;{jump}\n{gift} - Dá +2/+2 à proxima criatura com {jump} que você invocar.
+364.name;Voz da Verdade
+364.text;{gift} - Restaura o Ataque e a Vida originais de uma criatura.
+365.name;Arauto da Guerra
+365.text;{combat} - Dá +1/+1 à proxima criatura com {combat} que você invocar.
+366.name;Guia Magistral
+366.text;{flying}\nCriaturas aliadas que forem invocadas adjacentes a esta criatura ganham {dash|2} e {flying}.
 403.name;Cristal Sombrio
 403.text;Drena 4 de vida do seu oponente, causa 3 de dano em todas criaturas inimigas e compra 2 cartas.
 404.name;Berrante de Guerrra Iaque

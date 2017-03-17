@@ -17,7 +17,7 @@
 13.name;Esattore Fiscale
 13.text;{combat} - Guadagni {faeria|1}.
 14.name;Canzone curativa
-14.text;Pesca una carta e ottieni 5 di punti vita.
+14.text;Pesca una carta e ottieni 5 punti vita.
 15.name;Protezione
 15.text;Fornisci {protection} a una creatura.
 16.name;Guardia Imperiale
@@ -52,7 +52,7 @@
 40.text;{charge|3}\n{combat} - Pesca una carta. Essa ha un costo pari a {faeria|0}.
 41.name;Appestato
 41.text;{last_words} - Infligge 2 danni a TUTTE le creature.
-42.name;Macchina d’assedio
+42.name;Macchina d'assedio
 42.text;{ranged_attack}\nQuando questa creatura attacca, in seguito ottiene +1/+0.
 43.name;Sharra, Sterminatrice di Draghi
 43.text;Ignora qualsiasi danno superiore o uguale a 4.
@@ -119,7 +119,7 @@
 74.name;Tyranax
 74.text;
 75.name;Incantatrice Gabriana
-75.text;{gift} - L'attacco di un'altra creatura diventa pari ai suoi punti vita.
+75.text;{gift} - Il valore di attacco di un'altra creatura diventa pari all'ammontare dei suoi punti vita.
 76.name;Comandante Gabriano
 76.text;{aquatic}, {charge|3}\nLa prima volta che peschi una carta con costo di base di {faeria|7} o superiore, guadagna {flying} e +1/+1.
 77.name;Guardiano Gabriano
@@ -139,7 +139,7 @@
 88.name;Ranificare
 88.text;Trasforma una creatura in una <b>Rana</b> 2/2 con {jump}.
 93.name;Incantesimo Gabriano
-93.text;L'attacco di una creatura equivale ai suoi punti vita.\nPesca una carta.
+93.text;Il valore di attacco di una creatura equivale all'ammontare dei suoi punti vita.\nPesca una carta.
 94.name;Creazione di Aurora
 94.text;Aggiungi alla tua mano la copia di una creatura. Costa {faeria|5} in meno.
 95.name;Persecutore delle Tenebre
@@ -179,7 +179,7 @@
 116.name;Luduan
 116.text;Quando questa creatura estrae faeria da un pozzo avversario, aggiungi una carta blu casuale alla tua mano. La carta costerà {faeria|2} in meno.
 117.name;Uovo delle Meraviglie
-117.text;Quando peschi una creatura, l'Uovo delle Meraviglie ne diventa una copia.
+117.text;Quando peschi una creatura non-leggendaria, l'Uovo delle Meraviglie diventa una copia di essa.
 118.name;Arconte Gabriano
 118.text;{charge|2}\nOttiene +2/+2 se hai giocato due carte con un costo base di {faeria|7} o più.
 119.name;Tritone pescatore
@@ -189,19 +189,19 @@
 121.name;Profeta delle Maree
 121.text;{gift} - Sposta per due volte un territorio che controlli.
 122.name;Visione Avvilente
-122.text;Dimezza (per eccesso) l'attacco e i punti vita di una creatura.
+122.text;Dimezza (per eccesso) il valore di attacco e i punti vita di una creatura.
 123.name;Vecchio Messaggero
 123.text;{gift} - La prossima creatura che peschi e che possiede almeno 5 punti vita ti costerà {faeria|2} in meno.
 124.name;Banchetto del Tritone
 124.text;Dona +1/+1 e {jump} a una creatura.
 125.name;Aurora, Creatrice di Miti
-125.text;{gift} - Modifica l’attacco e la vita di base di una creatura amica in 6/6.
+125.text;{gift} - Modifica i valori iniziali di attacco e dei punta vita di una creatura amica in 6/6.
 126.name;Cavaliere delle Onde
 126.text;Alla fine del turno dell'avversario, imposta il faeria di TUTTI i giocatori a {faeria|3}.
 127.name;Esperimento fallito
 127.text;La prossima creatura che giochi questo turno costa {faeria|3} in meno. Muore una volta giocata.
 128.name;Trucco di Aurora
-128.text;Ottieni il controllo di una creatura con attacco pari o inferiore a 2.
+128.text;Ottieni il controllo di una creatura con un valore di attacco pari o inferiore a 2.
 129.name;Rospi da Battaglia
 129.text;Evoca due <b>Rane</b> 2/2 con {jump}.
 130.name;Dono Celeste
@@ -211,9 +211,9 @@
 132.name;Collezionista di Ossa
 132.text;Quando una creatura confinante muore, ottiene +1/+1.
 133.name;Vincolatore Sagami
-133.text;{last_words} - Una qualunque creatura alleata ottiene +3/+5.
+133.text;{last_words} - Una creatura alleata casuale ottiene +3/+5.
 134.name;Sagami Evocatore del Bosco
-134.text;{gift} - Teletrasporta un’altra creatura amica in una foresta che controlli.
+134.text;{gift} - Teletrasporta un'altra creatura amica in una foresta che controlli.
 135.name;Vecchio Addestratore
 135.text;Quando evochi una creatura con almeno 5 punti vita, essa ottiene +1/+1.
 136.name;Grazia di Gaia
@@ -233,7 +233,7 @@
 143.name;Totem di Tiki
 143.text;Ogni turno, la prima creatura che evochi ottiene +1/+1.
 144.name;Urside Indemoniato
-144.text;Quando questa creatura viene danneggiata il suo attacco raddoppia.
+144.text;Quando questa creatura viene danneggiata il suo valore di attacco raddoppia.
 149.name;Querciante
 149.text;{last_words} - Una creatura casuale nella tua mano ottiene +5/+5.
 150.name;Golem di Thyrian
@@ -269,7 +269,7 @@
 173.name;Spiritello Silvano
 173.text;Ottiene +1/+1 ogniqualvolta crei una foresta.
 174.name;Spirito della Rinascita
-174.text;Ogniqualvolta un’altra creatura amica muore, una creatura a caso nella tua mano guadagna +1/+1.
+174.text;Ogniqualvolta un'altra creatura amica muore, una creatura a caso nella tua mano guadagna +1/+1.
 175.name;Abbraccio del Bosco Antico
 175.text;Dona +2/+4 a una creatura.
 176.name;Messaggero di Ruunin
@@ -291,7 +291,7 @@
 184.name;Guida di Ruunin
 184.text;{options|Dona +2/+2 a una creatura.|Ottieni 5 punti vita.}\n- Dona +2/+2 a una creatura.\n- Ottieni 5 punti vita.
 185.name;Urlo della Fame
-185.text;{gift} - Distruggi tutte le creature confinanti alleate. L'attacco E i punti vita di questa carta aumentano di un valore pari alla somma dei loro punti vita.
+185.text;{gift} - Distruggi tutte le creature confinanti alleate. Il valore di attacco e l'ammontare dei punti vita di questa carta aumentano di un valore pari alla somma dei loro punti vita.
 186.name;Piantina
 186.text;{production} - Se questa creatura ha meno di 5 punti vita, ottiene +1/+1.
 187.name;Eredon, Voce del Tutto
@@ -309,7 +309,7 @@
 193.name;Bestia da Guerra dei Koboldi
 193.text;
 194.name;Dono d'Acciaio
-194.text;Dona +3/+0 a una creatura. Questa creatura guadagna anche 3 punti vita se possiede l’abilità <b>Combat</b>.
+194.text;Dona +3/+0 a una creatura. Questa creatura guadagna anche 3 punti vita se possiede l'abilità <b>Combat</b>.
 195.name;Capo dei Sotterranei
 195.text;{combat} - Guadagni {faeria|2}.
 196.name;Architetto
@@ -319,13 +319,13 @@
 198.name;Baracche dei Koboldi
 198.text;Le creature alleate confinanti ottengono +2/+0.
 199.name;Seme dell'Odio
-199.text;Costa {faeria|1} in meno per ogni creatura con più attacco che punti vita che hai evocato.
+199.text;Costa {faeria|1} in meno per ogni creatura evocata, con un valore di attacco superiore all'ammontare dei suoi punti vita.
 200.name;Orco da Battaglia
 200.text;{taunt}
 201.name;Mercante sfacciato
 201.text;{gift} - Riduce il costo di una carta casuale nella tua mano di {faeria|7}.
 202.name;Seifer, Tiranno Sanguinario
-202.text;Quando Seifer distrugge una creatura, guadagna attacco e punti vita pari all'attacco e ai punti vita iniziali della creatura distrutta.
+202.text;Quando Seifer distrugge una creatura, guadagna un valore di attacco e un ammontare di punti vita pari ai rispettivi valori iniziali della creatura distrutta.
 203.name;Orco Barbaro
 203.text;
 204.name;Krog, Re degli Orchi
@@ -345,7 +345,7 @@
 215.name;Signore del Terrore
 215.text;{taunt}\nOgniqualvolta viene inflitto danno al Signore del Terrore, infliggi 2 danni al tuo nemico.
 216.name;Piaga di Shedim
-216.text;{gift} - Ottiene +2/+0 se controlli un'altra creatura con più attacco che punti vita.
+216.text;{gift} - Ottiene +2/+0 se controlli un'altra creatura con un valore di attacco superiore all'ammontare dei suoi punti vita.
 217.name;Obelisco di Sangue
 217.text;Quando una creatura nemica muore in battaglia, infliggi 1 danno al tuo avversario e guadagni {faeria|1}.
 218.name;Guardia Spietata
@@ -373,7 +373,7 @@
 237.name;Sconquassatore
 237.text;{gift} - Infligge 1 danno a TUTTI i nemici.
 238.name;Creatura delle Fiamme
-238.text;Ottiene +1/+1 ogniqualvolta evochi una creatura con più attacco che punti vita (mentre si trova nel mazzo o in mano).
+238.text;Ottiene +1/+1 ogniqualvolta evochi una creatura con un valore di attacco superiore all'ammantore dei suoi punti vita (mentre si trova nel mazzo o in mano).
 239.name;Salamandra di Fuoco
 239.text;{gift} - Infligge 2 danni a tutte le creature nemiche confinanti.
 240.name;Spiritello di Diaspro
@@ -393,11 +393,11 @@
 247.name;Danza degli Orchi
 247.text;Una carta casuale nella tua mano costa {faeria|7} in meno.
 248.name;Meteora
-248.text;Scegli una casella
+248.text;Scegli una casella. Distruggi tutte le creature, strutture e terre che si trovano in quella casella o in una adiacente.
 249.name;Diavolo Rosso
 249.text;{gift} - Guadagni {faeria|5}.
 250.name;Ignis, la Prima Fiamma
-250.text;{ranged_attack}\nCosta {faeria|1} per ogni creatura nemica morta in combattimento (costo minimo: {faeria|7}).
+250.text;Ogniqualvolta selezioni +{faeria|1} dalla ruota del potere, infliggi 4 danni distribuiti casualmente tra i tuoi nemici.
 251.name;Monaco Oradriano
 251.text;{haste}\nQuando questa creatura attacca un dio, pesca una carta.
 252.name;Preghiera di Khalim
@@ -449,7 +449,7 @@
 287.name;Colosso delle Tempeste
 287.text;{dash|3}\nCosta {faeria|1} in meno per ogni carta evento che hai giocato (costo minimo: {faeria|5}).
 288.name;Azarai, Ira del Deserto
-288.text;{flying}, {charge|2}\n{gift} - Azarai sottrae 2 attacco da ogni creatura nemica.
+288.text;{flying}, {charge|2}\n{gift} - Azarai sottrae 2 punti di attacco da ogni creatura nemica.
 289.name;Elementale dell'Aria
 289.text;{flying}\n{gift} - Crea un deserto.
 290.name;Raggio di seta
@@ -477,17 +477,17 @@
 301.name;Promessa d'Oblio
 301.text;Distruggi una creatura amica. Evoca un <b>Oblivion Rider</b> 6/3 con {charge|3} al suo posto.
 302.name;Mostruosità Shaytan
-302.text;{charge|2}\nOgniqualvolta una creatura amica muore, questa creatura risucchia il suo attacco.
+302.text;{charge|2}\nOgniqualvolta una creatura amica muore, questa creatura risucchia il suo valore di attacco.
 303.name;Iona, Adorata da Tutti
 303.text;{flying}\nNon può essere attaccata.
 304.name;Demone Alato
 304.text;{flying}
-305.name;Cavaliere dell’oblio
+305.name;Cavaliere dell'oblio
 305.text;{charge|3}
 306.name;Assorbire l'anima
 306.text;Sottrai 2 punti vita a una creatura.
 307.name;Sabbie Strangolatrici
-307.text;Distruggi una creatura con attacco pari o inferiore a 3.
+307.text;Distruggi una creatura con un valore di attacco pari o inferiore a 3.
 308.name;I Cancelli dell'Oblio
 308.text;Quando questa struttura raggiunge 13 o più punti vita, distruggila ed evoca <b>Ostregoth</b>.\n{activate} - Distruggi una creatura amica, pesca una carta e questa struttura guadagna +2 di vita.
 309.name;Arciere delle Tempeste
@@ -495,7 +495,7 @@
 310.name;Scatena-tempeste
 310.text;{charge|2}\nOgni volta che giochi una carta evento ottiene +2/+0 fino alla fine del turno (massimo +6/+0)
 311.name;Predatore delle Cime
-311.text;{jump}\n{gift} - Ottiene attacco e punti vita pari a una creatura a tua scelta.
+311.text;{jump}\n{gift} - Ottiene un valore di attacco e un ammontare di punti vita pari a quelli di una creatura a tua scelta.
 312.name;Behemoth del Ghiaccio
 312.text;{taunt}, {protection}
 313.name;Spirito Gemello
@@ -519,7 +519,7 @@
 353.name;Biblioteca proibita
 353.text;{production} - Pesca una carta, guadagni {faeria|2} e infliggi 2 danni a te stesso.
 354.name;Saccheggiasogni
-354.text;{dash|3}\n{gift} - Imposta la vita di un dio a 10.
+354.text;{dash|3}\n{gift} - Imposta l'ammontare dei punti vita di un dio a 10.
 355.name;Kodama feroce
 355.text;{jump}\nNon può estrarre faeria.\nOgniqualvolta questa creatura attacca un dio, guadagna 5 punti vita.
 356.name;Cacciatore di dei
@@ -532,6 +532,18 @@
 359.text;Imposta il tuo totale di faeria a {faeria|0}. Dimezza il totale dei tuoi punti vita (per difetto). Distrutti TUTTE le creature e strutture. Termina il turno.
 360.name;Moscerino fastidioso
 360.text;{flying}\nNon può estrarre faeria.\n{last_words} - Infliggi 2 danni a te stesso. Evoca questa creatura su un tassello casuale.
+361.name;Yak dalle lunghe corna
+361.text;{last_words} - La prossima creatura che peschi guadagna un valore di attacco pari a quello di questa creatura.
+362.name;Il tempo delle Leggende
+362.text;Pesca la leggenda più in cima nel tuo mazzo. Se non ci sono leggende pronte a rispondere al richiamo, scegli un colore. Mescola una leggenda casuale di quel colore nel tuo mazzo.{options|Mescola una leggenda verde nel tuo mazzo|Mescola una leggenda blu nel tuo mazzo| Mescola una leggenda rossa nel tuo mazzo|Mescola una leggenda gialla nel tuo mazzo}
+363.name;Tritone Addestratore
+363.text;{jump}\n{gift} - Dona alla prossima creatura con {jump} che evochi +2/+2.
+364.name;Voce della Verità
+364.text;{gift} - Riporta una creatura al suo valore originale di attacco e punti vita.
+365.name;Messaggero di Guerra
+365.text;{combat} - Dona alla prossima creatura con {combat} che evochi +1/+1.
+366.name;Guida delle Nebbie
+366.text;{flying}\nLe creature alleate evocate in una casella adiacente a questa creatura guadagnano {dash|2} e {flying}
 403.name;Cristallo delle Tenebre
 403.text;Sottrai 4 punti vita al tuo avversario, infliggi 3 danni a tutte le creature nemiche e pesca 2 carte.
 404.name;Olifante da Guerra
@@ -565,7 +577,7 @@
 418.name;Rosa di Magda
 418.text;Ottieni il controllo di una creatura nemica.
 419.name;Teiera di Aurora
-419.text;Cambia in 6/6 l'attacco e i punti vita base di tutte le creature alleate.
+419.text;Cambia in 6/6 i valori iniziali di attacco e punti vita di tutte le creature alleate.
 420.name;Pietra della Fortuna Imparziale
 420.text;Mescola 3 <b>Tesori</b> casuali nel tuo mazzo.
 421.name;Segreto della Forza
@@ -591,4 +603,4 @@
 431.name;Gazza Dorata
 431.text;{flying}, {haste}\nOgni volta che questa creatura attacca un dio, aggiungi un <b>Tesoro</b> casuale alla tua mano.
 432.name;Ruota del Caos
-432.text;{options|Distruggi 2 territori non occupati.|Distruggi una creatura con attacco 5 o inferiore.|Ottieni 7 punti Vita.}\n- Distruggi 2 territori non occupati.\n- Distruggi una creatura con attacco 5 o inferiore.\n- Ottieni 7 punti vita.
+432.text;{options|Distruggi 2 territori non occupati.|Distruggi una creatura con un valore di attacco pari o inferiore a 5.|Ottieni 7 punti Vita.}\n- Distruggi 2 territori non occupati.\n- Distruggi una creatura con un valore di attacco pari o inferiore a 5.\n- Ottieni 7 punti vita.

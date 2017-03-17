@@ -179,7 +179,7 @@
 116.name;Luduan
 116.text;Chaque fois que cette créature récolte des faeria depuis un puits adverse, ajoutez une carte bleue aléatoire à votre main. Son coût est réduit de {faeria|2}.
 117.name;Œuf des merveilles
-117.text;Lorsque vous piochez une créature, l'Œuf des Merveilles en devient la copie conforme.
+117.text;Lorsque vous piochez une créature non-léngendaire, l'Œuf des merveilles en devient la copie conforme.
 118.name;Archonte de Gabria
 118.text;{charge|2}\nGagne +2/+2 si vous avez joué deux cartes coûtant {faeria|7} ou plus.
 119.name;Plongeur Triton
@@ -273,7 +273,7 @@
 175.name;Étreinte de la Forêt Ancestrale
 175.text;Donne +2/+4 à une créature.
 176.name;Messager de Ruunin
-176.text;{jump}\nChaque fois que cette créature attaque une unité, ajoutez une créature verte aléatoire à votre main. Elle coûte {faeria|2} de moins.
+176.text;{jump}\nChaque fois que cette créature attaque une divinité, ajoutez une créature verte aléatoire à votre main. Elle coûte {faeria|2} de moins.
 177.name;Puissance Verduralde
 177.text;
 178.name;Gardien des bosquets
@@ -506,7 +506,7 @@
 315.text;{flying}, {charge|3}\nGagne +1/+1 pour chaque créature alliée morte au cours de cette partie.
 316.name;Spectre Fléau-des-Flammes
 316.text;{flying}, {haste}, {charge|2}\n{combat} - Inflige 3 points de dégâts à votre adversaire.
-329.name;Bandit coupe-gorge
+329.name;Voleuse coupe-gorge
 329.text;
 335.name;Frondeur rebelle
 335.text;{gift} - Inflige 2 points de dégâts à votre adversaire.
@@ -532,6 +532,18 @@
 359.text;Vous tombez à {faeria|0}. Réduisez vos PV de moitié (arrondi à l'inférieur). Détruisez TOUTES les créatures et structures. Votre tour prend fin.
 360.name;Moucheron têtu
 360.text;{flying}\nNe peut pas récolter de faeria.\n{last_words} - Infligez-vous 2 points de dégâts. Invoquez cette créature sur un espace aléatoire.
+361.name;Yak aux longues cornes
+361.text;{last_words} - La prochaine créature que vous piochez gagne autant d'attaque que cette créature.
+362.name;Le temps des légendes
+362.text;Piochez la première carte légendaire dans votre deck. Si vous n'en avez plus, mélangez une légendaire de couleur \n{options|Mélangez une carte légendaire verte aléatoire dans votre deck|Mélangez une carte légendaire bleue aléatoire dans votre deck|Mélangez une carte légendaire rouge aléatoire dans votre deck|Mélangez une carte légendaire jaune aléatoire dans votre deck} dans votre deck.
+363.name;Entraineur triton
+363.text;{jump}\n{gift} - Donne +2/+2 à la prochaine créature avec {jump} que vous invoquez.
+364.name;Voix de la vérité
+364.text;{gift} - Restaure l'attaque et la vie de base d'une créature.
+365.name;Héraut de guerre
+365.text;{combat} - Donne +1/+1 à la prochaine créature avec {combat} que vous invoquez.
+366.name;Guide céleste
+366.text;{flying}\nLes créatures alliées invoquées à côté de cette créature gagnent {dash|2} et {flying}.
 403.name;Cristal obscur
 403.text;Draine 4 points de vie à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
 404.name;Corn'yak Corne-Brume
@@ -579,7 +591,7 @@
 425.name;Marteau de la Destruction
 425.text;Inflige 5 points de dégâts. Remet le <b>Marteau</b> n'importe où dans votre deck.
 426.name;Ébranleur de Terrefeu
-426.text;{gift} - Inflige 2 points de dégâts tous les ennemis. Gagne +2/+2 pour chaque ennemi détruit.
+426.text;{gift} - Inflige 2 points de dégâts à tous les ennemis. Gagne +2/+2 pour chaque ennemi détruit.
 427.name;Appel de la Mort
 427.text;Détruit une créature. Son contrôleur gagne des faeria équivalents à son coût et pioche 2 cartes.
 428.name;Foudre en Bouteille

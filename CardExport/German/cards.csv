@@ -179,7 +179,7 @@
 116.name;Luduan
 116.text;Wann immer diese Kreatur Faeria von einem gegnerischen Brunnen sammelt, nimm eine blaue Karte auf deine Hand. Diese kostet {faeria|2} weniger.
 117.name;Wundersames Ei
-117.text;Wenn du eine Kreatur ziehst, wird das Wundersame Ei zu einer Kopie dieser Kreatur.
+117.text;Wenn du eine nicht-legendäre Kreatur ziehst, wird das Wundersame Ei zu einer Kopie dieser Kreatur.
 118.name;Gabrianischer Archon
 118.text;{charge|2}\nErhalte +2/+2, wenn du zwei Karten mit Grundkosten von {faeria|7} oder höher gespielt hast.
 119.name;Triton-Taucher
@@ -416,7 +416,7 @@
 258.text;Du kannst Kreaturen auf an dieses Bauwerk angrenzenden Feldern beschwören.\n{activate} - Bewege das Windportal.
 259.name;Heimtückisches Geisterwesen
 259.text;{gift} - Du entziehst deinem Gegner 2 Leben.
-260.name;Khalim, Himmels-Wunderkind
+260.name;Khalim, Sturmzauberer
 260.text;{flying}, {charge|2}\nWenn Khalim einen Gott angreift, nimm einen <b>Khalims Anhänger</b> auf deine Hand. Er kostet {faeria|0}.
 261.name;Mörderisches Schattenwesen
 261.text;
@@ -488,7 +488,7 @@
 306.text;Entziehe einer Kreatur 2 Leben.
 307.name;Erstickender Sandsturm
 307.text;Zerstöre eine Kreatur mit 3 Angriff oder weniger.
-308.name;Die Schicksalspforte, Tor zur Verwüstung
+308.name;Schicksalspforte, Tor zur Verwüstung
 308.text;Wenn dieses Bauwerk 13 Leben oder mehr hat, zerstöre es und beschwöre <b>Ostregoth</b>.\n{activate} - Zerstöre eine verbündete Kreatur, ziehe eine Karte und dieses Bauwerk erhält +2 Leben.
 309.name;Sturmschütze
 309.text;{ranged_attack}\nErhält +1/+0 bis zum Ende deines Zuges, wann immer du ein Ereignis spielst.
@@ -532,6 +532,18 @@
 359.text;Dein Faeria-Vorrat wird auf {faeria|0} gesetzt. Halbiere deine Leben (abgerundet). Zerstöre ALLE Kreaturen und Strukturen. Beende den Zug.
 360.name;Lästige Stechmücke
 360.text;{flying}\nKann kein Faeria sammeln.\n{last_words} - Fügt dir selbst 2 Schaden zu. Diese Kreatur wird auf einem zufälligen Feld beschworen.
+361.name;Langhorn-Yak
+361.text;{last_words} - Die nächste Kreatur, die du ziehst, erhält Angriff in Höhe des Angriffs dieser Kreatur.
+362.name;Zeitalter der Legenden
+362.text;Ziehe die oberste Legende aus deinem Deck. Falls sich keine Legende findet, um den Ruf zu beantworten, wähle eine Farbe. Mische eine zufällige Legende dieser Farbe in dein Deck.{options| Mische eine zufällige grüne Legende in dein Deck|Mische eine zufällige blaue Legende in dein Deck|Mische eine zufällige rote Legende in dein Deck|Mische eine zufällige gelbe Legende in dein Deck}
+363.name;Triton-Ausbilder
+363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+2.
+364.name;Stimme der Wahrheit
+364.text;{gift} - Setze Angriff und Leben einer Kreatur auf ihre Ursprungswerte zurück.
+365.name;Vorbote des Krieges
+365.text;{combat} - Die nächste von dir beschworene {combat} Kreatur erhält +1/+1.
+366.name;Wolken-Wegweiser
+366.text;{flying}\n Verbündete Kreaturen, die angrenzend zu dieser Kreatur beschworen werden, erhalten {dash|2} und {flying}.
 403.name;Dunkler Kristall
 403.text;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
 404.name;Kriegshorn aus Yakbein

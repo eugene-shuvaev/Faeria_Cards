@@ -199,13 +199,13 @@
 126.name;Wellenformer
 126.text;Setze am Ende des gegnerischen Zugs das Faeria ALLER Spieler auf {faeria|3}.
 127.name;Fehlgeschlagenes Experiment
-127.text;Die nächste Kreatur, die du in diesem Zug spielst, kostet {faeria|3} weniger, allerdings stirbt sie sofort.
+127.text;Die nächste Kreatur, die du in diesem Zug spielst, kostet {faeria|4} weniger, allerdings stirbt sie sofort.
 128.name;Auroras List
 128.text;Erhalte die Kontrolle über eine Kreatur mit 2 oder weniger Angriff.
 129.name;Kampfkröten
 129.text;Beschwöre zwei 2/2 <b>Frösche</b> mit {jump}.
 130.name;Glücksfall
-130.text;Erhalte {faeria|13}.
+130.text;Erhalte {faeria|12}.
 131.name;Krieger der Sagami
 131.text;{dash|2}
 132.name;Knochensammler
@@ -343,7 +343,7 @@
 214.name;Feuerspucker
 214.text;{gift} - Fügt einer feindlichen Kreatur 1 Schaden zu.
 215.name;Herr des Schreckens
-215.text;{taunt}\nImmer, wenn dem Herr des Schreckens Schaden zugefügt wird, fügt er deinem Gegner 2 Schaden zu.
+215.text;{taunt}\nImmer, wenn dem Herr des Schreckens Schaden zugefügt wird, fügt er deinem Gegner 1 Schaden zu.
 216.name;Shedim-Quälgeist
 216.text;{gift} - Erhält +2/+0, wenn du eine weitere Kreatur mit mehr Angriff als Leben kontrollierst.
 217.name;Blutobelisk

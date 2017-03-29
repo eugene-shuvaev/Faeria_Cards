@@ -199,13 +199,13 @@
 126.name;Wavecrafter
 126.text;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.
 127.name;Failed Experiment
-127.text;The next creature you play this turn costs {faeria|3} less. It dies instantly.
+127.text;The next creature you play this turn costs {faeria|4} less. It dies instantly.
 128.name;Aurora's Trick
 128.text;Gain control of a creature with 2 Attack or less.
 129.name;Battle Toads
 129.text;Summon two 2/2 <b>Frogs</b> with {jump}.
 130.name;Windfall
-130.text;Gain {faeria|13}.
+130.text;Gain {faeria|12}.
 131.name;Sagami Warrior
 131.text;{dash|2}
 132.name;Bone Collector
@@ -343,7 +343,7 @@
 214.name;Flame Spitter
 214.text;{gift} - Deal 1 damage to an enemy.
 215.name;Lord of Terror
-215.text;{taunt}\nWhenever Lord of Terror is dealt damage, deal 2 damage to your opponent.
+215.text;Whenever your opponent is dealt damage, gain that much Attack.
 216.name;Shedim Pest
 216.text;{gift} - Gain +2/+0 if you have another creature with higher Attack than Life.
 217.name;Blood Obelisk

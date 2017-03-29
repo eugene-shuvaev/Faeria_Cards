@@ -199,13 +199,13 @@
 126.name;Creador de Olas
 126.text;Al final del turno de tu oponente,establece el Faeria de AMBOS jugadores a {faeria|3}.
 127.name;Experimento Fallido
-127.text;La próxima criatura que uses en este turno cuesta {faeria|3} menos. Muere justo después de ser invocada.
+127.text;La próxima criatura que uses en este turno cuesta {faeria|4} menos. Muere justo después de ser invocada.
 128.name;Engaño de Aurora
 128.text;Obtén el control de una criatura con 2 de ataque o menos.
 129.name;Sapos Guerreros
 129.text;Invoca dos <b>Ranas</b>  2/2 con {jump}.
 130.name;Lluvia Faérica
-130.text;Gana {faeria|13}.
+130.text;Gana {faeria|12}.
 131.name;Guerrero Sagami
 131.text;{dash|2}
 132.name;Coleccionista de Huesos
@@ -343,7 +343,7 @@
 214.name;Escupellamas
 214.text;{gift}: Inflige 1 de daño a un enemigo.
 215.name;Señor del Terror
-215.text;{taunt}\nCuando el señor del terror recibe daño, inflige 2 de daño a tu oponente.
+215.text;{taunt}\nCuando el señor del terror recibe daño, inflige 1 de daño a tu oponente.
 216.name;Alimaña Cruel
 216.text;{gift}: Gana +2/+0 si tienes otra criatura con más ataque que vida.
 217.name;Obelisco Sanguinario

@@ -76,7 +76,7 @@
 102;BLUE;Aurora's Disciple;creature;;3;2;;;;2;2;Whenever you play an event, gain +1/+1.;;2;101000;COMMON
 103;BLUE;Sturdy Shell;creature;;2;1;;;;0;5;{aquatic};;0;101000;COMMON
 104;BLUE;Baeru, the First Wave;creature;;8;3;;;;8;10;"{aquatic} {production} - Transform all adjacent lands into lakes.";;0;101000;LEGENDARY
-105;BLUE;Stormspawn;creature;;10;2;;;;4;5;{last_words} - Gain {faeria|10}.;;2;101000;COMMON
+105;BLUE;Stormspawn;creature;;10;2;;;;3;3;{last_words} - Gain {faeria|10}.;;2;101000;COMMON
 106;BLUE;Tale of the Old Turtle;event;;6;2;;;;;;Draw 3 cards. All creatures drawn this way cost {faeria|2} less.;;0;101000;EPIC
 107;BLUE;Wavecrash Colossus;creature;;8;2;;;;7;7;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).;;0;101000;RARE
 108;BLUE;Orosei, Dream of the Deep;creature;;10;2;;;;6;6;"{flying}, {charge|2} {gift} - Transform all your other creatures into creatures that cost {faeria|2} more.";;0;101000;LEGENDARY
@@ -98,10 +98,10 @@
 124;BLUE;Triton Banquet;event;;3;1;;;;;;Give a creature +1/+1 and {jump}.;;0;101000;RARE
 125;BLUE;Aurora, Myth Maker;creature;;4;2;;;;1;1;{gift} - Change another friendly creature's base Attack and Life to 6/6.;;0;101000;LEGENDARY
 126;BLUE;Wavecrafter;creature;;6;3;;;;5;6;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.;;0;101000;EPIC
-127;BLUE;Failed Experiment;event;;0;1;;;;;;The next creature you play this turn costs {faeria|3} less. It dies instantly.;;0;101000;EPIC
+127;BLUE;Failed Experiment;event;;1;1;;;;;;The next creature you play this turn costs {faeria|4} less. It dies instantly.;;0;101000;EPIC
 128;BLUE;Aurora's Trick;event;;4;5;;;;;;Gain control of a creature with 2 Attack or less.;;0;101000;EPIC
 129;BLUE;Battle Toads;event;;4;2;;;;;;Summon two 2/2 <b>Frogs</b> with {jump}.;;0;101000;RARE
-130;BLUE;Windfall;event;;10;2;;;;;;Gain {faeria|13}.;;2;101000;COMMON
+130;BLUE;Windfall;event;;10;2;;;;;;Gain {faeria|12}.;;2;101000;COMMON
 131;GREEN;Sagami Warrior;creature;;3;;1;;;3;4;{dash|2};;2;101000;COMMON
 132;GREEN;Bone Collector;creature;;2;;1;;;1;3;Whenever an adjacent creature dies, gain +1/+1.;;0;101000;COMMON
 133;GREEN;Soulbound Sagami;creature;;6;;2;;;3;5;{last_words} - A random friendly creature gains +3/+5.;;2;100008;COMMON
@@ -170,7 +170,7 @@
 212;RED;Blood Singer;creature;;3;;;2;;2;4;Whenever an enemy creature dies, deal 1 damage to your opponent.;;2;100016;COMMON
 213;RED;Seifer's Fodder;creature;;4;;;1;;4;3;{last_words} - Deal 2 damage to your opponent.;;0;101000;COMMON
 214;RED;Flame Spitter;creature;;3;;;1;;2;2;{gift} - Deal 1 damage to an enemy.;;2;101000;COMMON
-215;RED;Lord of Terror;creature;;6;;;2;;0;10;"{taunt} Whenever Lord of Terror is dealt damage, deal 2 damage to your opponent.";;0;101000;EPIC
+215;RED;Lord of Terror;creature;;6;;;3;;0;6;Whenever your opponent is dealt damage, gain that much Attack.;;0;101000;EPIC
 216;RED;Shedim Pest;creature;;4;;;1;;4;3;{gift} - Gain +2/+0 if you have another creature with higher Attack than Life.;;0;101000;RARE
 217;RED;Blood Obelisk;structure;;2;;;2;;;2;Whenever an enemy creature dies in combat, deal 1 damage to your opponent and gain {faeria|1}.;;0;101000;RARE
 218;RED;Grim Guard;creature;;4;;;2;;2;5;"{taunt} {combat} - Deal 2 damage to your opponent.";;2;100016;RARE
@@ -284,7 +284,7 @@
 356;GREEN;God Hunter;creature;;3;;2;;;5;4;"{jump} Can only attack gods. Can't harvest faeria.";;0;101000;EPIC
 357;RED;Blood Song;event;;4;;;2;;;;Reduce the cost of a random card in your hand by {faeria|2} four times. Deal 4 damage to yourself.;;0;101000;RARE
 358;RED;Hellfire;event;;7;;;2;;;;Deal 9 damage randomly split among enemies.;;0;101000;EPIC
-359;YELLOW;Doomsday;event;;4;;;;2;;;Set your faeria to {faeria|0}. Halve your Life (rounded down). Destroy ALL creatures and structures. End the turn.;;0;101000;EPIC
+359;YELLOW;Doomsday;event;;9;;;;2;;;Set your faeria to {faeria|0}. Halve your Life (rounded down). Destroy ALL creatures and structures. End the turn.;;0;101000;EPIC
 360;YELLOW;Annoying Gnat;creature;;2;;;;2;1;1;"{flying} Can't harvest faeria. {last_words} - Deal 2 damage to yourself. Summon this creature in a random space.";;0;101000;EPIC
 361;HUMAN;Long-horned Yak;creature;;3;;;;;2;2;{last_words} - The next creature you draw gains Attack equal to this creature's.;;0;101000;COMMON
 362;HUMAN;Time of Legends;event;;1;;;;;;;Draw the top legend in your deck. If there are no legends to answer the call, {options|Shuffle a random green legend into your deck|Shuffle a random blue legend into your deck|Shuffle a random red legend into your deck|Shuffle a random yellow legend into your deck} color. Shuffle a random legend of that color into your deck.;;0;101000;LEGENDARY

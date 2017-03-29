@@ -199,13 +199,13 @@
 126.name;Criador de Ondas
 126.text;Ao fim do turno do seu oponente, muda a faeria de TODOS os jogadores para {faeria|3}.
 127.name;Experimento Fracassado
-127.text;A próxima criatura que você jogar neste turno custará {faeria|3} a menos. Ela morre instantaneamente.
+127.text;A próxima criatura que você jogar neste turno custará {faeria|4} a menos. Ela morre instantaneamente.
 128.name;Truque de Aurora
 128.text;Ganha controle sobre uma criatura com 2 de Ataque ou menos.
 129.name;Sapos de Batalha
 129.text;Invoca dois <b>Sapos</b> 2/2 com {jump}.
 130.name;Ganho Inesperado
-130.text;Ganha {faeria|13}.
+130.text;Ganha {faeria|12}.
 131.name;Guerreiro Sagami
 131.text;{dash|2}
 132.name;Coletor de Ossos
@@ -343,7 +343,7 @@
 214.name;Cuspidor de Chamas
 214.text;{gift} - Causa 1 de dano a um inimigo.
 215.name;Lorde do Terror
-215.text;{taunt}\nSempre que esta criatura receber dano, ela causa 2 de dano em seu oponente.
+215.text;{taunt}\nSempre que esta criatura receber dano, ela causa 1 de dano em seu oponente.
 216.name;Peste de Shedim
 216.text;{gift} - Ganha +2/+0 se você tiver outra criatura com o Ataque maior que a Vida.
 217.name;Obelisco de Sangue

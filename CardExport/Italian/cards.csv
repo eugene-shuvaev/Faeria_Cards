@@ -199,13 +199,13 @@
 126.name;Cavaliere delle Onde
 126.text;Alla fine del turno dell'avversario, imposta il faeria di TUTTI i giocatori a {faeria|3}.
 127.name;Esperimento fallito
-127.text;La prossima creatura che giochi questo turno costa {faeria|3} in meno. Muore una volta giocata.
+127.text;La prossima creatura che giochi questo turno costa {faeria|4} in meno. Muore una volta giocata.
 128.name;Trucco di Aurora
 128.text;Ottieni il controllo di una creatura con un valore di attacco pari o inferiore a 2.
 129.name;Rospi da Battaglia
 129.text;Evoca due <b>Rane</b> 2/2 con {jump}.
 130.name;Dono Celeste
-130.text;Guadagni {faeria|13}.
+130.text;Guadagni {faeria|12}.
 131.name;Guerriero Sagami
 131.text;{dash|2}
 132.name;Collezionista di Ossa
@@ -343,7 +343,7 @@
 214.name;Sputafuoco
 214.text;{gift} - Infligge 1 danno a un nemico.
 215.name;Signore del Terrore
-215.text;{taunt}\nOgniqualvolta viene inflitto danno al Signore del Terrore, infliggi 2 danni al tuo nemico.
+215.text;{taunt}\nOgniqualvolta viene inflitto danno al Signore del Terrore, infliggi 1 danni al tuo nemico.
 216.name;Piaga di Shedim
 216.text;{gift} - Ottiene +2/+0 se controlli un'altra creatura con un valore di attacco superiore all'ammontare dei suoi punti vita.
 217.name;Obelisco di Sangue

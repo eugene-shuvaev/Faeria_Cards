@@ -199,13 +199,13 @@
 126.name;Sculpteur de vagues
 126.text;À la fin du tour de votre adversaire, les faeria de TOUS les joueurs deviennent égaux à {faeria|3}.
 127.name;Expérience ratée
-127.text;La prochaine créature que vous jouez lors de ce tour coûte {faeria|3} de moins. Elle meurt instantanément.
+127.text;La prochaine créature que vous jouez lors de ce tour coûte {faeria|4} de moins. Elle meurt instantanément.
 128.name;Ruse d'Aurora
 128.text;Prenez le contrôle d'une créature dont l'attaque est inférieure ou égale à 2.
 129.name;Grenouilles de combat
 129.text;Invoque deux <b>Grenouilles</b> 2/2 avec {jump}.
 130.name;Cadeau du ciel
-130.text;Gagnez {faeria|13}.
+130.text;Gagnez {faeria|12}.
 131.name;Guerrier Sagami
 131.text;{dash|2}
 132.name;Collectionneuse d'ossements
@@ -343,7 +343,7 @@
 214.name;Cracheur de flammes
 214.text;{gift} - Inflige 1 point de dégâts à un ennemi.
 215.name;Seigneur de la Terreur
-215.text;{taunt}\nChaque fois qu'il subit des dégâts, inflige 2 points de dégâts à votre adversaire.
+215.text;{taunt}\nChaque fois qu'il subit des dégâts, inflige 1 points de dégâts à votre adversaire.
 216.name;Harceleur Shedime
 216.text;{gift} - Gagne +2/+0 si vous contrôlez une autre créature avec plus de points d'attaque que de vie.
 217.name;Obélisque de sang

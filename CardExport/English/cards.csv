@@ -165,7 +165,7 @@
 109.name;Water Elemental
 109.text;{jump}\n{gift} - Create a lake.
 110.name;Gemsilk Faerie
-110.text;{flying}\nThe first time you draw an event, gain +2/+2,  and {charge|2}.
+110.text;{flying}\nThe first time you draw an event, gain +2/+2, and {charge|2}.
 111.name;Sunken Tower
 111.text;{activate} - Move a land. Deal 1 damage to this structure.
 112.name;Azure Wisp
@@ -544,6 +544,18 @@
 365.text;{combat} - Give the next {combat} creature you summon +1/+1.
 366.name;Mistral Guide
 366.text;{flying}\nFriendly creatures summoned adjacent to this creature gain {dash|2} and {flying}.
+367.name;Divine Guardian
+367.text;{divine}\nWhen you would take lethal damage, prevent it and destroy this creature instead.
+368.name;The Emperor's Command
+368.text;{options|Give a creature -2/-1.|Deal 3 damage to a structure.|Gain 4 life.}\n- Give a creature -2/-1\n- Deal 3 damage to a structure\n- Gain 4 life.
+369.name;Illusion of Grandeur
+369.text;{charge|2}\nWhenever you summon a creature that costs {faeria|1} or less, this gains Attack and Life equal to that creature's (while in your hand or deck).
+370.name;Deepwood Stalker
+370.text;{gift} - Fight an enemy creature.
+371.name;Krog's Dinner
+371.text;Your Krog costs {faeria|7} less. When you summon Krog, destroy this.\n{gift} - If Krog has died, or is in your deck, draw him.
+372.name;Iona's Smile
+372.text;Draw the top 2 {flying} creatures in your deck.
 403.name;Dark Crystal
 403.text;Drain 4 Life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn

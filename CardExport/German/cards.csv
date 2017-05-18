@@ -159,7 +159,7 @@
 106.name;Sage der Alten Schildkröte
 106.text;Ziehe 3 Karten. Alle Kreaturen, die auf diese Art gezogen werden, kosten {faeria|2} weniger.
 107.name;Wellenbrecher-Koloss
-107.text;Kostet {faeria|1} weniger für jedes Mal, dass du Faeira von einem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|4}).
+107.text;Kostet {faeria|1} weniger für jedes Mal, dass du Faeria von einem Brunnen deines Gegners gesammelt hast (Mindestkosten: {faeria|4}).
 108.name;Orosei, Traum aus der Tiefe
 108.text;{flying}, {charge|2}\n{gift} - Verwandele alle deine anderen Kreaturen in zufällige Kreaturen, die {faeria|2} mehr kosten.
 109.name;Wasserelementar
@@ -341,9 +341,9 @@
 213.name;Seifers Kanonenfutter
 213.text;{last_words} - Fügt deinem Gegner 2 Schaden zu.
 214.name;Feuerspucker
-214.text;{gift} - Fügt einer feindlichen Kreatur 1 Schaden zu.
+214.text;{gift} - Fügt einem gegnerischen Ziel 1 Schaden zu.
 215.name;Herr des Schreckens
-215.text;{taunt}\nImmer, wenn dem Herr des Schreckens Schaden zugefügt wird, fügt er deinem Gegner 1 Schaden zu.
+215.text;Wenn dein Gegner Schaden erleidet, erhalte genausoviel Angriff dazu.
 216.name;Shedim-Quälgeist
 216.text;{gift} - Erhält +2/+0, wenn du eine weitere Kreatur mit mehr Angriff als Leben kontrollierst.
 217.name;Blutobelisk
@@ -357,9 +357,9 @@
 225.name;Flammenexplosion
 225.text;Füge einem Ziel 3 Schaden zu.
 226.name;Flammenwerfer
-226.text;{ranged_attack}mFügt allen gegnerischen Kreaturen 1 Schaden zu, wann immer diese Kreatur einen Gott angreift.
+226.text;{ranged_attack}\nFügt allen gegnerischen Kreaturen 1 Schaden zu, wann immer diese Kreatur einen Gott angreift.
 231.name;Vulkan-Koloss
-231.text;{ranged_attack}\nKostet {faeria|1} weniger für jede gegnerische Kreature, die im Kampf gestorben ist (minimum cost: {faeria|7}).
+231.text;{ranged_attack}\nKostet {faeria|1} weniger für jede gegnerische Kreature, die im Kampf gestorben ist (Mindestkosten: {faeria|7}).
 232.name;Garudan, Herz des Berges
 232.text;{flying}, {charge|2}\n{gift} - Fügt allen feindlichen Kreaturen 3 Schaden zu.
 233.name;Feuerelementar
@@ -535,7 +535,7 @@
 361.name;Langhorn-Yak
 361.text;{last_words} - Die nächste Kreatur, die du ziehst, erhält Angriff in Höhe des Angriffs dieser Kreatur.
 362.name;Zeitalter der Legenden
-362.text;Ziehe die oberste Legende aus deinem Deck. Falls sich keine Legende findet, um den Ruf zu beantworten, wähle eine Farbe. Mische eine zufällige Legende dieser Farbe in dein Deck.{options| Mische eine zufällige grüne Legende in dein Deck|Mische eine zufällige blaue Legende in dein Deck|Mische eine zufällige rote Legende in dein Deck|Mische eine zufällige gelbe Legende in dein Deck}
+362.text;Ziehe die oberste Legende aus deinem Deck. Falls sich keine Legende findet, um den Ruf zu beantworten, {options| Mische eine zufällige grüne Legende in dein Deck|Mische eine zufällige blaue Legende in dein Deck|Mische eine zufällige rote Legende in dein Deck|Mische eine zufällige gelbe Legende in dein Deck}. Mische eine zufällige Legende dieser Farbe in dein Deck.
 363.name;Triton-Ausbilder
 363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+2.
 364.name;Stimme der Wahrheit
@@ -544,6 +544,18 @@
 365.text;{combat} - Die nächste von dir beschworene {combat} Kreatur erhält +1/+1.
 366.name;Wolken-Wegweiser
 366.text;{flying}\n Verbündete Kreaturen, die angrenzend zu dieser Kreatur beschworen werden, erhalten {dash|2} und {flying}.
+367.name;Göttliche Wächterin
+367.text;{divine}\nWenn du tödlichen Schaden erleiden würdest, verhindere ihn und zerstöre stattdessen diese Kreatur.
+368.name;Befehl des Imperators
+368.text;{options|Gib einer Kreatur -2/-1.|Füge einer Struktur 3 Schaden zu.|Erhalte 4 Leben.}\n- Gib einer Kreatur -2/-1\n- Füge einer Struktur 3 Schaden zu\n- Erhalte 4 Leben.
+369.name;Illusion von Erhabenheit
+369.text;{charge|2}\nWenn du eine Kreatur beschwörst, die {faeria|1} oder weniger kostet, erhält diese Karte Angriff und Leben gleich den Werten jener Kreatur (solange sie in deiner Hand oder deinem Deck ist).
+370.name;Düsterforst-Pirscher
+370.text;{gift} - Kämpfe gegen eine gegnerische Kreatur.
+371.name;Krogs Abendessen
+371.text;Dein Krog kostet {faeria|7} weniger. Wenn du Krog beschwörst, zerstöre diese Karte.\n{gift} - Wenn Krog gestorben oder in deinem Deck ist, ziehe ihn.
+372.name;Ionas Lächeln
+372.text;Ziehe die obersten zwei fliegenden Kreaturen aus deinem Deck.
 403.name;Dunkler Kristall
 403.text;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
 404.name;Kriegshorn aus Yakbein

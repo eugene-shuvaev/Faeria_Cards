@@ -5,11 +5,11 @@
 3.name;Guerreiro de Syland
 3.text;
 4.name;Mestre dos Cavalos de Syland
-4.text;{gift} - Dá a outra criatura aliada {charge|3} durante este turno.
+4.text;{gift} - Dá {charge|3} a outra criatura aliada durante este turno.
 9.name;Engenheiro Imperial
 9.text;{gift} - Aciona todas as suas habilidades de produção.
 10.name;Manter Posições!
-10.text;Acrescenta dois <b>Guardas Imperiais</b> 2/3 e {taunt} à sua mão.
+10.text;Acrescenta dois <b>Guardas Imperiais</b> 2/3 com {taunt} à sua mão.
 11.name;Fortaleza Ambulante
 11.text;
 12.name;Forja a Vapor
@@ -185,7 +185,7 @@
 119.name;Mergulhador Anfíbio
 119.text;{aquatic}, {jump}
 120.name;Maré Mutável
-120.text;{options|Mova um terreno|Compra uma carta}\nMova um terreno.\nCompra uma carta.
+120.text;{options|Mova um terreno|Compra uma carta}\n- Mova um terreno.\n- Compra uma carta.
 121.name;Profeta das Marés
 121.text;{gift} - Mova duas vezes um terreno que você controla.
 122.name;Visão da Humildade
@@ -220,7 +220,7 @@
 136.text;Você recupera 3 de vida e uma criatura ganha +0/+3.
 137.name;Chefe Tiki
 137.text;{gift} - Da {taunt} a uma criatura.
-138.name;Espírito da Floração.
+138.name;Espírito da Floração
 138.text;{last_words} - Acrescenta uma carta verde aleatória à sua mão. Ela custa {faeria|3} a menos.
 139.name;Eremita do Bosque Ancestral
 139.text;{last_words} - Uma criatura aliada aleatória ganha +2/+4.
@@ -234,7 +234,7 @@
 143.text;A primeira criatura que você invocar em cada turno, ganha +1/+1.
 144.name;Ursa Possuída
 144.text;Sempre que essa criatura sofrer dano, seu Ataque dobra.
-149.name;Carvalhóide
+149.name;Carvalhoide
 149.text;{last_words} - Uma criatura aleatória em sua mão ganha +5/+5.
 150.name;Golem Thyriano
 150.text;
@@ -289,7 +289,7 @@
 183.name;Javali Ancestral
 183.text;{dash|2}\nCusta {faeria|2} a menos se você controla uma criatura que tenha 5 ou mais de vida.
 184.name;Orientação de Ruunin
-184.text;{options|Dá +2/+2 a uma criatura.|Você recupera 5 de vida.}\nDá +2/+2 a uma criatura.\nVocê recupera 5 de vida.
+184.text;{options|Dá +2/+2 a uma criatura|Você recupera 5 de vida}\nDá +2/+2 a uma criatura.\nVocê recupera 5 de vida.
 185.name;Voz da Fome
 185.text;{gift} - Destrua todas as criaturas aliadas adjacentes. Esta criatura ganha Ataque e Vida igual à soma da vida de todas as criaturas destruidas desta maneira.
 186.name;Sementoide
@@ -301,7 +301,7 @@
 189.name;Presença de Ruunin
 189.text;Acrescenta uma criatura verde aleatória à sua mão. Ela ganha +6/+6.
 190.name;Ruunin, a Implacável
-190.text;Retorna Ruunin à sua mão. Ela ganha +2/+2.
+190.text;{dash|2}\n{last_words} - Retorna Ruunin à sua mão. Ela ganha +2/+2.
 191.name;Bandido Subterrâneo
 191.text;{combat} - Ganha {faeria|2}.
 192.name;Comandante Kobold
@@ -343,7 +343,7 @@
 214.name;Cuspidor de Chamas
 214.text;{gift} - Causa 1 de dano a um inimigo.
 215.name;Lorde do Terror
-215.text;{taunt}\nSempre que esta criatura receber dano, ela causa 1 de dano em seu oponente.
+215.text;Sempre que seu oponente receber dano, ganha essa quantia em Ataque.
 216.name;Peste de Shedim
 216.text;{gift} - Ganha +2/+0 se você tiver outra criatura com o Ataque maior que a Vida.
 217.name;Obelisco de Sangue
@@ -352,7 +352,7 @@
 218.text;{taunt}\n{combat} - Causa 2 de dano em seu oponente.
 223.name;Atirador de Bombas
 223.text;{gift} - Causa 4 de dano a uma criatura ou estrutura inimiga adjacente.
-224.name;Carregador do Canhão
+224.name;Carregador de Canhão
 224.text;{gift} - Dá {ranged_attack} a uma criatura aliada.
 225.name;Explosão de Chamas
 225.text;Causa 3 de dano.
@@ -466,7 +466,7 @@
 295.text;{charge|2}\nGanha +1/+1 todas as vezes que você atacar um deus enquanto estiver no seu baralho OU na sua mão.
 296.name;Soldado Keldraniano
 296.text;
-297.name;Senhor do Desperdício
+297.name;Senhor da Terra Infértil
 297.text;{gift} - Você pode sacrificar outra criatura para ganhar {faeria|3}.
 298.name;Assassino de Shaytan
 298.text;{deathtouch}\n{gift} - Você pode sacrificar outra criatura para esta criatura ganhar {protection}.
@@ -488,7 +488,7 @@
 306.text;Drena 2 de vida de uma criatura.
 307.name;Areia Sufocante
 307.text;Destrói uma criatura com 3 de Ataque ou menos.
-308.name;Doomgate, Portal do Esquecimento
+308.name;Portal-Condenação, Porta para o Esquecimento
 308.text;Quanto esta estrutura tiver 13 de Vida ou mais, ela se destrói e invoca <b>Ostregoth</b>.\n{activate} - Destrói uma criatura aliada, compra uma carta e esta estrutura ganha +2 de Vida.
 309.name;Arqueiro do Vendaval
 309.text;{ranged_attack}\nSempre que você jogar um evento, ganha +1/+0 durante este turno.
@@ -534,8 +534,8 @@
 360.text;{flying}\nNão pode colher faeria.\n{last_words} - Causa 2 de dano a você. Invoca esta criatura num hexágono aleatório.
 361.name;Iaque Longo-Chifre
 361.text;{last_words} - A próxima criatura que você comprar ganha ataque igual ao desta criatura.
-362.name;Hora das Lendas
-362.text;Compra a próxima carta lendária do seu baralho. Se não há lendárias para atender ao chamado, escolha uma cor. Embaralhe uma lendária aleatória dessa cor no seu baralho.{options|Embaralha uma lendária aleatória verde no seu baralho|Embaralha uma lendária aleatória azul no seu baralho|Embaralha uma lendária aleatória vermelha no seu baralho|Embaralha uma lendária aleatória amarela no seu baralho}
+362.name;Era das Lendas
+362.text;Compra a próxima carta lendária do seu baralho. Se não há lendárias para atender ao chamado, {options|Embaralha uma lendária aleatória verde no seu baralho|Embaralha uma lendária aleatória azul no seu baralho|Embaralha uma lendária aleatória vermelha no seu baralho|Embaralha uma lendária aleatória amarela no seu baralho}<b>a</b> cor. Embaralhe uma lendária aleatória dessa cor no seu baralho.
 363.name;Treinador Anfíbio
 363.text;{jump}\n{gift} - Dá +2/+2 à proxima criatura com {jump} que você invocar.
 364.name;Voz da Verdade
@@ -544,6 +544,18 @@
 365.text;{combat} - Dá +1/+1 à proxima criatura com {combat} que você invocar.
 366.name;Guia Magistral
 366.text;{flying}\nCriaturas aliadas que forem invocadas adjacentes a esta criatura ganham {dash|2} e {flying}.
+367.name;Guardiã Divina
+367.text;{divine}\nQuando você receber dano fatal, ignore-o e destrua esta criatura no lugar.
+368.name;A Ordem do Imperador
+368.text;{options|Dá -2/-1 a uma criatura|Causa 3 de dano a uma estrutura|Recupera 4 de vida}\n- Dá -2/-1 a uma criatura.\n- Causa 3 de dano a uma estrutura.\n- Recupera 4 de vida.
+369.name;Ilusão da Grandeza
+369.text;{charge|2}\n Sempre que você invocar uma criatura com o custo de {faeria|1} ou menos, esta criatura ganha Ataque e Vida iguais àquela criatura (enquanto estiver na sua mão ou no seu baralho).
+370.name;Perseguidor da Mata Densa
+370.text;{gift} - Luta com uma criatura inimiga.
+371.name;Jantar do Krog
+371.text;Seu Krog custa {faeria|7} a menos. Quando você invoca o Krog, esta criatura é destruída.\n{gift} - Se o Krog morreu ou está no seu baralho, Compre-o.
+372.name;Sorriso de Iona
+372.text;Compra as 2 próximas criaturas com <b>Voar</b> do seu baralho.
 403.name;Cristal Sombrio
 403.text;Drena 4 de vida do seu oponente, causa 3 de dano em todas criaturas inimigas e compra 2 cartas.
 404.name;Berrante de Guerrra Iaque
@@ -553,7 +565,7 @@
 406.name;Ocarina
 406.text;Ganhe um turno extra depois deste.
 407.name;A Lâmpada do Gênio
-407.text;{options|Adiciona 3 cartas verdes aleatórias à sua mão. Elas custam {faeria|3} a menos.|Adiciona 3 cartas azuis aleatórias à sua mão. Elas custam {faeria|3} a menos.|Adiciona 3 cartas vermelhas aleatórias à sua mão. Elas custam {faeria|3} a menos.|Adiciona 3 cartas amarelas aleatórias à sua mão. Elas custam {faeria|3} a menos.\nEscolha uma cor. Adiciona 3 cartas aleatórias daquela cor à sua mão. Elas custam {faeria|3} a menos.
+407.text;{options|Adiciona 3 cartas verdes aleatórias à sua mão. Elas custam {faeria|3} a menos.|Adiciona 3 cartas azuis aleatórias à sua mão. Elas custam {faeria|3} a menos.|Adiciona 3 cartas vermelhas aleatórias à sua mão. Elas custam {faeria|3} a menos.|Adiciona 3 cartas amarelas aleatórias à sua mão. Elas custam {faeria|3} a menos.}\nEscolha uma cor. Adiciona 3 cartas aleatórias daquela cor à sua mão. Elas custam {faeria|3} a menos.
 408.name;Urna de Gabria
 408.text;Compra 2 cartas e ganha {faeria|2}.
 409.name;Espelho de Iona

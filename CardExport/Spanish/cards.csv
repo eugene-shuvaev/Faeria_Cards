@@ -130,8 +130,8 @@
 83.text;{jump}
 84.name;Bestia Mística
 84.text;{gift}: gana +2/+0 y {jump} si se invoca junto al pozo de un oponente.
-85.name;Espejismo Fantasma
-85.text;{gift}: Transforma a otra criatura en un <b>Espejismo Fantasma</b> 5/5.
+85.name;Espejismo Fantasmal
+85.text;{gift}: Transforma a otra criatura en un <b>Espejismo Fantasmal</b> 5/5.
 86.name;Jefe Tritón
 86.text;{gift}: Añade la carta <b>Banquete tritón</b> a tu mano.
 87.name;Sapo Ninja
@@ -195,11 +195,11 @@
 124.name;Banquete Tritón
 124.text;Otorga +1/+1 y {jump} a una criatura.
 125.name;Aurora, Creadora de Mitos
-125.text;{gift} - Cambia la base y la vida de otra criatura aliada a 6/6.
+125.text;{gift} - Cambia el ataque y la vida de otra criatura aliada a 6/6.
 126.name;Creador de Olas
 126.text;Al final del turno de tu oponente,establece el Faeria de AMBOS jugadores a {faeria|3}.
 127.name;Experimento Fallido
-127.text;La próxima criatura que uses en este turno cuesta {faeria|4} menos. Muere justo después de ser invocada.
+127.text;La próxima criatura que juegues este turno cuesta {faeria|4} menos. Muere justo después de ser invocada.
 128.name;Engaño de Aurora
 128.text;Obtén el control de una criatura con 2 de ataque o menos.
 129.name;Sapos Guerreros
@@ -233,7 +233,7 @@
 143.name;Tótem Tiki
 143.text;La primera vez que invoques una criatura cada turno, gana +1/+1.
 144.name;Osezno Poseído
-144.text;Cuando esta criatura recibe daño, su ataque se duplica.
+144.text;Cuando esta criatura recibe daño, su ataque se duplica.
 149.name;Roble Joven
 149.text;{last_words}: Una criatura al azar de tu mano gana +5/+5.
 150.name;Gólem Thyriano
@@ -309,7 +309,7 @@
 193.name;Bestia de Guerra Kobold
 193.text;
 194.name;Don del Acero
-194.text;Le da +3/+0 a una criatura. Esa criatura también gana 3 de vida si tiene la habilidad <b>Combate</b>.
+194.text;Otorga +3/+0 a una criatura. Esa criatura también gana 3 de vida si tiene la habilidad <b>Combate</b>.
 195.name;Jefe Clandestino
 195.text;{combat}: Gana {faeria|2}.
 196.name;Arquitecto
@@ -343,7 +343,7 @@
 214.name;Escupellamas
 214.text;{gift}: Inflige 1 de daño a un enemigo.
 215.name;Señor del Terror
-215.text;{taunt}\nCuando el señor del terror recibe daño, inflige 1 de daño a tu oponente.
+215.text;Cada vez que tu oponente recibe daño, esta criatura gana esa cantidad en Ataque.
 216.name;Alimaña Cruel
 216.text;{gift}: Gana +2/+0 si tienes otra criatura con más ataque que vida.
 217.name;Obelisco Sanguinario
@@ -353,7 +353,7 @@
 223.name;Lanzabombas
 223.text;{gift}: Inflige 4 de daño a una criatura o estructura enemiga adyacente.
 224.name;Portador del Cañón
-224.text;{gift}: Le da {ranged_attack} a una criatura aliada.
+224.text;{gift}: Otorga {ranged_attack} a una criatura aliada.
 225.name;Llama Explosiva
 225.text;Inflige 3 de daño.
 226.name;Lanzallamas
@@ -400,7 +400,7 @@
 250.text;Cuando selecciones +{faeria|1} de la rueda de poder, inflige 4 de daño dividido de forma aleatoria entre todos los enemigos.
 251.name;Monje Oradrim
 251.text;{haste}\nCuando esta criatura ataca a un dios, roba una carta.
-252.name;Plegaria de Khalim
+252.name;Plegaria a Khalim
 252.text;Gana {faeria|2} y roba una carta. Solo puedes usarla si has atacado a un dios este turno. Puedes lanzar esta carta solo una vez por turno.
 253.name;Seguidor de Khalim
 253.text;{haste}\nGana +2/+0 contra dioses.
@@ -455,7 +455,7 @@
 290.name;Faerie de seda Solar
 290.text;{flying}\nLa primera vez que robas un evento de tu mazo, gana +3/+1 y {charge|3}.
 291.name;Torre Celestial
-291.text;{activate}: Le da {charge|3} a una criatura durante el turno. Inflige 1 de daño a esta estructura.
+291.text;{activate}: Otorga {charge|3} a una criatura durante el turno. Inflige 1 de daño a esta estructura.
 292.name;Brizna Eólica
 292.text;{flying}, {charge|3}\nCuando atacas a un dios, gana +3/+0.
 293.name;Ráfaga
@@ -535,7 +535,7 @@
 361.name;Yak de Cuernos Largos
 361.text;{last_words} - La próxima criatura que robes gana ataque igual al de esta criatura.
 362.name;Hora de las Leyendas
-362.text;Roba la primera legendaria de tu mazo. Si no te quedan legendarias en el mazo, elige un color, baraja una legendaria al azar de ese color en tu mazo.{options|Introduce en tu mazo una legendaria verde al azar|Introduce en tu mazo una legendaria azul al azar|Introduce en tu mazo una legendaria roja al azar|Introduce en tu mazo una legendaria amarilla al azar}
+362.text;Roba la primera legendaria de tu mazo. Si no te quedan legendarias en el mazo, {options|Introduce en tu mazo una legendaria verde al azar|Introduce en tu mazo una legendaria azul al azar|Introduce en tu mazo una legendaria roja al azar|Introduce en tu mazo una legendaria amarilla al azar} un color. Baraja una legendaria al azar de ese color en tu mazo.
 363.name;Entrenador Tritón
 363.text;{jump}\n{gift} - Otorga +2/+2 a la siguiente criatura con {jump} que invoques.
 364.name;Voz de la Verdad
@@ -544,6 +544,18 @@
 365.text;{combat} - Otorga +1/+1 a la siguiente criatura con {combat} que invoques.
 366.name;Guía Mistral
 366.text;{flying}\nLas criaturas aliadas invocadas adyacentemente a esta criatura ganan {dash|2} y {flying}.
+367.name;Guardiana Divina
+367.text;{divine}\nCuando vayas a recibir daño letal, lo evita y en su lugar destruye esta criatura.
+368.name;El Comando del Emperador
+368.text;{options|Give a creature -2/-1.|Deal 3 damage to a structure.|Gain 4 life.}\n- Otorga -2/-1 a una criatura\n- Inflige 3 de daño a una estructura\n- Gana 4 de vida.
+369.name;Ilusión de Grandeza
+369.text;{charge|2}\nCada vez que invoques una criatura que cueste {faeria|1} o menos, esta gana Ataque y Vida igual a la de esa criatura (mientras esté en tu mano o mazo).
+370.name;Acechador de los bosques profundos
+370.text;{gift} - Lucha con una criatura enemiga.
+371.name;Cena de Krog
+371.text;Tu Krog cuesta {faeria|7} menos. Cuando invocas a Krog, destruye esto.\n{gift} - Si Krog ha muerto o está en tu mazo, lo robas.
+372.name;Sonrisa de Iona
+372.text;Roba las 2 primeras criaturas voladoras de tu mazo.
 403.name;Cristal Oscuro
 403.text;Drena 4 de vida a tu oponente, inflige 3 de daño a todas las criaturas enemigas y roba 2 cartas.
 404.name;Cuerno de Guerra Yak
@@ -563,7 +575,7 @@
 411.name;Cáliz del Palacio
 411.text;Da +6/+6 a las criaturas aliadas, distribuido al azar en 6 veces +1/+1.
 412.name;Tambor de Eredon
-412.text;Le da a todas tus criaturas +2/+2 estén donde estén.
+412.text;Otorga a todas tus criaturas +2/+2 estén donde estén.
 413.name;Creanubes
 413.text;Las criaturas aliadas tienen {flying}, {jump} y +1/+0.
 414.name;Anillo del Dominio
@@ -581,7 +593,7 @@
 420.name;Piedra de Justa Fortuna
 420.text;Añade 3 <b>Tesoros</b> al azar a tu mazo.
 421.name;Secreto de la Fuerza
-421.text;Le da a una criatura {flying}, {charge|3} y +4/+4.
+421.text;Otorga a una criatura {flying}, {charge|3} y +4/+4.
 422.name;Guardián del Vacío
 422.text;{gift}: Destruye tu mazo.
 423.name;Dragón de Cristal
@@ -589,7 +601,7 @@
 424.name;Llama Explosiva Rubi
 424.text;{options|Inflige 3 de daño.|Inflige 3 de daño a todo.}\n- Inflige 3 de daño.\n- Inflige 3 de daño a TODO el mundo.
 425.name;Martillo de la Destrucción
-425.text;Infilge 5 de daño. Añade el <b>Martillo de la Destrucción</b> a tu mazo.
+425.text;Inflige 5 de daño. Añade el <b>Martillo de la Destrucción</b> a tu mazo.
 426.name;Volcan en Erupción
 426.text;{gift}: Infilge 2 de daño a todos los enemigos. Por cada enemigo destruido, gana +2/+2.
 427.name;Deseo mortal

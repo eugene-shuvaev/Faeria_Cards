@@ -17,11 +17,11 @@
 13.name;Percepteur
 13.text;{combat} - Gagnez {faeria|1}.
 14.name;Cantique de jouvence
-14.text;Piochez une carte et gagnez 5 points de vie.
+14.text;Piochez une carte et gagnez 5 PV.
 15.name;Sauvegarde
 15.text;Donne {protection} à une créature.
 16.name;Garde impérial
-16.text;{taunt}\n{last_words} - Gagnez 2 points de vie.
+16.text;{taunt}\n{last_words} - Gagnez 2 PV.
 22.name;Combattant de la Liberté
 22.text;{haste}
 23.name;Feu de camp
@@ -67,7 +67,7 @@
 48.name;Ancien du village
 48.text;{last_words} - Piochez une carte.
 49.name;Conteur
-49.text;{gift} - Chaque joueur pioche 2 cartes et gagne 2 points de vie.
+49.text;{gift} - Chaque joueur pioche 2 cartes et gagne 2 PV.
 50.name;Moine errant
 50.text;Gagne +1/+0 chaque fois que vous piochez une carte.
 51.name;Exécuteur de Forgevapeur
@@ -119,12 +119,12 @@
 74.name;Tyranax
 74.text;
 75.name;Enchanteresse de Gabria
-75.text;{gift} - L'attaque d'une autre créature devient égale à ses points de vie.
+75.text;{gift} - L'attaque d'une autre créature devient égale à ses PV.
 76.name;Commandant de Gabria
 76.text;{aquatic}, {charge|3}\nGagne {flying} et +1/+1 dès que vous piochez une carte coûtant {faeria|7} ou plus.
 77.name;Protecteur de Gabria
 77.text;{gift} - Donne {protection} à une créature.
-82.name;Mochi de printemps
+82.name;Mochi de la source
 82.text;{gift} - La prochaine carte que vous piochez coûtant à la base {faeria|7} ou plus coûte {faeria|3} de moins.
 83.name;Guerrier Triton
 83.text;{jump}
@@ -139,7 +139,7 @@
 88.name;Croâfication
 88.text;Transforme une créature en <b>Grenouille</b> 2/2 avec {jump}.
 93.name;Enchantement de Gabria
-93.text;L'attaque d'une créature devient égale à ses points de vie.\nPiochez une carte.
+93.text;L'attaque d'une créature devient égale à ses PV.\nPiochez une carte.
 94.name;Création d'Aurora
 94.text;Ajoute la copie d'une créature à votre main. Coût réduit de {faeria|5}.
 95.name;Pisteur de l'ombre
@@ -179,7 +179,7 @@
 116.name;Luduan
 116.text;Chaque fois que cette créature récolte des faeria depuis un puits adverse, ajoutez une carte bleue aléatoire à votre main. Son coût est réduit de {faeria|2}.
 117.name;Œuf des merveilles
-117.text;Lorsque vous piochez une créature non-léngendaire, l'Œuf des merveilles en devient la copie conforme.
+117.text;Lorsque vous piochez une créature non-légendaire, l'Œuf des merveilles en devient la copie conforme.
 118.name;Archonte de Gabria
 118.text;{charge|2}\nGagne +2/+2 si vous avez joué deux cartes coûtant {faeria|7} ou plus.
 119.name;Plongeur Triton
@@ -189,9 +189,9 @@
 121.name;Prophète des marées
 121.text;{gift} - Déplace un terrain en votre possession deux fois.
 122.name;Vision d'humilité
-122.text;Divise les points de vie et d'attaque de base d'une créature par deux (arrondis au nombre supérieur).
+122.text;Divise les PV et l'attaque de base d'une créature par deux (arrondis au nombre supérieur).
 123.name;Héraut antique
-123.text;{gift} - La prochaine créature que vous piochez avec 5 points de vie ou plus coûte {faeria|2} de moins.
+123.text;{gift} - La prochaine créature que vous piochez avec 5 PV ou plus coûte {faeria|2} de moins.
 124.name;Banquet des Tritons
 124.text;Donne à une créature +1/+1 et {jump}.
 125.name;Aurora, Faiseuse de Mythes
@@ -217,7 +217,7 @@
 135.name;Belluaire antique
 135.text;Lorsque vous invoquez une créature à la vie supérieure ou égale à 5, elle gagne +1/+1.
 136.name;Grâce de Gaïa
-136.text;Vous et une créature gagnez chacun 3 points de vie.
+136.text;Vous et une créature gagnez chacun 3 PV.
 137.name;Chef de clan Tiki
 137.text;{gift} - Donne {taunt} à une créature.
 138.name;Esprit floral
@@ -245,7 +245,7 @@
 153.name;Grizzly des Bois Enfouis
 153.text;
 154.name;Guérisseuse Tiki
-154.text;{gift} - Vous gagnez 6 points de vie.
+154.text;{gift} - Vous gagnez 6 PV.
 155.name;Temple de Ruunin
 155.text;{gift} - Gagnez {faeria|2}.\n{last_words} - Votre adversaire gagne {faeria|2}.
 156.name;Chêne patriarche
@@ -289,7 +289,7 @@
 183.name;Sanglier antique
 183.text;{dash|2}\nCoûte {faeria|2} de moins si vous contrôlez une créature à la vie supérieure ou égale à 5.
 184.name;Auspices de Ruunin
-184.text;{options|Donne +2/+2 à une créature.|Gagnez 5 points de vie.}\nDonne +2/+2 à une créature.\nGagnez 5 points de vie.
+184.text;{options|Donne +2/+2 à une créature.|Gagnez 5 PV.}\nDonne +2/+2 à une créature.\nGagnez 5 PV.
 185.name;Râle de la Faim
 185.text;{gift} - Détruit toutes les créatures alliées adjacentes pour gagner une attaque ET des PV équivalents à la somme de leurs PV.
 186.name;Jeune pousse
@@ -313,9 +313,9 @@
 195.name;Patron des catacombes
 195.text;{combat} - Gagnez {faeria|2}.
 196.name;Architecte
-196.text;{gift} - Donne 2 points de vie à une structure.
+196.text;{gift} - Donne 2 PV à une structure.
 197.name;Ogre exalté
-197.text;{gift} - Gagne +2/+2 si votre adversaire a 10 points de vie ou moins.
+197.text;{gift} - Gagne +2/+2 si votre adversaire a 10 PV ou moins.
 198.name;Caserne Kobold
 198.text;Les créatures alliées adjacentes gagnent +2/+0.
 199.name;Graine de Rancœur
@@ -330,7 +330,7 @@
 203.text;
 204.name;Krog, Roi des Ogres
 204.text;{combat} - Une carte aléatoire de votre main coûte {faeria|7} de moins.
-205.name;Affûcheur de haches
+205.name;Affûteur de haches
 205.text;{gift} - Gagne +1/+1 si invoqué sur une case adjacente à un puits adverse.
 206.name;Lanceur de rochers
 206.text;{ranged_attack}\nLorsque cette créature attaque, elle inflige aussi des dégâts aux ennemis adjacents à la cible.
@@ -343,7 +343,7 @@
 214.name;Cracheur de flammes
 214.text;{gift} - Inflige 1 point de dégâts à un ennemi.
 215.name;Seigneur de la Terreur
-215.text;{taunt}\nChaque fois qu'il subit des dégâts, inflige 1 points de dégâts à votre adversaire.
+215.text;À chaque fois que votre adversaire reçoit des dommages, gagne autant en Attaque.
 216.name;Harceleur Shedime
 216.text;{gift} - Gagne +2/+0 si vous contrôlez une autre créature avec plus de points d'attaque que de vie.
 217.name;Obélisque de sang
@@ -415,9 +415,9 @@
 258.name;Porte du vent
 258.text;Vous pouvez invoquer des créatures sur les cases adjacentes à cette structure.\n{activate} - Déplace la Porte du vent.
 259.name;Esprit malfaisant
-259.text;{gift} - Vous drainez 2 points de vie à votre adversaire.
+259.text;{gift} - Vous drainez 2 PV à votre adversaire.
 260.name;Khalim, Prodige Céleste
-260.text;{flying}, {charge|2}\nLorsque Khalim attaque une divinité, ajoutez un <b>Suivant de Khalim</b> à votre main. Il coûte {faeria|0}.
+260.text;{flying}, {charge|2}\nLorsque Khalim attaque une divinité, ajoutez un <b>Fidèle de Khalim</b> à votre main. Il coûte {faeria|0}.
 261.name;Ombre du carnage
 261.text;
 262.name;Goule morbide
@@ -485,7 +485,7 @@
 305.name;Chevaucheur de l'Oubli
 305.text;{charge|3}
 306.name;Drain d'âme
-306.text;Draine 2 points de vie à une créature.
+306.text;Draine 2 PV à une créature.
 307.name;Sables mouvants
 307.text;Détruit une créature à l'attaque inférieure ou égale à 3.
 308.name;Doomgate, Portail vers l'oubli
@@ -511,7 +511,7 @@
 335.name;Frondeur rebelle
 335.text;{gift} - Inflige 2 points de dégâts à votre adversaire.
 350.name;Trois voeux
-350.text;Gagnez 3 points de vie et copiez les 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|3}. Vous ne pouvez souhaiter avoir plus de souhaits.
+350.text;Gagnez 3 PV et copiez les 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|3}. Vous ne pouvez souhaiter avoir plus de souhaits.
 351.name;Planeur rebelle
 351.text;{flying}, {dash|2}\nNe peut pas récolter de faeria.
 352.name;Radiance, Vaisseau Impérial
@@ -521,8 +521,8 @@
 354.name;Dévoreur de rêves
 354.text;{dash|3}\n{gift} - Fixez les PV d'une divinité à 10.
 355.name;Kodama sauvage
-355.text;{jump}\nNe peut pas récolter de faeria.\nChaque fois que cette créature attaque une orbe, gagnez 5 points de vie.
-356.name;Traqueur des Dieux
+355.text;{jump}\nNe peut pas récolter de faeria.\nChaque fois que cette créature attaque une divinité, gagnez 5 PV.
+356.name;Traqueur de Dieux
 356.text;{jump}\nNe peut attaquer que les divinités.\nNe peut pas récolter de faeria.
 357.name;Incantation sanglante
 357.text;Réduisez de {faeria|2} le coût d'une carte aléatoire de votre main, 4 fois. Infligez-vous 4 points de dégâts.
@@ -535,7 +535,7 @@
 361.name;Yak aux longues cornes
 361.text;{last_words} - La prochaine créature que vous piochez gagne autant d'attaque que cette créature.
 362.name;Le temps des légendes
-362.text;Piochez la première carte légendaire dans votre deck. Si vous n'en avez plus, mélangez une légendaire de couleur \n{options|Mélangez une carte légendaire verte aléatoire dans votre deck|Mélangez une carte légendaire bleue aléatoire dans votre deck|Mélangez une carte légendaire rouge aléatoire dans votre deck|Mélangez une carte légendaire jaune aléatoire dans votre deck} dans votre deck.
+362.text;Piochez la première carte légendaire dans votre deck. Si vous n'en avez plus, mélangez une légendaire de couleur {options|Mélangez une carte légendaire verte aléatoire dans votre deck|Mélangez une carte légendaire bleue aléatoire dans votre deck|Mélangez une carte légendaire rouge aléatoire dans votre deck|Mélangez une carte légendaire jaune aléatoire dans votre deck} dans votre deck.
 363.name;Entraineur triton
 363.text;{jump}\n{gift} - Donne +2/+2 à la prochaine créature avec {jump} que vous invoquez.
 364.name;Voix de la vérité
@@ -544,8 +544,20 @@
 365.text;{combat} - Donne +1/+1 à la prochaine créature avec {combat} que vous invoquez.
 366.name;Guide céleste
 366.text;{flying}\nLes créatures alliées invoquées à côté de cette créature gagnent {dash|2} et {flying}.
+367.name;Gardienne divine
+367.text;{divine}\nQuand vous devriez subir des dégâts mortels, annulez les et détruisez cette créature à la place.
+368.name;Commandement de l'Empereur
+368.text;{options|Donne à une créature -2/-1.|Inflige 3 dégâts à une structure.|Gagnez 4 points de vie.}\n- Donne à une créature -2/-1\n- Inflige 3 dégâts à une structure.\nGagnez 4 PV.
+369.name;Illusion des grandeurs
+369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de PV que les créature que vous invoquez et qui coûtent  {faeria|1} ou moins.
+370.name;Tisseuse des sous-bois
+370.text;{gift} - Se bat contre une créature ennemie.
+371.name;Diner de Krog
+371.text;Votre Krog coûte {faeria|7} de moins. Quand vous invoquez Krog, détruisez cette créature.\n{gift} - Si Krog est mort ou est dans votre deck, piochez-le.
+372.name;Sourire de Iona
+372.text;Piochez les 2 prochaines créatures avec {flying} dans votre deck.
 403.name;Cristal obscur
-403.text;Draine 4 points de vie à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
+403.text;Draine 4 PV à votre adversaire, inflige 3 points de dégâts à toutes les créatures ennemies. Piochez 2 cartes.
 404.name;Corn'yak Corne-Brume
 404.text;Invoquez trois <b>Yaks des Prairies en Colère</b> 2/4 avec {haste}.
 405.name;Arme astrale
@@ -573,11 +585,11 @@
 416.name;Yak mécanique
 416.text;{dash|2}
 417.name;Automate de l'équinoxe
-417.text;{gift} - Vous gagnez 6 points de vie.\n{last_words} - Inflige 6 points de dégâts à votre adversaire.
+417.text;{gift} - Vous gagnez 6 PV.\n{last_words} - Inflige 6 points de dégâts à votre adversaire.
 418.name;Rose de Magda
 418.text;Prenez le contrôle d'une créature ennemie.
 419.name;Théière d'Aurora
-419.text;Les points de vie et l'attaque de base de toutes les créatures alliées deviennent égaux à 6/6.
+419.text;Les PV et l'attaque de base de toutes les créatures alliées deviennent égaux à 6/6.
 420.name;Pierre de bonne aventure
 420.text;Glisse 3 <b>Trésors</b> aléatoires n'importe où dans votre deck.
 421.name;Ressources Insoupçonnées
@@ -603,4 +615,4 @@
 431.name;Pie Sertie
 431.text;{flying}, {haste}\nChaque fois que cette créature attaque une divinité, ajoutez un <b>Trésor</b> aléatoire à votre main.
 432.name;Roue du Chaos
-432.text;{options|Détruit 2 terrains inoccupés.|Détruit une créature à l'attaque inférieure ou égale à 5.|Gagnez 7 points de vie.}\n- Détruit 2 terrains inoccupés.\n- Détruit une créature à l'attaque inférieure ou égale à 5.\n- Gagnez 7 points de vie.
+432.text;{options|Détruit 2 terrains inoccupés.|Détruit une créature à l'attaque inférieure ou égale à 5.|Gagnez 7 PV.}\n- Détruit 2 terrains inoccupés.\n- Détruit une créature à l'attaque inférieure ou égale à 5.\n- Gagnez 7 PV.

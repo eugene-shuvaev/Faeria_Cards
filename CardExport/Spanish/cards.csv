@@ -555,7 +555,7 @@
 371.name;Cena de Krog
 371.text;Tu Krog cuesta {faeria|7} menos. Cuando invocas a Krog, destruye esto.\n{gift} - Si Krog ha muerto o está en tu mazo, lo robas.
 372.name;Sonrisa de Iona
-372.text;Roba las 2 primeras criaturas voladoras de tu mazo.
+372.text;Roba las 2 primeras criaturas {flying} de tu mazo.
 403.name;Cristal Oscuro
 403.text;Drena 4 de vida a tu oponente, inflige 3 de daño a todas las criaturas enemigas y roba 2 cartas.
 404.name;Cuerno de Guerra Yak

@@ -275,6 +275,7 @@
 339;YELLOW;Rushing Wind;event;;0;;;;2;;;Move a friendly creature.;;2;106666;RARE
 340;HUMAN;Syland Warrior;creature;;5;;;;;1;6;;;0;106666;COMMON
 341;HUMAN;Defender of the Homeland;creature;;2;;;;;1;2;"{taunt} {gift} - If you were attacked last turn, summon another <b>Defender of the Homeland</b>.";;;106666;COMMON
+342;RED;Hilo, Divine Flame;creature;;0;;;3;;0;6;"{divine} Hilo keeps his master Pyhros relax while in play. {production} - Hilo loses 1 life.";;;106666;COMMON
 350;HUMAN;Three Wishes;event;;3;2;2;2;2;;;Gain 3 Life and copy the top 3 cards of your opponent's deck. They cost {faeria|3} less. You cannot wish for more wishes.;;0;101000;EPIC
 351;HUMAN;Rebel Glider;creature;;3;;;;;2;3;"{flying}, {dash|2} Can't harvest faeria.";;0;101000;COMMON
 352;HUMAN;Radiance, Imperial Airship;creature;;20;;;;;10;10;"{flying}, {dash|3} Radiance's faeria cost equals your Life total. {gift} - Gain 1 Life for each card in your hand.";;0;101000;LEGENDARY
@@ -288,7 +289,7 @@
 360;YELLOW;Annoying Gnat;creature;;2;;;;2;1;1;"{flying} Can't harvest faeria. {last_words} - Deal 2 damage to yourself. Summon this creature in a random space.";;0;101000;EPIC
 361;HUMAN;Long-horned Yak;creature;;3;;;;;2;2;{last_words} - The next creature you draw gains Attack equal to this creature's.;;0;101000;COMMON
 362;HUMAN;Time of Legends;event;;1;;;;;;;Draw the top legend in your deck. If there are no legends to answer the call, {options|Shuffle a random green legend into your deck|Shuffle a random blue legend into your deck|Shuffle a random red legend into your deck|Shuffle a random yellow legend into your deck} color. Shuffle a random legend of that color into your deck.;;0;101000;LEGENDARY
-363;BLUE;Triton Trainer;creature;;4;2;;;;3;3;"{jump} {gift} - Give the next {jump} creature you summon +2/+2.";;0;101000;RARE
+363;BLUE;Triton Trainer;creature;;3;2;;;;3;2;"{jump} {gift} - Give the next {jump} creature you summon +2/+0.";;0;101000;RARE
 364;GREEN;Voice of Truth;creature;;4;;2;;;1;5;{gift} - Restore a creature to its original Attack and Life.;;0;101000;RARE
 365;RED;Herald of War;creature;;3;;;2;;3;3;{combat} - Give the next {combat} creature you summon +1/+1.;;0;101000;RARE
 366;YELLOW;Mistral Guide;creature;;4;;;;4;4;4;"{flying} Friendly creatures summoned adjacent to this creature gain {dash|2} and {flying}.";;0;101000;RARE

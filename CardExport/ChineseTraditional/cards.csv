@@ -467,13 +467,13 @@
 296.name;凱追士兵
 296.text;
 297.name;荒蕪之主
-297.text;{gift}：您可以犧牲另一個生物來獲得{faeria|3}。
+297.text;{gift}：您可以犧牲另一個友方生物來獲得{faeria|3}。
 298.name;撒但刺客
-298.text;{deathtouch}\n{gift}：您可以犧牲一個友方生物以使此生物獲得{protection}。
+298.text;{deathtouch}\n{gift}：您可以犧牲另一個友方生物以使此生物獲得{protection}。
 299.name;惡魔引路人
-299.text;{gift}：您可以犧牲目標友方生物，並在該位置召喚一個具有{flying}的5/2<b>惡魔之翼</b>。
+299.text;{gift}：您可以犧牲另一個友方生物，並在該位置召喚一個具有{flying}的5/2<b>惡魔之翼</b>。
 300.name;闇行死神
-300.text;{deathtouch}\n您必須犧牲一個友方生物來召喚闇行死神。
+300.text;{deathtouch}\n您必須犧牲另一個友方生物來召喚闇行死神。
 301.name;遺境之誓
 301.text;摧毀目標友方生物。在該位置召喚一個{charge|3}的6/3<b>遺境騎兵</b>。
 302.name;撒但魔怪

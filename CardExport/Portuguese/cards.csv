@@ -124,7 +124,7 @@
 76.text;{aquatic}, {charge|3}\nNa primeira vez em que você comprar uma carta com custo base de {faeria|7} ou mais, esta criatura ganha {flying} e +1/+1.
 77.name;Guardiã Gabriana
 77.text;{gift} - Dá {protection} a uma criatura.
-82.name;Mochi da Primavera
+82.name;Mochi da Nascente
 82.text;{gift} - A próxima carta que você comprar com custo base de {faeria|7}+ custará {faeria|3} a menos.
 83.name;Guerreiro Anfíbio
 83.text;{jump}
@@ -555,7 +555,7 @@
 371.name;Jantar do Krog
 371.text;Seu Krog custa {faeria|7} a menos. Quando você invoca o Krog, esta criatura é destruída.\n{gift} - Se o Krog morreu ou está no seu baralho, Compre-o.
 372.name;Sorriso de Iona
-372.text;Compra as 2 próximas criaturas com <b>Voar</b> do seu baralho.
+372.text;Compra as 2 próximas criaturas com {flying} do seu baralho.
 403.name;Cristal Sombrio
 403.text;Drena 4 de vida do seu oponente, causa 3 de dano em todas criaturas inimigas e compra 2 cartas.
 404.name;Berrante de Guerrra Iaque
@@ -609,7 +609,7 @@
 428.name;Raio Aprisionado
 428.text;Causa 6 de dano a uma criatura e 3 de dano a todos os inimigos adjacentes.
 429.name;Lâmina Dançante
-429.text;Causa 3 de dano a todos inimigos adjacentes no fim do seu turno.
+429.text;{flying}, {jump}\nCausa 3 de dano a todos inimigos adjacentes no fim do seu turno.
 430.name;Foice da Destruição
 430.text;Destrói uma criatura. Invoca uma <b>Sombra Assassina</b> 6/1 no lugar dela.
 431.name;Corvo Adornado

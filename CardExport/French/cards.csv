@@ -63,7 +63,7 @@
 46.name;Cartographe
 46.text;{last_words} - Ajoute une carte <b>Explorer</b> à votre main.
 47.name;Statue étincelante
-47.text;{taunt}\n{production} - Vous gagnez 1 point de vie.
+47.text;{taunt}\n{production} - Vous rend 1 PV
 48.name;Ancien du village
 48.text;{last_words} - Piochez une carte.
 49.name;Conteur
@@ -245,7 +245,7 @@
 153.name;Grizzly des Bois Enfouis
 153.text;
 154.name;Guérisseuse Tiki
-154.text;{gift} - Vous gagnez 6 PV.
+154.text;{gift} - Vous rend 6 PV.
 155.name;Temple de Ruunin
 155.text;{gift} - Gagnez {faeria|2}.\n{last_words} - Votre adversaire gagne {faeria|2}.
 156.name;Chêne patriarche
@@ -285,7 +285,7 @@
 181.name;Jaillissement terrestre
 181.text;Piochez une carte et {options|Crée une forêt|Crée un lac|Crée une montagne|Crée un désert}\nCrée une forêt.\nCrée un lac.\nCrée une montagne.\nCrée un désert.
 182.name;Vengeur sauvage
-182.text;{taunt}, {dash|2}\nGagne 1 point de vie pour chaque fois où vous avez subi des dégâts pendant la partie.
+182.text;{taunt}, {dash|2}\nGagne 1 PV pour chaque fois où vous avez subi des dégâts pendant la partie.
 183.name;Sanglier antique
 183.text;{dash|2}\nCoûte {faeria|2} de moins si vous contrôlez une créature à la vie supérieure ou égale à 5.
 184.name;Auspices de Ruunin
@@ -309,7 +309,7 @@
 193.name;Bête de guerre Kobold
 193.text;
 194.name;Don de l'acier
-194.text;Donne +3/+0 à une créature. Cette dernière gagne également 3 PV si elle a une compétence <b>Combat</b>.
+194.text;Donne +3/+0 à une créature. Cette dernière gagne également 3 PV si elle a une capacité <b>Combat</b>.
 195.name;Patron des catacombes
 195.text;{combat} - Gagnez {faeria|2}.
 196.name;Architecte
@@ -515,7 +515,7 @@
 351.name;Planeur rebelle
 351.text;{flying}, {dash|2}\nNe peut pas récolter de faeria.
 352.name;Radiance, Vaisseau Impérial
-352.text;{flying}, {dash|3}\nLe coût en faeria de Radiance est égal à vos PV.\n{gift} - Gagne 1 point de vie pour chaque carte dans votre main.
+352.text;{flying}, {dash|3}\nLe coût en faeria de Radiance est égal à vos PV.\n{gift} - Gagne 1 PV pour chaque carte dans votre main.
 353.name;Bibliothèque interdite
 353.text;{production} - Piochez 1 carte, gagnez {faeria|2} et infligez-vous 2 points de dégâts.
 354.name;Dévoreur de rêves
@@ -545,14 +545,14 @@
 366.name;Guide céleste
 366.text;{flying}\nLes créatures alliées invoquées à côté de cette créature gagnent {dash|2} et {flying}.
 367.name;Gardienne divine
-367.text;{divine}\nQuand vous devriez subir des dégâts mortels, annulez les et détruisez cette créature à la place.
+367.text;{divine}\nQuand vous devriez subir des dégâts mortels, annulez-les et détruisez cette créature à la place.
 368.name;Commandement de l'Empereur
-368.text;{options|Donne à une créature -2/-1.|Inflige 3 dégâts à une structure.|Gagnez 4 points de vie.}\n- Donne à une créature -2/-1\n- Inflige 3 dégâts à une structure.\nGagnez 4 PV.
+368.text;{options|Donne à une créature -2/-1.|Inflige 3 dégâts à une structure.|Gagnez 4 PV.}\n- Donne -2/-1 à une créature\n- Inflige 3 dégâts à une structure\n- Gagnez 4 PV.
 369.name;Illusion des grandeurs
-369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de PV que les créature que vous invoquez et qui coûtent  {faeria|1} ou moins.
-370.name;Tisseuse des sous-bois
+369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de points de vie que les créatures que vous invoquez et qui coûtent  {faeria|1} ou moins.
+370.name;Tisseuse des Bois Enfouis
 370.text;{gift} - Se bat contre une créature ennemie.
-371.name;Diner de Krog
+371.name;Dîner de Krog
 371.text;Votre Krog coûte {faeria|7} de moins. Quand vous invoquez Krog, détruisez cette créature.\n{gift} - Si Krog est mort ou est dans votre deck, piochez-le.
 372.name;Sourire de Iona
 372.text;Piochez les 2 prochaines créatures avec {flying} dans votre deck.
@@ -585,7 +585,7 @@
 416.name;Yak mécanique
 416.text;{dash|2}
 417.name;Automate de l'équinoxe
-417.text;{gift} - Vous gagnez 6 PV.\n{last_words} - Inflige 6 points de dégâts à votre adversaire.
+417.text;{gift} - Vous rend 6 PV.\n{last_words} - Inflige 6 points de dégâts à votre adversaire.
 418.name;Rose de Magda
 418.text;Prenez le contrôle d'une créature ennemie.
 419.name;Théière d'Aurora

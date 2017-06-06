@@ -537,7 +537,7 @@
 362.name;Time of Legends
 362.text;Draw the top legend in your deck. If there are no legends to answer the call, {options|Shuffle a random green legend into your deck|Shuffle a random blue legend into your deck|Shuffle a random red legend into your deck|Shuffle a random yellow legend into your deck} color. Shuffle a random legend of that color into your deck.
 363.name;Triton Trainer
-363.text;{jump}\n{gift} - Give the next {jump} creature you summon +2/+2.
+363.text;{jump}\n{gift} - Give the next {jump} creature you summon +2/+0.
 364.name;Voice of Truth
 364.text;{gift} - Restore a creature to its original Attack and Life.
 365.name;Herald of War

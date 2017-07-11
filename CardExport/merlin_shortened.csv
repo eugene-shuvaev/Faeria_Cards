@@ -92,11 +92,11 @@
 118;BLUE;Gabrian Archon;creature;;4;2;;;;4;4;"{charge|2} Gain +2/+2 if you've played two cards with a base cost of {faeria|7} or higher.";;2;101000;COMMON
 119;BLUE;Triton Diver;creature;;3;1;;;;2;2;{aquatic}, {jump};;2;100011;COMMON
 120;BLUE;Shifting Tide;event;;1;1;;;;;;"{options|Move a land|Draw a card} - Move a land. - Draw a card.";;2;101000;COMMON
-121;BLUE;Prophet of Tides;creature;;3;2;;;;3;1;{gift} - Move a land you control twice.;;0;101000;COMMON
+121;BLUE;Prophet of Tides;creature;;3;2;;;;4;2;{gift} - Move this creature's land twice.;;0;101000;COMMON
 122;BLUE;Humbling Vision;event;;3;2;;;;;;Halve a creature's base Attack and Life (rounded up).;;2;100012;COMMON
 123;BLUE;Ancient Herald;creature;;6;1;;;;5;6;{gift} - The next creature you draw with 5 Life or more costs {faeria|2} less.;;0;101000;COMMON
 124;BLUE;Triton Banquet;event;;3;1;;;;;;Give a creature +1/+1 and {jump}.;;0;101000;RARE
-125;BLUE;Aurora, Myth Maker;creature;;4;2;;;;1;1;{gift} - Change another friendly creature's base Attack and Life to 6/6.;;0;101000;LEGENDARY
+125;BLUE;Aurora, Myth Maker;creature;;4;3;;;;1;1;{gift} - Change another friendly creature's base Attack and Life to 6/6.;;0;101000;LEGENDARY
 126;BLUE;Wavecrafter;creature;;6;3;;;;5;6;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.;;0;101000;EPIC
 127;BLUE;Failed Experiment;event;;1;1;;;;;;The next creature you play this turn costs {faeria|4} less. It dies instantly.;;0;101000;EPIC
 128;BLUE;Aurora's Trick;event;;4;5;;;;;;Gain control of a creature with 2 Attack or less.;;0;101000;EPIC
@@ -105,7 +105,7 @@
 131;GREEN;Sagami Warrior;creature;;3;;1;;;3;4;{dash|2};;2;101000;COMMON
 132;GREEN;Bone Collector;creature;;2;;1;;;1;3;Whenever an adjacent creature dies, gain +1/+1.;;0;101000;COMMON
 133;GREEN;Soulbound Sagami;creature;;6;;2;;;3;5;{last_words} - A random friendly creature gains +3/+5.;;2;100008;COMMON
-134;GREEN;Sagami Grovecaller;creature;;4;;2;;;2;4;{gift} - Teleport another friendly creature to a forest you control.;;0;101000;RARE
+134;GREEN;Sagami Grovecaller;creature;;4;;3;;;2;4;{gift} - Teleport another friendly creature to a forest you control.;;0;101000;RARE
 135;GREEN;Ancient Beastmaster;creature;;4;;2;;;3;4;When you summon a creature with 5 Life or more, it gains +1/+1.;;0;101000;COMMON
 136;GREEN;Gaea's Grace;event;;2;;2;;;;;You and a creature each gain +3 Life.;;0;101000;RARE
 137;GREEN;Tiki Chieftain;creature;;3;;2;;;2;2;{gift} - Give a creature {taunt}.;;2;100006;COMMON
@@ -149,7 +149,7 @@
 187;GREEN;Eredon, Voice of All;creature;;5;;2;;;3;3;{last_words} - All creatures in your deck and hand gain +1/+1.;;0;101000;LEGENDARY
 188;GREEN;Feed the Forest;event;;1;;3;;;;;Destroy a friendly creature to gain faeria equal to its Life and draw a card.;;0;101000;RARE
 189;GREEN;Ruunin's Presence;event;;4;;2;;;;;Add a random green creature to your hand. It gains +6/+6.;;0;101000;EPIC
-190;GREEN;Ruunin, the Relentless;creature;;6;;2;;;4;4;"{dash|2} {last_words} - Return Ruunin to your hand. She gains +2/+2.";;0;101000;LEGENDARY
+190;GREEN;Ruunin, the Relentless;creature;;5;;3;;;4;4;"{dash|2} {last_words} - Return Ruunin to your hand. She gains +2/+2.";;0;101000;LEGENDARY
 191;RED;Underground Brigand;creature;;3;;;2;;2;3;{combat} - Gain {faeria|2}.;;2;100013;COMMON
 192;RED;Kobold Warlord;creature;;7;;;1;;5;7;{combat} - A random creature you control gains +3/+0.;;2;100013;COMMON
 193;RED;Kobold Warbeast;creature;;4;;;2;;5;4;;;2;100014;COMMON
@@ -161,7 +161,7 @@
 199;RED;Hate Seed;creature;;7;;;2;;4;4;Costs {faeria|1} less for each creature you have summoned with higher Attack than Life.;;2;101000;COMMON
 200;RED;Ogre Battler;creature;;8;;;2;;6;9;{taunt};;2;100015;COMMON
 201;RED;Bold Bargainer;creature;;7;;;2;;3;4;{gift} - A random card in your hand costs {faeria|7} less.;;0;101000;COMMON
-202;RED;Seifer, Blood Tyrant;creature;;5;;;2;;5;6;When Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's original Attack and Life.;;0;101000;LEGENDARY
+202;RED;Seifer, Blood Tyrant;creature;;5;;;3;;5;6;When Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's original Attack and Life.;;0;101000;LEGENDARY
 203;RED;Barbarian Ogre;creature;;7;;;2;;7;7;;;0;101000;COMMON
 204;RED;Krog, the Ogre King;creature;;12;;;4;;2;12;{combat} - A random card in your hand costs {faeria|7} less.;;0;101000;LEGENDARY
 205;RED;Axe Grinder;creature;;3;;;1;;4;3;{gift} - Gain +1/+1 if summoned adjacent to an opponent's well.;;2;100015;RARE
@@ -193,7 +193,7 @@
 243;RED;Firebomb;event;;4;;;2;;;;Deal 4 damage to a creature or structure.;;0;101000;COMMON
 244;RED;Firestorm;event;;6;;;3;;;;Deal 3 damage to all enemy creatures.;;0;101000;EPIC
 245;RED;Battle Rager;creature;;7;;;1;;7;3;Whenever this creature is dealt damage, deal that much damage back to your opponent.;;0;101000;RARE
-246;RED;Crumbling Golem;creature;;5;;;1;;6;6;Whenever your opponent summons a creature, deal 1 damage to this Golem.;;0;101000;EPIC
+246;RED;Crumbling Golem;creature;;5;;;1;;7;6;Whenever your opponent summons a creature, deal 1 damage to this Golem.;;0;101000;EPIC
 247;RED;Ogre Dance;event;;4;;;2;;;;A random card in your hand costs {faeria|7} less.;;0;101000;COMMON
 248;RED;Meteor;event;;12;;;5;;;;Choose a space. Destroy all creatures, structures and lands on, or adjacent to, that space.;;0;101000;EPIC
 249;RED;Red Devil;creature;;9;;;2;;6;4;{gift} - Gain {faeria|5}.;;0;101000;COMMON
@@ -207,7 +207,7 @@
 257;YELLOW;Desert Twister;event;;0;;;;5;;;Teleport a creature to a desert you control.;;0;101000;EPIC
 258;YELLOW;Wind Gate;structure;;1;;;;1;;4;"You can summon creatures on spaces adjacent to this structure. {activate} - Move Wind Gate.";;0;101000;EPIC
 259;YELLOW;Malevolent Spirit;creature;;5;;;;1;3;3;{gift} - You drain 2 Life from your opponent.;;2;101000;RARE
-260;YELLOW;Khalim, Sky Prodigy;creature;;5;;;;2;3;6;"{flying}, {charge|2} When Khalim attacks a god, add a <b>Khalim's Follower</b> to your hand. It costs {faeria|0}.";;0;101000;LEGENDARY
+260;YELLOW;Khalim, Sky Prodigy;creature;;5;;;;3;3;6;"{flying}, {charge|2} When Khalim attacks a god, add a <b>Khalim's Follower</b> to your hand. It costs {faeria|0}.";;0;101000;LEGENDARY
 261;YELLOW;Slaughtering Shadow;creature;;3;;;;1;6;1;;;2;100017;COMMON
 262;YELLOW;Deathwish Ghoul;creature;;3;;;;2;3;1;{last_words} - Gain {faeria|2}.;;2;100017;COMMON
 263;YELLOW;Last Nightmare;event;;6;;;;3;;;Destroy a creature.;;2;100019;RARE
@@ -237,7 +237,7 @@
 299;YELLOW;Demon Wrangler;creature;;2;;;;1;2;1;{gift} - You may sacrifice another creature, summoning a 5/2 {flying} <b>Demon Wing</b> in its place.;;0;101000;COMMON
 300;YELLOW;Death Walker;creature;;3;;;;2;6;4;"{deathtouch} You must sacrifice another creature to summon this creature.";;0;101000;RARE
 301;YELLOW;Oath to Oblivion;event;;2;;;;2;;;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Rider</b> with {charge|3} in its place.;;0;101000;RARE
-302;YELLOW;Shaytan Monstrosity;creature;;6;;;;4;0;4;"{charge|2} Whenever a friendly creature dies, this creature drains its attack.";;2;101000;EPIC
+302;YELLOW;Shaytan Monstrosity;creature;;5;;;;2;0;5;"{charge|2} Whenever a friendly creature dies, this creature drains its attack.";;2;101000;EPIC
 303;YELLOW;Iona, Beloved by All;creature;;2;;;;2;2;1;"{flying} Can't be attacked.";;0;101000;LEGENDARY
 304;YELLOW;Demon Wing;creature;;3;;;;1;5;2;{flying};;2;100017;COMMON
 305;YELLOW;Oblivion Rider;creature;;5;;;;1;6;3;{charge|3};;2;100018;COMMON

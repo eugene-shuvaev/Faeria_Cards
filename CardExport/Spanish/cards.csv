@@ -187,7 +187,7 @@
 120.name;Cambia Mareas
 120.text;{options|Mueve un suelo|Roba una carta}\nMueve un suelo.\nRoba una carta.
 121.name;Profeta de las mareas
-121.text;{gift}: mueve hasta 2 veces una tierra que sea de tu propiedad.
+121.text;{gift}: Mueve la tierra de esta criatura dos veces.
 122.name;Visión Humillante
 122.text;Reduce a la mitad el ataque y la vida base de una criatura (redondeando hacia arriba).
 123.name;Heraldo Antiguo
@@ -537,7 +537,7 @@
 362.name;Hora de las Leyendas
 362.text;Roba la primera legendaria de tu mazo. Si no te quedan legendarias en el mazo, {options|Introduce en tu mazo una legendaria verde al azar|Introduce en tu mazo una legendaria azul al azar|Introduce en tu mazo una legendaria roja al azar|Introduce en tu mazo una legendaria amarilla al azar} un color. Baraja una legendaria al azar de ese color en tu mazo.
 363.name;Entrenador Tritón
-363.text;{jump}\n{gift} - Otorga +2/+2 a la siguiente criatura con {jump} que invoques.
+363.text;{jump}\n{gift} - Otorga +2/+0 a la siguiente criatura con {jump} que invoques.
 364.name;Voz de la Verdad
 364.text;{gift} - Restablece el ataque y la vida de una criatura a sus valores originales.
 365.name;Heraldo de la Guerra

@@ -187,7 +187,7 @@
 120.name;Gezeitenwechsel
 120.text;{options|Bewege ein Land.|Ziehe eine Karte.}\nBewege ein Land.\nZiehe eine Karte.
 121.name;Prophet der Gezeiten
-121.text;{gift} - Bewege ein Land unter deiner Kontrolle zweimal.
+121.text;{gift} - Bewege das Land unter dieser Kreatur zweimal.
 122.name;Vision von Demut
 122.text;Verringere den Grundangriff und das Leben einer Kreatur um die Hälfte (wird aufgerundet).
 123.name;Uralter Bote
@@ -537,7 +537,7 @@
 362.name;Zeitalter der Legenden
 362.text;Ziehe die oberste Legende aus deinem Deck. Falls sich keine Legende findet, um den Ruf zu beantworten, {options| Mische eine zufällige grüne Legende in dein Deck|Mische eine zufällige blaue Legende in dein Deck|Mische eine zufällige rote Legende in dein Deck|Mische eine zufällige gelbe Legende in dein Deck}. Mische eine zufällige Legende dieser Farbe in dein Deck.
 363.name;Triton-Ausbilder
-363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+2.
+363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+0.
 364.name;Stimme der Wahrheit
 364.text;{gift} - Setze Angriff und Leben einer Kreatur auf ihre Ursprungswerte zurück.
 365.name;Vorbote des Krieges

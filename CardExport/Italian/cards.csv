@@ -187,7 +187,7 @@
 120.name;Marea Mutevole
 120.text;{options|Sposta un territorio|Pesca una carta}\n- Sposta un territorio.\n- Pesca una carta.
 121.name;Profeta delle Maree
-121.text;{gift} - Sposta per due volte un territorio che controlli.
+121.text;{gift} - Muovi la terra di questa creatura due volte
 122.name;Visione Avvilente
 122.text;Dimezza (per eccesso) il valore di attacco e i punti vita di una creatura.
 123.name;Vecchio Messaggero
@@ -537,7 +537,7 @@
 362.name;Il tempo delle Leggende
 362.text;Pesca la leggenda più in cima nel tuo mazzo. Se non ci sono leggende pronte a rispondere al richiamo, scegli un colore. Mescola una leggenda casuale di quel colore nel tuo mazzo.{options|Mescola una leggenda verde nel tuo mazzo|Mescola una leggenda blu nel tuo mazzo| Mescola una leggenda rossa nel tuo mazzo|Mescola una leggenda gialla nel tuo mazzo}
 363.name;Tritone Addestratore
-363.text;{jump}\n{gift} - Dona alla prossima creatura con {jump} che evochi +2/+2.
+363.text;{jump}\n{gift} - Dona alla prossima creatura con {jump} che evochi +2/+0.
 364.name;Voce della Verità
 364.text;{gift} - Riporta una creatura al suo valore originale di attacco e punti vita.
 365.name;Messaggero di Guerra
@@ -567,7 +567,7 @@
 407.name;Lampada del Genio
 407.text;{options|Aggiungi alla tua mano 3 carte verdi casuali. Ti costeranno {faeria|3} in meno|Aggiungi alla tua mano 3 carte blu casuali. Ti costeranno {faeria|3} in meno|Aggiungi alla tua mano 3 carte rosse casuali. Ti costeranno {faeria|3} in meno|Aggiungi alla tua mano 3 carte gialle casuali. Ti costeranno {faeria|3} in meno}\nScegli un colore. Aggiungi alla tua mano 3 carte casuali di quel colore. Ti costeranno {faeria|3} in meno.
 408.name;Urna di Gabria
-408.text;Pesca 2 carte e guadagnia {faeria|2}.
+408.text;Pesca 2 carte e guadagna {faeria|2}.
 409.name;Specchio di Iona
 409.text;Aggiungi alla tua mano due copie dell'ultimo <b>Tesoro</b> che il tuo avversario ha giocato.
 410.name;Golem di Sanguipietra

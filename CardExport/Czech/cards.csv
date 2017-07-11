@@ -187,7 +187,7 @@
 120.name;Změna Proudu
 120.text;{options|Posunout pevninu|Líznout kartu}\n- Posunete pevninu.\n- Líznete si kartu.
 121.name;Prorok Přílivu
-121.text;{gift} - Dvakrát posunete pevninu pod vaší vládou.
+121.text;{gift} - Move this creature's land twice.
 122.name;Ponižující Vidina
 122.text;Zkrátí základní Útok a Život bytosti na polovinu (zaokrouhleno nahoru).
 123.name;Davný Hlasatel
@@ -537,7 +537,7 @@
 362.name;Čas Legend
 362.text;Líznete si vrchní legendu ve vašem balíčku. Pokud tam žádná není, {options|Přidat náhodnou zelenou legendu do svého balíčku|Přidat náhodnou modrou legendu do svého balíčku|Přidat náhodnou červenou legendu do svého balíčku|Přidat náhodnou žlutou legendu do svého balíčku} barvu. Přidá náhodnou legendu dané barvy do vašeho balíčku.
 363.name;Tritonský Trenér
-363.text;{jump}\n{gift} - Další bytost se schopností {jump} kterou přivoláte získá +2/+2.
+363.text;{jump}\n{gift} - Další bytost se schopností {jump} kterou přivoláte získá +2/+0.
 364.name;Hlas Pravdy
 364.text;{gift} - Obnoví bytosti její původní Útok a Život.
 365.name;Posel Války

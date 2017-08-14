@@ -33,7 +33,7 @@
 30.name;Yak de la Pradera
 30.text;
 32.name;Estampida Yak
-32.text;Invoca tres <b>Yaks enfurecidos</b>  2/2 con {haste}.
+32.text;Invoca tres <b>Yaks Enfurecidos</b>  2/2 con {haste}.
 33.name;Castigo
 33.text;Inflige 2 de daño a una criatura. Si es una criatura neutral, inflige 5.
 34.name;El Favorito de la Reina
@@ -129,7 +129,7 @@
 83.name;Guerrero Tritón
 83.text;{jump}
 84.name;Bestia Mística
-84.text;{gift}: gana +2/+0 y {jump} si se invoca junto al pozo de un oponente.
+84.text;{gift}: Gana +2/+0 y {jump} si se invoca junto al pozo de un oponente.
 85.name;Espejismo Fantasmal
 85.text;{gift}: Transforma a otra criatura en un <b>Espejismo Fantasmal</b> 5/5.
 86.name;Jefe Tritón
@@ -169,7 +169,7 @@
 111.name;Torre Hundida
 111.text;{activate}: Mueve una tierra. Inflige 1 de daño a esta estructura.
 112.name;Brizna Celeste
-112.text;Cuando recoges faeria del pozo de un oponente, esta carta gana +1/+1.
+112.text;Cuando recoletas faeria del pozo de un oponente, esta carta gana +1/+1.
 113.name;Santuario Tritón
 113.text;Cuando recolectas faeria, esta estructura gana 1 de vida.\n{activate}: Destrúyela y consigue tanta faeria como vida tiene esta estructura.
 114.name;Sueño de Aurora
@@ -177,7 +177,7 @@
 115.name;Lancero de las nieves
 115.text;{jump}\nCuando uses un evento, gana +2/+0 hasta el final del turno (límite +6/+0).
 116.name;Luduan
-116.text;Cuando esta criatura recoge faeria del pozo de un oponente, añade una carta azul al azar a tu mano. Cuesta {faeria|2} menos.
+116.text;Cuando esta criatura recolecta faeria del pozo de un oponente, añade una carta azul al azar a tu mano. Cuesta {faeria|2} menos.
 117.name;Huevo de las Maravillas
 117.text;Cuando robas una criatura no-legendaria, el Huevo de las Maravillas se vuelve una copia de ella.
 118.name;Arconte Gabriano
@@ -185,9 +185,9 @@
 119.name;Buzo Tritón
 119.text;{aquatic}, {jump}
 120.name;Cambia Mareas
-120.text;{options|Mueve un suelo|Roba una carta}\nMueve un suelo.\nRoba una carta.
+120.text;{options|Mueve una tierra|Roba una carta}\nMueve una tierra.\nRoba una carta.
 121.name;Profeta de las mareas
-121.text;{gift}: Mueve la tierra de esta criatura dos veces.
+121.text;{gift}: mueve hasta 2 veces una tierra que sea de tu propiedad.
 122.name;Visión Humillante
 122.text;Reduce a la mitad el ataque y la vida base de una criatura (redondeando hacia arriba).
 123.name;Heraldo Antiguo
@@ -235,7 +235,7 @@
 144.name;Osezno Poseído
 144.text;Cuando esta criatura recibe daño, su ataque se duplica.
 149.name;Roble Joven
-149.text;{last_words}: Una criatura al azar de tu mano gana +5/+5.
+149.text;{last_words} - Una criatura verde al azar de tu mano gana +5/+5.
 150.name;Gólem Thyriano
 150.text;
 151.name;Sembrador
@@ -283,7 +283,7 @@
 180.name;Ídolo llorón
 180.text;Cada vez que tu Dios recibe daño, gana {faeria|1}.
 181.name;Arte Terrestre
-181.text;Roba una carta y {options|Crea un  bosque|Crea un lago|Crea una montaña|Crea un desierto}\ncrea un bosque.\ncrea un lago.\ncrea una montaña.\ncrea un desierto.
+181.text;Roba una carta y {options|Crea un  bosque|Crea un lago|Crea una montaña|Crea un desierto}\nCrea un bosque.\nCrea un lago.\nCrea una montaña.\nCrea un desierto.
 182.name;Vengador Salvaje
 182.text;{taunt}, {dash|2}\nGana 1 de vida cada vez que tu orbe recibe daño durante la partida.
 183.name;Jabalí Antiguo
@@ -375,20 +375,20 @@
 238.name;Provocador del Fuego
 238.text;Gana +1/+1 cuando invocas una criatura con más ataque que vida (mientras está en tu mano o en tu mazo).
 239.name;Salamandra Ardiente
-239.text;{gift}: Inflige 2 de daño a todos los enemigos adyacentes.
+239.text;{gift}: Inflige 2 de daño a las criaturas enemigas adyacentes.
 240.name;Duende Sanguinario
 240.text;Siempre que una de tus criaturas recolecta faeria de un pozo enemigo, inflige 1 de daño a tu oponente.
 241.name;Ira de Seifer
 241.text;Inflige 2 de daño a una criatura. Si muere, inflige 2 de daño a quien la controla.
 242.name;Planta Carnívora
-242.text;{taunt}\n{production}: Inflige 2 de daño a todas las criaturas enemigas adyacentes.
+242.text;{taunt}\n{production}: Inflige 2 de daño a las criaturas enemigas adyacentes.
 243.name;Bomba de Fuego
 243.text;Inflige 4 de daño a una criatura o a una estructura.
 244.name;Tormenta de Fuego
 244.text;Inflige 3 de daño a todas las criaturas enemigas.
 245.name;Guerrero Rabioso
 245.text;Cuando esta criatura recibe daño, inflige el mismo daño que recibe al dios enemigo.
-246.name;Gólem que se Desmorona
+246.name;Gólem Deteriorado
 246.text;Cuando tu oponente invoca una criatura, también inflige 1 de daño a este golem.
 247.name;Danza de los Ogros
 247.text;Una carta al azar de tu mano cuesta {faeria|7} menos.
@@ -431,7 +431,7 @@
 266.name;Demonio Shaytan
 266.text;{production}: Inflige 2 de daño a tu dios.
 267.name;Guardian del Cielo de Khalim
-267.text;{flying}\nPuede invocarse normalmente o en cualquier lugar adyacente a una criatura aliada.
+267.text;{flying}\nPuede invocarse adyacente a una criatura aliada.
 268.name;Entrenamiento de Khalim
 268.text;Otorga +1/+0, {flying} y {charge|2} a una criatura.
 273.name;Soldado del Viento
@@ -499,7 +499,7 @@
 312.name;Behemoth Rocagelida
 312.text;{taunt}, {protection}
 313.name;Espíritu de Almas Gemelas
-313.text;{flying}\nPuede invocarse junto a una criatura aliada adyacente.\n{gift}: Invoca otro <b>Espíritu de Almas Gemelas</b>.
+313.text;{flying}\nPuede invocarse adyacente a una criatura aliada.\n{gift}: Invoca otro <b>Espíritu de Almas Gemelas</b>.
 314.name;Bestia de las Grietas Espinosas
 314.text;{dash|2}\n{gift} - Inflige 4 de daño dividido de forma aleatoria entre todos los enemigos. Otorga al azar 4 veces +1/+1 a tus criaturas.
 315.name;Devorador de Almas
@@ -535,9 +535,9 @@
 361.name;Yak de Cuernos Largos
 361.text;{last_words} - La próxima criatura que robes gana ataque igual al de esta criatura.
 362.name;Hora de las Leyendas
-362.text;Roba la primera legendaria de tu mazo. Si no te quedan legendarias en el mazo, {options|Introduce en tu mazo una legendaria verde al azar|Introduce en tu mazo una legendaria azul al azar|Introduce en tu mazo una legendaria roja al azar|Introduce en tu mazo una legendaria amarilla al azar} un color. Baraja una legendaria al azar de ese color en tu mazo.
+362.text;Roba la primera legendaria de tu mazo. Si no te quedan legendarias en el mazo, {options|Introduce en tu mazo una legendaria verde al azar|Introduce en tu mazo una legendaria azul al azar|Introduce en tu mazo una legendaria roja al azar|Introduce en tu mazo una legendaria amarilla al azar} un color. Introduce en tu mazo una legendaria al azar de ese color.
 363.name;Entrenador Tritón
-363.text;{jump}\n{gift} - Otorga +2/+0 a la siguiente criatura con {jump} que invoques.
+363.text;{jump}\n{gift} - Otorga +2/+2 a la siguiente criatura con {jump} que invoques.
 364.name;Voz de la Verdad
 364.text;{gift} - Restablece el ataque y la vida de una criatura a sus valores originales.
 365.name;Heraldo de la Guerra
@@ -547,7 +547,7 @@
 367.name;Guardiana Divina
 367.text;{divine}\nCuando vayas a recibir daño letal, lo evita y en su lugar destruye esta criatura.
 368.name;El Comando del Emperador
-368.text;{options|Give a creature -2/-1.|Deal 3 damage to a structure.|Gain 4 life.}\n- Otorga -2/-1 a una criatura\n- Inflige 3 de daño a una estructura\n- Gana 4 de vida.
+368.text;{options|Otorga -2/-1 a una criatura.|Inflige 3 de daño a una estructura.|Gana 4 de vida.}\n- Otorga -2/-1 a una criatura\n- Inflige 3 de daño a una estructura\n- Gana 4 de vida.
 369.name;Ilusión de Grandeza
 369.text;{charge|2}\nCada vez que invoques una criatura que cueste {faeria|1} o menos, esta gana Ataque y Vida igual a la de esa criatura (mientras esté en tu mano o mazo).
 370.name;Acechador de los bosques profundos
@@ -616,3 +616,25 @@
 431.text;{flying}, {haste}\nCuando esta criatura ataca a un dios, añade un <b>tesoro</b> al azar a tu mano.
 432.name;Rueda del Caos
 432.text;{options|Destruye 2 tierras sin ocupar.|Destruye una criatura de ataque 5 o inferior.|Gana 7 de vida.}\n- Destruye 2 tierras sin ocupar.\n- Destruye una criatura de ataque 5 o inferior.\n- Gana 7 de vida.
+433.name;Medallón de Ulani
+433.text;Elige una criatura aliada. Todas tus criaturas se convierten en una copia de ella.
+501.name;Explorador Intrépido
+501.text;{gift} - Añade la carta <b>Explorar</b> a tu mano y la de tu oponente.
+502.name;Flor de Cristal
+502.text;{gift} - {swallow} una criatura.\n{production} - Inflige 1 de daño a esta estructura.
+503.name;Yakkapulta
+503.text;{ranged_attack}\nCuando esto ataca, invoca un <b>Yak Enfurecido</b> 2/2 en un espacio al azar adyacente al objetivo.
+504.name;Goki, Minero Amistoso
+504.text;{gift} - Añade un tesoro al azar a la mano de tu oponente.
+505.name;Ballena Celeste del Cielo
+505.text;{flying}, {charge|3}\n{gift} - {swallow} una criatura y gana su vida.
+510.name;Obsequio de los Rakoa
+510.text;Otorga +1/+1 a una criatura por cada criatura que controlas.
+515.name;Rakoa Parrandero
+515.text;{last_words} - Gana faeria igual al ataque de esta criatura.
+521.name;Lanza Ranas
+521.text;{gift} - Lucha con una criatura enemiga. Invoca una <b>Rana</b> 2/2 con {jump} en un espacio al azar adyacente al objetivo.
+530.name;Jefe Rakoa
+530.text;{dash|1}\nOtorga +2/+0 a criaturas aliadas adyacentes.
+532.name;Ulani, Shaman de Oversky
+532.text;{gift} - Roba una carta verde, una azul, una roja y una amarilla de tu mazo.

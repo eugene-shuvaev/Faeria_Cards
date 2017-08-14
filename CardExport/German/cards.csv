@@ -5,7 +5,7 @@
 3.name;Krieger aus Syland
 3.text;
 4.name;Stallmeister aus Syland
-4.text;{gift} - Gib einer anderen Kreatur für diesen Zug {charge|3}.
+4.text;{gift} - Gib einer verbündeten Kreatur für diesen Zug {charge|3}.
 9.name;Ingenieur des Imperiums
 9.text;{gift} - Aktiviere all deine Produktionsfähigkeiten.
 10.name;Stellung halten!
@@ -187,7 +187,7 @@
 120.name;Gezeitenwechsel
 120.text;{options|Bewege ein Land.|Ziehe eine Karte.}\nBewege ein Land.\nZiehe eine Karte.
 121.name;Prophet der Gezeiten
-121.text;{gift} - Bewege das Land unter dieser Kreatur zweimal.
+121.text;{gift} - Bewege ein Land unter deiner Kontrolle zweimal.
 122.name;Vision von Demut
 122.text;Verringere den Grundangriff und das Leben einer Kreatur um die Hälfte (wird aufgerundet).
 123.name;Uralter Bote
@@ -195,7 +195,7 @@
 124.name;Triton-Bankett
 124.text;Gib einer Kreatur +1/+1 und {jump}.
 125.name;Aurora, Schöpferin der Sagen
-125.text;{gift} - Ändere den Grundangriff und die Leben einer Kreatur in 6/6.
+125.text;{gift} - Ändere den Grundangriff und die Leben einer verbündeten Kreatur in 6/6.
 126.name;Wellenformer
 126.text;Setze am Ende des gegnerischen Zugs das Faeria ALLER Spieler auf {faeria|3}.
 127.name;Fehlgeschlagenes Experiment
@@ -235,7 +235,7 @@
 144.name;Besessener Bär
 144.text;Immer, wenn diese Kreatur Schaden erleidet, verdoppelt sich ihr Angriff.
 149.name;Eichenholzgestalt
-149.text;{last_words} - Eine zufällige Kreatur auf deiner Hand erhält +5/+5.
+149.text;{last_words} - Eine zufällige grüne Kreatur auf deiner Hand erhält +5/+5.
 150.name;Thyrianischer Golem
 150.text;
 151.name;Saatsetzer
@@ -257,7 +257,7 @@
 159.name;Wildwuchs
 159.text;Platziere zwei Wälder auf zufälligen Feldern.
 168.name;Urzeit-Koloss
-168.text;Kostet {faeria|1} weniger für jedes besondere Land, das du besitzt (Mindestkosten: {faeria|6}).
+168.text;Kostet {faeria|1} weniger für jedes farbige Land, das du besitzt (Mindestkosten: {faeria|6}).
 169.name;Tethra, Seele der Wildnis
 169.text;{flying}, {charge|2}\n{gift} - Gib einer Kreatur +5/+5.
 170.name;Holzelementar
@@ -431,7 +431,7 @@
 266.name;Dämonischer Schaitan
 266.text;{production} - Fügt dir selbst 2 Schaden zu.
 267.name;Khalims Himmelswächter
-267.text;{flying}\nKann neben jeder verbündeten Kreatur beschworen werden.
+267.text;{flying}\nKann angrenzend zu verbündeten Kreaturen beschworen werden.
 268.name;Khalims Unterweisung
 268.text;Gib einer Kreatur +1/+0, {flying} und {charge|2}.
 273.name;Windsoldat
@@ -499,7 +499,7 @@
 312.name;Eisfels-Behemoth
 312.text;{taunt}, {protection}
 313.name;Zwillingsseelen-Geist
-313.text;{flying}\nKann neben einer verbündeten Kreatur beschworen werden.\n{gift} - Beschwöre einen weiteren <b>Zwillingsseelen-Geist</b>.
+313.text;{flying}\nKann angrenzend zu einer verbündeten Kreatur beschworen werden.\n{gift} - Beschwöre einen weiteren <b>Zwillingsseelen-Geist</b>.
 314.name;Splitterdornen-Bestie
 314.text;{dash|2}\n{gift} - Verteile insgesamt 4 Schaden auf zufällige Gegner. Verteile insgesamt +4/+4 auf zufällige verbündete Kreaturen.
 315.name;Seelenfresser
@@ -537,7 +537,7 @@
 362.name;Zeitalter der Legenden
 362.text;Ziehe die oberste Legende aus deinem Deck. Falls sich keine Legende findet, um den Ruf zu beantworten, {options| Mische eine zufällige grüne Legende in dein Deck|Mische eine zufällige blaue Legende in dein Deck|Mische eine zufällige rote Legende in dein Deck|Mische eine zufällige gelbe Legende in dein Deck}. Mische eine zufällige Legende dieser Farbe in dein Deck.
 363.name;Triton-Ausbilder
-363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+0.
+363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+2.
 364.name;Stimme der Wahrheit
 364.text;{gift} - Setze Angriff und Leben einer Kreatur auf ihre Ursprungswerte zurück.
 365.name;Vorbote des Krieges
@@ -616,3 +616,25 @@
 431.text;{flying}, {haste}\nNimm jedes Mal einen zufälligen <b>Schatz</b> auf deine Hand, wenn diese Kreatur einen Gott angreift.
 432.name;Rad des Chaos
 432.text;{options|Zerstöre 2 unbesetzte Länder.|Zerstöre eine Kreatur mit 5 oder weniger Angriff.|Erhalte 7 Leben.}\n- Zerstöre 2 unbesetzte Länder.\n- Zerstöre eine Kreatur mit 5 oder weniger Angriff.\n- Erhalte 7 Leben.
+433.name;Ulanis Medaillon
+433.text;Wähle eine verbündete Kreatur. Alle deine Kreaturen werden in Kopien von ihr verwandelt.
+501.name;Unerschrockener Entdecker
+501.text;{gift} - Jeder Spieler bekommt ein <b>Erkunden</b> auf die Hand.
+502.name;Kristallblume
+502.text;{gift} - {swallow} eine Kreatur.\n{production} - Füge diesem Bauwerk 1 Schaden zu.
+503.name;Yakkapult
+503.text;{ranged_attack}\nJedes Mal, wenn diese Kreatur angreift, beschwöre ein 2/2 <b>Wütendes Yak</b> auf einem zufällig ausgewählten, dem Ziel angrenzenden Feld.
+504.name;Goki, Freundlicher Bergmann
+504.text;{gift} - Dein Verbündeter bekommt eine zufällig ausgewählte Schatzkarte auf die Hand.
+505.name;Azurblauer Himmelswal
+505.text;{flying}, {charge|3}\n{gift} - {swallow} eine Kreatur.
+510.name;Geschenk der Rakoa
+510.text;Eine Kreatur bekommt +1/+1 für jede Kreatur, die du kontrollierst.
+515.name;Nachtschwärmer der Rakoan
+515.text;{last_words} - Bekomme Faeria in Höhe des Angriffs dieser Kreatur.
+521.name;Frosch-Werfer
+521.text;{gift} - Kämpfe mit einer gegnerischen Kreatur. Beschwöre einen 2/2 <b>Frosch</b> mit {jump} auf einem zufällig ausgewählten, an das Ziel angrenzenden Feld.
+530.name;Häuptling der Rakoan
+530.text;{dash|1}\nAngrenzende verbündete Kreaturen erhalten +2/+0.
+532.name;Ulani, Schamanin der Wolkenwelt
+532.text;{gift} - Ziehe eine grüne, eine blaue, eine rote und eine gelbe Karte aus deinem Deck.

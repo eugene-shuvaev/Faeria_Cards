@@ -171,7 +171,7 @@
 112.name;Follet azuré
 112.text;Gagne +1/+1 chaque fois que vous récoltez des faeria depuis un puits adverse.
 113.name;Sanctuaire des Tritons
-113.text;Chaque fois que vous récoltez des faeria, cette structure gagne 1 PV.\n{activate} - Détruisez cette structure et gagnez autant de faeria qu'elle n'a de PV.
+113.text;Chaque fois que vous récoltez des faeria, cette structure gagne 1 PV.\n{activate} - Détruisez cette structure et gagnez autant de faeria qu'elle a de PV.
 114.name;Rêve d'Aurora
 114.text;Piochez jusqu'à avoir 9 cartes. Le coût de toutes les cartes de votre main est désormais de {faeria|0}.
 115.name;Lancier du blizzard
@@ -187,7 +187,7 @@
 120.name;Caprices des marées
 120.text;{options|Déplace un terrain|Piochez une carte}\nDéplace un terrain.\nPiochez une carte.
 121.name;Prophète des marées
-121.text;{gift} - Déplacez deux fois le terrain de cette créature.
+121.text;{gift} - Déplacez deux fois un terrain en votre possession.
 122.name;Vision d'humilité
 122.text;Divise les PV et l'attaque de base d'une créature par deux (arrondis au nombre supérieur).
 123.name;Héraut antique
@@ -235,7 +235,7 @@
 144.name;Ours possédé
 144.text;Chaque fois que cette créature reçoit des dégâts, son attaque est doublée.
 149.name;Chêneton
-149.text;{last_words} - Une créature aléatoire dans votre main gagne +5/+5.
+149.text;{last_words} - Une créature verte aléatoire dans votre main gagne +5/+5.
 150.name;Golem Thyrian
 150.text;
 151.name;Semeur
@@ -431,7 +431,7 @@
 266.name;Démon Shaytan
 266.text;{production} - Vous inflige 2 points de dégâts.
 267.name;Garde céleste de Khalim
-267.text;{flying}\nPeut être invoquée sur toute case adjacente à celle d'une créature alliée.
+267.text;{flying}\nPeut être invoqué sur une case adjacente à une créature alliée.
 268.name;Entrainement de Khalim
 268.text;Donne +1/+0, {flying} et {charge|2} à une créature.
 273.name;Soldat du vent
@@ -537,7 +537,7 @@
 362.name;Le temps des légendes
 362.text;Piochez la première carte légendaire dans votre deck. Si vous n'en avez plus, mélangez une légendaire de couleur {options|Mélangez une carte légendaire verte aléatoire dans votre deck|Mélangez une carte légendaire bleue aléatoire dans votre deck|Mélangez une carte légendaire rouge aléatoire dans votre deck|Mélangez une carte légendaire jaune aléatoire dans votre deck} dans votre deck.
 363.name;Entraineur triton
-363.text;{jump}\n{gift} - Donne +2/+0 à la prochaine créature avec {jump} que vous invoquez.
+363.text;{jump}\n{gift} - Donne +2/+2 à la prochaine créature avec {jump} que vous invoquez.
 364.name;Voix de la vérité
 364.text;{gift} - Restaure l'attaque et la vie de base d'une créature.
 365.name;Héraut de guerre
@@ -616,3 +616,25 @@
 431.text;{flying}, {haste}\nChaque fois que cette créature attaque une divinité, ajoutez un <b>Trésor</b> aléatoire à votre main.
 432.name;Roue du Chaos
 432.text;{options|Détruit 2 terrains inoccupés.|Détruit une créature à l'attaque inférieure ou égale à 5.|Gagnez 7 PV.}\n- Détruit 2 terrains inoccupés.\n- Détruit une créature à l'attaque inférieure ou égale à 5.\n- Gagnez 7 PV.
+433.name;Médaillon d'Ulani
+433.text;Choisissez une créature alliée. Toutes vos créatures en deviennent des copies.
+501.name;Éclaireur intrépide
+501.text;{gift} - Ajoute une carte <b>Explorer</b> à la main de chaque joueur.
+502.name;Fleur de cristal
+502.text;{gift} - {swallow} une créature.\n{production} - Inflige 1 point de dégât à cette structure.
+503.name;Yakkapulte
+503.text;{ranged_attack}\nÀ chaque fois que cette créature attaque, invoquez un <b>Yak en colère</b> 2/2 sur un espace adjacent à sa cible.
+504.name;Goki, Mineur Bienveillant
+504.text;{gift} - Ajoute un trésor au hasard dans la main de votre allié.
+505.name;Célestacé azuré
+505.text;{flying}, {charge|3}\n{gift} - {swallow} une créature.
+510.name;Don des Rakoa
+510.text;Donne +1/+1 à une créature, autant de fois que le nombre de créatures que vous contrôlez.
+515.name;Fêtard Rakoan
+515.text;{last_words} - Gagnez autant de faeria que l'attaque de cette créature.
+521.name;Cracheur de grenouilles
+521.text;{gift} - Combat une créature ennemie. Invoquez une <b>Grenouille</b> 2/2 avec {jump} sur un espace adjacent à sa cible.
+530.name;Chef de clan Rakoan
+530.text;{dash|1}\nDonne +2/+0 aux créatures alliées adjacentes.
+532.name;Ulani, Chamane d'Outreciel
+532.text;{gift} - Piochez une carte verte, une carte bleue, une carte rouge et une carte jaune dans votre deck.

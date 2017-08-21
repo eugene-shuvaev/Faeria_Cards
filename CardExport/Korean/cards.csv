@@ -255,7 +255,7 @@
 158.name;살아있는 버드나무
 158.text;{taunt}
 159.name;숲의 성장
-159.text;무작위 위치에 숲을 두 개 만듭니다.
+159.text;Create 1 forest at random.
 168.name;태고의 거신
 168.text;가지고 있는 색이 있는 땅 하나 당 비용이 {faeria|1} 줄어듭니다. (최소 비용: {faeria|6})
 169.name;자연의 혼 테스라
@@ -628,12 +628,26 @@
 504.text;{gift} - 동료의 손에 무작위 보물을 생성합니다.
 505.name;푸른 하늘고래
 505.text;{flying}, {charge|3}\n{gift} - 생물 하나를 {swallow}합니다.
+508.name;낙원의 씨앗
+508.text;{flying}, {dash|1}\n{gift} - {options|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 호수를 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 숲을 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 산을 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 사막을 만듭니다.}\n이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 선택한 색의 땅을 만듭니다.\n
 510.name;라코아의 선물
 510.text;내가 조종하는 생물 하나 당 +1/+1을 얻습니다.
+512.name;보물상 후고로
+512.text;{jump}\n{gift} - {options|<b>게이브리아 항아리</b>를 뽑습니다.|<b>수정용</b>을 뽑습니다.|<b>울라니의 훈장</b>을 뽑습니다.}\n- 게이브리아 항아리</b>를 뽑습니다.\n- <b>수정용</b>을 뽑습니다.\n- 울라니의 훈장</b>을 뽑습니다.</b>
+513.name;뛰는 복어
+513.text;{jump}\n{gift} - 색이 있는 땅을 8개 이상 가지고 있다면, +3/+3을 얻습니다.
 515.name;라코아 놀이꾼
 515.text;{last_words} - 이 생물의 공격력만큼 페어리아를 얻습니다.
+519.name;영원한 빛 이스타누
+519.text;{flying}, {charge|3}\n{last_words} - 무작위 아군 생물이 새로운 이스타누가 됩니다. 그 생물은 이번 턴에 공격할 수 없습니다.
+520.name;변신 문어
+520.text;{options|Gain +2/+0.|Gain +0/+2.|Gain {jump}.|Gain {taunt}.}, twice:\n- Gain +2/+0\n- Gain +0/+2\n- Gain {jump}\n- Gain {taunt}
 521.name;개구리 투척기
 521.text;{gift} - 적 생물 하나와 싸웁니다. 대상 근처 무작위 공간에 2/2 {jump} 개구리를 소환합니다.
+522.name;낙원을 향해
+522.text;{options|Create a forest.|Create a lake.|Create a mountain.|Create a desert.} - 색이 있는 땅을 만듭니다.\n그 땅에 소환된 생물들은 +2/0을 얻습니다.
+528.name;만타의 비행
+528.text;이 카드를 뽑으면, 이 카드를 복사합니다.\n2/2 {flying}, {charge|2} <b>만타</b>를 소환합니다.
 530.name;라코아 족장
 530.text;{dash|1}\n인접한 아군 생물이 +2/+0을 얻습니다.
 532.name;창공의 주술사 울라니

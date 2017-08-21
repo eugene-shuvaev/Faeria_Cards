@@ -255,7 +255,7 @@
 158.name;Sauce Viviente
 158.text;{taunt}
 159.name;Crecimiento Silvestre
-159.text;Crea dos bosques al azar.
+159.text;Create 1 forest at random.
 168.name;Coloso Primigenio
 168.text;Cuesta {faeria|1} menos por cada tierra especial que tengas (coste mínimo: {faeria|6}).
 169.name;Tethra, Alma de la Naturaleza
@@ -628,12 +628,26 @@
 504.text;{gift} - Añade un tesoro al azar a la mano de tu oponente.
 505.name;Ballena Celeste del Cielo
 505.text;{flying}, {charge|3}\n{gift} - {swallow} una criatura y gana su vida.
+508.name;Semilla del Paraíso
+508.text;{flying}, {dash|1}\n{gift} - {options|Cuando esta criatura recolecta sobre el oceano, muere y crea un lago.|Cuando esta criatura recolecta sobre el oceano, muere y crea un bosque.|Cuando esta criatura recolecta sobre el oceano, muere y crea una montaña.|Cuando esta criatura recolecta sobre el oceano, muere y crea un desierto.}\nCuando esta criatura recolecta sobre el oceano, muere y crea una tierra del color elegido.\n
 510.name;Obsequio de los Rakoa
 510.text;Otorga +1/+1 a una criatura por cada criatura que controlas.
+512.name;Fugoro, Comerciante de Maravillas
+512.text;{jump}\n{gift} - {options|Roba una <b>Urna de Gabria</b>|Roba un <b>Dragón de Cristal</b>|Roba un <b>Medallón de Ulani</b>}\n- Roba una <b>Urna de Gabria</b>\n- Roba un <b>Dragón de Cristal</b>\n- Roba un <b>Medallón de Ulani</b>
+513.name;Pez Globo Saltador
+513.text;{jump}\n{gift} - Si controlas 8 o más tierras especiales, gana +3/+3.
 515.name;Rakoa Parrandero
 515.text;{last_words} - Gana faeria igual al ataque de esta criatura.
+519.name;Istanu, Luz Eterna
+519.text;{flying}, {charge|3}\n{last_words} - Una criatura aliada al azar se convierte en el nuevo <b>Istanu</b>. No puede atacar este turno.
+520.name;Pulpo Cambiante
+520.text;{options|Gana +2/+0.|Gana +0/+2.|Gana {jump}.|Gana {taunt}.}, dos veces:\n- Gana +2/+0\n- Gana +0/+2\n- Gana {jump}\n- Gana {taunt}
 521.name;Lanza Ranas
 521.text;{gift} - Lucha con una criatura enemiga. Invoca una <b>Rana</b> 2/2 con {jump} en un espacio al azar adyacente al objetivo.
+522.name;Camino al Paraíso
+522.text;{options|Crea un bosque.|Crea un lago.|Crea una montaña.|Crea un desierto.} - Crea una tierra especial.\nLas criaturas invocadas en esta tierra este turno, ganan +2/+0.
+528.name;Vuelo de las Mantas
+528.text;Cuando robas esta carta, la copias.\nInvoca una <b>Manta</b> 2/2 con {flying} y {charge|2}.
 530.name;Jefe Rakoa
 530.text;{dash|1}\nOtorga +2/+0 a criaturas aliadas adyacentes.
 532.name;Ulani, Shaman de Oversky

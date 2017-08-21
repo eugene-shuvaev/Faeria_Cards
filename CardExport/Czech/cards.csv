@@ -255,7 +255,7 @@
 158.name;Živá vrba
 158.text;{taunt}
 159.name;Nárůst divočiny
-159.text;Vytvoří 2 lesy na náhodných místech.
+159.text;Create 1 forest at random.
 168.name;Prvotní kolos
 168.text;Stojí o {faeria|1} méně za každou vaši speciální pevninu (nemůže takto klesnout pod {faeria|6}).
 169.name;Tethra, duše větru
@@ -628,12 +628,26 @@
 504.text;{gift} - Přidá do ruky vašeho spojence náhodnou kartu pokladu.
 505.name;Azurová nebeská velryba
 505.text;{flying}, {charge|3}\n{gift} - {swallow} bytost a získá její životy.
+508.name;Semínko ráje
+508.text;{flying}, {dash|1}\n{gift} - {options|Když tato bytost sklízí nad oceánem, zemře a změní se v jezero.|Když tato bytost sklízí nad oceánem, zemře a změní se v les.|Když tato bytost sklízí nad oceánem, zemře a změní se v horu.|Když tato bytost sklízí nad oceánem, zemře a změní se v poušť.}\nKdyž tato bytost sklízí faerii, zatímco stojí na volném poli, zemře a změní se ve vybraný tyb pevniny.\n
 510.name;Rakoanský dar
 510.text;Dá bytosti +1/+1 za každou bytost pod vaší nadvládou.
+512.name;Fugoro, obchodník se zázraky
+512.text;{jump}\n{gift} - {options|Líznete si <b>Urnu Gabrie</b>|Líznete si <b>Krystalového draka</b>|Líznete si <b>Ulanin medailonek</b>}\n- Líznout <b>Urnu Gabrie</b>\n- Líznout <b>Krystalového draka</b>\n- Líznout <b>Ulanin medailonek</b>
+513.name;Skákající fugu
+513.text;{jump}\n{gift} - Pokud máte alespoň 8 speciálních pevnin, získá +3/+3.
 515.name;Rakoanský buřič
 515.text;{last_words} - Získejte faerii rovnou útoku této bytosti.
+519.name;Istanu, večné světlo
+519.text;{flying}, {charge|3}\n{last_words} - Z náhodné přátelské bytosti se stane nový <b>Istanu</b>. Tento tah nemůže útočit.
+520.name;Měňavice
+520.text;{options|Získá +2/+0.|Získá +0/+2.|Získá schopnost {jump}.|Získá schoponost {taunt}.}, twice:\n- Získá +2/+0\n- Získá +0/+2\n- Získá schopnost {jump}\n- Získá schopnost {taunt}
 521.name;Žabomet
 521.text;{gift} - Vyvolá boj s nepřátelskou bytostí. Vyvolá 2/2 <b>Žábu</b> se schopností {jump} na náhodném místě vedle cíle útoku.
+522.name;Cesta do ráje
+522.text;{options|Vytvořit les.|Vytvořit jezero.|Vytvořit horu.|Vytvořit poušť.} - Vytvoří speciální pevninu.\nBytosti, které na ní budou tento tah vyvolány, získají +2/+0.
+528.name;Mantí let
+528.text;Když si líznete tuto kartu, získáte její kopii.\nVyvolejte 2/2 <b>Mantu</b> se schopnostmi {flying} a {charge|2}.
 530.name;Rakoanský náčelník
 530.text;{dash|1}\nSousedící spojenecké bytosti získají +2/+0.
 532.name;Ulani, šamanka ze Zánebí

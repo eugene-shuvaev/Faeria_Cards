@@ -255,7 +255,7 @@
 158.name;Salice Vivente
 158.text;{taunt}
 159.name;Crescita Selvaggia
-159.text;Posiziona due foreste a caso.
+159.text;Create 1 forest at random.
 168.name;Colosso Primordiale
 168.text;Costa {faeria|1} in meno per ogni territorio speciale in tuo possesso (costo minimo: {faeria|6}).
 169.name;Tethra, Anima Selvaggia
@@ -628,11 +628,26 @@
 504.text;{gift} - Aggiungi un tesoro casuale alla mano del tuo alleato.
 505.name;Balena Celeste
 505.text;{flying}, {charge|3}\n{gift} - {swallow} una creatura.
+508.name;Seme del Paradiso
+508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura estrae faeria sull'oceano, muore e crea un lago.|Quando questa creatura estrae faeria sull'oceano, muore e crea una foresta.|Quando questa creatura estrae faeria sull'oceano, muore e crea una montagna.|Quando questa creatura estrae faeria sull'oceano, muore e crea un deserto.}\nQuando questa creatura estrae faeria sull'oceano, muore e crea una terra del colore scelto.\n
 510.name;Dono dei Rakoa
 510.text;Dona ad una creatura +1/+1 per ogni creatura sotto il tuo controllo.
+512.name;Fugoro, Mercante di Meraviglie
+512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medalion</b>
+513.name;Fugu Saltellante
+513.text;{jump}\n{gift} - Se controlli 8 o più terre speciali, ottiene +3/+3.
+515.name;Rakoano Festaiolo
 515.text;{last_words} - Ottieni faeria pari al valore di attacco di questa creatura.
+519.name;Istanu, Luce Eterna
+519.text;{flying}, {charge|3}\n{last_words} - Una creatura amica casuale diventa la nuova <b>Istanu</b>. Non può attaccare durante questo turno.
+520.name;Polpo Mutevole
+520.text;{options|Ottiene +2/+0.|Ottiene +0/+2.|Ottiene {jump}.|Gain {taunt}.}, twice:\n- Gain +2/+0\n- Gain +0/+2\n- Gain {jump}\n- Gain {taunt}
 521.name;Lancia-Rane
 521.text;{gift} - Combatti una creatura nemica. Evoca una <b>Rana</b> 2/2 con {jump} in uno spazio casuale adiacente al bersaglio.
+522.name;Strada per il Paradiso
+522.text;{options|Crea una foresta.|Crea un lago.|Crea una montagna.|Crea un deserto.} - Crea una terra speciale.\nLe creature evocate su questa terra durante questo turno ottengono +2/+0.
+528.name;Volo delle Mante
+528.text;Quando peschi questa carta, copiala.\nEvoca una <b>Manta</b> 2/2 con {flying} e {charge|2}.
 530.name;Capotribù Rakoano
 530.text;{dash|1}\nDona alle creature amiche adiacenti +2/+0.
 532.name;Ulani, Sciamano di Altocielo

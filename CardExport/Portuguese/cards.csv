@@ -255,7 +255,7 @@
 158.name;Salgueiro Vivente
 158.text;{taunt}
 159.name;Crescimento Selvagem
-159.text;Cria duas florestas aleatoriamente.
+159.text;Create 1 forest at random.
 168.name;Colosso Primitivo
 168.text;Custa {faeria|1} a menos para cada terreno especial que você controla (custo mínimo: {faeria|6}).
 169.name;Tethra, Alma da Floresta
@@ -626,12 +626,28 @@
 503.text;{ranged_attack}\nSempre que esta criatura atacar, invoca um <b>Iaque Furioso</b> 2/2 em um hexágono adjacente aleatório ao alvo.
 504.name;Goki, Minerador Camarada
 504.text;{gift} - Acrescenta um tesouro aleatório à mão do seu aliado.
+505.name;Baleia Celeste Lazúli
+505.text;{flying}, {charge|3}\n{gift} - {swallow} uma criatura.
+508.name;Semente do Paraíso
+508.text;{flying}, {dash|1}\n{gift} - {options|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um lago.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma floresta.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma montanha.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um deserto.}\nQuando esta criatura coletar faeria sobre o oceano, ela morre e cria um terreno da cor escolhida.\n
 510.name;Presente de Rakoa
 510.text;Dá +1/+1 a uma criatura para cada criatura que você controla.
+512.name;Fugoro, Mercador de Maravilhas
+512.text;{jump}\n{gift} - {options|Compra uma <b>Urna de Gabria</b>|Compra um <b>Dragão de Cristal</b>|Compra um <b>Medalhão de Ulani</b>}\n- Compra uma <b>Urna de Gabria</b>\n- Compra um <b>Dragão de Cristal</b>\n- Compra um <b>Medalhão de Ulani</b>
+513.name;Fugu Saltitante
+513.text;{jump}\n{gift} - Se você controla 8 ou mais terrenos especiais, ganha +3/+3.
 515.name;Revelador Rakoano
 515.text;{last_words} - Ganha faeria igual ao ataque desta criatura.
+519.name;Istanu, Luz Eterna
+519.text;{flying}, {charge|3}\n{last_words} - Uma criatura aliada aleatória se torna o novo <b>Istanu</b>. Esta criatura não pode atacar neste turno.
+520.name;Polvo Mutável
+520.text;{options|Ganha +2/+0.|Ganha +0/+2.|Ganha {jump}.|Ganha {taunt}.}, duas vezes:\n- Ganha +2/+0\n- Ganha +0/+2\n- Ganha {jump}\n- Ganha {taunt}
 521.name;Lançador de Sapos
 521.text;{gift} - Luta com uma criatura inimiga. Invoca um <b>Sapo</b> 2/2 com {jump} em um hexágono adjacente aleatório ao alvo.
+522.name;Caminho para o Paraíso
+522.text;{options|Cria uma floresta.|Cria um lago.|Cria uma montanha.|Cria um deserto.} - Cria um terreno especial.\nCriaturas invocadas neste terreno neste turno ganham +2/+0.
+528.name;Voo das Raias
+528.text;Quando você comprar esta carta, copie-a.\nInvoca uma <b>Raia</b> 2/2 com {flying} e {charge|2}.
 530.name;Chefe Rakoano
 530.text;{dash|1}\n Dá +2/+0 às criaturas aliadas adjacentes.
 532.name;Ulani, Xamã do Céu-Acima

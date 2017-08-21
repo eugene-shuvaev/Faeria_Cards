@@ -255,7 +255,7 @@
 158.name;Saule vivant
 158.text;{taunt}
 159.name;Croissance sauvage
-159.text;Crée deux forêts de façon aléatoire.
+159.text;Crée 1 forêt de façon aléatoire.
 168.name;Colosse primordial
 168.text;Coûte {faeria|1} de moins pour chaque terrain spécial que vous possédez (coût minimum : {faeria|6}).
 169.name;Tethra, Âme Sauvage
@@ -628,12 +628,26 @@
 504.text;{gift} - Ajoute un trésor au hasard dans la main de votre allié.
 505.name;Célestacé azuré
 505.text;{flying}, {charge|3}\n{gift} - {swallow} une créature.
+508.name;Graine du Paradis
+508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte sur l'océan, elle meurt et crée un lac.|Quand cette créature récolte sur l'océan, elle meurt et crée une forêt.|Quand cette créature récolte sur l'océan, elle meurt et crée une montagne.|Quand cette créature récolte sur l'océan, elle meurt et crée un désert.}\nQuand cette créature récolte sur l'océan, elle meurt et crée un terrain de la couleur choisie.\n
 510.name;Don des Rakoa
 510.text;Donne +1/+1 à une créature, autant de fois que le nombre de créatures que vous contrôlez.
+512.name;Fugoro, Marchand de Merveilles
+512.text;{jump}\n{gift} - {options|Piochez une <b>Urne de Gabria</b>|Piochez un <b>Dragon de cristal</b>|Piochez un <b>Médaillon d'Ulani</b>}\n- Piochez une <b>Urne de Gabria</b>\n- Piochez un <b>Dragon  de cristal</b>\n- Piochez un <b>Médaillon d'Ulani</b>
+513.name;Fugu sauteur
+513.text;{jump}\n{gift} - Gagne +3/+3 si vous contrôlez 8 terrains spéciaux ou plus.
 515.name;Fêtard Rakoan
 515.text;{last_words} - Gagnez autant de faeria que l'attaque de cette créature.
+519.name;Istanu, Lumière Éternelle
+519.text;{flying}, {charge|3}\n{last_words} - Une créature alliée aléatoire devient le nouvel <b>Istanu</b>. Il ne peut pas attaquer lors de ce tour.
+520.name;Poulpe évolutif
+520.text;{options|Gagne +2/+0.|Gagne +0/+2.|Gagne {jump}.|Gagne {taunt}.}, deux fois au choix :\n- Gagne +2/+0\n- Gagne +0/+2\n- Gagne {jump}\n- Gagne {taunt}
 521.name;Cracheur de grenouilles
 521.text;{gift} - Combat une créature ennemie. Invoquez une <b>Grenouille</b> 2/2 avec {jump} sur un espace adjacent à sa cible.
+522.name;Sentier du Paradis
+522.text;{options|Créez une forêt.|Créez un lac.|Créez une montagne.|Créez un désert.} - Créez un terrain spécial.\nLes créatures invoquées sur ce terrain lors de ce tour gagnent +2/+0.
+528.name;Envolée des Mantas
+528.text;Quand vous piochez cette carte, copiez-la.\nInvoquez une <b>Manta</b> 2/2 avec {flying} et {charge|2}.
 530.name;Chef de clan Rakoan
 530.text;{dash|1}\nDonne +2/+0 aux créatures alliées adjacentes.
 532.name;Ulani, Chamane d'Outreciel

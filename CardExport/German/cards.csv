@@ -461,7 +461,7 @@
 293.name;Plötzlicher Windstoß
 293.text;{options|Bewege eine verbündete Kreatur.|Bezahle {faeria|3} mehr, um stattdessen eine feindliche Kreatur zu bewegen.}\nBewege eine verbündete Kreatur.\nBezahle {faeria|3} mehr, um stattdessen eine feindliche Kreatur zu bewegen.
 294.name;Goldenes Aviarium
-294.text;Alle deine fliegenden Kreaturen haben +2/+0.
+294.text;Alle deine fliegenden Kreaturen haben +1/+0.
 295.name;Fanatischer Kreuzritter
 295.text;{charge|2}\nErhält immer, wenn du einen Gott angreifst, +1/+1, solang er in deinem Deck ODER auf deiner Hand ist.
 296.name;Soldat der Keldran
@@ -511,7 +511,7 @@
 335.name;Rebellen-Schleuderer
 335.text;{gift} - Fügt deinem Gegner 2 Schaden zu.
 350.name;Drei Wünsche
-350.text;Erhalte 3 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|3} weniger. Du kannst dir keine weiteren Wünsche wünschen.
+350.text;Erhalte 3 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|1} weniger. Du kannst dir keine weiteren Wünsche wünschen.
 351.name;Rebellengleiter
 351.text;{flying}, {dash|2}\nKann kein Faeria sammeln.
 352.name;Silberstrahl, Imperiales Luftschiff
@@ -621,13 +621,13 @@
 501.name;Unerschrockener Entdecker
 501.text;{gift} - Jeder Spieler bekommt ein <b>Erkunden</b> auf die Hand.
 502.name;Kristallblume
-502.text;{gift} - {swallow} eine Kreatur.\n{production} - Füge diesem Bauwerk 1 Schaden zu.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;Yakkapult
 503.text;{ranged_attack}\nJedes Mal, wenn diese Kreatur angreift, beschwöre ein 2/2 <b>Wütendes Yak</b> auf einem zufällig ausgewählten, dem Ziel angrenzenden Feld.
 504.name;Goki, Freundlicher Bergmann
 504.text;{gift} - Dein Verbündeter bekommt eine zufällig ausgewählte Schatzkarte auf die Hand.
 505.name;Azurblauer Himmelswal
-505.text;{flying}, {charge|3}\n{gift} - {swallow} eine Kreatur.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;Samenkorn aus dem Paradies
 508.text;{flying}, {dash|1}\n{gift} - {options|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen See.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen Wald.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Gebirge.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert eine Wüste.}\nWenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Land der gewählten Farbe.\n
 510.name;Geschenk der Rakoa
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|Ziehe eine <b>Urne aus Gabria</b>|Ziehe einen <b>Kristalldrachen</b>|Ziehe <b>Ulanis Medaillon</b>}\n- Ziehe eine <b>Urne aus Gabria</b>\n- Ziehe einen <b>Kristalldrachen</b>\n- Ziehe <b>Ulanis Medaillon</b>
 513.name;Hüpfender Fugu
 513.text;{jump}\n{gift} - Wenn du mehr als 8 farbige Länder kontrollierst, bekommt diese Kreatur +3/+3.
+514.name;Enterhaken
+514.text;Gib einer Kreatur für diesen Zug {ranged_attack}. Nachdem sie angegriffen hat, kannst du sie auf ein dem Ziel angrenzendes Feld bewegen.
 515.name;Nachtschwärmer der Rakoan
 515.text;{last_words} - Bekomme Faeria in Höhe des Angriffs dieser Kreatur.
+516.name;CAP-10, Schrecken der Lüfte
+516.text;{combat} - Ziehe ein <b>Geschenk des Stahls</b> aus deinem Deck. Wenn das nicht geht, mische eines hinein.
+517.name;Lichtblitz-Lachs
+517.text;{flying}, {haste}, {charge|2}\nKann nicht sammeln.\nAm Ende deines Zuges zerstöre diese Kreatur und ziehe eine Karte.
+518.name;Manta-Reiter
+518.text;{flying}, {charge|2}\n{last_words} - Beschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2} wo diese Kreatur gestorben ist.
 519.name;Istanu, das Ewige Licht
 519.text;{flying}, {charge|3}\n{last_words} - Eine zufällig ausgewählte verbündete Kreatur wird der neue <b>Istanu</b>. Er kann diesen Zug nicht mehr angreifen.
 520.name;Wandelbarer Oktopus
@@ -646,9 +654,17 @@
 521.text;{gift} - Kämpfe mit einer gegnerischen Kreatur. Beschwöre einen 2/2 <b>Frosch</b> mit {jump} auf einem zufällig ausgewählten, an das Ziel angrenzenden Feld.
 522.name;Weg ins Paradies
 522.text;{options|Kreiere einen Wald.|Kreiere einen See.|Kreiere ein Gebirge.|Kreiere eine Wüste.} - Kreiere ein farbiges Land.\nKreaturen, die diese Runde auf ihm beschworen werden, erhalten +2/+0.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;Himmelsyak
+525.text;{flying}\nKann angrenzend zu verbündeten Kreaturen beschworen werden.\n{gift} - Beschwöre ein <b>Himmelsyak</b> für jedes verbündete Himmelsyak, das dieses Spiel gestorben ist.
 528.name;Flug der Mantas
 528.text;Wenn du diese Karte ziehst, kopiere sie.\nBeschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2}.
+529.name;Schleppkahn der Wolkenwelt
+529.text;{flying}, {dash|1}\nJedes Mal, wenn diese Kreatur ein Land verlassen würde, nimmt sie stattdessen das Land bei seiner Bewegung mit.
 530.name;Häuptling der Rakoan
 530.text;{dash|1}\nAngrenzende verbündete Kreaturen erhalten +2/+0.
+531.name;Wolkenrose
+531.text;{flying}, {taunt}\nKann überall beschworen werden.
 532.name;Ulani, Schamanin der Wolkenwelt
 532.text;{gift} - Ziehe eine grüne, eine blaue, eine rote und eine gelbe Karte aus deinem Deck.

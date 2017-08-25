@@ -461,7 +461,7 @@
 293.name;閃瞬疾風
 293.text;{options|移動一個友方生物|您可以多支付{faeria|3}來移動一個敵方生物}\n- 移動一個友方生物。\n- 您可以多支付{faeria|3}來移動一個敵方生物。
 294.name;黃金鳥舍
-294.text;所有友方飛行生物獲得+2/+0。
+294.text;所有友方飛行生物獲得+1/+0。
 295.name;狂熱鬥士
 295.text;{charge|2}\n每當您攻擊主神時，此生物獲得+1/+1(當此生物位於您的牌庫或手牌時)。
 296.name;凱追士兵
@@ -511,7 +511,7 @@
 335.name;叛軍飛刀手
 335.text;{gift}：對敵方主神造成2點傷害。
 350.name;三聖願
-350.text;您獲得3點生命並複製對手牌庫頂端的3張牌，它們的費用減少{faeria|3}。您不能複製別人的<b>三聖願</b>。
+350.text;您獲得3點生命並複製對手牌庫頂端的3張牌，它們的費用減少{faeria|1}。您不能複製別人的<b>三聖願</b>。
 351.name;叛軍滑翔兵
 351.text;{flying}、{dash|2}\n此生物無法採集靈力。
 352.name;光輝號，帝國飛艇
@@ -621,13 +621,13 @@
 501.name;無畏探險家
 501.text;{gift} - 將一張 <b>探索</b> 放入雙方手中。
 502.name;冰晶花
-502.text;{gift} - {swallow}目標生物。\n{production} - 對此建築造成1點傷害。
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;氂牛投擲車
 503.text;{ranged_attack}\n每當此生物攻擊時，於攻擊目標旁的隨機地點召喚一隻2/2<b>憤怒氂牛<b>
 504.name;呱呱，友善的礦工
 504.text;{gift} - 將一張隨機寶藏卡放入您的友軍手中。
 505.name;蒼藍空鯨
-505.text;{flying}，{charge|3}\n{gift} - {swallow} 目標生物並獲得其生命值。
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;天堂種子
 508.text;{flying}，{dash|1}\n{gift} - {options|當此生物越過海洋採集靈力時，它死去並創造一座湖泊|當此生物越過海洋採集靈力時，它死去並創造一座森林|當此生物越過海洋採集靈力時，它死去並創造一座山脈|當此生物越過海洋採集靈力時，它死去並創造一座沙漠}\n當此生物越過海洋採集靈力時，它死去並創造一座你所選擇的特殊地型。\n
 510.name;瑞寇的禮物
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|抽一張 <b>加百列的骨灰罈</b>|抽一張 <b>水晶龍</b>|抽一張 <b>烏拉妮的徽章</b>}\n- 抽一張 <b>加百列的骨灰罈</b>\n- 抽一張 <b>水晶龍</b>\n- 抽一張 <b>烏拉妮的獎章</b>
 513.name;跳跳河豚君
 513.text;{jump}\n{gift} - 若您控制大於等於8個特殊地塊，此生物獲得 +3/+3。
+514.name;拖曳爪鈎
+514.text;目標生物於本回合獲得{ranged_attack}。該生物可於攻擊後移動到攻擊目標的周圍。
 515.name;瑞寇狂歡者
 515.text;{last_words} - 獲得等同於此生物攻擊力的靈力。
+516.name;CAP-10，空之海賊
+516.text;{combat} - 自牌庫中抽一張<b>鋼鐵禮讚</b>；若牌庫中無此牌，則將一張洗入牌庫。
+517.name;閃現鮭魚
+517.text;{flying}, {haste}, {charge|2}\n無法採集靈力。\n回合結束時摧毀此生物並抽一張牌。
+518.name;鬼蝠魟騎士
+518.text;{flying}, {charge|2}\n{last_words} - 於此生物死亡之處召喚一個擁有{flying}以及{charge|2}的2/2<b>飛天蝠魟</b>。
 519.name;伊斯塔努，永恆之光
 519.text;{flying}, {charge|3}\n{last_words} - 隨機友方生物變成<b>伊斯塔努</b>。該生物此回合無法攻擊。
 520.name;幻形章魚
@@ -646,9 +654,17 @@
 521.text;{gift} -與目標生物交戰。 在目標周圍的隨機位置召唤一隻擁有 {jump} 的2/2 <b>青蛙</b>。
 522.name;天堂之徑
 522.text;{options|創造一片森林。|創造一塊湖泊。|創造一座火山。|創造一個沙漠。}\n- 創造一塊特殊地塊。\n本回合召喚於此地塊上的生物獲得+2/+0。
+524.name;Skyward Swordfish
+524.text;{flying}，{taunt}，{dash|1}
+525.name;飛天氂牛
+525.text;{flying}\n可以召喚於友方生物周圍。\n{gift} - 依據友方<b>飛天氂牛<b>的死亡次數額外召喚此生物。
 528.name;鬼蝠魟分隊
 528.text;每當你抽到這張卡時，複製它。\n召喚一個具{flying}和{charge|2}的2/2<b>飛天蝠魟</b>。
+529.name;蒼空拖船
+529.text;{flying}，{dash|1}每當此生物要離開地塊時，該地塊會隨著此生物移動。
 530.name;瑞寇酋長
 530.text;{dash|1}\n相鄰的友方生物+2/+0。
+531.name;浮空海葵
+531.text;{flying}，{taunt}\n可召喚在任何地方。
 532.name;烏拉妮，蒼空薩滿
 532.text;{gift} - 從你的牌庫中抽一張綠色卡牌，一張藍色卡牌，一張紅色卡牌，和一張黃色卡牌。

@@ -461,7 +461,7 @@
 293.name;Flash Wind
 293.text;{options|Move a friendly creature.| You may pay {faeria|3} more to move an enemy creature instead.}\n- Move a friendly creature. \n- You may pay {faeria|3} more to move an enemy creature instead.
 294.name;Golden Aviary
-294.text;All your flying creatures have +2/+0.
+294.text;All your flying creatures have +1/+0.
 295.name;Zealous Crusader
 295.text;{charge|2}\nGain +1/+1 each time you attack a god (while in your deck or hand).
 296.name;Keldran Soldier
@@ -511,7 +511,7 @@
 335.name;Rebel Slinger
 335.text;{gift} - Deal 2 damage to your opponent.
 350.name;Three Wishes
-350.text;Gain 3 Life and copy the top 3 cards of your opponent's deck. They cost {faeria|3} less. You cannot wish for more wishes.
+350.text;Gain 3 Life and copy the top 3 cards of your opponent's deck. They cost {faeria|1} less. You cannot wish for more wishes.
 351.name;Rebel Glider
 351.text;{flying}, {dash|2}\nCan't harvest faeria.
 352.name;Radiance, Imperial Airship
@@ -621,13 +621,13 @@
 501.name;Intrepid Explorer
 501.text;{gift} - Add an <b>Explore</b> card to each player's hand.
 502.name;Crystal Flower
-502.text;{gift} - {swallow} a creature.\n{production} - Deal 1 damage to this structure.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;Yakkapult
 503.text;{ranged_attack}\nWhenever this attacks, summon a 2/2 <b>Angry Yak</b> in a random space adjacent to the target.
 504.name;Goki, Friendly Miner
 504.text;{gift} - Add a random treasure to your ally's hand.
 505.name;Azure Skywhale
-505.text;{flying}, {charge|3}\n{gift} - {swallow} a creature.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;Seed of Paradise
 508.text;{flying}, {dash|1}\n{gift} - {options|When this creature harvests over the ocean, it dies and creates a lake.|When this creature harvests over the ocean, it dies and creates a forest.|When this creature harvests over the ocean, it dies and creates a mountain.|When this creature harvests over the ocean, it dies and creates a desert.}\nWhen this creature harvests over the ocean, it dies and creates a land of the chosen color.\n
 510.name;Gift of the Rakoa
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medalion</b>
 513.name;Leaping Fugu
 513.text;{jump}\n{gift} - If you control 8 or more special lands, gain +3/+3.
+514.name;Grappling Hook
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a space adjacent to the target.
 515.name;Rakoan Reveller
 515.text;{last_words} - Gain faeria equal to this creature's attack.
+516.name;CAP-10, Sky Pirate
+516.text;{combat} - Draw a <b>Gift of Steel</b> from your deck. If there are none, shuffle one in.
+517.name;Flash Salmon
+517.text;{flying}, {haste}, {charge|2}\nCan't harvest.\nAt the end of your turn, destroy this creature and draw a card.
+518.name;Manta Rider
+518.text;{flying}, {charge|2}\n{last_words} - Summon a 2/2 <b>Manta</b> with {flying} and {charge|2} where this died.
 519.name;Istanu, Eternal Light
 519.text;{flying}, {charge|3}\n{last_words} - A random friendly creature becomes the new <b>Istanu</b>. It can't attack this turn.
 520.name;Shifting Octopus
@@ -646,9 +654,17 @@
 521.text;{gift} - Fight an enemy creature. Summon a 2/2 <b>Frog</b> with {jump} in a random space adjacent to the target.
 522.name;Path to Paradise
 522.text;{options|Create a forest.|Create a lake.|Create a mountain.|Create a desert.} - Create a special land.\nCreatures summoned on it this turn gain +2/+0.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;Sky Yak
+525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Sky Yak</b> for each friendly one that died this game.
 528.name;Flight of the Mantas
 528.text;When you draw this card, copy it.\nSummon a 2/2 <b>Manta</b> with {flying} and {charge|2}.
+529.name;Oversky Towship
+529.text;{flying}, {dash|1}\nWhenever this would leave land, it brings its land with it.
 530.name;Rakoan Chieftain
 530.text;{dash|1}\nGive adjacent friendly creatures +2/+0.
+531.name;Sky Anemone
+531.text;{flying}, {taunt}\nCan be summoned anywhere.
 532.name;Ulani, Oversky Shaman
 532.text;{gift} - Draw a green card, a blue card, a red card and a yellow card from your deck.

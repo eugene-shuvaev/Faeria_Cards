@@ -461,7 +461,7 @@
 293.name;돌풍
 293.text;{options|아군 생물을 움직입니다.| {faeria|3}을 더 지불해서 적 생물을 움직입니다.}\n- 아군 생물을 움직입니다. \n- {faeria|3}을 더 지불해서 적 생물을 움직입니다.
 294.name;황금 새장
-294.text;내 비행 생물은 +2/+0을 얻습니다.
+294.text;내 비행 생물은 +1/+0을 얻습니다.
 295.name;광적인 성전사
 295.text;{charge|2}\n이 카드가 손 또는 덱에 있는 동안 적 신을 공격하면 +1/+1를 얻습니다.
 296.name;켈드란 병사
@@ -511,7 +511,7 @@
 335.name;반군 투척수
 335.text;{gift} - 상대에게 2 피해를 줍니다.
 350.name;세가지 소원
-350.text;생명력을 3 얻고 상대방의 덱의 맨 위 3장을 복사합니다. 그 카드의 비용이 {faeria|3} 줄어듭니다. 세가지 소원 카드는 복사할 수 없습니다.
+350.text;생명력을 3 얻고 상대방의 덱의 맨 위 3장을 복사합니다. 그 카드의 비용이 {faeria|1} 줄어듭니다. 세가지 소원 카드는 복사할 수 없습니다.
 351.name;반군 글라이더
 351.text;{flying}, {dash|2}\n페어리아를 수확할 수 없습니다.
 352.name;제국 비행선 래디언스
@@ -621,13 +621,13 @@
 501.name;용감한 탐험가
 501.text;{gift} - <b>탐사</b> 카드를 각 플레이어의 손에 넣습니다.
 502.name;수정꽃
-502.text;{gift} - 생물 하나를 {swallow} 합니다.\n{production} - 이 건물에 1 피해를 줍니다.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;야크펄트
 503.text;{ranged_attack}\n이 생물이 공격하면, 2/2 <b>화난 야크</b> 를 공격 대상 근처에 소환합니다.
 504.name;친절한 광부 고키
 504.text;{gift} - 동료의 손에 무작위 보물을 생성합니다.
 505.name;푸른 하늘고래
-505.text;{flying}, {charge|3}\n{gift} - 생물 하나를 {swallow}합니다.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;낙원의 씨앗
 508.text;{flying}, {dash|1}\n{gift} - {options|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 호수를 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 숲을 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 산을 만듭니다.|이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 사막을 만듭니다.}\n이 생물이 바다 위에서 수확하면, 이 생물이 죽고 그 자리에 선택한 색의 땅을 만듭니다.\n
 510.name;라코아의 선물
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|<b>게이브리아 항아리</b>를 뽑습니다.|<b>수정용</b>을 뽑습니다.|<b>울라니의 훈장</b>을 뽑습니다.}\n- 게이브리아 항아리</b>를 뽑습니다.\n- <b>수정용</b>을 뽑습니다.\n- 울라니의 훈장</b>을 뽑습니다.</b>
 513.name;뛰는 복어
 513.text;{jump}\n{gift} - 색이 있는 땅을 8개 이상 가지고 있다면, +3/+3을 얻습니다.
+514.name;갈고리 닻
+514.text;생물 하나에게 {ranged_attack}을 줍니다. 그 생물이 공격한 후 근처 공간으로 이동시킬 수 있습니다.
 515.name;라코아 놀이꾼
 515.text;{last_words} - 이 생물의 공격력만큼 페어리아를 얻습니다.
+516.name;하늘 해적 CAP-10
+516.text;{combat} - 덱에서 <b>강철의 선물</b>을 뽑습니다. 덱에 없다면, 한 장을 섞어 넣습니다.
+517.name;반짝 연어
+517.text;{flying}, {haste}, {charge|2}\n페어리아를 수확할 수 없습니다.\n내 턴이 끝날 때, 이 생물을 파괴하고 카드를 한 장 뽑습니다.
+518.name;만타 기수
+518.text;{flying}, {charge|2}\n{last_words} - 이 생물이 있던 자리에 2/2 {flying}, {charge|2}를 가진 <b>만타</b>를 소환합니다.
 519.name;영원한 빛 이스타누
 519.text;{flying}, {charge|3}\n{last_words} - 무작위 아군 생물이 새로운 이스타누가 됩니다. 그 생물은 이번 턴에 공격할 수 없습니다.
 520.name;변신 문어
@@ -646,9 +654,17 @@
 521.text;{gift} - 적 생물 하나와 싸웁니다. 대상 근처 무작위 공간에 2/2 {jump} 개구리를 소환합니다.
 522.name;낙원을 향해
 522.text;{options|Create a forest.|Create a lake.|Create a mountain.|Create a desert.} - 색이 있는 땅을 만듭니다.\n그 땅에 소환된 생물들은 +2/0을 얻습니다.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;하늘 야크
+525.text;{flying}\n아군 생물 근처에 소환할 수 있습니다.\n{gift} - <b>하늘 야크</b>를 이번 게임에서 죽은 아군 하늘 야크 수만큼 소환합니다.
 528.name;만타의 비행
 528.text;이 카드를 뽑으면, 이 카드를 복사합니다.\n2/2 {flying}, {charge|2} <b>만타</b>를 소환합니다.
+529.name;창공 수송선
+529.text;{flying}, {dash|1}\n이 생물이 땅 밖으로 나가면, 그 땅을 가져갑니다.
 530.name;라코아 족장
 530.text;{dash|1}\n인접한 아군 생물이 +2/+0을 얻습니다.
+531.name;하늘 아네모네
+531.text;{flying}, {taunt}\n어디에든 소환할 수 있습니다.
 532.name;창공의 주술사 울라니
 532.text;{gift} - 녹색 카드, 청색 카드, 적색 카드, 황색 카드를 덱에서 한 장씩 뽑습니다.

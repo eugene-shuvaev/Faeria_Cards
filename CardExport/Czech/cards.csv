@@ -461,7 +461,7 @@
 293.name;Záblesk větru
 293.text;{options|Posunout spojeneckou bytost.| Zaplatit o {faeria|3} více a posunout nepřátelskou bytost.}\n- Posune spojeneckou bytost. \n- Můžete zaplatit o {faeria|3} více a posunout nepřátelskou bytost.
 294.name;Zlatá voliéra
-294.text;Všechny vaše létající bytosti mají +2/+0.
+294.text;Všechny vaše létající bytosti mají +1/+0.
 295.name;Fanatický křižák
 295.text;{charge|2}\nZíská +1/+1 pokaždé, když zaútočíte na boha.
 296.name;Keldranský voják
@@ -511,7 +511,7 @@
 335.name;Povstalecký vrhač
 335.text;{gift} - Udělí vašemu protivníku 2 poškození.
 350.name;Tři přání
-350.text;Získáte 3 body života a zkopírujete vrchní 3 karty z balíčku vašeho protivníka. Získané karty stojí o {faeria|3} méně. Nemůžete si přát mít více přání.
+350.text;Získáte 3 body života a zkopírujete vrchní 3 karty z balíčku vašeho protivníka. Získané karty stojí o {faeria|1} méně. Nemůžete si přát mít více přání.
 351.name;Povstalecký větroň
 351.text;{flying}, {dash|2}\nNemůže sklízet faerii.
 352.name;Třpyt, říšská vzducholoď
@@ -621,13 +621,13 @@
 501.name;Neohrožený průzkumník
 501.text;{gift} - Přidá kartu <b>Průzkum</b> do ruky každého hráče.
 502.name;Krystalová květina
-502.text;{gift} - {swallow} bytost.\n{production} - Udělí této budově 1 poškození.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;Jakapult
 503.text;{ranged_attack}\nKdykoliv zaútočí, vyvolejte na náhodném místě vedle cíle 2/2 <b>Rozhněvaného jaka</b>.
 504.name;Goki, přátelský horník
 504.text;{gift} - Přidá do ruky vašeho spojence náhodnou kartu pokladu.
 505.name;Azurová nebeská velryba
-505.text;{flying}, {charge|3}\n{gift} - {swallow} bytost a získá její životy.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;Semínko ráje
 508.text;{flying}, {dash|1}\n{gift} - {options|Když tato bytost sklízí nad oceánem, zemře a změní se v jezero.|Když tato bytost sklízí nad oceánem, zemře a změní se v les.|Když tato bytost sklízí nad oceánem, zemře a změní se v horu.|Když tato bytost sklízí nad oceánem, zemře a změní se v poušť.}\nKdyž tato bytost sklízí faerii, zatímco stojí na volném poli, zemře a změní se ve vybraný tyb pevniny.\n
 510.name;Rakoanský dar
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|Líznete si <b>Urnu Gabrie</b>|Líznete si <b>Krystalového draka</b>|Líznete si <b>Ulanin medailonek</b>}\n- Líznout <b>Urnu Gabrie</b>\n- Líznout <b>Krystalového draka</b>\n- Líznout <b>Ulanin medailonek</b>
 513.name;Skákající fugu
 513.text;{jump}\n{gift} - Pokud máte alespoň 8 speciálních pevnin, získá +3/+3.
+514.name;Cestovní hák
+514.text;Zvolená bytost získá pro tento tah schopnost {ranged_attack}. Poté co zaútočí ji smíte přesunout na pole sousedící s cílem.
 515.name;Rakoanský buřič
 515.text;{last_words} - Získejte faerii rovnou útoku této bytosti.
+516.name;CAP-10, pirát nebes
+516.text;{combat} - Líznete si z balíčku kartu <b>Dar z oceli</b>. Pokud v něm žádný není, jednu do něho zamíchejte.
+517.name;Bleskový losos
+517.text;{flying}, {haste}, {charge|2}\nNemůže sklízet.\nNa konci vašeho tahu bude zničen a líznete si kartu.
+518.name;Jezdec na mantě
+518.text;{flying}, {charge|2}\n{last_words} - Pokid tato bytost zemře, vyvolejte na jejím místě 2/2 <b>Mantu</b> se schopnostmi {flying} a {charge|2}.
 519.name;Istanu, večné světlo
 519.text;{flying}, {charge|3}\n{last_words} - Z náhodné přátelské bytosti se stane nový <b>Istanu</b>. Tento tah nemůže útočit.
 520.name;Měňavice
@@ -646,9 +654,17 @@
 521.text;{gift} - Vyvolá boj s nepřátelskou bytostí. Vyvolá 2/2 <b>Žábu</b> se schopností {jump} na náhodném místě vedle cíle útoku.
 522.name;Cesta do ráje
 522.text;{options|Vytvořit les.|Vytvořit jezero.|Vytvořit horu.|Vytvořit poušť.} - Vytvoří speciální pevninu.\nBytosti, které na ní budou tento tah vyvolány, získají +2/+0.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;Nebeský jak
+525.text;{flying}\nMůže být vyvolán vedle přátelských bytostí.\n{gift} - Vyvolá jednoho <b>Nebeského jaka</b> za každého přátelského, který za tuto hru zemřel.
 528.name;Mantí let
 528.text;Když si líznete tuto kartu, získáte její kopii.\nVyvolejte 2/2 <b>Mantu</b> se schopnostmi {flying} a {charge|2}.
+529.name;Zánebská tažná loď
+529.text;{flying}, {dash|1}\nKdykoliv by měla opustit pevninu, vezme ji tato bytost s sebou.
 530.name;Rakoanský náčelník
 530.text;{dash|1}\nSousedící spojenecké bytosti získají +2/+0.
+531.name;Nebeská sasanka
+531.text;{flying}, {taunt}\nMůže být vyvolána kdekoliv.
 532.name;Ulani, šamanka ze Zánebí
 532.text;{gift} - Líznete si zelenou, modrou, červenou a žlutou kartu ze svého balíčku.

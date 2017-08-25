@@ -461,7 +461,7 @@
 293.name;极速疾风
 293.text;{options|移动一个友方生物|你可以多消耗{faeria|3}来移动一个敌方生物}\n- 移动一个友方生物。\n- 你可以多消耗{faeria|3}来移动一个敌方生物。
 294.name;黄金鸟舍
-294.text;所有友方飞行生物获得+2/+0。
+294.text;所有友方飞行生物获得+1/+0。
 295.name;狂热圣徒
 295.text;{charge|2}\n每当你攻击神明，此生物便获得+1/+1 (在套牌或手牌中)。
 296.name;科尔丹士兵
@@ -511,7 +511,7 @@
 335.name;叛军飞刀手
 335.text;{gift} - 对敌方神明造成2点伤害。
 350.name;三圣愿
-350.text;获得3点生命并且复制对手套牌牌顶3张牌到你手中，消耗减{faeria|3}。你不能复制他人的三圣愿。
+350.text;获得3点生命并且复制对手套牌牌顶3张牌到你手中，消耗减{faeria|1}。你不能复制他人的三圣愿。
 351.name;叛军滑翔者
 351.text;{flying}, {dash|2}\n无法收集faeria。
 352.name;光辉号，帝国无敌飞艇
@@ -621,13 +621,13 @@
 501.name;无畏探险者
 501.text;{gift} - 添加一个 <b>探索</b> 卡牌到每个玩家手中。
 502.name;水晶花
-502.text;{gift} - {swallow} 一个生物。\n{production} - 对这个建筑造成1点伤害。
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;投牛车
 503.text;{ranged_attack}\n每当攻击，在被攻击目标周围随机的空位召唤一个 2/2 <b>愤怒的牦牛</b>。
 504.name;呱呱，友善的矿工
 504.text;{gift} - 为你的盟友手牌中增加一个随机宝藏。
 505.name;蔚蓝天鲸
-505.text;{flying}，{charge|3}\n{gift} - {swallow} 一个生物并且获得它的生命。
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;天堂之种
 508.text;{flying}, {dash|1}\n{gift} - {options|当此生物在海洋上收集了faeria，自毁并且创造一块湖泊。|当此生物在海洋上收集了faeria，自毁并且创造一片森林。|当此生物在海洋上收集了faeria，自毁并且创造一座火山。|当此生物在海洋上收集了faeria，自毁并且创造一个沙漠。}\n当此生物在海洋上收集faeria，自毁并且创造一块你所选颜色的地块。
 510.name;瑞寇的礼物
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|抽一张 <b>加百兰的骨灰瓮</b>|抽一张 <b>水晶龙</b>|抽一张 <b>乌拉妮的奖章</b>}\n- 抽一张 <b>加百兰的骨灰瓮</b>\n- 抽一张 <b>水晶龙</b>\n- 抽一张 <b>乌拉妮的奖章</b>
 513.name;跳跳蛙
 513.text;{jump}\n{gift} - 如果你控制大于或等于8个特殊地块，获得 +3/+3。
+514.name;抓钩
+514.text;本回合给予一个生物 {ranged_attack}。它攻击过后，你可以把它移动到被攻击目标的周围。
 515.name;瑞寇狂欢者
 515.text;{last_words} - 获得等同于此生物的攻击的faeria。
+516.name;CAP-10, 天际海盗
+516.text;{combat} - 抽一张 <b>金属赠礼</b>。如果没有，加一张到套牌。
+517.name;闪光三文鱼
+517.text;{flying}, {haste}, {charge|2}\n无法收集。\n在你回合结束，摧毁这个生物并且抽一张卡。
+518.name;鹰鲂骑士
+518.text;{flying}, {charge|2}\n{last_words} - 在此生物死亡的地方，召唤一个拥有{flying} 以及 {charge|2} 2/2 <b>鹰鲂</b>。
 519.name;伊斯塔努，永恒之光
 519.text;{flying}, {charge|3}\n{last_words} - 一个随机友方生物变成新的<b>伊斯塔努</b>。本回合不能攻击。
 520.name;变形章鱼
@@ -646,9 +654,17 @@
 521.text;{gift} - 与目标敌方生物交战。 在被攻击目标周围随机的空位，召唤一只拥有 {jump} 2/2 <b>青蛙</b>。
 522.name;天堂之路
 522.text;{options|创造一片森林。|创造一块湖泊。|创造一座火山。|创造一个沙漠。}\n- 创造一块特殊地块。\n本回合召唤在上面的生物获得+2/+0。
+524.name;Skyward Swordfish
+524.text;{flying}， {taunt}， {dash|1}
+525.name;飞天牦牛
+525.text;{flying}\n可以召唤在友方生物周围。\n{gift} - 在这场游戏中，每死亡一个飞天牦牛，便会召唤一只 <b>飞天牦牛</b>。
 528.name;鹰鲂飞行小队
 528.text;当你抽到这张卡时，复制它。\n召唤一个拥有{flying} 以及 {charge|2} 2/2 <b>鹰鲂</b>。
+529.name;云巅拖船
+529.text;{flying}, {dash|1}\n每当它要离开陆地，它会带着脚下陆地一块移动。
 530.name;瑞寇酋长
 530.text;{dash|1}\n给予周围友方生物 +2/+0。
+531.name;天空海葵
+531.text;{flying}, {taunt}\n可以被召唤到任意地方。
 532.name;乌拉妮，云巅萨满
 532.text;{gift} - 抽一张绿卡，蓝卡，红卡和黄卡。

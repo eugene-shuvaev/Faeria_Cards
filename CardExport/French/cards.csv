@@ -461,7 +461,7 @@
 293.name;Vent éclair
 293.text;{options|Déplace une créature alliée.| Vous pouvez payer {faeria|3} pour déplacer une créature ennemie à sa place.}\nDéplace une créature alliée. \nVous pouvez payer {faeria|3} de plus pour déplacer une créature ennemie à sa place.
 294.name;Volière dorée
-294.text;Toutes vos créatures volantes gagnent +2/+0.
+294.text;Toutes vos créatures volantes gagnent +1/+0.
 295.name;Croisé zélé
 295.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne +1/+1 chaque fois que vous attaquez une divinité.
 296.name;Soldat Keldran
@@ -511,7 +511,7 @@
 335.name;Frondeur rebelle
 335.text;{gift} - Inflige 2 points de dégâts à votre adversaire.
 350.name;Trois voeux
-350.text;Gagnez 3 PV et copiez les 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|3}. Vous ne pouvez souhaiter avoir plus de souhaits.
+350.text;Gagnez 3 PV et copiez les 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|1}. Vous ne pouvez souhaiter avoir plus de souhaits.
 351.name;Planeur rebelle
 351.text;{flying}, {dash|2}\nNe peut pas récolter de faeria.
 352.name;Radiance, Vaisseau Impérial
@@ -621,13 +621,13 @@
 501.name;Éclaireur intrépide
 501.text;{gift} - Ajoute une carte <b>Explorer</b> à la main de chaque joueur.
 502.name;Fleur de cristal
-502.text;{gift} - {swallow} une créature.\n{production} - Inflige 1 point de dégât à cette structure.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;Yakkapulte
 503.text;{ranged_attack}\nÀ chaque fois que cette créature attaque, invoquez un <b>Yak en colère</b> 2/2 sur un espace adjacent à sa cible.
 504.name;Goki, Mineur Bienveillant
 504.text;{gift} - Ajoute un trésor au hasard dans la main de votre allié.
 505.name;Célestacé azuré
-505.text;{flying}, {charge|3}\n{gift} - {swallow} une créature.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;Graine du Paradis
 508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte sur l'océan, elle meurt et crée un lac.|Quand cette créature récolte sur l'océan, elle meurt et crée une forêt.|Quand cette créature récolte sur l'océan, elle meurt et crée une montagne.|Quand cette créature récolte sur l'océan, elle meurt et crée un désert.}\nQuand cette créature récolte sur l'océan, elle meurt et crée un terrain de la couleur choisie.\n
 510.name;Don des Rakoa
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|Piochez une <b>Urne de Gabria</b>|Piochez un <b>Dragon de cristal</b>|Piochez un <b>Médaillon d'Ulani</b>}\n- Piochez une <b>Urne de Gabria</b>\n- Piochez un <b>Dragon  de cristal</b>\n- Piochez un <b>Médaillon d'Ulani</b>
 513.name;Fugu sauteur
 513.text;{jump}\n{gift} - Gagne +3/+3 si vous contrôlez 8 terrains spéciaux ou plus.
+514.name;Crochet-grappin
+514.text;Donne {ranged_attack} à une créature pendant ce tour. Après son attaque, vous pouvez la déplacez sur un espace adjacent à sa cible.
 515.name;Fêtard Rakoan
 515.text;{last_words} - Gagnez autant de faeria que l'attaque de cette créature.
+516.name;CAP-10, Pirate du Ciel
+516.text;{combat} - Piochez un <b>Don de l'acier</b> dans votre deck. S'il n'en contient pas, mélangez-en un dedans.
+517.name;Saumon fulgurant
+517.text;{flying}, {haste}, {charge|2}\nNe peut pas récolter.\nÀla fin de votre tour, cette créature est détruite et vous piochez une carte.
+518.name;Chevaucheur de Manta
+518.text;{flying}, {charge|2}\n{last_words} - Invoquez une <b>Manta</b> 2/2 avec {flying} et {charge|2} à l'endroit où il est mort.
 519.name;Istanu, Lumière Éternelle
 519.text;{flying}, {charge|3}\n{last_words} - Une créature alliée aléatoire devient le nouvel <b>Istanu</b>. Il ne peut pas attaquer lors de ce tour.
 520.name;Poulpe évolutif
@@ -646,9 +654,17 @@
 521.text;{gift} - Combat une créature ennemie. Invoquez une <b>Grenouille</b> 2/2 avec {jump} sur un espace adjacent à sa cible.
 522.name;Sentier du Paradis
 522.text;{options|Créez une forêt.|Créez un lac.|Créez une montagne.|Créez un désert.} - Créez un terrain spécial.\nLes créatures invoquées sur ce terrain lors de ce tour gagnent +2/+0.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;Yak du ciel
+525.text;{flying}\nPeut être invoqué sur toute case adjacente à une créature alliée.\n{gift} - Invoquez autant de <b>Yaks du ciel</b> que de <b>Yaks du ciel</b>alliés morts durant la partie.
 528.name;Envolée des Mantas
 528.text;Quand vous piochez cette carte, copiez-la.\nInvoquez une <b>Manta</b> 2/2 avec {flying} et {charge|2}.
+529.name;Remorqueur d'Outreciel
+529.text;{flying}, {dash|1}\nQuand cette créature quitte un terrain, elle l'emmène avec elle.
 530.name;Chef de clan Rakoan
 530.text;{dash|1}\nDonne +2/+0 aux créatures alliées adjacentes.
+531.name;Anémone céleste
+531.text;{flying}, {taunt}\nPeut être invoquée n'importe où.
 532.name;Ulani, Chamane d'Outreciel
 532.text;{gift} - Piochez une carte verte, une carte bleue, une carte rouge et une carte jaune dans votre deck.

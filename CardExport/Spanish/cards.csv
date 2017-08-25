@@ -461,7 +461,7 @@
 293.name;Ráfaga
 293.text;{options|Mueve una criatura aliada.| Puedes usar {faeria|3} más para mover a una criatura enemiga en su lugar.}\nMueve una criatura aliada. \nPuedes usar {faeria|3} más para mover a una criatura enemiga en su lugar.
 294.name;Aviario Dorado
-294.text;Todas tus criaturas voladoras tienen +2/+0.
+294.text;Todas tus criaturas voladoras tienen +1/+0.
 295.name;Cruzado Ferviente
 295.text;{charge|2}\nGana +1/+1 cada vez que atacas a un dios (mientras está en tu mano o en tu mazo).
 296.name;Soldado Keldran
@@ -511,7 +511,7 @@
 335.name;Lanzador Rebelde
 335.text;{gift}: Inflige 2 de daño a tu oponente.
 350.name;Tres Deseos
-350.text;Gana 3 de vida y copia las tres primeras cartas del mazo de tu oponente. Cuestan {faeria|3} menos. No puedes copiar la carta Tres Deseos.
+350.text;Gana 3 de vida y copia las tres primeras cartas del mazo de tu oponente. Cuestan {faeria|1} menos. No puedes copiar la carta Tres Deseos.
 351.name;Planeador Rebelde
 351.text;{flying}, {dash|2}\nNo puede recolectar faeria.
 352.name;Resplandor, Aeronave Imperial
@@ -621,13 +621,13 @@
 501.name;Explorador Intrépido
 501.text;{gift} - Añade la carta <b>Explorar</b> a tu mano y la de tu oponente.
 502.name;Flor de Cristal
-502.text;{gift} - {swallow} una criatura.\n{production} - Inflige 1 de daño a esta estructura.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;Yakkapulta
 503.text;{ranged_attack}\nCuando esto ataca, invoca un <b>Yak Enfurecido</b> 2/2 en un espacio al azar adyacente al objetivo.
 504.name;Goki, Minero Amistoso
 504.text;{gift} - Añade un tesoro al azar a la mano de tu oponente.
 505.name;Ballena Celeste del Cielo
-505.text;{flying}, {charge|3}\n{gift} - {swallow} una criatura y gana su vida.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;Semilla del Paraíso
 508.text;{flying}, {dash|1}\n{gift} - {options|Cuando esta criatura recolecta sobre el oceano, muere y crea un lago.|Cuando esta criatura recolecta sobre el oceano, muere y crea un bosque.|Cuando esta criatura recolecta sobre el oceano, muere y crea una montaña.|Cuando esta criatura recolecta sobre el oceano, muere y crea un desierto.}\nCuando esta criatura recolecta sobre el oceano, muere y crea una tierra del color elegido.\n
 510.name;Obsequio de los Rakoa
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|Roba una <b>Urna de Gabria</b>|Roba un <b>Dragón de Cristal</b>|Roba un <b>Medallón de Ulani</b>}\n- Roba una <b>Urna de Gabria</b>\n- Roba un <b>Dragón de Cristal</b>\n- Roba un <b>Medallón de Ulani</b>
 513.name;Pez Globo Saltador
 513.text;{jump}\n{gift} - Si controlas 8 o más tierras especiales, gana +3/+3.
+514.name;Gancho de Amarre
+514.text;Otorga {ranged_attack} a una criatura este turno. Luego de atacar, puedes mover dicha criatura a un espacio adyacente al objetivo.
 515.name;Rakoa Parrandero
 515.text;{last_words} - Gana faeria igual al ataque de esta criatura.
+516.name;CAP-10, Pirata del Cielo
+516.text;{combat} - Roba un <b>Don de Acero</b> de tu mazo. Si no tienes ninguno, introduce uno en tu mazo.
+517.name;Salmón
+517.text;{flying}, {haste}, {charge|2}\nNo puede recolectar faeria.\nAl final de tu turno, destruye esta criatura y roba una carta.
+518.name;Mantarraya
+518.text;{flying}, {charge|2}\n{last_words} - Invoca una <b>Manta</b> 2/2 con {flying} y {charge|2} en el lugar donde muera esta criatura.
 519.name;Istanu, Luz Eterna
 519.text;{flying}, {charge|3}\n{last_words} - Una criatura aliada al azar se convierte en el nuevo <b>Istanu</b>. No puede atacar este turno.
 520.name;Pulpo Cambiante
@@ -646,9 +654,17 @@
 521.text;{gift} - Lucha con una criatura enemiga. Invoca una <b>Rana</b> 2/2 con {jump} en un espacio al azar adyacente al objetivo.
 522.name;Camino al Paraíso
 522.text;{options|Crea un bosque.|Crea un lago.|Crea una montaña.|Crea un desierto.} - Crea una tierra especial.\nLas criaturas invocadas en esta tierra este turno, ganan +2/+0.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;Yak del Cielo
+525.text;{flying}\nPuede invocarse adyacente a criaturas aliadas.\n{gift} - Invoca un <b>Yak del Cielo</b> por cada Yak del Cielo aliado que murió esta partida.
 528.name;Vuelo de las Mantas
 528.text;Cuando robas esta carta, la copias.\nInvoca una <b>Manta</b> 2/2 con {flying} y {charge|2}.
+529.name;Barco de Remolque de Oversky
+529.text;{flying}, {dash|1}\nCuando esto deje una tierra, la lleva consigo.
 530.name;Jefe Rakoa
 530.text;{dash|1}\nOtorga +2/+0 a criaturas aliadas adyacentes.
+531.name;Anémona del Cielo
+531.text;{flying}, {taunt}\nPuede ser invocada en cualquier lugar.
 532.name;Ulani, Shaman de Oversky
 532.text;{gift} - Roba una carta verde, una azul, una roja y una amarilla de tu mazo.

@@ -461,7 +461,7 @@
 293.name;Lampo nel Vento
 293.text;{options|Sposta una creatura alleata.| Puoi pagare {faeria|3} in più per spostare una creatura nemica.}\n- Sposta una creatura alleata. \n- Puoi pagare {faeria|3} in più per spostare una creatura nemica.
 294.name;Voliera Dorata
-294.text;Tutte le creature volanti che controlli ottengono +2/+0.
+294.text;Tutte le creature volanti che controlli ottengono +1/+0.
 295.name;Crociato Zelante
 295.text;{charge|2}\nOttiene +1/+1 ogni volta che attacchi un dio (mentre si trova nel mazzo o in mano).
 296.name;Soldato di Keldran
@@ -511,7 +511,7 @@
 335.name;Fromboliere Ribelle
 335.text;{gift} - Infliggi 2 danni al tuo avversario.
 350.name;Tre Desideri
-350.text;Ottieni 3 punti vita e copia le prime 3 carte del mazzo dell'avversario. Ti costeranno {faeria|3} in meno. Non puoi desiderare altri desideri.
+350.text;Ottieni 3 punti vita e copia le prime 3 carte del mazzo dell'avversario. Ti costeranno {faeria|1} in meno. Non puoi desiderare altri desideri.
 351.name;Aliante Ribelle
 351.text;{flying}, {dash|2}\nNon può estrarre faeria.
 352.name;Splendore, Dirigibile Imperiale
@@ -621,13 +621,13 @@
 501.name;Esploratore Intrepido
 501.text;{gift} - Aggiungi una carta <b>Esplorazione</b> nella mano di ogni giocatore.
 502.name;Fiore di Cristallo
-502.text;{gift} - {swallow} una creatura.\n{production} - Infliggi 1 danno a questa creatura.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
 503.name;Yakkapulta
 503.text;{ranged_attack}\nOgniqualvolta questa creatura attacca, evoca un <b>Yak Arrabbiato</b> 2/2 in una casella casuale adiacente al bersaglio.
 504.name;Goki, Minatore Amichevole
 504.text;{gift} - Aggiungi un tesoro casuale alla mano del tuo alleato.
 505.name;Balena Celeste
-505.text;{flying}, {charge|3}\n{gift} - {swallow} una creatura.
+505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 508.name;Seme del Paradiso
 508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura estrae faeria sull'oceano, muore e crea un lago.|Quando questa creatura estrae faeria sull'oceano, muore e crea una foresta.|Quando questa creatura estrae faeria sull'oceano, muore e crea una montagna.|Quando questa creatura estrae faeria sull'oceano, muore e crea un deserto.}\nQuando questa creatura estrae faeria sull'oceano, muore e crea una terra del colore scelto.\n
 510.name;Dono dei Rakoa
@@ -636,8 +636,16 @@
 512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medalion</b>
 513.name;Fugu Saltellante
 513.text;{jump}\n{gift} - Se controlli 8 o più terre speciali, ottiene +3/+3.
+514.name;Rampino
+514.text;Dona ad una creatura {ranged_attack} durante questo turno. Dopo aver attaccato, puoi muoverla in una casella adiacente al bersaglio.
 515.name;Rakoano Festaiolo
 515.text;{last_words} - Ottieni faeria pari al valore di attacco di questa creatura.
+516.name;CAP-10, Pirata dei Cieli
+516.text;{combat} - Pesca un <b>Dono d'Acciaio</b> dal tuo mazzo. Se non ce ne sono, mescolane uno nel mazzo.
+517.name;Salmone Guizzante
+517.text;{flying}, {haste}, {charge|2}\nNon può estrarre faeria.\nAlla fine del tuo turno, distruggi questa creatura e pesca una carta.
+518.name;Cavalcatore di Manta
+518.text;{flying}, {charge|2}\n{last_words} - Evoca una <b>Manta</b> 2/2 con {flying} e {charge|2} nella casella dove questa creatura è stata distrutta.
 519.name;Istanu, Luce Eterna
 519.text;{flying}, {charge|3}\n{last_words} - Una creatura amica casuale diventa la nuova <b>Istanu</b>. Non può attaccare durante questo turno.
 520.name;Polpo Mutevole
@@ -646,9 +654,17 @@
 521.text;{gift} - Combatti una creatura nemica. Evoca una <b>Rana</b> 2/2 con {jump} in uno spazio casuale adiacente al bersaglio.
 522.name;Strada per il Paradiso
 522.text;{options|Crea una foresta.|Crea un lago.|Crea una montagna.|Crea un deserto.} - Crea una terra speciale.\nLe creature evocate su questa terra durante questo turno ottengono +2/+0.
+524.name;Skyward Swordfish
+524.text;{flying}, {taunt}, {dash|1}
+525.name;Yak Volante
+525.text;{flying}\nPuò essere evocato in una casella adiacente ad una creatura amica.\n{gift} - Evoca uno <b>Yak Volante</b> per ognuno di essi morto durante questa partita .
 528.name;Volo delle Mante
 528.text;Quando peschi questa carta, copiala.\nEvoca una <b>Manta</b> 2/2 con {flying} e {charge|2}.
+529.name;Cittadina di Altocielo
+529.text;{flying}, {dash|1}\nOgniqualvolta questa creatura lascia una terra, porta con se la sua terra.
 530.name;Capotribù Rakoano
 530.text;{dash|1}\nDona alle creature amiche adiacenti +2/+0.
+531.name;Anemone del Cielo
+531.text;{flying}, {taunt}\nPuò essere evocato ovunque.
 532.name;Ulani, Sciamano di Altocielo
 532.text;{gift} - Pesca una carta verde, una carta blue, una carta rossa e una carta gialla dal tuo mazzo.

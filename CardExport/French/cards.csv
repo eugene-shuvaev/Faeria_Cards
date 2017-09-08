@@ -187,7 +187,7 @@
 120.name;Caprices des marées
 120.text;{options|Déplace un terrain|Piochez une carte}\nDéplace un terrain.\nPiochez une carte.
 121.name;Prophète des marées
-121.text;{gift} - Déplacez deux fois un terrain en votre possession.
+121.text;{gift} - Déplacez deux fois le terrain de cette créature.
 122.name;Vision d'humilité
 122.text;Divise les PV et l'attaque de base d'une créature par deux (arrondis au nombre supérieur).
 123.name;Héraut antique
@@ -255,7 +255,7 @@
 158.name;Saule vivant
 158.text;{taunt}
 159.name;Croissance sauvage
-159.text;Crée 1 forêt de façon aléatoire.
+159.text;Crée une forêt au hasard.
 168.name;Colosse primordial
 168.text;Coûte {faeria|1} de moins pour chaque terrain spécial que vous possédez (coût minimum : {faeria|6}).
 169.name;Tethra, Âme Sauvage
@@ -511,7 +511,7 @@
 335.name;Frondeur rebelle
 335.text;{gift} - Inflige 2 points de dégâts à votre adversaire.
 350.name;Trois voeux
-350.text;Gagnez 3 PV et copiez les 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|1}. Vous ne pouvez souhaiter avoir plus de souhaits.
+350.text;Gagnez 3 PV et copiez les 3 premières cartes du deck adverse. Leur coût est réduit de {faeria|3}. Vous ne pouvez souhaiter avoir plus de souhaits.
 351.name;Planeur rebelle
 351.text;{flying}, {dash|2}\nNe peut pas récolter de faeria.
 352.name;Radiance, Vaisseau Impérial
@@ -537,7 +537,7 @@
 362.name;Le temps des légendes
 362.text;Piochez la première carte légendaire dans votre deck. Si vous n'en avez plus, mélangez une légendaire de couleur {options|Mélangez une carte légendaire verte aléatoire dans votre deck|Mélangez une carte légendaire bleue aléatoire dans votre deck|Mélangez une carte légendaire rouge aléatoire dans votre deck|Mélangez une carte légendaire jaune aléatoire dans votre deck} dans votre deck.
 363.name;Entraineur triton
-363.text;{jump}\n{gift} - Donne +2/+2 à la prochaine créature avec {jump} que vous invoquez.
+363.text;{jump}\n{gift} - Donne +2/+0 à la prochaine créature avec {jump} que vous invoquez.
 364.name;Voix de la vérité
 364.text;{gift} - Restaure l'attaque et la vie de base d'une créature.
 365.name;Héraut de guerre
@@ -618,20 +618,30 @@
 432.text;{options|Détruit 2 terrains inoccupés.|Détruit une créature à l'attaque inférieure ou égale à 5.|Gagnez 7 PV.}\n- Détruit 2 terrains inoccupés.\n- Détruit une créature à l'attaque inférieure ou égale à 5.\n- Gagnez 7 PV.
 433.name;Médaillon d'Ulani
 433.text;Choisissez une créature alliée. Toutes vos créatures en deviennent des copies.
+500.name;Singe savant
+500.text;{taunt}\n{gift} - Au prochain tour de votre adversaire, gagne +2/+2 à chaque fois qu'une créature ennemie récolte de la faeria.
 501.name;Éclaireur intrépide
 501.text;{gift} - Ajoute une carte <b>Explorer</b> à la main de chaque joueur.
 502.name;Fleur de cristal
-502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
+502.text;{gift} - {swallow} une créature.\nÀ la fin de votre tour, inflige 1 point de dégâts à cette structure.
 503.name;Yakkapulte
 503.text;{ranged_attack}\nÀ chaque fois que cette créature attaque, invoquez un <b>Yak en colère</b> 2/2 sur un espace adjacent à sa cible.
 504.name;Goki, Mineur Bienveillant
 504.text;{gift} - Ajoute un trésor au hasard dans la main de votre allié.
 505.name;Célestacé azuré
-505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
+505.text;{flying}, {charge|3}\nNe peut pas récolter de faeria.\n{gift} - {swallow} a creature.
+506.name;Poisson-bulle
+506.text;{flying}, {dash|3}\n{gift} - {swallow} une créature alliée. S'il ne peut pas, il meurt.
+507.name;Empereur Kaios
+507.text;{production} - Donne -1/-0 à toutes les créatures ennemies. Puis détruit toutes les créatures ennemies qui ont 0 d'attaque.
 508.name;Graine du Paradis
 508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte sur l'océan, elle meurt et crée un lac.|Quand cette créature récolte sur l'océan, elle meurt et crée une forêt.|Quand cette créature récolte sur l'océan, elle meurt et crée une montagne.|Quand cette créature récolte sur l'océan, elle meurt et crée un désert.}\nQuand cette créature récolte sur l'océan, elle meurt et crée un terrain de la couleur choisie.\n
+509.name;Arbre de Vieternelle
+509.text;Vous êtes immunisé contre les dégâts.\nÀ la fin de votre tour, toutes les créatures vertes de votre main gagnent +7/+7.
 510.name;Don des Rakoa
 510.text;Donne +1/+1 à une créature, autant de fois que le nombre de créatures que vous contrôlez.
+511.name;Biomancien curieux
+511.text;{gift} - Piochez une carte non-bleue dans votre deck, autant de fois qu'il y a de créatures ennemies.
 512.name;Fugoro, Marchand de Merveilles
 512.text;{jump}\n{gift} - {options|Piochez une <b>Urne de Gabria</b>|Piochez un <b>Dragon de cristal</b>|Piochez un <b>Médaillon d'Ulani</b>}\n- Piochez une <b>Urne de Gabria</b>\n- Piochez un <b>Dragon  de cristal</b>\n- Piochez un <b>Médaillon d'Ulani</b>
 513.name;Fugu sauteur
@@ -650,14 +660,20 @@
 519.text;{flying}, {charge|3}\n{last_words} - Une créature alliée aléatoire devient le nouvel <b>Istanu</b>. Il ne peut pas attaquer lors de ce tour.
 520.name;Poulpe évolutif
 520.text;{options|Gagne +2/+0.|Gagne +0/+2.|Gagne {jump}.|Gagne {taunt}.}, deux fois au choix :\n- Gagne +2/+0\n- Gagne +0/+2\n- Gagne {jump}\n- Gagne {taunt}
-521.name;Cracheur de grenouilles
+521.name;Lanceur de grenouilles
 521.text;{gift} - Combat une créature ennemie. Invoquez une <b>Grenouille</b> 2/2 avec {jump} sur un espace adjacent à sa cible.
 522.name;Sentier du Paradis
 522.text;{options|Créez une forêt.|Créez un lac.|Créez une montagne.|Créez un désert.} - Créez un terrain spécial.\nLes créatures invoquées sur ce terrain lors de ce tour gagnent +2/+0.
-524.name;Skyward Swordfish
+523.name;Salamandre d'émeraude
+523.text;{gift} - Inflige 2 points de dégât aux créatures adjacentes. Donne +2/+2 aux créatures alliées adjacentes.
+524.name;Espadon du Firmament
 524.text;{flying}, {taunt}, {dash|1}
 525.name;Yak du ciel
-525.text;{flying}\nPeut être invoqué sur toute case adjacente à une créature alliée.\n{gift} - Invoquez autant de <b>Yaks du ciel</b> que de <b>Yaks du ciel</b>alliés morts durant la partie.
+525.text;{flying}\nPeut être invoqué sur toute case adjacente à une créature alliée.\n{gift} - Invoquez autant de <b>Yaks du ciel</b> que de <b>Yaks du ciel</b> alliés morts durant la partie.
+526.name;Veilleur des songes
+526.text;{taunt}\n{gift} - Réduit le coût de toutes les cartes de votre main de {faeria|1}, puis les mélange à votre deck. Repiochez-en autant.
+527.name;Tortue Coquibrille
+527.text;{gift} - Piochez une carte, puis copiez-la. Les deux coûtent {faeria|3} de moins.
 528.name;Envolée des Mantas
 528.text;Quand vous piochez cette carte, copiez-la.\nInvoquez une <b>Manta</b> 2/2 avec {flying} et {charge|2}.
 529.name;Remorqueur d'Outreciel

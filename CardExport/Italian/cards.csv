@@ -255,7 +255,7 @@
 158.name;Salice Vivente
 158.text;{taunt}
 159.name;Crescita Selvaggia
-159.text;Create 1 forest at random.
+159.text;Posiziona una foreste a caso.
 168.name;Colosso Primordiale
 168.text;Costa {faeria|1} in meno per ogni territorio speciale in tuo possesso (costo minimo: {faeria|6}).
 169.name;Tethra, Anima Selvaggia
@@ -511,7 +511,7 @@
 335.name;Fromboliere Ribelle
 335.text;{gift} - Infliggi 2 danni al tuo avversario.
 350.name;Tre Desideri
-350.text;Ottieni 3 punti vita e copia le prime 3 carte del mazzo dell'avversario. Ti costeranno {faeria|1} in meno. Non puoi desiderare altri desideri.
+350.text;Ottieni 3 punti vita e copia le prime 3 carte del mazzo dell'avversario. Ti costeranno {faeria|3} in meno. Non puoi desiderare altri desideri.
 351.name;Aliante Ribelle
 351.text;{flying}, {dash|2}\nNon può estrarre faeria.
 352.name;Splendore, Dirigibile Imperiale
@@ -537,7 +537,7 @@
 362.name;Il tempo delle Leggende
 362.text;Pesca la leggenda più in cima nel tuo mazzo. Se non ci sono leggende pronte a rispondere al richiamo, scegli un colore. Mescola una leggenda casuale di quel colore nel tuo mazzo.{options|Mescola una leggenda verde nel tuo mazzo|Mescola una leggenda blu nel tuo mazzo| Mescola una leggenda rossa nel tuo mazzo|Mescola una leggenda gialla nel tuo mazzo}
 363.name;Tritone Addestratore
-363.text;{jump}\n{gift} - Dona alla prossima creatura con {jump} che evochi +2/+2.
+363.text;{jump}\n{gift} - Dona alla prossima creatura con {jump} che evochi +2/+0.
 364.name;Voce della Verità
 364.text;{gift} - Riporta una creatura al suo valore originale di attacco e punti vita.
 365.name;Messaggero di Guerra
@@ -618,22 +618,32 @@
 432.text;{options|Distruggi 2 territori non occupati.|Distruggi una creatura con un valore di attacco pari o inferiore a 5.|Ottieni 7 punti Vita.}\n- Distruggi 2 territori non occupati.\n- Distruggi una creatura con un valore di attacco pari o inferiore a 5.\n- Ottieni 7 punti vita.
 433.name;Medaglione di Ulani
 433.text;Scegli una creatura alleata. Tutte le tue creature alleate diventano una copia di essa.
+500.name;Genio Scimmia
+500.text;{taunt}\n{gift} - Durante il prossimo turno del tuo avversario, ottiene +2/+2 ogniqualvolta una creatura nemica estrae faeria.
 501.name;Esploratore Intrepido
 501.text;{gift} - Aggiungi una carta <b>Esplorazione</b> nella mano di ogni giocatore.
 502.name;Fiore di Cristallo
-502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
+502.text;{gift} - {swallow} una creatura.\n{production} - Alla fine di ogni tuo turno, infliggi 1 danno a questa creatura.
 503.name;Yakkapulta
 503.text;{ranged_attack}\nOgniqualvolta questa creatura attacca, evoca un <b>Yak Arrabbiato</b> 2/2 in una casella casuale adiacente al bersaglio.
 504.name;Goki, Minatore Amichevole
 504.text;{gift} - Aggiungi un tesoro casuale alla mano del tuo alleato.
 505.name;Balena Celeste
-505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
+505.text;{flying}, {charge|3}\nNon può estrarre faeria.\n{gift} - {swallow} una creatura.
+506.name;Pesce Palloncino
+506.text;{flying}, {dash|3}\n{gift} - {swallow} una creatura alleata. Se non può, questa creatura muore.
+507.name;Imperatore Kaios
+507.text;{production} - dona a tutte le creature nemiche -1/-0. Distruggi tutte le creature nemiche con un valore di attacco pari a 0.
 508.name;Seme del Paradiso
 508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura estrae faeria sull'oceano, muore e crea un lago.|Quando questa creatura estrae faeria sull'oceano, muore e crea una foresta.|Quando questa creatura estrae faeria sull'oceano, muore e crea una montagna.|Quando questa creatura estrae faeria sull'oceano, muore e crea un deserto.}\nQuando questa creatura estrae faeria sull'oceano, muore e crea una terra del colore scelto.\n
+509.name;L'Albero di Lungavita
+509.text;Sei immune al danno.\nAlla fine del tuo turno, dona a tutte le creature verdi nella tua mano +7/+7.
 510.name;Dono dei Rakoa
 510.text;Dona ad una creatura +1/+1 per ogni creatura sotto il tuo controllo.
+511.name;Biomante Curioso
+511.text;#REF!
 512.name;Fugoro, Mercante di Meraviglie
-512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medalion</b>
+512.text;{gift} - Per ogni creatura nemica, pesca una creatura non blu dal tuo mazzo.
 513.name;Fugu Saltellante
 513.text;{jump}\n{gift} - Se controlli 8 o più terre speciali, ottiene +3/+3.
 514.name;Rampino
@@ -654,10 +664,16 @@
 521.text;{gift} - Combatti una creatura nemica. Evoca una <b>Rana</b> 2/2 con {jump} in uno spazio casuale adiacente al bersaglio.
 522.name;Strada per il Paradiso
 522.text;{options|Crea una foresta.|Crea un lago.|Crea una montagna.|Crea un deserto.} - Crea una terra speciale.\nLe creature evocate su questa terra durante questo turno ottengono +2/+0.
-524.name;Skyward Swordfish
+523.name;Salamandra Smeraldina
+523.text;{gift} - Infliggi 2 danni alle creature nemiche adiacenti. Dona alle creature amiche adiacenti +2/+2.
+524.name;Pesce Spada Guardiano del Cielo
 524.text;{flying}, {taunt}, {dash|1}
 525.name;Yak Volante
 525.text;{flying}\nPuò essere evocato in una casella adiacente ad una creatura amica.\n{gift} - Evoca uno <b>Yak Volante</b> per ognuno di essi morto durante questa partita .
+526.name;Custode dei Sogni
+526.text;{taunt}\n{gift} - Riduci il costo di tutte le carte nella tua mano di {faeria|1}, quindi rimescolale nel tuo mazzo e pesca un uguale numero di carte.
+527.name;Tartaruga Gemmata
+527.text;{gift} - Pesca una carta, quindi copiala. Costano {faeria|3} in meno.
 528.name;Volo delle Mante
 528.text;Quando peschi questa carta, copiala.\nEvoca una <b>Manta</b> 2/2 con {flying} e {charge|2}.
 529.name;Cittadina di Altocielo

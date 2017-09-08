@@ -187,7 +187,7 @@
 120.name;Gezeitenwechsel
 120.text;{options|Bewege ein Land.|Ziehe eine Karte.}\nBewege ein Land.\nZiehe eine Karte.
 121.name;Prophet der Gezeiten
-121.text;{gift} - Bewege ein Land unter deiner Kontrolle zweimal.
+121.text;{gift} - Bewege das Land, auf dem diese Kreatur steht, zweimal.
 122.name;Vision von Demut
 122.text;Verringere den Grundangriff und das Leben einer Kreatur um die Hälfte (wird aufgerundet).
 123.name;Uralter Bote
@@ -255,7 +255,7 @@
 158.name;Lebende Weide
 158.text;{taunt}
 159.name;Wildwuchs
-159.text;Create 1 forest at random.
+159.text;Platziere einen Wald auf einem zufälligen Feld.
 168.name;Urzeit-Koloss
 168.text;Kostet {faeria|1} weniger für jedes farbige Land, das du besitzt (Mindestkosten: {faeria|6}).
 169.name;Tethra, Seele der Wildnis
@@ -475,7 +475,7 @@
 300.name;Todeswandler
 300.text;{deathtouch}\nDu musst eine andere Kreatur opfern, um diese Kreatur zu beschwören.
 301.name;Schwur der Verwüstung
-301.text;Zerstöre eine verbündete Kreatur. Beschwöre an ihrer Stelle einen 6/3 <b>Oblivion Rider</b> mit {charge|3}.
+301.text;Zerstöre eine verbündete Kreatur. Beschwöre an ihrer Stelle einen 6/3 <b>Reiter der Verwüstung</b> mit {charge|3}.
 302.name;Monströser Schaitan
 302.text;{charge|2}\nJedes Mal, wenn eine verbündete Kreatur stirbt, entzieht diese Kreatur ihr den Angriffswert.
 303.name;Iona, von allen geliebt
@@ -511,7 +511,7 @@
 335.name;Rebellen-Schleuderer
 335.text;{gift} - Fügt deinem Gegner 2 Schaden zu.
 350.name;Drei Wünsche
-350.text;Erhalte 3 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|1} weniger. Du kannst dir keine weiteren Wünsche wünschen.
+350.text;Erhalte 3 Leben und kopiere die ersten 3 Karten aus dem Deck deines Gegners. Sie kosten {faeria|3} weniger. Du kannst dir keine weiteren Wünsche wünschen.
 351.name;Rebellengleiter
 351.text;{flying}, {dash|2}\nKann kein Faeria sammeln.
 352.name;Silberstrahl, Imperiales Luftschiff
@@ -537,7 +537,7 @@
 362.name;Zeitalter der Legenden
 362.text;Ziehe die oberste Legende aus deinem Deck. Falls sich keine Legende findet, um den Ruf zu beantworten, {options| Mische eine zufällige grüne Legende in dein Deck|Mische eine zufällige blaue Legende in dein Deck|Mische eine zufällige rote Legende in dein Deck|Mische eine zufällige gelbe Legende in dein Deck}. Mische eine zufällige Legende dieser Farbe in dein Deck.
 363.name;Triton-Ausbilder
-363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump} Kreatur erhält +2/+2.
+363.text;{jump}\n{gift} - Die nächste von dir beschworene {jump}-Kreatur erhält +2/+0.
 364.name;Stimme der Wahrheit
 364.text;{gift} - Setze Angriff und Leben einer Kreatur auf ihre Ursprungswerte zurück.
 365.name;Vorbote des Krieges
@@ -618,20 +618,30 @@
 432.text;{options|Zerstöre 2 unbesetzte Länder.|Zerstöre eine Kreatur mit 5 oder weniger Angriff.|Erhalte 7 Leben.}\n- Zerstöre 2 unbesetzte Länder.\n- Zerstöre eine Kreatur mit 5 oder weniger Angriff.\n- Erhalte 7 Leben.
 433.name;Ulanis Medaillon
 433.text;Wähle eine verbündete Kreatur. Alle deine Kreaturen werden in Kopien von ihr verwandelt.
+500.name;Affen-Meisterstratege
+500.text;{taunt}\n{gift} - Bekommt +2/+2 jedes Mal, wenn eine Kreatur deines Gegners in seinem nächsten Zug Faeria sammelt.
 501.name;Unerschrockener Entdecker
 501.text;{gift} - Jeder Spieler bekommt ein <b>Erkunden</b> auf die Hand.
 502.name;Kristallblume
-502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
+502.text;{gift} - {swallow}: Eine Kreatur.\n Füge diesem Bauwerk am Ende deines Zuges 1 Schadenspunkt zu.
 503.name;Yakkapult
 503.text;{ranged_attack}\nJedes Mal, wenn diese Kreatur angreift, beschwöre ein 2/2 <b>Wütendes Yak</b> auf einem zufällig ausgewählten, dem Ziel angrenzenden Feld.
 504.name;Goki, Freundlicher Bergmann
 504.text;{gift} - Dein Verbündeter bekommt eine zufällig ausgewählte Schatzkarte auf die Hand.
 505.name;Azurblauer Himmelswal
-505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
+505.text;{flying}, {charge|3}\nKann kein Faeria sammeln.\n{gift} - {swallow}: Eine Kreatur.
+506.name;Ballonfisch
+506.text;{flying}, {dash|3}\n{gift} - {swallow} eine verbündete Kreatur. Wenn das nicht geht, stirbt der Ballonfisch.
+507.name;Kaios, der Imperator
+507.text;{production} - Alle gegnerischen Kreaturen erhalten -1/-0. Dann zerstöre alle gegnerischen Kreaturen mit 0 Angriff.
 508.name;Samenkorn aus dem Paradies
 508.text;{flying}, {dash|1}\n{gift} - {options|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen See.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen Wald.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Gebirge.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert eine Wüste.}\nWenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Land der gewählten Farbe.\n
+509.name;Der Baum des Ewigen Lebens
+509.text;Du bist gegen jeglichen Schaden immun.\nAm Ende deines Zugs bekommen alle grünen Kreaturen in deiner Hand +7/+7.
 510.name;Geschenk der Rakoa
 510.text;Eine Kreatur bekommt +1/+1 für jede Kreatur, die du kontrollierst.
+511.name;Neugieriger Biomant
+511.text;{gift} - Ziehe für jede gegnerische Kreatur eine nicht-blaue Kreatur aus deinem Deck.
 512.name;Fugoro, Wunderhändler
 512.text;{jump}\n{gift} - {options|Ziehe eine <b>Urne aus Gabria</b>|Ziehe einen <b>Kristalldrachen</b>|Ziehe <b>Ulanis Medaillon</b>}\n- Ziehe eine <b>Urne aus Gabria</b>\n- Ziehe einen <b>Kristalldrachen</b>\n- Ziehe <b>Ulanis Medaillon</b>
 513.name;Hüpfender Fugu
@@ -649,15 +659,21 @@
 519.name;Istanu, das Ewige Licht
 519.text;{flying}, {charge|3}\n{last_words} - Eine zufällig ausgewählte verbündete Kreatur wird der neue <b>Istanu</b>. Er kann diesen Zug nicht mehr angreifen.
 520.name;Wandelbarer Oktopus
-520.text;{options|Erhält +2/+0.|Erhält +0/+2.|Erhält {jump}.|Erhält {taunt}.}, twice:\n- Erhält +2/+0\n- Erhält +0/+2\n- Erhält {jump}\n- Erhält {taunt}
+520.text;{options|Erhält +2/+0.|Erhält +0/+2.|Erhält {jump}.|Erhält {taunt}.}, zweimal:\n- Erhält +2/+0\n- Erhält +0/+2\n- Erhält {jump}\n- Erhält {taunt}
 521.name;Frosch-Werfer
 521.text;{gift} - Kämpfe mit einer gegnerischen Kreatur. Beschwöre einen 2/2 <b>Frosch</b> mit {jump} auf einem zufällig ausgewählten, an das Ziel angrenzenden Feld.
 522.name;Weg ins Paradies
-522.text;{options|Kreiere einen Wald.|Kreiere einen See.|Kreiere ein Gebirge.|Kreiere eine Wüste.} - Kreiere ein farbiges Land.\nKreaturen, die diese Runde auf ihm beschworen werden, erhalten +2/+0.
-524.name;Skyward Swordfish
+522.text;{options|Platziere einen Wald.|Platziere einen See.|Platziere ein Gebirge.|Platziere eine Wüste.} - Platziere ein farbiges Land.\nKreaturen, die diese Runde auf ihm beschworen werden, erhalten +2/+0.
+523.name;Smaragdgrüner Salamander
+523.text;{gift} - Füge angrenzenden gegnerischen Kreaturen 2 Schaden zu. Gib angrenzenden verbündeten Kreaturen +2/+2.
+524.name;Himmelstrebender Schwertfisch
 524.text;{flying}, {taunt}, {dash|1}
 525.name;Himmelsyak
 525.text;{flying}\nKann angrenzend zu verbündeten Kreaturen beschworen werden.\n{gift} - Beschwöre ein <b>Himmelsyak</b> für jedes verbündete Himmelsyak, das dieses Spiel gestorben ist.
+526.name;Traumbewahrer
+526.text;{taunt}\n{gift} - Reduziere die Kosten aller deiner Handkarten um {faeria|1}, dann mische sie in dein Deck und ziehe soviele Karten nach.
+527.name;Edelsteinpanzer-Schildkröte
+527.text;{gift} - Ziehe eine Karte, dann kopiere sie. Beide Karten kosten {faeria|3} weniger.
 528.name;Flug der Mantas
 528.text;Wenn du diese Karte ziehst, kopiere sie.\nBeschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2}.
 529.name;Schleppkahn der Wolkenwelt

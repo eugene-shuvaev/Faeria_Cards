@@ -255,7 +255,7 @@
 158.name;Salgueiro Vivente
 158.text;{taunt}
 159.name;Crescimento Selvagem
-159.text;Create 1 forest at random.
+159.text;Cria uma floresta aleatoriamente.
 168.name;Colosso Primitivo
 168.text;Custa {faeria|1} a menos para cada terreno especial que você controla (custo mínimo: {faeria|6}).
 169.name;Tethra, Alma da Floresta
@@ -443,7 +443,7 @@
 276.name;Carniceiro de Shaytan
 276.text;Custa {faeria|2} a menos se você atacou um deus nesse turno.
 277.name;Dragonete das Dunas
-277.text;{flying}, {charge|2}\n Esta criatura não pode coletar faeria.
+277.text;{flying}, {charge|2}\n Não pode coletar faeria.
 278.name;Campeão dos Ventos
 278.text;{flying}, {charge|5}\n{gift} - Mova uma criatura.
 287.name;Colosso do Vendaval
@@ -511,7 +511,7 @@
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano ao seu oponente.
 350.name;Três Desejos
-350.text;Recupera 3 de vida e copia as 3 cartas do topo do baralho do seu oponente. Elas custam {faeria|1} a menos. Você não pode desejar mais Três Desejos.
+350.text;Recupera 3 de vida e copia as 3 cartas do topo do baralho do seu oponente. Elas custam {faeria|3} a menos. Você não pode desejar mais Três Desejos.
 351.name;Planador Rebelde
 351.text;{flying}, {dash|2}\nNão pode coletar faeria.
 352.name;Esplendor, Aeronave Imperial
@@ -537,7 +537,7 @@
 362.name;Era das Lendas
 362.text;Compra a próxima carta lendária do seu baralho. Se não há lendárias para atender ao chamado, {options|Embaralha uma lendária aleatória verde no seu baralho|Embaralha uma lendária aleatória azul no seu baralho|Embaralha uma lendária aleatória vermelha no seu baralho|Embaralha uma lendária aleatória amarela no seu baralho}<b>a</b> cor. Embaralhe uma lendária aleatória dessa cor no seu baralho.
 363.name;Treinador Tritão
-363.text;{jump}\n{gift} - Dá +2/+2 à proxima criatura com {jump} que você invocar.
+363.text;{jump}\n{gift} - Dá +2/+0 à proxima criatura com {jump} que você invocar.
 364.name;Voz da Verdade
 364.text;{gift} - Restaura o Ataque e a Vida originais de uma criatura.
 365.name;Arauto da Guerra
@@ -618,20 +618,30 @@
 432.text;{options|Destrói 2 terrenos desocupados.|Destrói uma criatura com 5 de ataque ou menos.|Recupera 7 de vida.}\n- Destrói 2 terrenos desocupados.\n- Destrói uma criatura com 5 de ataque ou menos.\n- Recupere 7 de vida.
 433.name;Medalhão de Ulani
 433.text;Escolha uma criatura aliada. Todas as suas criaturas se tornam uma cópia dela.
+500.name;Macaco Gênio
+500.text;{taunt}\n{gift} - No próximo turno do seu oponente, ganha +2/+2 sempre que uma criatura inimiga coletar faeria.
 501.name;Explorador Intrépido
 501.text;{gift} - Acrescenta uma carta <b>Explorar</b> à mão de cada jogador.
 502.name;Flor de Cristal
-502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
+502.text;{gift} - {swallow} uma criatura.\nNo fim do seu turno, causa 1 de dano a esta estrutura.
 503.name;Iaquepulta
 503.text;{ranged_attack}\nSempre que esta criatura atacar, invoca um <b>Iaque Furioso</b> 2/2 em um hexágono adjacente aleatório ao alvo.
 504.name;Goki, Minerador Camarada
 504.text;{gift} - Acrescenta um tesouro aleatório à mão do seu aliado.
 505.name;Baleia Celeste Lazúli
-505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
+505.text;{flying}, {charge|3}\nNão pode coletar faeria.\n{gift} - {swallow} uma criatura.
+506.name;Peixe Balão
+506.text;{flying}, {dash|3}\n{gift} - {swallow} uma criatura aliada. Se não puder, o Peixe Balão morre.
+507.name;Imperador Kaios
+507.text;{production] - Dá -1/-0 a todas as criaturas inimigas. Em seguida, destrói todas as criaturas inimigas com 0 de Ataque.
 508.name;Semente do Paraíso
 508.text;{flying}, {dash|1}\n{gift} - {options|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um lago.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma floresta.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma montanha.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um deserto.}\nQuando esta criatura coletar faeria sobre o oceano, ela morre e cria um terreno da cor escolhida.\n
-510.name;Presente de Rakoa
+509.name;A Árvore da Vida Eterna
+509.text;Você é imune a dano.\nNo fim do seu turno, dá +7/+7 a todas as criaturas verdes em sua mão.
+510.name;Presente dos Rakoas
 510.text;Dá +1/+1 a uma criatura para cada criatura que você controla.
+511.name;Biomante Curioso
+511.text;{gift} - Compra uma criatura não-azul do seu baralho para cada criatura inimiga.
 512.name;Fugoro, Mercador de Maravilhas
 512.text;{jump}\n{gift} - {options|Compra uma <b>Urna de Gabria</b>|Compra um <b>Dragão de Cristal</b>|Compra um <b>Medalhão de Ulani</b>}\n- Compra uma <b>Urna de Gabria</b>\n- Compra um <b>Dragão de Cristal</b>\n- Compra um <b>Medalhão de Ulani</b>
 513.name;Fugu Saltitante
@@ -643,7 +653,7 @@
 516.name;CAP-10, Pirata Celeste
 516.text;{combat} - Compra um <b>Dom do Aço</b> do seu baralho. Se não há nenhum, embaralhe um no seu baralho.
 517.name;Salmão Ligeiro
-517.text;{flying}, {haste}, {charge|2}\nNo fim do seu turno, esta criatura se destrói e compra uma carta.
+517.text;{flying}, {haste}, {charge|2}\nNão pode coletar faeria.\nNo fim do seu turno, esta criatura se destrói e compra uma carta.
 518.name;Cavalga-Raia
 518.text;{flying}, {charge|2}\n{last_words} - Invoca uma <b>Raia</b> 2/2 com {flying} e {charge|2} onde esta criatura morrer.
 519.name;Istanu, Luz Eterna
@@ -654,10 +664,16 @@
 521.text;{gift} - Luta com uma criatura inimiga. Invoca um <b>Sapo</b> 2/2 com {jump} em um hexágono adjacente aleatório ao alvo.
 522.name;Caminho para o Paraíso
 522.text;{options|Cria uma floresta.|Cria um lago.|Cria uma montanha.|Cria um deserto.} - Cria um terreno especial.\nCriaturas invocadas neste terreno neste turno ganham +2/+0.
-524.name;Skyward Swordfish
+523.name;Salamandra Esmeralda
+523.text;{gift} - Causa 2 de dano às criaturas inimigas adjacentes. Dá +2/+2 às criaturas aliadas adjacentes.
+524.name;Peixe-Espada Vigia Celeste
 524.text;{flying}, {taunt}, {dash|1}
 525.name;Iaque Celeste
 525.text;{flying}\nPode ser invocada adjacente a uma criatura aliada.\n{gift} - Invoca um <b>Iaque Celeste</b> para cada Iaque Celeste aliado que morreu nesta partida.
+526.name;Protedor de Sonhos
+526.text;{taunt}\n{gift} - Reduz o custo de todas as cartas da sua mão em {faeria|1}. Em seguida, as embaralha no seu baralho e compra a mesma quantidade de cartas.
+527.name;Tartaruga Casco-de-Gemas
+527.text;{gift} - Compra uma carta e a copia. As duas cartas custam {faeria|3} a menos.
 528.name;Voo das Raias
 528.text;Quando você comprar esta carta, copie-a.\nInvoca uma <b>Raia</b> 2/2 com {flying} e {charge|2}.
 529.name;Nave-Reboque do Céu-Acima

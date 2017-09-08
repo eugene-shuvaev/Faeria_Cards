@@ -187,7 +187,7 @@
 120.name;Cambia Mareas
 120.text;{options|Mueve una tierra|Roba una carta}\nMueve una tierra.\nRoba una carta.
 121.name;Profeta de las mareas
-121.text;{gift}: mueve hasta 2 veces una tierra que sea de tu propiedad.
+121.text;{gift} - Mueve dos veces la tierra donde invoques esta criatura.
 122.name;Visión Humillante
 122.text;Reduce a la mitad el ataque y la vida base de una criatura (redondeando hacia arriba).
 123.name;Heraldo Antiguo
@@ -255,7 +255,7 @@
 158.name;Sauce Viviente
 158.text;{taunt}
 159.name;Crecimiento Silvestre
-159.text;Create 1 forest at random.
+159.text;Crea 1 bosque al azar.
 168.name;Coloso Primigenio
 168.text;Cuesta {faeria|1} menos por cada tierra especial que tengas (coste mínimo: {faeria|6}).
 169.name;Tethra, Alma de la Naturaleza
@@ -511,7 +511,7 @@
 335.name;Lanzador Rebelde
 335.text;{gift}: Inflige 2 de daño a tu oponente.
 350.name;Tres Deseos
-350.text;Gana 3 de vida y copia las tres primeras cartas del mazo de tu oponente. Cuestan {faeria|1} menos. No puedes copiar la carta Tres Deseos.
+350.text;Gana 3 de vida y copia las tres primeras cartas del mazo de tu oponente. Cuestan {faeria|3} menos. No puedes copiar la carta Tres Deseos.
 351.name;Planeador Rebelde
 351.text;{flying}, {dash|2}\nNo puede recolectar faeria.
 352.name;Resplandor, Aeronave Imperial
@@ -537,7 +537,7 @@
 362.name;Hora de las Leyendas
 362.text;Roba la primera legendaria de tu mazo. Si no te quedan legendarias en el mazo, {options|Introduce en tu mazo una legendaria verde al azar|Introduce en tu mazo una legendaria azul al azar|Introduce en tu mazo una legendaria roja al azar|Introduce en tu mazo una legendaria amarilla al azar} un color. Introduce en tu mazo una legendaria al azar de ese color.
 363.name;Entrenador Tritón
-363.text;{jump}\n{gift} - Otorga +2/+2 a la siguiente criatura con {jump} que invoques.
+363.text;{jump}\n{gift} - Otorga +2/+0 a la siguiente criatura con {jump} que invoques.
 364.name;Voz de la Verdad
 364.text;{gift} - Restablece el ataque y la vida de una criatura a sus valores originales.
 365.name;Heraldo de la Guerra
@@ -618,20 +618,30 @@
 432.text;{options|Destruye 2 tierras sin ocupar.|Destruye una criatura de ataque 5 o inferior.|Gana 7 de vida.}\n- Destruye 2 tierras sin ocupar.\n- Destruye una criatura de ataque 5 o inferior.\n- Gana 7 de vida.
 433.name;Medallón de Ulani
 433.text;Elige una criatura aliada. Todas tus criaturas se convierten en una copia de ella.
+500.name;Mono Inteligente
+500.text;{taunt}\n{gift} - En el próximo turno de tu oponente, gana +2/+2 cuando una criatura enemiga recolecta faeria.
 501.name;Explorador Intrépido
 501.text;{gift} - Añade la carta <b>Explorar</b> a tu mano y la de tu oponente.
 502.name;Flor de Cristal
-502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
+502.text;{gift} - {swallow} una criatura.\nAl final de tu turno, inflige 1 de daño a esta estructura.
 503.name;Yakkapulta
 503.text;{ranged_attack}\nCuando esto ataca, invoca un <b>Yak Enfurecido</b> 2/2 en un espacio al azar adyacente al objetivo.
 504.name;Goki, Minero Amistoso
-504.text;{gift} - Añade un tesoro al azar a la mano de tu oponente.
+504.text;{gift} - Añade un tesoro al azar a la mano de tu aliado.
 505.name;Ballena Celeste del Cielo
-505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
+505.text;{flying}, {charge|3}\nNo puede recolectar faeria.\n{gift} - {swallow} una criatura.
+506.name;Pez Globo
+506.text;{flying}, {charge|3}\n{gift} - {swallow} una criatura aliada. Si no puede, este muere.
+507.name;Emperador Kaios
+507.text;{production} - Otorga -1/-0 a todas las criaturas enemigas. Luego destruye aquellas que tienen 0 de Ataque.
 508.name;Semilla del Paraíso
 508.text;{flying}, {dash|1}\n{gift} - {options|Cuando esta criatura recolecta sobre el oceano, muere y crea un lago.|Cuando esta criatura recolecta sobre el oceano, muere y crea un bosque.|Cuando esta criatura recolecta sobre el oceano, muere y crea una montaña.|Cuando esta criatura recolecta sobre el oceano, muere y crea un desierto.}\nCuando esta criatura recolecta sobre el oceano, muere y crea una tierra del color elegido.\n
+509.name;El Árbol de la Vida Eterna
+509.text;Eres inmune al daño.\nAl final de tu turno, otorga +7/+7 a todas las criaturas verdes en tu mano.
 510.name;Obsequio de los Rakoa
 510.text;Otorga +1/+1 a una criatura por cada criatura que controlas.
+511.name;Biomante Curioso
+511.text;{gift} - Por cada criatura enemiga, roba una criatura de tu mazo que no sea azul.
 512.name;Fugoro, Comerciante de Maravillas
 512.text;{jump}\n{gift} - {options|Roba una <b>Urna de Gabria</b>|Roba un <b>Dragón de Cristal</b>|Roba un <b>Medallón de Ulani</b>}\n- Roba una <b>Urna de Gabria</b>\n- Roba un <b>Dragón de Cristal</b>\n- Roba un <b>Medallón de Ulani</b>
 513.name;Pez Globo Saltador
@@ -642,7 +652,7 @@
 515.text;{last_words} - Gana faeria igual al ataque de esta criatura.
 516.name;CAP-10, Pirata del Cielo
 516.text;{combat} - Roba un <b>Don de Acero</b> de tu mazo. Si no tienes ninguno, introduce uno en tu mazo.
-517.name;Salmón
+517.name;Salmón Rápido
 517.text;{flying}, {haste}, {charge|2}\nNo puede recolectar faeria.\nAl final de tu turno, destruye esta criatura y roba una carta.
 518.name;Mantarraya
 518.text;{flying}, {charge|2}\n{last_words} - Invoca una <b>Manta</b> 2/2 con {flying} y {charge|2} en el lugar donde muera esta criatura.
@@ -654,10 +664,16 @@
 521.text;{gift} - Lucha con una criatura enemiga. Invoca una <b>Rana</b> 2/2 con {jump} en un espacio al azar adyacente al objetivo.
 522.name;Camino al Paraíso
 522.text;{options|Crea un bosque.|Crea un lago.|Crea una montaña.|Crea un desierto.} - Crea una tierra especial.\nLas criaturas invocadas en esta tierra este turno, ganan +2/+0.
-524.name;Skyward Swordfish
+523.name;Salamandra Esmeralda
+523.text;{gift} - Inflige 2 de daño a criaturas enemigas adyacentes. Otorga +2/+2 a criaturas aliadas adyacentes.
+524.name;Pez Espada Guardián del Cielo
 524.text;{flying}, {taunt}, {dash|1}
 525.name;Yak del Cielo
 525.text;{flying}\nPuede invocarse adyacente a criaturas aliadas.\n{gift} - Invoca un <b>Yak del Cielo</b> por cada Yak del Cielo aliado que murió esta partida.
+526.name;Guardián de Sueños
+526.text;{taunt}\n{gift} - Reduce el costo de todas las cartas en tu mano en {faeria|1}, luego introdúcelas en tu mazo y roba la misma cantidad.
+527.name;Tortuga de Caparazón con Gemas
+527.text;{gift} - Roba una carta, luego cópiala. Ambas cuestan {faeria|3} menos.
 528.name;Vuelo de las Mantas
 528.text;Cuando robas esta carta, la copias.\nInvoca una <b>Manta</b> 2/2 con {flying} y {charge|2}.
 529.name;Barco de Remolque de Oversky

@@ -637,13 +637,13 @@
 508.name;Seed of Paradise
 508.text;{flying}, {dash|1}\n{gift} - {options|When this creature harvests over the ocean, it dies and creates a lake.|When this creature harvests over the ocean, it dies and creates a forest.|When this creature harvests over the ocean, it dies and creates a mountain.|When this creature harvests over the ocean, it dies and creates a desert.}\nWhen this creature harvests over the ocean, it dies and creates a land of the chosen color.\n
 509.name;The Tree of Everlife
-509.text;You are immune to damage.\nAt the end of your turn, give all green creatures in your hand +7/+7.
+509.text;{production} - Gain 7 Life.\nGive a random creature in your hand +7/+7.
 510.name;Gift of the Rakoa
 510.text;Give a creature +1/+1 for each creature you control.
 511.name;Curious Biomancer
 511.text;{gift} - For each enemy creature, draw a non-blue creature from your deck.
 512.name;Fugoro, Merchant of Wonders
-512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medalion</b>
+512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medallion</b>
 513.name;Leaping Fugu
 513.text;{jump}\n{gift} - If you control 8 or more special lands, gain +3/+3.
 514.name;Grappling Hook

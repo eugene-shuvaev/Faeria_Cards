@@ -7,13 +7,13 @@
 4.name;Syland Horsemaster
 4.text;{gift} - Give another friendly creature {charge|3} this turn.
 9.name;Imperial Engineer
-9.text;{gift} - Trigger all your production abilities.
+9.text;{gift} - Trigger all friendly production abilities.
 10.name;Hold the Line!
 10.text;Add two 2/3 <b>Imperial Guards</b> with {taunt} to your hand.
 11.name;Walking Fortress
 11.text;
 12.name;Steam Forge
-12.text;{production} - A random friendly creature gains +1/+0.
+12.text;{production} - Give a random friendly creature +1/+0.
 13.name;Tax Collector
 13.text;{combat} - Gain {faeria|1}.
 14.name;Healing Song
@@ -29,33 +29,33 @@
 24.name;Falcon Dive
 24.text;Deal 1 damage to a creature.
 29.name;Master Swordsman
-29.text;Has +2/+0 during your turn.
+29.text;Has +2/+0 during your turn (while in your hand or in play).
 30.name;Prairie Yak
 30.text;
 32.name;Yak Attack
 32.text;Summon three 2/2 <b>Angry Yaks</b> with {haste}.
 33.name;Punishment
-33.text;Deal 2 damage to a creature. If it's a neutral creature, deal 5.
+33.text;Deal 2 damage to a creature. If it's a neutral creature, deal 5 damage instead.
 34.name;Queen's Favorite
 34.text;{protection}
 35.name;Queen's Guard
 35.text;{taunt}\n{combat} - Gain {faeria|1}.
 36.name;Magda, Queen of Meroval
-36.text;Your Legends costs {faeria|2} less.\n{production} - Add a random Legend to your hand.
+36.text;Your Legends cost {faeria|1} less.\n{production} - Add a random Legend to your hand. It becomes {wild}.
 37.name;Court Jester
-37.text;{taunt}\n{gift} - A random creature in your hand gains +2/+2.
+37.text;{taunt}\n{gift} - Give a random creature in your hand +2/+2.
 38.name;King's Guard
 38.text;{taunt}\n{combat} - Draw a card.
 39.name;Unlikely Hero
-39.text;The first time this creature fights and survives, it gains +3/+3 and {charge|3}.
+39.text;The first time this fights and survives, it gains +3/+3 and {charge|2}.
 40.name;Magnus, King of Meroval
 40.text;{charge|3}\n{combat} - Draw a card. It costs {faeria|0}.
 41.name;Plague Bearer
 41.text;{last_words} - Deal 2 damage to ALL creatures.
 42.name;Siege Engine
-42.text;{ranged_attack}\nWhenever this creature attacks, it gains +1/+0 afterwards.
+42.text;{ranged_attack}\nAfter this attacks, it gains +1/+0.
 43.name;Sharra, Dragonslayer
-43.text;Ignores all damage equal to 4 or more.
+43.text;Sharra ignores all damage equal to 4 or more.
 44.name;Famine
 44.text;Deal 1 damage to ALL creatures.
 45.name;Royal Judge
@@ -63,21 +63,21 @@
 46.name;Cartographer
 46.text;{last_words} - Add an <b>Explore</b> to your hand.
 47.name;Shimmering Statue
-47.text;{taunt}\n{production} - You gain 1 Life.
+47.text;{taunt}\n{production} - Gain 1 Life.
 48.name;Village Elder
 48.text;{last_words} - Draw a card.
 49.name;Storyteller
 49.text;{gift} - Each player draws 2 cards and gains 2 Life.
 50.name;Wandering Monk
-50.text;Whenever you draw a card, gain +1/+0.
+50.text;Whenever you draw a card, this gains +1/+0.
 51.name;Steamforge Enforcer
 51.text;
 52.name;King's Faithful
 52.text;{protection}
 53.name;Day of the Dragons
-53.text;Add the four <b>Dragons</b> to your hand. They cost {faeria|4} less.
+53.text;Add the four elemental <b>Dragons</b> to your hand. They cost {faeria|3} less and become {wild}. 
 54.name;Daring Adventurer
-54.text;{gift} - Gain +2/+2 for each adjacent enemy creature.
+54.text;{gift} - Gains +2/+2 for each adjacent enemy creature.
 55.name;Maceman
 55.text;
 56.name;Baron Thulgar
@@ -93,35 +93,35 @@
 61.name;Hunted Outlaw
 61.text;{last_words} - Your opponent draws a card and gains {faeria|2}.
 62.name;Fortune Hunter
-62.text;Whenever this creature gathers faeria, a random creature you control gains +1/+1.
+62.text;Whenever this harvests faeria, give a random friendly creature +1/+1.
 63.name;Outland Ranger
 63.text;{gift} - Add a <b>Campfire</b> to your hand.
 64.name;Imperial Drain
-64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this structure.
+64.text;Faeria wells are empty.\n{production} - Deal 1 damage to this.\n{last_words} - Refill each faeria well.
 65.name;Rainforest Explorer
-65.text;{gift} - Gain +1/+1 if you control 2 lakes. Gain +0/+2 if you control 2 forests.
+65.text;Has +1/+1 while you control 2 lakes and +0/+2 while you control 2 forests.
 66.name;Caldera Explorer
-66.text;{gift} - Gain +1/+1 if you control 2 lakes. Gain +2/+0 if you control 2 mountains.
+66.text;Has +1/+1 while you control 2 lakes and +2/+0 while you control 2 mountains.
 67.name;Oasis Explorer
-67.text;{gift} - Gain +1/+1 if you control 2 lakes. Gain +1/+1 if you control 2 deserts.
+67.text;Has +1/+1 while you control 2 lakes and +1/+1 while you control 2 deserts.
 68.name;Taiga Explorer
-68.text;{gift} - Gain +2/+0 if you control 2 mountains. Gain +0/+2 if you control 2 forests.
+68.text;Has +2/+0 while you control 2 mountains and +0/+2 while you control 2 forests.
 69.name;Savannah Explorer
-69.text;{gift} - Gain +1/+1 if you control 2 deserts. Gain +0/+2 if you control 2 forests.
+69.text;Has +1/+1 while you control 2 deserts and +0/+2 while you control 2 forests.
 70.name;Sandstone Explorer
-70.text;{gift} - Gain +2/+0 if you control 2 mountains. Gain +1/+1 if you control 2 deserts.
+70.text;Has +2/+0 while you control 2 mountains and +1/+1 while you control 2 deserts.
 71.name;Ruby Fish
 71.text;{aquatic}
 72.name;Lore Thief
-72.text;{options|Gains +2/+2|Draw 2 cards.}\n- Gain +2/+2.\n- Draw 2 cards.
+72.text;{options|Gains +2/+2|Draw 2 cards.}\n- Gains +2/+2.\n- Draw 2 cards.
 73.name;Gabrian Cistern
-73.text;{production} - Gain {faeria|3}. Deal 1 damage to this structure.
+73.text;{production} - Gain {faeria|3}. Deal 1 damage to this.
 74.name;Tyranax
 74.text;
 75.name;Gabrian Enchantress
 75.text;{gift} - Another creature's Attack becomes equal to its Life.
 76.name;Gabrian Commander
-76.text;{aquatic}, {charge|3}\nThe first time you draw a card with a base cost of {faeria|7} or higher, gain {flying} and +1/+1.
+76.text;{aquatic}, {charge|3}\nThe first time you draw a card with a base cost of {faeria|7} or higher, this gains +1/+1 and {flying}.
 77.name;Gabrian Warden
 77.text;{gift} - Give a creature {protection}.
 82.name;Spring Mochi
@@ -129,7 +129,7 @@
 83.name;Triton Warrior
 83.text;{jump}
 84.name;Mystic Beast
-84.text;{gift} - Gets +2/+0 and {jump} if summoned adjacent to an enemy well.
+84.text;{gift} - Gains +2/+0 and {jump} if summoned adjacent to an enemy well.
 85.name;Mirror Phantasm
 85.text;{gift} - Transform another creature into a 5/5 <b>Mirror Phantasm</b>.
 86.name;Triton Chef
@@ -143,13 +143,13 @@
 94.name;Aurora's Creation
 94.text;Add a copy of a creature to your hand. It costs {faeria|5} less.
 95.name;Dark Stalker
-95.text;If you've played an event this turn, costs {faeria|2} less.
+95.text;If you've played an event this turn, this costs {faeria|2} less.
 96.name;Spellwhirl
-96.text;Add two random blue cards to your hand.
+96.text;Add 2 random blue cards to your hand.
 97.name;Gabrian Noble
 97.text;{gift} - Summon a 1/1 <b>Ruby Fish</b> (you may summon it on an ocean tile).
 102.name;Aurora's Disciple
-102.text;Whenever you play an event, gain +1/+1.
+102.text;Whenever you play an event, this gains +1/+1.
 103.name;Sturdy Shell
 103.text;{aquatic}
 104.name;Baeru, the First Wave
@@ -159,29 +159,29 @@
 106.name;Tale of the Old Turtle
 106.text;Draw 3 cards. All creatures drawn this way cost {faeria|2} less.
 107.name;Wavecrash Colossus
-107.text;Costs {faeria|1} less for each time you've harvested from an enemy well (minimum cost: {faeria|4}).
+107.text;Costs {faeria|1} less for each time you've harvested faeria from an enemy well this game (minimum cost: {faeria|4}).
 108.name;Orosei, Dream of the Deep
 108.text;{flying}, {charge|2}\n{gift} - Transform all your other creatures into creatures that cost {faeria|2} more.
 109.name;Water Elemental
 109.text;{jump}\n{gift} - Create a lake.
 110.name;Gemsilk Faerie
-110.text;{flying}\nThe first time you draw an event, gain +2/+2, and {charge|2}.
+110.text;{flying}\nThe first time you draw an event, this gains +2/+2, and {charge|2}.
 111.name;Sunken Tower
-111.text;{activate} - Move a land. Deal 1 damage to this structure.
+111.text;{activate} - Move a land. Deal 1 damage to this.
 112.name;Azure Wisp
-112.text;Whenever you gather faeria from an opponent's well, gain +1/+1.
+112.text;Whenever you harvest faeria from an opponent's well, this gains +1/+1.
 113.name;Triton Sanctuary
-113.text;Whenever you gather faeria, this structure gains +1 Life.\n{activate} - Destroy it and gain faeria equal to its Life.
+113.text;Whenever you harvest faeria, this gains +0/+1.\n{activate} - Destroy this and gain {faeria|1} equal to its Life.
 114.name;Aurora's Dream
 114.text;Draw until you have 9 cards. Reduce the cost of all cards in your hand to {faeria|0}.
 115.name;Snowstorm Lancer
-115.text;{jump}\nWhenever you play an event, gain +2/+0 this turn (limit +6/+0).
+115.text;{jump}\nWhenever you play an event, this gains +2/+0 this turn (limit +6/+0).
 116.name;Luduan
-116.text;Whenever this creature gathers faeria from an opponent's well, add a random blue card to your hand. It costs {faeria|2} less.
+116.text;Whenever this harvests faeria from an opponent's well, add a random blue card to your hand. It costs {faeria|2} less.
 117.name;Egg of Wonders
-117.text;When you draw a non-legendary creature, Egg of Wonders becomes a copy of it.
+117.text;The first time you draw a non-legendary creature, Egg of Wonders becomes a copy of it.
 118.name;Gabrian Archon
-118.text;{charge|2}\nGain +2/+2 if you've played two cards with a base cost of {faeria|7} or higher.
+118.text;{charge|2}\nGains +2/+2 if you've played two cards with a base cost of {faeria|7} or higher this game.
 119.name;Triton Diver
 119.text;{aquatic}, {jump}
 120.name;Shifting Tide
@@ -195,7 +195,7 @@
 124.name;Triton Banquet
 124.text;Give a creature +1/+1 and {jump}.
 125.name;Aurora, Myth Maker
-125.text;{gift} - Change another friendly creature's base Attack and Life to 6/6.
+125.text;{gift} - Change another friendly creature to 6/6.
 126.name;Wavecrafter
 126.text;At the end of your opponent's turn, set ALL players' faeria to {faeria|3}.
 127.name;Failed Experiment
@@ -209,21 +209,21 @@
 131.name;Sagami Warrior
 131.text;{dash|2}
 132.name;Bone Collector
-132.text;Whenever an adjacent creature dies, gain +1/+1.
+132.text;Whenever an adjacent creature dies, this gains +1/+1.
 133.name;Soulbound Sagami
-133.text;{last_words} - A random friendly creature gains +3/+5.
+133.text;{last_words} - Give a random friendly creature +3/+5.
 134.name;Sagami Grovecaller
 134.text;{gift} - Teleport another friendly creature to a forest you control.
 135.name;Ancient Beastmaster
-135.text;When you summon a creature with 5 Life or more, it gains +1/+1.
+135.text;When you summon a creature with 5 Life or more, give it +1/+1.
 136.name;Gaea's Grace
-136.text;You and a creature each gain +3 Life.
+136.text;A creature gains +0/+3. Gain 3 Life.
 137.name;Tiki Chieftain
 137.text;{gift} - Give a creature {taunt}.
 138.name;Bloomsprite
 138.text;{last_words} - Add a random green card to your hand. It costs {faeria|3} less.
 139.name;Elderwood Hermit
-139.text;{last_words} - A random friendly creature gains +2/+4.
+139.text;{last_words} - Give a random friendly creature +2/+4.
 140.name;Tiki Caretaker
 140.text;{gift} - Give a creature +2/+2.
 141.name;Tiki Piper
@@ -231,49 +231,49 @@
 142.name;Shamanic Dance
 142.text;Give a creature +0/+4 and {taunt}.
 143.name;Tiki Totem
-143.text;The first creature you summon per turn gains +1/+1.
+143.text;Give the first creature you summon each turn +1/+1.
 144.name;Possessed Ursus
-144.text;Whenever this creature is dealt damage, its Attack doubles.
+144.text;After this creature is dealt damage, double its Attack.
 149.name;Oakling
-149.text;{last_words} - A random green creature in your hand gains +5/+5.
+149.text;{last_words} - Give a random green creature in your hand +5/+5.
 150.name;Thyrian Golem
 150.text;
 151.name;Seed Sower
-151.text;{gift} - Creates an adjacent forest at random.
+151.text;{gift} - Create an adjacent forest at random.
 152.name;Vine Wall
 152.text;{taunt}\n{last_words} - Create a forest at random.
 153.name;Deepwood Grizzly
 153.text;
 154.name;Tiki Healer
-154.text;{gift} - You gain 6 Life.
+154.text;{gift} - Gain 5 Life.
 155.name;Ruunin's Shrine
 155.text;{gift} - Gain {faeria|2}.\n{last_words} - Your opponent gains {faeria|2}.
 156.name;Oak Father
-156.text;{gift} - Gain +0/+1 for each forest you control.
+156.text;{gift} - This gains +0/+1 for each forest you control.
 157.name;Faeria Tree
-157.text;{production} - This structure gains +1 Life.\nWhen it has 5 or more Life, destroy it and gain {faeria|10}.
+157.text;{production} - This structure gains +0/+1.\nWhen this has 5 or more Life, destroy it and gain {faeria|10}.
 158.name;Living Willow
 158.text;{taunt}
 159.name;Wild Growth
-159.text;Create 1 forest at random.
+159.text;Create a forest at random.
 168.name;Primeval Colossus
-168.text;Costs {faeria|1} less for each special land you have (minimum cost: {faeria|6}).
+168.text;This costs {faeria|1} less for each special land you have (minimum cost: {faeria|6}).
 169.name;Tethra, Soul of the Wild
 169.text;{flying}, {charge|2}\n{gift} - Give a creature +5/+5.
 170.name;Wood Elemental
 170.text;{taunt}\n{gift} - Create a forest.
 171.name;Flowersilk Faerie
-171.text;{flying}\nThe first time you draw an event, gain +1/+4, {taunt} and {charge|2}.
+171.text;{flying}\nThe first time you draw an event, this gains +1/+4, {taunt} and {charge|2}.
 172.name;Overgrown Tower
-172.text;{activate} - Give a creature +1/+1. Deal 1 damage to this structure.
+172.text;{activate} - Give a creature +1/+1. Deal 1 damage to this.
 173.name;Everbloom Wisp
-173.text;Whenever you create a forest, gain +1/+1.
+173.text;Whenever you create a forest, this gains +1/+1.
 174.name;Spirit of Rebirth
-174.text;Whenever another friendly creature dies, a random creature in your hand gains +1/+1.
+174.text;Whenever another friendly creature dies, give a random creature in your hand +1/+1.
 175.name;Elderwood Embrace
 175.text;Give a creature +2/+4.
 176.name;Ruunin's Messenger
-176.text;{jump}\nWhenever this creature attacks a god, add a random green creature to your hand. It costs {faeria|2} less.
+176.text;{jump}\nWhenever this attacks a god, add a random green creature to your hand. It costs {faeria|2} less.
 177.name;Verduran Force
 177.text;
 178.name;Grove Guardian
@@ -283,57 +283,57 @@
 180.name;Weeping Idol
 180.text;Whenever you are dealt damage, gain {faeria|1}.
 181.name;Earthcraft
-181.text;Draw a card and {options|Create a forest|Create a lake|Create a mountain|Create a desert}\n- Create a forest.\n- Create a lake.\n- Create a mountain.\n- Create a desert.
+181.text;{options|Transform one of your lands into a forest|Transform one of your lands into a lake|Transform one of your lands into a mountain|Transform one of your lands into a desert} color.\nTransform a land you control into the chosen color then draw a card.
 182.name;Wild Avenger
-182.text;{taunt}, {dash|2}\nGain 1 Life for each time you've been dealt damage this game.
+182.text;{taunt}, {dash|2}\nThis gains +0/+1 for each time you've been dealt damage this game.
 183.name;Ancient Boar
 183.text;{dash|2}\nIf you control a creature with 5 Life or more, costs {faeria|2} less.
 184.name;Ruunin's Guidance
 184.text;{options|Give a creature +2/+2.|Gain 5 Life.}\n- Give a creature +2/+2.\n- Gain 5 Life.
 185.name;Voice of Hunger
-185.text;{gift} - Destroy all adjacent friendly creatures. Gain Attack AND Life equal to their combined Life.
+185.text;{gift} - Destroy all adjacent friendly creatures. This gains Attack AND Life equal to their combined Life.
 186.name;Seedling
-186.text;{production} - If this creature has less than 5 Life, gain +1/+1.
+186.text;{production} - If this has less than 5 Life, it gains +1/+1.
 187.name;Eredon, Voice of All
-187.text;{last_words} - All creatures in your deck and hand gain +1/+1.
+187.text;{last_words} - Give all creatures in your deck and hand +1/+1.
 188.name;Feed the Forest
 188.text;Destroy a friendly creature to gain faeria equal to its Life and draw a card.
 189.name;Ruunin's Presence
-189.text;Add a random green creature to your hand. It gains +6/+6.
+189.text;Add a random green creature to your hand. Give it +6/+6.
 190.name;Ruunin, the Relentless
 190.text;{dash|2}\n{last_words} - Return Ruunin to your hand. She gains +2/+2.
 191.name;Underground Brigand
 191.text;{combat} - Gain {faeria|2}.
 192.name;Kobold Warlord
-192.text;{combat} - A random creature you control gains +3/+0.
+192.text;{combat} - Give a random friendly creature +3/+0.
 193.name;Kobold Warbeast
 193.text;
 194.name;Gift of Steel
-194.text;Give +3/+0 to a creature. That creature also gains 3 Life if it has a <b>Combat</b> ability.
+194.text;Give a creature +3/+0. If it is a <b>Combat</b> creature, give it +3/+3 instead.
 195.name;Underground Boss
 195.text;{combat} - Gain {faeria|2}.
 196.name;Architect
-196.text;{gift} - Give a structure +2 Life.
+196.text;{gift} - Give a structure +0/+2.
 197.name;Exalted Ogre
-197.text;{gift} - If your opponent has 10 Life or less, gain +2/+2.
+197.text;{gift} - If your opponent has 10 Life or less, this gains +2/+2.
 198.name;Kobold Barracks
 198.text;Adjacent friendly creatures have +2/+0.
 199.name;Hate Seed
-199.text;Costs {faeria|1} less for each creature you have summoned with higher Attack than Life.
+199.text;Costs {faeria|1} less for each creature you have summoned with higher Attack than Life this game.
 200.name;Ogre Battler
 200.text;{taunt}
 201.name;Bold Bargainer
 201.text;{gift} - A random card in your hand costs {faeria|7} less.
 202.name;Seifer, Blood Tyrant
-202.text;When Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's original Attack and Life.
+202.text;When Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's base Attack and Life.
 203.name;Barbarian Ogre
 203.text;
 204.name;Krog, the Ogre King
 204.text;{combat} - A random card in your hand costs {faeria|7} less.
 205.name;Axe Grinder
-205.text;{gift} - Gain +1/+1 if summoned adjacent to an opponent's well.
+205.text;{gift} - Gains +1/+1 if summoned adjacent to an opponent's well.
 206.name;Boulder Thrower
-206.text;{ranged_attack}\nWhen this creature attacks, it also damages each enemy adjacent to the target.
+206.text;{ranged_attack}\nWhen this attacks, it also damages each enemy adjacent to the target.
 211.name;Shedim Brute
 211.text;{combat} - Deal 2 damage to your opponent.
 212.name;Blood Singer
@@ -343,9 +343,9 @@
 214.name;Flame Spitter
 214.text;{gift} - Deal 1 damage to an enemy.
 215.name;Lord of Terror
-215.text;Whenever your opponent is dealt damage, gain that much Attack.
+215.text;Whenever a god is dealt damage, this gains that much Attack.
 216.name;Shedim Pest
-216.text;{gift} - Gain +2/+0 if you have another creature with higher Attack than Life.
+216.text;{gift} - This gains +2/+2 if you have another creature with higher Attack than Life.
 217.name;Blood Obelisk
 217.text;Whenever an enemy creature dies in combat, deal 1 damage to your opponent and gain {faeria|1}.
 218.name;Grim Guard
@@ -359,57 +359,57 @@
 226.name;Flame Thrower
 226.text;{ranged_attack}\nWhenever this creature attacks a god, deal 1 damage to all enemy creatures.
 231.name;Volcanic Colossus
-231.text;{ranged_attack}\nCosts {faeria|1} less for each enemy creature that has died in combat (minimum cost: {faeria|7}).
+231.text;{ranged_attack}\nCosts {faeria|1} less for each turn you dealt damage to your opponent this game. (minimum cost: {faeria|5}).
 232.name;Garudan, Heart of the Mountain
 232.text;{flying}, {charge|2}\n{gift} - Deal 3 damage to all enemy creatures.
 233.name;Fire Elemental
 233.text;{gift} - Create a mountain.
 234.name;Flamesilk Faerie
-234.text;{flying}\nThe first time you draw an event, gain +3/+1 and {ranged_attack}.
+234.text;{flying}\nThe first time you draw an event, this gains +3/+1 and {ranged_attack}.
 235.name;Derelict Tower
-235.text;{activate} - Deal 1 damage. Deal 1 damage to this structure.
+235.text;{activate} - Deal 1 damage. Deal 1 damage to this.
 236.name;Bloodfire Wisp
-236.text;Whenever an enemy creature dies, gain +2/+1.
+236.text;Whenever an enemy creature dies, this gains +2/+1.
 237.name;Groundshaker
 237.text;{gift} - Deal 1 damage to ALL enemies.
 238.name;Firebringer
-238.text;Gain +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
+238.text;This gains +1/+1 whenever you summon a creature with higher Attack than Life (while in your deck or hand).
 239.name;Blazing Salamander
-239.text;{gift} - Deal 2 damage to all adjacent enemy creatures.
+239.text;{gift} - Deal 2 damage to all adjacent enemies.
 240.name;Bloodstone Sprite
-240.text;Whenever you harvest from an opponent's well, deal 1 damage to your opponent.
+240.text;Whenever a friendly creature harvests faeria from an opponent's well, deal 1 damage to your opponent.
 241.name;Seifer's Wrath
 241.text;Deal 2 damage to a creature. If it dies, deal 2 damage to its controller.
 242.name;Devouring Plant
-242.text;{taunt}\n{production} - Deal 2 damage to adjacent enemy creatures.
+242.text;{taunt}\n{production} - Deal 2 damage to all adjacent enemy creatures.
 243.name;Firebomb
 243.text;Deal 4 damage to a creature or structure.
 244.name;Firestorm
 244.text;Deal 3 damage to all enemy creatures.
 245.name;Battle Rager
-245.text;Whenever this creature is dealt damage, deal that much damage back to your opponent.
+245.text;Whenever this is dealt damage, deal that much damage back to your opponent.
 246.name;Crumbling Golem
-246.text;Whenever your opponent summons a creature, deal 1 damage to this Golem.
+246.text;Whenever your opponent summons a creature, deal 1 damage to this.
 247.name;Ogre Dance
 247.text;A random card in your hand costs {faeria|7} less.
 248.name;Meteor
-248.text;Choose a space. Destroy all creatures, structures and lands on, or adjacent to, that space.
+248.text;Choose a space. Destroy all creatures, structures, and lands on or adjacent to that space.
 249.name;Red Devil
 249.text;{gift} - Gain {faeria|5}.
 250.name;Ignus, the First Flame
 250.text;Whenever you select +{faeria|1} from the power wheel, deal 4 damage randomly split among enemies.
 251.name;Oradrim Monk
-251.text;{haste}\nWhenever this creature attacks a god, draw a card.
+251.text;{haste}\nWhenever this attacks a god, draw a card.
 252.name;Khalim's Prayer
 252.text;Gain {faeria|2} and draw a card. Play only if you attacked a god this turn. You may pray only once each turn.
 253.name;Khalim's Follower
-253.text;{haste}\nGain +2/+0 against gods.
+253.text;{haste}\nHas +2/+0 against gods.
 254.name;Oradrim Templar
-254.text;{dash|1}\nGain +3/+0 against gods.
+254.text;{dash|1}\nHas +3/+0 against gods.
 255.name;Oradrim Sagittarius
-255.text;{ranged_attack}\nWhenever you attack a god, gain {faeria|1}.
+255.text;{ranged_attack}\nWhenever a friendly creature attacks a god, gain {faeria|1}.
 256.name;Oradrim Fanatic
-256.text;{jump}\n{gift} - Move a creature you control.
+256.text;{jump}\n{gift} - Move a friendly creature.
 257.name;Desert Twister
 257.text;Teleport a creature to a desert you control.
 258.name;Wind Gate
@@ -425,7 +425,7 @@
 263.name;Last Nightmare
 263.text;Destroy a creature.
 264.name;Soul Pact
-264.text;Gain {faeria|2} and deal 2 damage to yourself.
+264.text;Deal 2 damage to yourself and gain {faeria|2}.
 265.name;Altar of Souls
 265.text;{activate} - Deal 2 damage to yourself and add a 6/1 <b>Slaughtering Shadow</b> to your hand. It costs {faeria|2}.
 266.name;Shaytan Demon
@@ -437,7 +437,7 @@
 273.name;Wind Soldier
 273.text;{haste}, {charge|3}\nWind Soldier dies at end of turn.
 274.name;Drakkar Skycaptain
-274.text;{flying}\nWhenever you draw a flying creature, it gains +1/+1.
+274.text;{flying}\nWhenever you draw a {flying} creature, give it +1/+1.
 275.name;Windborne Emissary
 275.text;{flying}\nHas +2/+0 while you control another flying creature.
 276.name;Shaytan Scavenger
@@ -447,23 +447,23 @@
 278.name;Windborne Champion
 278.text;{flying}, {charge|5}\n{gift} - Move a creature.
 287.name;Windstorm Colossus
-287.text;{dash|3}\nCosts {faeria|1} less for each event you've played (minimum cost: {faeria|5}).
+287.text;{dash|3}\nCosts {faeria|1} less for each event you've played this game (minimum cost: {faeria|5}).
 288.name;Azarai, Wrath of the Desert
 288.text;{flying}, {charge|2}\n{gift} - Azarai drains 2 Attack from each enemy creature.
 289.name;Air Elemental
 289.text;{flying}\n{gift} - Create a desert.
 290.name;Sunsilk Faerie
-290.text;{flying}\nThe first time you draw an event, gain +3/+1 and {charge|3}.
+290.text;{flying}\nThe first time you draw an event, this gains +3/+1 and {charge|3}.
 291.name;Celestial Tower
-291.text;{activate} - Give a creature {charge|3} this turn. Deal 1 damage to this structure.
+291.text;{activate} - Give a creature {charge|3} this turn. Deal 1 damage to this.
 292.name;Wind Wisp
-292.text;{flying}, {charge|3}\nWhenever you attack a god, gain +3/+0.
+292.text;{flying}, {charge|3}\nWhenever a friendly creature attacks a god, this gains +3/+0.
 293.name;Flash Wind
-293.text;{options|Move a friendly creature.| You may pay {faeria|3} more to move an enemy creature instead.}\n- Move a friendly creature. \n- You may pay {faeria|3} more to move an enemy creature instead.
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;Golden Aviary
 294.text;All your flying creatures have +1/+0.
 295.name;Zealous Crusader
-295.text;{charge|2}\nGain +1/+1 each time you attack a god (while in your deck or hand).
+295.text;{charge|2}\nGains +1/+1 each time a friendly creature attacks a god (while in your deck or hand).
 296.name;Keldran Soldier
 296.text;
 297.name;Lord of the Wastes
@@ -475,9 +475,9 @@
 300.name;Death Walker
 300.text;{deathtouch}\nYou must sacrifice another creature to summon this creature.
 301.name;Oath to Oblivion
-301.text;Destroy a friendly creature. Summon a 6/3 <b>Oblivion Rider</b> with {charge|3} in its place.
+301.text;Sacrifice a creature. Summon a 6/3 <b>Oblivion Rider</b> with {charge|3} in its place.
 302.name;Shaytan Monstrosity
-302.text;{charge|2}\nWhenever a friendly creature dies, this creature drains its attack.
+302.text;{charge|2}\nWhenever a friendly creature dies, this drains its attack.
 303.name;Iona, Beloved by All
 303.text;{flying}\nCan't be attacked.
 304.name;Demon Wing
@@ -489,11 +489,11 @@
 307.name;Choking Sand
 307.text;Destroy a creature with 3 Attack or less.
 308.name;Doomgate, Door to Oblivion
-308.text;When this structure has 13 Life or more, destroy it and summon <b>Ostregoth</b>.\n{activate} - Destroy a friendly creature, draw a card and this gains +2 Life.
+308.text;When this has 13 Life or more, destroy it and summon <b>Ostregoth</b> in its place.\n{activate} - Sacrifice a creature, draw a card and this gains +0/+2.
 309.name;Windstorm Archer
-309.text;{ranged_attack}\nWhenever you play an event, gain +1/+0 this turn.
+309.text;{ranged_attack}\nWhenever you play an event, this gains +1/+0 this turn.
 310.name;Windstorm Charger
-310.text;{charge|2}\nWhenever you play an event, gain +2/+0 this turn (limit +6/+0).
+310.text;{charge|2}\nWhenever you play an event, this gains +2/+0 this turn (limit +6/+0).
 311.name;Apex Predator
 311.text;{jump}\n{gift} - Gain Attack and Life equal to any creature's.
 312.name;Icerock Behemoth
@@ -503,7 +503,7 @@
 314.name;Crackthorn Beast
 314.text;{dash|2}\n{gift} - Deal 4 damage randomly split among enemies. Give +4/+4 randomly split among allies.
 315.name;Soul Eater
-315.text;{flying}, {charge|3}\nGain +1/+1 for each friendly creature that has died this game.
+315.text;{flying}, {charge|3}\nGains +1/+1 for each friendly creature that has died this game (while in your deck or hand).
 316.name;Scourgeflame Specter
 316.text;{flying}, {haste}, {charge|2}\n{combat} - Deal 3 damage to your opponent.
 329.name;Cutthroat Bandit
@@ -511,17 +511,17 @@
 335.name;Rebel Slinger
 335.text;{gift} - Deal 2 damage to your opponent.
 350.name;Three Wishes
-350.text;Gain 3 Life and copy the top 3 cards of your opponent's deck. They cost {faeria|1} less. You cannot wish for more wishes.
+350.text;Gain 3 Life. Copy the top 3 cards of your opponent's deck. They cost {faeria|1} less. You cannot wish for more wishes.
 351.name;Rebel Glider
 351.text;{flying}, {dash|2}\nCan't harvest faeria.
 352.name;Radiance, Imperial Airship
-352.text;{flying}, {dash|3}\nRadiance's faeria cost equals your Life total.\n{gift} - Gain 1 Life for each card in your hand.
+352.text;{flying}, {dash|3}\nRadiance's faeria cost equals your Life.\n{gift} - Gain 1 Life for each card in your hand.
 353.name;Forbidden Library
-353.text;{production} - Draw a card, gain {faeria|2} and deal 2 damage to yourself.
+353.text;{production} - Draw a card, gain {faeria|2}, and deal 2 damage to yourself.
 354.name;Dream Reaver
 354.text;{dash|3}\n{gift} - Set a god's Life to 10.
 355.name;Feral Kodama
-355.text;{jump}\nCan't harvest faeria.\nWhenever this creature attacks a god, gain 5 Life.
+355.text;{jump}\nCan't harvest faeria.\nWhenever this attacks a god, you gain 5 Life.
 356.name;God Hunter
 356.text;{jump}\nCan only attack gods.\nCan't harvest faeria.
 357.name;Blood Song
@@ -531,21 +531,21 @@
 359.name;Doomsday
 359.text;Set your faeria to {faeria|0}. Halve your Life (rounded down). Destroy ALL creatures and structures. End the turn.
 360.name;Annoying Gnat
-360.text;{flying}\nCan't harvest faeria.\n{last_words} - Deal 2 damage to yourself. Summon this creature in a random space.
+360.text;{flying}\nCan't harvest faeria.\n{last_words} - Deal 2 damage to yourself. Summon this in a random space.
 361.name;Long-horned Yak
 361.text;{last_words} - The next creature you draw gains Attack equal to this creature's.
 362.name;Time of Legends
-362.text;Draw the top legend in your deck. If there are no legends to answer the call, {options|Shuffle a random green legend into your deck|Shuffle a random blue legend into your deck|Shuffle a random red legend into your deck|Shuffle a random yellow legend into your deck} color. Shuffle a random legend of that color into your deck.
+362.text;Draw the top legend in your deck. If there are no legends to answer the call, add 1 random legend to your hand. It becomes {wild}.
 363.name;Triton Trainer
-363.text;{jump}\n{gift} - Give the next {jump} creature you summon +2/+0.
+363.text;{jump}\n{gift} - Give the next {jump} creature you summon +1/+1.
 364.name;Voice of Truth
-364.text;{gift} - Restore a creature to its original Attack and Life.
+364.text;{gift} - Return a creature to its original Attack and Life.
 365.name;Herald of War
 365.text;{combat} - Give the next {combat} creature you summon +1/+1.
 366.name;Mistral Guide
-366.text;{flying}\nFriendly creatures summoned adjacent to this creature gain {dash|2} and {flying}.
+366.text;{flying}\nGive friendly creatures summoned adjacent to this creature {dash|2} and {flying}.
 367.name;Divine Guardian
-367.text;{divine}\nWhen you would take lethal damage, prevent it and destroy this creature instead.
+367.text;{divine}\nWhen you would take lethal damage, prevent it and destroy this instead.
 368.name;The Emperor's Command
 368.text;{options|Give a creature -2/-1.|Deal 3 damage to a structure.|Gain 4 life.}\n- Give a creature -2/-1\n- Deal 3 damage to a structure\n- Gain 4 life.
 369.name;Illusion of Grandeur
@@ -553,13 +553,13 @@
 370.name;Deepwood Stalker
 370.text;{gift} - Fight an enemy creature.
 371.name;Krog's Dinner
-371.text;Your Krog costs {faeria|7} less. When you summon Krog, destroy this.\n{gift} - If Krog has died, or is in your deck, draw him.
+371.text;Your Krog costs {faeria|7} less. When you summon Krog, destroy this.\n{gift} - If Krog has died or is in your deck, draw him.
 372.name;Iona's Smile
 372.text;Draw the top 2 {flying} creatures in your deck.
 403.name;Dark Crystal
 403.text;Drain 4 Life from your opponent, deal 3 damage to all enemy creatures, and draw 2 cards.
 404.name;Yakhorn Warhorn
-404.text;Summon three 2/4 <b>Angry Prairie Yaks</b> with haste.
+404.text;Summon three 2/4 <b>Angry Prairie Yaks</b> with {haste}.
 405.name;Astral Weapon
 405.text;{flying}\n{gift} - Destroy all adjacent creatures, structures and lands.
 406.name;Ocarina
@@ -571,13 +571,13 @@
 409.name;Iona's Mirror
 409.text;Add two copies of the last <b>Treasure</b> your opponent played to your hand.
 410.name;Bloodstone Golem
-410.text;{production} - Create {faeria|1} in each well.\nWhenever faeria is harvested, deal 1 damage to your opponent.
+410.text;{production} - Refill each faeria well.\nWhenever faeria is harvested, deal 1 damage to your opponent.
 411.name;Chalice from the Palace
 411.text;Give +6/+6 randomly split among friendly creatures.
 412.name;Eredon's Drum
 412.text;Give all your creatures +2/+2, wherever they are.
 413.name;Cloud Machine
-413.text;Friendly creatures have {flying}, {jump} and +1/+0.
+413.text;Friendly creatures have +1/+0, {flying}, and {jump}.
 414.name;Ring of Dominion
 414.text;{options|Transform a land to a forest. Gain control of it.|Transform a land to a lake. Gain control of it.|Transform a land to mountain. Gain control of it.|Transform a land to a desert. Gain control of it.}\nTransform a land into the color of your choice. Gain control of it.
 415.name;The World's Tear
@@ -585,15 +585,15 @@
 416.name;Clockwork Yak
 416.text;{dash|2}
 417.name;Equinox Automaton
-417.text;{gift} - You gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
+417.text;{gift} - Gain 6 Life.\n{last_words} - Deal 6 damage to your opponent.
 418.name;Magda's Rose
 418.text;Gain control of an enemy creature.
 419.name;Aurora's Teapot
-419.text;Change the base Attack and Life of all friendly creatures to 6/6.
+419.text;Change all friendly creatures to 6/6.
 420.name;Stone of Fair Fortune
 420.text;Shuffle 3 random <b>Treasures</b> into your deck.
 421.name;Secret of Strength
-421.text;Give a creature {flying}, {charge|3} and +4/+4.
+421.text;Give a creature +4/+4, {flying}, and {charge|3}.
 422.name;Void Guardian
 422.text;{gift} - Destroy your deck.
 423.name;Crystal Dragon
@@ -603,9 +603,9 @@
 425.name;Hammer of Destruction
 425.text;Deal 5 damage. Shuffle the <b>Hammer</b> into your deck.
 426.name;Earthfire Shaker
-426.text;{gift} - Deal 2 damage to all enemies. For each enemy destroyed, gain +2/+2.
+426.text;{gift} - Deal 2 damage to all enemies. For each enemy destroyed, this gains +2/+2.
 427.name;Death's Desire
-427.text;Destroy a creature. Its controller gains faeria equal to its cost and draws 2 cards.
+427.text;Destroy a creature. Its controller gains {faeria|1} equal to its cost and draws 2 cards.
 428.name;Bottled Lightning
 428.text;Deal 6 damage to a creature and 3 damage to all adjacent enemies.
 429.name;Dancing Blade
@@ -613,74 +613,114 @@
 430.name;Doom Scythe
 430.text;Destroy a creature. Summon a 6/1 <b>Slaughtering Shadow</b> in its place.
 431.name;Jeweled Magpie
-431.text;{flying}, {haste}\nWhenever this creature attacks a god, add a random <b>Treasure</b> to your hand.
+431.text;{flying}, {haste}\nWhenever this attacks a god, add a random <b>Treasure</b> to your hand.
 432.name;Wheel of Chaos
 432.text;{options|Destroy 2 unoccupied lands.|Destroy a creature with 5 Attack or less.|Gain 7 Life.}\n- Destroy 2 unoccupied lands.\n- Destroy a creature with 5 Attack or less.\n- Gain 7 Life.
 433.name;Ulani's Medallion
 433.text;Choose a friendly creature. All your creatures become a copy of it.
 500.name;Monkey Genius
-500.text;{taunt}\n{gift} - On your opponent's next turn, gain +2/+2 whenever an enemy creature harvests faeria.
+500.text;{taunt}\n{gift} - On your opponent's next turn, this gains +2/+2 whenever an enemy creature harvests faeria.
 501.name;Intrepid Explorer
 501.text;{gift} - Add an <b>Explore</b> card to each player's hand.
 502.name;Crystal Flower
-502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this structure.
+502.text;{gift} - {swallow} a creature.\nAt the end of your turns, deal 1 damage to this.
 503.name;Yakkapult
 503.text;{ranged_attack}\nWhenever this attacks, summon a 2/2 <b>Angry Yak</b> in a random space adjacent to the target.
 504.name;Goki, Friendly Miner
-504.text;{gift} - Add a random treasure to your ally's hand.
-505.name;Azure Skywhale
+504.text;{gift} - Add a random <b>Treasure</b> to your ally's hand.
+505.name;Mobie, Azure Skywhale
 505.text;{flying}, {charge|3}\nCan't harvest faeria.\n{gift} - {swallow} a creature.
 506.name;Balloon Fish
 506.text;{flying}, {dash|2}\n{gift} - {swallow} a friendly creature. If this can't, this dies.
 507.name;Emperor Kaios
 507.text;{production} - Give all enemy creatures -1/-0. Then destroy all enemy creatures with 0 Attack.
 508.name;Seed of Paradise
-508.text;{flying}, {dash|1}\n{gift} - {options|When this creature harvests over the ocean, it dies and creates a lake.|When this creature harvests over the ocean, it dies and creates a forest.|When this creature harvests over the ocean, it dies and creates a mountain.|When this creature harvests over the ocean, it dies and creates a desert.}\nWhen this creature harvests over the ocean, it dies and creates a land of the chosen color.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|When this creature harvests over the ocean, it dies and creates a forest.|When this creature harvests over the ocean, it dies and creates a lake.|When this creature harvests over the ocean, it dies and creates a mountain.|When this creature harvests over the ocean, it dies and creates a desert.}\nWhen this creature harvests over the ocean, it dies and creates a land of the chosen color.\n
 509.name;The Tree of Everlife
 509.text;{production} - Gain 7 Life.\nGive a random creature in your hand +7/+7.
 510.name;Gift of the Rakoa
-510.text;Give a creature +1/+1 for each creature you control.
+510.text;Give a creature +1/+1 for each friendly creature.
 511.name;Curious Biomancer
 511.text;{gift} - For each enemy creature, draw a non-blue creature from your deck.
 512.name;Fugoro, Merchant of Wonders
 512.text;{jump}\n{gift} - {options|Draw an <b>Urn of Gabria</b>|Draw a <b>Crystal Dragon</b>|Draw <b>Ulani's Medallion</b>}\n- Draw an <b>Urn of Gabria</b>\n- Draw a <b>Crystal Dragon</b>\n- Draw <b>Ulani's Medallion</b>
 513.name;Leaping Fugu
-513.text;{jump}\n{gift} - If you control 8 or more special lands, gain +3/+3.
+513.text;{jump}\n{gift} - If you control 8 or more special lands, this gains +3/+3.
 514.name;Grappling Hook
 514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a space adjacent to the target.
 515.name;Rakoan Reveller
-515.text;{last_words} - Gain faeria equal to this creature's attack.
+515.text;{last_words} - Gain {faeria|1} equal to this creature's attack.
 516.name;CAP-10, Sky Pirate
 516.text;{combat} - Draw a <b>Gift of Steel</b> from your deck. If there are none, shuffle one in.
 517.name;Flash Salmon
-517.text;{flying}, {haste}, {charge|2}\nCan't harvest.\nAt the end of your turn, destroy this creature and draw a card.
+517.text;{divine}, {flying}, {haste}, {charge|2}\nCan't harvest faeria.\nAt the end of your turn, destroy this creature and draw a card.
 518.name;Manta Rider
 518.text;{flying}, {charge|2}\n{last_words} - Summon a 2/2 <b>Manta</b> with {flying} and {charge|2} where this died.
 519.name;Istanu, Eternal Light
-519.text;{flying}, {charge|3}\n{last_words} - A random friendly creature becomes the new <b>Istanu</b>. It can't attack this turn.
+519.text;{flying}, {charge|3}\n{last_words} - A random friendly creature becomes the new <b>Istanu</b>.
 520.name;Shifting Octopus
 520.text;{options|Gain +2/+0.|Gain +0/+2.|Gain {jump}.|Gain {taunt}.}, twice:\n- Gain +2/+0\n- Gain +0/+2\n- Gain {jump}\n- Gain {taunt}
 521.name;Frog-Tosser
 521.text;{gift} - Fight an enemy creature. Summon a 2/2 <b>Frog</b> with {jump} in a random space adjacent to the target.
 522.name;Path to Paradise
-522.text;{options|Create a forest.|Create a lake.|Create a mountain.|Create a desert.} - Create a special land.\nCreatures summoned on it this turn gain +2/+0.
+522.text;{options|Create a forest.|Create a lake.|Create a mountain.|Create a desert.} - Create a special land.\nGive the first creature summoned on it this turn +2/+0.
 523.name;Emerald Salamander
 523.text;{gift} - Deal 2 damage to adjacent enemy creatures. Give adjacent friendly creatures +2/+2.
 524.name;Skyward Swordfish
 524.text;{flying}, {taunt}, {dash|1}
-525.name;Sky Yak
-525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Sky Yak</b> for each friendly one that died this game.
+525.name;Swarming Carassius
+525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Swarming Carassius</b> for each friendly one that died this game.
 526.name;Dream Keeper
 526.text;{taunt}\n{gift} - Reduce the cost of all cards in your hand by {faeria|1}, then shuffle them into your deck and draw that many cards.
 527.name;Gemshell Tortoise
-527.text;{gift} - Draw a card, then copy it. They cost {faeria|3} less.
+527.text;{gift} - Draw a card and copy it. They cost {faeria|2} less.
 528.name;Flight of the Mantas
 528.text;When you draw this card, copy it.\nSummon a 2/2 <b>Manta</b> with {flying} and {charge|2}.
 529.name;Oversky Towship
 529.text;{flying}, {dash|1}\nWhenever this would leave land, it brings its land with it.
 530.name;Rakoan Chieftain
-530.text;{dash|1}\nGive adjacent friendly creatures +2/+0.
+530.text;{dash|1}\nAdjacent friendly creatures have +1/+0.
 531.name;Sky Anemone
 531.text;{flying}, {taunt}\nCan be summoned anywhere.
 532.name;Ulani, Oversky Shaman
 532.text;{gift} - Draw a green card, a blue card, a red card and a yellow card from your deck.
+601.name;Laya, Lady of Sorrows
+601.text;{deathtouch}\n{last_words} - Summon a <b>Shimmering Statue</b> in Laya's place.
+602.name;Imperial Drakerider
+602.text;{flying}, {charge|2}\n{corrupt} - Gain +2/+2.
+603.name;Deranged Monkey
+603.text;{gift} - Empty all faeria wells. This gains +1/+1 for each well emptied.
+604.name;Imperial Trooper
+604.text;{corrupt} - Gain control of this creature's land.
+605.name;Lost Explorer
+605.text;{corrupt} - Draw a card and gain {faeria|1}.
+606.name;Blightblade Knight
+606.text;Damage dealt to this creature is also dealt to you.
+607.name;Shadowsilk Faerie
+607.text;{flying}, {charge|2}, {protection}\n{corrupt} - Draw 2 events from your deck.
+608.name;Kaios, Demented Overmind
+608.text;{divine}\nKaios' Attack is always equal to his Life.\n{corrupt} - Drain 1 life from EVERYTHING.
+609.name;Rain of Fish
+609.text;Summon 6 <b>Ruby Fish</b> in random spaces. Each fish that hits a land deals 1 damage to adjacent enemies.
+610.name;Flying Piranha
+610.text;{flying}\nWhen an adjacent creature dies, this gains {deathtouch} and {jump}.
+611.name;Monstrous Hydra
+611.text;{corrupt} - Summon a 2/1 <b>Hydra Head</b> with {haste} in each adjacent land. They die at end of turn.
+612.name;Haunted Willow
+612.text;{taunt}
+613.name;Rotting Boar
+613.text;{dash|1}\n{corrupt} - Draw the top creature with 5 or more life in your deck. Give it +2/+2.
+614.name;Nekomata
+614.text;{taunt}\n{corrupt} - Double this creature's Attack.
+615.name;Baldurion, Evil Archsmith
+615.text;{protection}\n{corrupt} - Add a <b>Hammer of Destruction</b> to your hand.
+616.name;Spite Sprite
+616.text;{last_words} - Deal 2 damage to yourself.
+617.name;Havoc
+617.text;Deal 9 damage to an enemy creature or structure.
+618.name;Demonic Salmon
+618.text;{haste}, {flying}, {charge|2}\nCan't harvest faeria.\nWhenever this attacks a god, it gains +1/+1.
+619.name;Spirit Theft
+619.text;Drain 1 life from an enemy creature. If you kill it, add a copy of it to your hand. It becomes {wild}.
+620.name;Solem
+620.text;{flying}, {divine}\n{corrupt} - Destroy a faeria well.

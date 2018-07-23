@@ -29,33 +29,33 @@
 24.name;Mergulho do Falcão
 24.text;Causa 1 de dano a uma criatura.
 29.name;Mestre Espadachim
-29.text;Tem +2/+0 durante seu turno.
+29.text;Tem +2/+0 durate o seu turno(enquanto está na sua mão ou em jogo).
 30.name;Iaque da Pradaria
 30.text;
 32.name;Ataque dos Iaques
 32.text;Invoca três <b>Iaques Furiosos</b> 2/2 com {haste}.
 33.name;Punição
-33.text;Causa 2 de dano a uma criatura. Se a criatura for neutra, causa 5.
+33.text;Causa 2 de dano a uma criatura. Se for uma criatura neutra, causa 5.
 34.name;Favorito da Rainha
 34.text;{protection}
 35.name;Guarda da Rainha
 35.text;{taunt}\n{combat} - Ganha {faeria|1}.
 36.name;Magda, Rainha de Meroval
-36.text;As suas lendárias custam {faeria|2} a menos.\n{production} - Acrescenta uma carta lendária aleatória em sua mão.
+36.text;Suas cartas Lendárias custam {faeria|1} a menos.\n{production} - Adicione uma carta Lendária aleatória à sua mão. Ela se torna {wild}.
 37.name;Bobo da Corte
-37.text;{taunt}\n{gift} - Uma criatura aleatória em sua mão ganha +2/+2.
+37.text;{taunt}\n{gift} - Dá a uma criatura aleatória em sua mão +2/+2.
 38.name;Guarda do Rei
 38.text;{taunt}\n{combat} - Compra uma carta.
 39.name;Herói Improvável
-39.text;Na primeira vez que esta criatura lutar e sobreviver, ela ganha +3/+3 e {charge|3}.
+39.text;Na primeira vez em que esta criatura lutar e sobreviver, ela ganha +3/+3 e {charge|2}.
 40.name;Magnus, Rei de Meroval
 40.text;{charge|3}\n{combat} - Compra uma carta. Ela custa {faeria|0}.
 41.name;Portador da Praga
 41.text;{last_words} - Causa 2 de dano em TODAS as criaturas.
 42.name;Máquina de Cerco
-42.text;{ranged_attack}\nApós esta criatura atacar, ela ganha +1/+0.
+42.text;{ranged_attack}\nDespois de atacar, esta criatura ganha +1/+0.
 43.name;Sharra, Matadora de Dragões
-43.text;Ignora qualquer dano igual ou maior que 4.
+43.text;Sharra ignora todo o dano maior ou igual a 4.
 44.name;Fome
 44.text;Causa 1 de dano em TODAS as criaturas.
 45.name;Juiz Real
@@ -63,7 +63,7 @@
 46.name;Cartógrafo
 46.text;{last_words} - Acrescenta uma carta <b>Explorar</b> à sua mão.
 47.name;Estátua Cintilante
-47.text;{taunt}\n{production} - Você recupera 1 de vida.
+47.text;{taunt}\n{production} - Ganhe 1 de Vida.
 48.name;Ancião da Vila
 48.text;{last_words} - Compra uma carta.
 49.name;Contador de Histórias
@@ -75,9 +75,9 @@
 52.name;Fiel ao Rei
 52.text;{protection}
 53.name;Dia dos Dragões
-53.text;Acrescenta os quatro <b>Dragões</b> à sua mão. Eles custam {faeria|4} a menos.
+53.text;Adiciona os quatro <b>Dragões</b> elementais a sua mão. Eles custam menos {faeria|3} e se tornam {wild}.
 54.name;Aventureiro Ousado
-54.text;{gift} - Esta criatura ganha +2/+2 para cada criatura inimiga adjacente.
+54.text;{gift} - Ganha +2/+2 para cada criatura inimiga adjacete.
 55.name;Maceiro
 55.text;
 56.name;Barão Thulgar
@@ -93,35 +93,35 @@
 61.name;Criminoso Perseguido
 61.text;{last_words} - Seu oponente compra uma carta e ganha {faeria|2}.
 62.name;Caçador de Fortuna
-62.text;Sempre que esta criatura coletar faeria, uma criatura aliada aleatória ganha +1/+1.
+62.text;Sempre que essa criatura coletar faeria, dê +1/+1 a uma criatura aliada aleatória.
 63.name;Patrulheira Estrangeira
 63.text;{gift} - Acrescenta uma <b>Fogueira</b> à sua mão.
 64.name;Dreno Imperial
-64.text;Os poços de faeria ficam vazios.\n{production} - Causa 1 de dano a esta estrutura.
+64.text;Todos os poços de faeria são esvaziados.\n{production} - Esta estrutura sofre 1 de dano.\n{last_words} - Reabastece todos os poços de faeria.
 65.name;Explorador do Mangue
-65.text;{gift} - Esta criatura ganha +1/+1 se você controla 2 lagos e +0/+2 se você controla 2 florestas.
+65.text;Tem +1/+1 enquanto você controlar 2 lagos e +0/+2 enquanto você controlar 2 florestas.
 66.name;Explorador da Caldeira Vulcânica
-66.text;{gift} - Esta criatura ganha +1/+1 se você controla 2 lagos e +2/+0 se você controla 2 montanhas.
+66.text;Tem +1/+1 enquanto você controlar 2 lagos e +2/+0 enquanto você controlar 2 montanhas.
 67.name;Explorador do Oásis
-67.text;{gift} - Esta criatura ganha +1/+1 se você controla 2 lagos e +1/+1 se você controla 2 desertos.
+67.text;Tem +1/+1 enquanto você controlar 2 lagos e +1/+1 enquanto você controlar 2 desertos.
 68.name;Explorador da Taiga
-68.text;{gift} - Esta criatura ganha +2/+0 se você controla 2 montanhas e +0/+2 se você controla 2 florestas.
+68.text;Tem +2/+0 enquanto você controlar 2 montanhas e +0/+2 enquanto você controlar 2 florestas.
 69.name;Explorador da Savana
-69.text;{gift} - Esta criatura ganha +1/+1 se você controla 2 desertos e +0/+2 se você controla 2 florestas.
+69.text;Tem +1/+1 enquanto você controlar 2 desertos e +0/+2 enquanto você controlar 2 florestas.
 70.name;Explorador do Arenito
-70.text;{gift} - Esta criatura ganha +2/+0 se você controla 2 montanhas e +1/+1 se você controla 2 desertos.
+70.text;Tem +2/+0 enquanto você controlar 2 montanhas e +1/+1 enquanto você controlar 2 desertos.
 71.name;Peixe-Rubi
 71.text;{aquatic}
 72.name;Ladrão de Conhecimento
-72.text;{options| Esta criatura ganha +2/+2|Compra 2 cartas.}\nGanha +2/+2.\nCompra 2 cartas.
+72.text;{options|Ganha +2/+2|Compra 2 cartas.}\n- Ganha +2/+2.\n- Compra 2 cartas.
 73.name;Reservatório Gabriano
-73.text;{production} - Ganha {faeria|3}. Causa 1 de dano a esta estrutura.
+73.text;{production} - Ganhe {faeria|3}. Causa 1 de dano a esta estrutura.
 74.name;Tyranax
 74.text;
 75.name;Encantriz Gabriana
 75.text;{gift} - O ataque de outra criatura se torna igual à vida dela.
 76.name;Comandante Gabriano
-76.text;{aquatic}, {charge|3}\nNa primeira vez em que você comprar uma carta com custo base de {faeria|7} ou mais, esta criatura ganha {flying} e +1/+1.
+76.text;{aquatic}, {charge|3}\nNa primeira vez em que você comprar uma carta com custo base de {faeria|7} ou mais, ganha +1/+1 e {flying}.
 77.name;Guardiã Gabriana
 77.text;{gift} - Dá {protection} a uma criatura.
 82.name;Mochi da Nascente
@@ -143,13 +143,13 @@
 94.name;Criação de Aurora
 94.text;Acrescenta uma cópia de uma criatura à sua mão. Ela custará {faeria|5} a menos.
 95.name;Perseguidor Sombrio
-95.text;Custa {faeria|2} a menos se você jogou um evento nesse turno.
+95.text;Custa {faeria|2} menos se você jogou um evento nesse turno.
 96.name;Turbilhão de Feitiços
-96.text;Acrescenta duas cartas azuis aleatórias à sua mão.
+96.text;Adiciona 2 cartas azuis aleatórias à sua mão.
 97.name;Nobre Gabriana
 97.text;{gift} - Invoca um <b>Peixe-Rubi</b> 1/1 (você pode invocá-lo em um hexágono de oceano).
 102.name;Discípulo de Aurora
-102.text;Sempre que você jogar um evento, esta criatura ganha 1/+1.
+102.text;Sempre que você jogar um evento, ganha +1/+1.
 103.name;Casco Robusto
 103.text;{aquatic}
 104.name;Baeru, a Primeira Onda
@@ -159,29 +159,29 @@
 106.name;Conto da Velha Tartaruga
 106.text;Compra 3 cartas. Todas as criaturas compradas desta forma custam {faeria|2} a menos.
 107.name;Colosso da Arrebentação
-107.text;Custa {faeria|1} a menos para cada vez que você recolheu faeria de um poço inimigo (custo mínimo: {faeria|4}).
+107.text;Custa {faeria|1} a menos para cada vez em que você coletou faeria de um poço inimigo neste jogo (custo mínimo: {faeria|4}).
 108.name;Orosei, Sonho das Profundezas
 108.text;{flying}, {charge|2}\n{gift} - Transforma todas as suas outras criaturas em criaturas que custam {faeria|2} a mais.
 109.name;Elemental da Água
 109.text;{jump}\n{gift} - Cria um lago.
 110.name;Fada da Gema de Seda
-110.text;{flying}\nNa primeira vez em que você comprar um evento, esta criatura ganha +2/+2 e {charge|2}.
+110.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +2/+2, e {charge|2}.
 111.name;Torre Afundada
-111.text;{activate} - Mova um terreno. Causa 1 de dano a esta estrutura.
+111.text;{activate} - Move um terreno. Isto sofre 1 de dano.
 112.name;Centelha Lazúli
 112.text;Sempre que você coletar faeria de um poço do oponente, esta criatura ganha +1/+1.
 113.name;Santuário Tritão
-113.text;Sempre que você coletar faeria, esta estrutura ganha +1 de vida.\n{activate} - Destrói esta estrutura e ganha faeria equivalente à vida dela.
+113.text;Sempre que você coletar faeria, ganha +0/+1.\n{activate} - destrua esta estrutura e ganhe {faeria|1} igual à Vida dela.
 114.name;Sonho de Aurora
 114.text;Compra até ficar com 9 cartas na mão. Reduz o custo de todas as cartas na sua mão para {faeria|0}.
 115.name;Lanceiro da Tempestade de Neve
-115.text;{jump}\nSempre que você jogar um evento, esta criatura ganha +2/+0 neste turno (limite +6/+0).
+115.text;{jump}\nSempre que você jogar um evento, ganha +2/+0 neste turno (limite +6/+0).
 116.name;Luduan
 116.text;Sempre que esta criatura coletar faeria de um poço do oponente, acrescenta uma carta azul aleatória em sua mão. Ela custará {faeria|2} a menos.
 117.name;Ovo das Maravilhas
-117.text;Quando você comprar uma criatura não-lendária, o Ovo das Maravilhas se tornará uma cópia dela.
+117.text;Na primeira vez em que você comprar uma criatura não-legendária, o Ovo das Maravilhas se torna uma cópia dela.
 118.name;Arconte Gabriano
-118.text;{charge|2}\nEsta criatura ganha +2/+2 se você tiver jogado pelo menos duas cartas com custo base de {faeria|7}+.
+118.text;{charge|2}\nGanha +2/+2 se você tiver jogado duas cartas com custo base de {faeria|7} ou mais nesta partida.
 119.name;Mergulhador Tritão
 119.text;{aquatic}, {jump}
 120.name;Maré Mutável
@@ -195,7 +195,7 @@
 124.name;Banquete Tritão
 124.text;Dá +1/+1 e {jump} a uma criatura.
 125.name;Aurora, Criadora de Mitos
-125.text;{gift} - Altera o Ataque e a Vida base de outra criatura aliada para 6/6.
+125.text;{gift} - Altera uma outra criatura aliada para 6/6.
 126.name;Criador de Ondas
 126.text;No fim do turno do seu oponente, muda a faeria de TODOS os jogadores para {faeria|3}.
 127.name;Experimento Fracassado
@@ -209,21 +209,21 @@
 131.name;Guerreiro Sagami
 131.text;{dash|2}
 132.name;Coletor de Ossos
-132.text;Sempre que uma criatura adjacente morrer, ganha +1/+1.
+132.text;Sempre que uma criatura adjacente morre, ganha +1/+1.
 133.name;Sagami de Alma Atada
-133.text;{last_words} - Uma criatura aliada aleatória ganha +3/+5.
+133.text;{last_words} - Dá a uma criatura aliada aleatória +3/+5.
 134.name;Sagami Chama-Bosque
 134.text;{gift} - Teleporta outra criatura aliada para uma floresta que você controla.
 135.name;Mestre das Feras Ancestral
-135.text;Toda vez que você invocar uma criatura que tenha 5 ou mais de vida, ela ganha +1/+1.
+135.text;Quando você invocar uma criatura com 5 ou mais de Vida, ela ganha +1/+1.
 136.name;Bênção de Gaia
-136.text;Você recupera 3 de vida e uma criatura ganha +0/+3.
+136.text;Uma criatura ganha +0/+3. Você ganha 3 de Vida.
 137.name;Chefe Tiki
 137.text;{gift} - Da {taunt} a uma criatura.
 138.name;Espírito da Floração
 138.text;{last_words} - Acrescenta uma carta verde aleatória à sua mão. Ela custa {faeria|3} a menos.
 139.name;Eremita do Bosque Ancestral
-139.text;{last_words} - Uma criatura aliada aleatória ganha +2/+4.
+139.text;{last_words} - Dá a uma criatura aliada aleatória +2/+4.
 140.name;Cuidadora Tiki
 140.text;{gift} - Dá +2/+2 a uma criatura.
 141.name;Flautista Tiki
@@ -231,49 +231,49 @@
 142.name;Dança Xamânica
 142.text;Dá +0/+4 e {taunt} a uma criatura.
 143.name;Totem Tiki
-143.text;A primeira criatura que você invocar em cada turno, ganha +1/+1.
+143.text;Dá +1/+1 a primeira criatura que você invocar a cada turno.
 144.name;Ursa Possuída
-144.text;Sempre que esta criatura sofrer dano, seu Ataque dobra.
+144.text;Após esta criatura sofrer dano, seu ataque é duplicado.
 149.name;Carvalhoide
-149.text;{last_words} - Uma criatura verde aleatória em sua mão ganha +5/+5.
+149.text;{last_words} - Dá +5/+5 a uma criatura verde aleatória em sua mão.
 150.name;Golem Thyriano
 150.text;
 151.name;Semeador
-151.text;{gift} - Cria uma floresta em um hexágono adjacente aleatório.
+151.text;{gift} - Cria uma floresta adjacente de forma aleatória.
 152.name;Barreira de Trepadeiras
 152.text;{taunt}\n{last_words} - Cria uma floresta aleatoriamente.
 153.name;Urso da Mata Densa
 153.text;
 154.name;Curandeiro Tiki
-154.text;{gift} - Você recupera 6 de vida.
+154.text;{gift} - Ganhe 5 de Vida.
 155.name;Santuário de Ruunin
 155.text;{gift} - Ganha {faeria|2}.\n{last_words} - Seu oponente ganha {faeria|2}.
 156.name;Pai Carvalho
-156.text;{gift} - Ganha +0/+1 para cada floresta que você controla.
+156.text;{gift} - ganha +0/+1 para cada floresta que você controla.
 157.name;Árvore de Faeria
-157.text;{production} - Esta estrutura ganha +1 de vida.\nQuando ela tiver 5 ou mais de vida, ela se destrói e ganha {faeria|10}.
+157.text;{production} - Esta estrutura ganha +0/+1.\nQuando ela tiver 5 de Vida ou mais, ela se autodestrói e você ganha {faeria|10}.
 158.name;Salgueiro Vivente
 158.text;{taunt}
 159.name;Crescimento Selvagem
 159.text;Cria uma floresta aleatoriamente.
 168.name;Colosso Primitivo
-168.text;Custa {faeria|1} a menos para cada terreno especial que você controla (custo mínimo: {faeria|6}).
+168.text;Isto custa {faeria|1} a menos para cada terreno especial que você controla (custo mínimo: {faeria|6}).
 169.name;Tethra, Alma da Floresta
 169.text;{flying}, {charge|2}\n{gift} - Dá +5/+5 a uma criatura.
 170.name;Elemental da Madeira
 170.text;{taunt}\n{gift} - Cria uma floresta.
 171.name;Fada da Flor de Seda
-171.text;{flying}\nNa primeira vez em que comprar um evento, esta criatura ganha +1/+4, {taunt} e {charge|2}.
+171.text;{flying}\nNa priemria vez em que você comprar um evento, ganha +1/+4, {taunt} e {charge|2}.
 172.name;Torre Encoberta
-172.text;{activate} - Dá +1/+1 a uma criatura e causa 1 de dano a esta estrutura.
+172.text;{activate} - Dá +1/+1 a uma criatura. Isto sofre 1 de dano.
 173.name;Centelha do Florescer Eterno
-173.text;Sempre que você criar uma floresta, esta criatura ganha +1/+1.
+173.text;Sempre que criar uma floresta, ganha +1/+1.
 174.name;Espírito do Renascimento
-174.text;Sempre que outra criatura aliada morre, uma criatura aleatória em sua mão ganha +1/+1.
+174.text;Sempre que outra criatura aliada morrer, dá +1/+1 a uma criatura aleatória em sua mão.
 175.name;Abraço do Bosque Ancestral
 175.text;Dá +2/+4 a uma criatura.
 176.name;Mensageiro de Ruunin
-176.text;{jump}\nSempre que esta criatura atacar um deus, acrescenta uma criatura verde aleatória à sua mão. Ela custará {faeria|2} a menos.
+176.text;{jump}\nSempre que isto atacar um deus, adiciona uma carta verde aleatória à sua mão. Essa carta custa {faeria|2} a menos.
 177.name;Força Verdurana
 177.text;
 178.name;Guardião do Bosque
@@ -283,57 +283,57 @@
 180.name;Ídolo Lacrimejante
 180.text;Sempre que você sofrer dano, ganhe {faeria|1}.
 181.name;Molda-Terreno
-181.text;Compra uma carta e {options|Cria uma floresta|Cria um lago|Cria uma montanha|Cria um deserto}\nCria uma floresta.\nCria um lago.\nCria uma montanha.\nCria um deserto.
+181.text;{options|Transforma um de seus terrenos em uma floresta|Transforma um de seus terrenos em um lago|Transforma um de seus terrenos em uma montanha|Transforma um de seus terrenos em um deserto}.\nTransforme um terreno que você controla na cor escolhida e compre uma carta.
 182.name;Vingador Selvagem
-182.text;{taunt}, {dash|2}\n Ganha +0/+1 toda vez que você sofrer dano nesta partida.
+182.text;{taunt}, {dash|2}\nganha +0/+1 para cada vez em que você sofreu dano neste jogo.
 183.name;Javali Ancestral
 183.text;{dash|2}\nCusta {faeria|2} a menos se você controla uma criatura que tenha 5 ou mais de vida.
 184.name;Orientação de Ruunin
 184.text;{options|Dá +2/+2 a uma criatura|Você recupera 5 de vida}\nDá +2/+2 a uma criatura.\nVocê recupera 5 de vida.
 185.name;Voz da Fome
-185.text;{gift} - Destrua todas as criaturas aliadas adjacentes. Esta criatura ganha Ataque e Vida igual à soma da vida de todas as criaturas destruidas desta maneira.
+185.text;{gift} - Destrua todas as criaturas aliadas adjacentes. Esta criatura ganha Ataque E Vida igual às Vidas das criaturas combinadas.
 186.name;Sementoide
-186.text;{production} - Se esta criatura tiver menos que 5 de Vida, ela ganha +1/+1.
+186.text;{production} - Se isto tem menos de 5 de Vida, ganha +1/+1.
 187.name;Eredon, Voz de Todos
-187.text;{last_words} - Todas as criaturas no seu baralho e na sua mão ganham +1/+1.
+187.text;{last_words} - Dá a todas as criaturas em seu baralho e em sua mão +1/+1 .
 188.name;Alimentar a Floresta
 188.text;Destrua uma criatura aliada para ganhar faeria igual à vida dela e compre uma carta.
 189.name;Presença de Ruunin
-189.text;Acrescenta uma criatura verde aleatória à sua mão. Ela ganha +6/+6.
+189.text;Adiciona uma carta verde aleatória a sua mão. Ela ganha +6/+6.
 190.name;Ruunin, a Implacável
 190.text;{dash|2}\n{last_words} - Retorna Ruunin à sua mão. Ela ganha +2/+2.
 191.name;Bandido Subterrâneo
 191.text;{combat} - Ganha {faeria|2}.
 192.name;Comandante Kobold
-192.text;{combat} - Uma criatura aliada aleatória ganha +3/+0.
+192.text;{combat} - Dá a uma criatura aliada aleatória +3/+0.
 193.name;Fera de Guerra Kobold
 193.text;
 194.name;Dom do Aço
-194.text;Dá +3/+0 a uma criatura. A criatura também ganha +0/+3 se tiver a habilidade <b>Combate</b>.
+194.text;Dá a uma criatura +3/+0. Se for uma criatura com <b>Combat</b>, dá +3/+3 no lugar.
 195.name;Líder Subterrâneo
 195.text;{combat} - Ganha {faeria|2}.
 196.name;Arquiteto
-196.text;{gift} - Dá +2 de vida a uma estrutura.
+196.text;{gift} - Dá a uma estrutura +0/+2.
 197.name;Ogro Exaltado
-197.text;{gift} - Esta criatura ganha +2/+2 se o seu oponente tiver 10 ou menos de vida.
+197.text;{gift} - Se seu oponente possui 10 ou menos de vida, ganha +2/+2.
 198.name;Quartel dos Kobolds
 198.text;Criaturas aliadas adjacentes tem +2/+0.
 199.name;Semente de Ódio
-199.text;Custa {faeria|1} a menos para cada criatura que você invocou com Ataque maior do que Vida.
+199.text;Custa menos {faeria|1} para cada criatura que você invocou que tenha mais Ataque do que Vida nesta partida.
 200.name;Lutador Ogro
 200.text;{taunt}
 201.name;Barganhador Ousado
 201.text;{gift} - Uma carta aleatória em sua mão custa {faeria|7} a menos.
 202.name;Seifer, Tirano Sanguinário
-202.text;Quando Seifer destrói uma criatura, ele ganha ataque e vida iguais aos que a criatura possuía originalmente.
+202.text;Quando Seifer destrói uma criatura, ele ganha Ataque e Vida iguais aos que a criatura possuía originalmente.
 203.name;Ogro Bárbaro
 203.text;
 204.name;Krog, o Rei Ogro
 204.text;{combat} - Uma carta aleatória em sua mão custa {faeria|7} a menos.
 205.name;Afiador de Machado
-205.text;{gift} - Esta criatura ganha +1/+1 se for invocada adjacente a um poço do oponente.
+205.text;{gift} - Ganha +1/+1 se invocado adjacente a um poço do oponente.
 206.name;Atirador de Rochas
-206.text;{ranged_attack}\nQuando esta criatura ataca, ela também causa dano em todos os inimigos adjacentes ao alvo.
+206.text;{ranged_attack}\nQuando esta criatura ataca, ela também causa dano a todos os inimigos adjacentes ao alvo.
 211.name;Bruto de Shedim
 211.text;{combat} - Causa 2 de dano em seu oponente.
 212.name;Cantor Sanguinário
@@ -343,9 +343,9 @@
 214.name;Cuspidor de Chamas
 214.text;{gift} - Causa 1 de dano a um inimigo.
 215.name;Lorde do Terror
-215.text;Sempre que seu oponente receber dano, ganha essa quantia em Ataque.
+215.text;Sempre que um deus sofre dano, esta criatura ganha o equivalente em Ataque.
 216.name;Peste de Shedim
-216.text;{gift} - Ganha +2/+0 se você tiver outra criatura com o Ataque maior que a Vida.
+216.text;{gift} - Ganha +2/+2 se se você tem outra criatura com Ataque maior que a Vida.
 217.name;Obelisco de Sangue
 217.text;Sempre que uma criatura inimiga morrer em combate, causa 1 de dano em seu oponente e ganhe {faeria|1}.
 218.name;Guarda Cruel
@@ -359,29 +359,29 @@
 226.name;Lançador de Chamas
 226.text;{ranged_attack}\nSempre que esta criatura atacar um deus, causa 1 de dano em todas as criaturas inimigas.
 231.name;Colosso Vulcânico
-231.text;{ranged_attack}\nCusta {faeria|1} a menos para cada criatura inimiga que morreu em combate. (custo mínimo: {faeria|7}).
+231.text;{ranged_attack}\nCusta {faeria|1} a menos para cada turno em que você infligiu dano ao seu oponente nesta partida. (custo mínimo: {faeria|5}).
 232.name;Garudan, Coração da Montanha
 232.text;{flying}, {charge|2}\n{gift} - Causa 3 de dano a todas as criaturas inimigas.
 233.name;Elemental do Fogo
 233.text;{gift} - Cria uma montanha.
 234.name;Fada da Chama de Seda
-234.text;{flying}\nNa primeira vez em que você comprar um evento, esta criatura ganha +3/+1 e {ranged_attack}.
+234.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +3/+1 e {ranged_attack}.
 235.name;Torre Abandonada
 235.text;{activate} - Causa 1 de dano. Causa 1 de dano a esta estrutura.
 236.name;Centelha do Fogo-Sangue
-236.text;Esta criatura ganha +2/+1 sempre que uma criatura inimiga morrer.
+236.text;Sempre que uma criatura inimiga morre, ganha +2/+1.
 237.name;Treme-Solo
 237.text;{gift} - Causa 1 de dano em TODOS os inimigos.
 238.name;Arauto do Fogo
-238.text;Ganha +1/+1 sempre que você invocar uma criatura com Ataque maior que a Vida enquanto estiver no seu baralho OU na sua mão.
+238.text;Ganha +1/+1 sempre que você invocar uma criatura com Ataque maior que a Vida (enquanto no seu baralho ou mão).
 239.name;Salamandra Ardente
-239.text;{gift} - Causa 2 de dano a todas as criaturas inimigas adjacentes.
+239.text;{gift} - Causa 2 de dano a todos os inimigos adjacentes.
 240.name;Espírito da Pedra de Sangue
-240.text;Sempre que você coletar faeria de um poço do oponente, causa 1 de dano em seu oponente.
+240.text;Sempre que uma criatura aliada coletar faeria de um poço do oponente, causa 1 de dano ao seu oponente.
 241.name;Ira de Seifer
 241.text;Causa 2 de dano a uma criatura. Se a criatura morrer, causa 2 de dano ao seu controlador.
 242.name;Planta Devoradora
-242.text;{taunt}\n{production} - Causa 2 de dano nas criaturas inimigas adjacentes.
+242.text;{taunt}\n{production} - Causa 2 de dano a todas as criaturas inimigas adjacentes.
 243.name;Bomba de Fogo
 243.text;Causa 4 de dano a uma criatura ou estrutura.
 244.name;Tempestade de Fogo
@@ -389,11 +389,11 @@
 245.name;Lutador Enfurecido
 245.text;Sempre que esta criatura sofrer dano, causa o mesmo dano ao seu oponente.
 246.name;Golem Decadente
-246.text;Sempre que o seu oponente invocar uma criatura, causa 1 de dano a este Golem.
+246.text;Sempre que seu oponente invocar uma criatura, causa 1 de dano a este golem.
 247.name;Dança dos Ogros
 247.text;Uma carta aleatória em sua mão custará {faeria|7} a menos.
 248.name;Meteoro
-248.text;Escolha um hexágono. Destrua todas as criaturas, estruturas e terrenos que estejam naquele hexágono e nos hexágonos adjacentes.
+248.text;Escolha um espaço. Destrua todas as criaturas, estruturas e terrenos que estejam naquele espaço e nos adjacentes.
 249.name;Demônio Vermelho
 249.text;{gift} - Ganha {faeria|5}.
 250.name;Ignus, a Primeira Chama
@@ -407,9 +407,9 @@
 254.name;Templário de Oradrim
 254.text;{dash|1}\nGanha +3/+0 contra deuses.
 255.name;Sagitário de Oradrim
-255.text;{ranged_attack}\nSempre que você atacar um deus, ganha {faeria|1}.
+255.text;{ranged_attack}\nSempre que uma criatura aliada atacar um deus, ganha {faeria|1}.
 256.name;Fanático de Oradrim
-256.text;{jump}\n{gift} - Mova uma criatura aliada.
+256.text;{jump}\n{gift} - Move uma criatura aliada.
 257.name;Tufão do Deserto
 257.text;Teleporta uma criatura para um deserto sob seu controle.
 258.name;Portal do Vento
@@ -425,7 +425,7 @@
 263.name;Último Pesadelo
 263.text;Destrói uma criatura.
 264.name;Pacto de Alma
-264.text;Ganha {faeria|2} e causa 2 de dano a você.
+264.text;Causa 2 de dano a você mesmo e ganha {faeria|2}.
 265.name;Altar das Almas
 265.text;{activate} - Causa 2 de dano a você e acrescenta uma carta <b>Sombra Assassina</b> 6/1 à sua mão. Ela custará {faeria|2}.
 266.name;Demônio de Shaytan
@@ -437,7 +437,7 @@
 273.name;Soldado de Vento
 273.text;{haste}, {charge|3}\nSoldado de Vento morre no fim do seu turno.
 274.name;Capitão Celeste de Drakkar
-274.text;{flying}\nSempre que comprar uma criatura voadora, ela ganha +1/+1.
+274.text;{flying}\nSempre que você comprar uma criatura com {flying}, ela ganha +1/+1.
 275.name;Emissário dos Ventos
 275.text;{flying}.\nTem +2/+0 enquanto você controlar outra criatura voadora.
 276.name;Carniceiro de Shaytan
@@ -447,23 +447,23 @@
 278.name;Campeão dos Ventos
 278.text;{flying}, {charge|5}\n{gift} - Mova uma criatura.
 287.name;Colosso do Vendaval
-287.text;{dash|3}\nCusta {faeria|1} a menos para cada evento que tenha sido jogado (custo mínimo: {faeria|5}).
+287.text;{dash|3}\nCusta {faeria|1} a menos para cada evento que você jogou nesta partida(custo mínimo: {faeria|5}).
 288.name;Azarai, Ira do Deserto
 288.text;{flying}, {charge|2}\n{gift} - Azarai drena 2 de Ataque de cada criatura inimiga.
 289.name;Elemental do Ar
 289.text;{flying}\n{gift} - Cria um deserto.
 290.name;Fada do Sol de Seda
-290.text;{flying}\nNa primeira vez em que você comprar um evento, esta criatura ganha +3/+1 e {charge|3}.
+290.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +3/+1 e {charge|3}.
 291.name;Torre Celestial
-291.text;{activate} - Dá {charge|3} a uma criatura durante este turno e causa 1 de dano a esta estrutura.
+291.text;{activate} - Dá 1 de dano a essa estrutura e dê a uma criatura {charge|3} esse turno.
 292.name;Centelha de Vento
-292.text;{flying}, {charge|3}\nSempre que você atacar um deus, ganha +3/+0.
+292.text;{flying}, {charge|3}\nSempre que uma criatura aliada atacar um deus, ganha +3/+0.
 293.name;Vento Ligeiro
-293.text;{options|Mova uma criatura aliada.| Você pode pagar {faeria|3} a mais e mover uma criatura inimiga.}\nMova uma criatura aliada. \nVocê pode pagar {faeria|3} a mais e mover uma criatura inimiga.
+293.text;{options|Mova uma criatura aliada.| Você pode pagar {faeria|2} a mais e mover uma criatura inimiga.}\nMova uma criatura aliada. \nVocê pode pagar {faeria|2} a mais e mover uma criatura inimiga.
 294.name;Aviário Dourado
 294.text;Todas as suas criaturas voadoras têm +1/+0.
 295.name;Cruzado Zeloso
-295.text;{charge|2}\nGanha +1/+1 todas as vezes que você atacar um deus enquanto estiver no seu baralho OU na sua mão.
+295.text;{charge|2}\nGanha +1/+1 toda vez que uma criatura aliada atacar um deus(enquanto esta carta está na sua mão ou baralho).
 296.name;Soldado Keldraniano
 296.text;
 297.name;Senhor da Terra Infértil
@@ -475,9 +475,9 @@
 300.name;Andarilho da Morte
 300.text;{deathtouch}\nVocê deve sacrificar outra criatura para invocar esta.
 301.name;Juramento do Esquecimento
-301.text;Destrói uma criatura aliada. Invoca um <b>Cavaleiro do Esquecimento</b> 6/3 com {charge|3} no lugar dela.
+301.text;Sacrifica uma criatura. Invoca um <b>Cavaleiro do Esquecimento</b> com 6/3 e {charge|3} em seu lugar.
 302.name;Monstruosidade de Shaytan
-302.text;{charge|2}\nSempre que uma criatura aliada morrer, a Monstruosidade de Shaytan drena seu ataque.
+302.text;{charge|2}\nSempre que uma criatura aliada morrer, drena seu ataque.
 303.name;Iona, Amada por Todos
 303.text;{flying}\nIona não pode ser atacada.
 304.name;Asa Demônio
@@ -489,11 +489,11 @@
 307.name;Areia Sufocante
 307.text;Destrói uma criatura com 3 de Ataque ou menos.
 308.name;Portal-Condenação, Porta para o Esquecimento
-308.text;Quanto esta estrutura tiver 13 de Vida ou mais, ela se destrói e invoca <b>Ostregoth</b>.\n{activate} - Destrói uma criatura aliada, compra uma carta e esta estrutura ganha +2 de Vida.
+308.text;Quando esta estrutura tem 13 de Vida ou mais, ela se destrói e invoca <b>Ostregoth</b> em seu lugar.\n{activate} - Sacrifica uma criatura, compra uma carta e ganha +0/+2.
 309.name;Arqueiro do Vendaval
-309.text;{ranged_attack}\nSempre que você jogar um evento, ganha +1/+0 durante este turno.
+309.text;{ranged_attack}\nSempre que você jogar um evento, ganha +1/+0 neste turno.
 310.name;Cavaleiro do Vendaval
-310.text;{charge|2}\nSempre que você jogar um evento, ganha +2/+0 durante este turno (limite +6/+0).
+310.text;{charge|2}\nSempre que você jogar um evento, ganha +2/+0 nesse turno (limite +6/+0).
 311.name;Predador Supremo
 311.text;{jump}\n{gift} - Ganha Ataque e Vida iguais ao de qualquer criatura.
 312.name;Behemoth Rocha-de-Gelo
@@ -503,7 +503,7 @@
 314.name;Fera do Espinheiro
 314.text;{dash|2}\n{gift} - Causa 4 de dano dividido aleatoriamente entre os inimigos. Dá +4/+4 dividido aleatoriamente entre as criaturas aliadas.
 315.name;Devorador de Almas
-315.text;{flying}, {charge|3}\nGanha +1/+1 para cada criatura aliada que tenha morrido nesta partida.
+315.text;{flying}, {charge|3}\nGanha +1/+1 para cada criatura aliada que morreu nesta partida (enquanto estiver em seu baralho ou mão).
 316.name;Espectro do Flagelo Ardente
 316.text;{flying}, {haste}, {charge|2}\n{combat} - Causa 3 de dano ao seu oponente.
 329.name;Ladra Degoladora
@@ -511,17 +511,17 @@
 335.name;Atirador Rebelde
 335.text;{gift} - Causa 2 de dano ao seu oponente.
 350.name;Três Desejos
-350.text;Recupera 3 de vida e copia as 3 cartas do topo do baralho do seu oponente. Elas custam {faeria|3} a menos. Você não pode desejar mais Três Desejos.
+350.text;Ganha 3 de Vida.Copia as 3 primeiras cartas do topo do baralho de seu oponente. Elas custam menos {faeria|1}. Você não possui mais desejos.
 351.name;Planador Rebelde
 351.text;{flying}, {dash|2}\nNão pode coletar faeria.
 352.name;Esplendor, Aeronave Imperial
-352.text;{flying}, {dash|3}\nO custo de faeria da Esplendor é igual à vida total do seu deus.\n{gift} - Recupera 1 de vida para cada carta em sua mão.
+352.text;{flying}, {dash|3}\nO custo de faeria da Esplendor é igual à sua Vida.\n{gift} - Você ganha 1 de Vida para cada carta em sua mão.
 353.name;Biblioteca Proibida
-353.text;{production} - Compra uma carta, ganha {faeria|2} e causa 2 de dano a você.
+353.text;{production} - Compre uma carta, ganhe {faeria|2} e cause 2 de dano a você mesmo.
 354.name;Saqueador de Sonhos
 354.text;{dash|3}\n{gift} - Define a vida de um deus em 10.
 355.name;Kodama Feroz
-355.text;{jump}\nNão pode coletar faeria.\nSempre que esta criatura atacar um deus, recupere 5 de vida.
+355.text;{jump}\nNão pode coletar faeria.\nSempre que esta criatura atacar um deus, você ganha 5 de Vida.
 356.name;Caçador de Deuses
 356.text;{jump}\nSó pode atacar deuses.\nNão pode coletar faeria.
 357.name;Canto Sanguinário
@@ -531,19 +531,19 @@
 359.name;Apocalipse
 359.text;Define sua faeria em {faeria|0}. Diminua sua vida pela metade (arredondado para baixo). Destrói TODAS as criaturas e estruturas. Termina o seu turno.
 360.name;Mosquito Irritante
-360.text;{flying}\nNão pode coletar faeria.\n{last_words} - Causa 2 de dano a você. Invoca esta criatura num hexágono aleatório.
+360.text;{flying}\nNão pode coletar faeria.\n{last_words} - Causa 2 de dano a você. Invoca esta criatura em um espaço aleatório.
 361.name;Iaque Longo-Chifre
 361.text;{last_words} - A próxima criatura que você comprar ganha ataque igual ao desta criatura.
 362.name;Era das Lendas
-362.text;Compra a próxima carta lendária do seu baralho. Se não há lendárias para atender ao chamado, {options|Embaralha uma lendária aleatória verde no seu baralho|Embaralha uma lendária aleatória azul no seu baralho|Embaralha uma lendária aleatória vermelha no seu baralho|Embaralha uma lendária aleatória amarela no seu baralho}<b>a</b> cor. Embaralhe uma lendária aleatória dessa cor no seu baralho.
+362.text;Compre a carta Lendária mais próxima do topo no seu baralho. Se não houver uma, adicione uma carta lendária à sua mão. Ela se torna {wild}.
 363.name;Treinador Tritão
-363.text;{jump}\n{gift} - Dá +2/+0 à proxima criatura com {jump} que você invocar.
+363.text;{jump}\n{gift} - Dá à próxima criatura com {jump} que você invocar +1/+1.
 364.name;Voz da Verdade
-364.text;{gift} - Restaura o Ataque e a Vida originais de uma criatura.
+364.text;{gift} - Retorna uma criatura para seus valores originais de Ataque e Vida.
 365.name;Arauto da Guerra
 365.text;{combat} - Dá +1/+1 à proxima criatura com {combat} que você invocar.
 366.name;Guia Magistral
-366.text;{flying}\nCriaturas aliadas que forem invocadas adjacentes a esta criatura ganham {dash|2} e {flying}.
+366.text;{flying}\nCriaturas aliadas invocadas adjacentes a esta criatura ganham {dash|2} e {flying}.
 367.name;Guardiã Divina
 367.text;{divine}\nQuando você for receber dano fatal, ignore-o e destrua esta criatura no lugar.
 368.name;A Ordem do Imperador
@@ -553,13 +553,13 @@
 370.name;Perseguidor da Mata Densa
 370.text;{gift} - Luta com uma criatura inimiga.
 371.name;Jantar do Krog
-371.text;Seu Krog custa {faeria|7} a menos. Quando você invoca o Krog, esta criatura é destruída.\n{gift} - Se o Krog morreu ou está no seu baralho, Compre-o.
+371.text;Seu Krog custa {faeria|7} a menos. Quando você invocar Krog, destrua esta criatura.\n{gift} - Se Krog morreu ou está em seu baralho, compre-o.
 372.name;Sorriso de Iona
 372.text;Compra as 2 próximas criaturas com {flying} do seu baralho.
 403.name;Cristal Sombrio
 403.text;Drena 4 de vida do seu oponente, causa 3 de dano em todas criaturas inimigas e compra 2 cartas.
 404.name;Berrante de Guerrra Iaque
-404.text;Invoca três <b>Iaques Furiosos da Pradaria</b> 2/4 com Rapidez.
+404.text;Invoca três <b>Iaques da Pradaria Furiosos</b> com {haste}.
 405.name;Arma Astral
 405.text;{flying}\n{gift} - Destrói todos os terrenos, as criaturas e as estruturas adjacentes.
 406.name;Ocarina
@@ -571,13 +571,13 @@
 409.name;Espelho de Iona
 409.text;Adiciona duas cópias à sua mão do último <b>Tesouro</b> que seu oponente jogou.
 410.name;Golem de Pedra de Sangue
-410.text;{production} - Gera {faeria|1} em cada poço.\nSempre que faeria for colhida, cause 1 de dano ao seu oponente.
+410.text;{production} - Reabastece todos os poços de faeria.\nSempre que faeria for coletada, causa 1 de dano ao seu oponete.
 411.name;O Cálice do Palácio
 411.text;Dá +6/+6 dividido aleatoriamente entre as criaturas aliadas.
 412.name;Tambor de Eredon
 412.text;Dá +2/+2 a todas suas criaturas, onde quer que estejam.
 413.name;Máquina de Nuvens
-413.text;Criaturas aliadas ganham {flying}, {jump} e +1/+0.
+413.text;Criaturas aliadas têm +1/+0, {flying}, e {jump}.
 414.name;Anel do Domínio
 414.text;{options|Transforma um terreno em uma floresta. Ele fica sob seu controle.|Transforma um terreno em um lago. Ele fica sob seu controle.|Transforma um terreno em uma montanha. Ele fica sob seu controle.|Transforma um terreno em um deserto. Ele fica sob seu controle.}\nTransforma um terreno em uma cor à sua escolha. Ele fica sob seu controle.
 415.name;A Lágrima do Mundo
@@ -585,15 +585,15 @@
 416.name;Iaque Mecânico
 416.text;{dash|2}
 417.name;Autômato do Equinócio
-417.text;{gift} - Você recupera 6 de vida.\n{last_words} - Causa 6 de dano ao seu oponente.
+417.text;{gift} - Ganhe 6 de vida.\n{last_words} - Causa 6 de dano a seu oponete.
 418.name;Rosa de Magda
 418.text;Ganhe controle sobre uma criatura inimiga.
 419.name;Bule de Aurora
-419.text;Altere o Ataque base e a Vida base de todas criaturas aliadas para 6/6.
+419.text;Altera todas as criaturas aliadas para 6/6.
 420.name;Pedra da Fortuna
 420.text;Embaralha 3 <b>Tesouros</b> aleatórios no seu baralho.
 421.name;Segredo da Força
-421.text;Dá {flying}, {charge|3} e +4/+4 a uma criatura.
+421.text;Dá a uma criatura +4/+4, {flying}, e {charge|3}.
 422.name;Guardião do Vazio
 422.text;{gift} - Destrói seu baralho.
 423.name;Dragão de Cristal
@@ -603,9 +603,9 @@
 425.name;Martelo da Destruição
 425.text;Causa 5 de dano. Embaralha o <b>Martelo</b> no seu baralho.
 426.name;Destruidor Ígneo
-426.text;{gift} - Causa 2 de dano a todos os oponentes. Esta criatura ganha +2/+2 por cada inimigo destruído desta maneira.
+426.text;{gift} - Dá dois de dano a todos os inimigos. Ganha +2/+2 para cada inimigo destruido.
 427.name;Desejo da Morte
-427.text;Destrói uma criatura. O controlador dela ganha faeria equivalente ao seu custo e compra 2 cartas.
+427.text;Destrói uma criatura. O seu controlador ganha {faeria|1} igual ao seu custo e compra 2 cartas.
 428.name;Raio Aprisionado
 428.text;Causa 6 de dano a uma criatura e 3 de dano a todos os inimigos adjacentes.
 429.name;Lâmina Dançante
@@ -613,74 +613,114 @@
 430.name;Foice da Destruição
 430.text;Destrói uma criatura. Invoca uma <b>Sombra Assassina</b> 6/1 no lugar dela.
 431.name;Corvo Adornado
-431.text;{flying}, {haste}\nSempre que esta criatura atacar um deus, acrescenta um <b>Tesouro</b> aleatório à sua mão.
+431.text;{flying}, {haste}\nSempre que essa criatura atacar um deus, adicione um <b>Tesouro</b> aleatório a sua mão.
 432.name;Roda do Caos
 432.text;{options|Destrói 2 terrenos desocupados.|Destrói uma criatura com 5 de ataque ou menos.|Recupera 7 de vida.}\n- Destrói 2 terrenos desocupados.\n- Destrói uma criatura com 5 de ataque ou menos.\n- Recupere 7 de vida.
 433.name;Medalhão de Ulani
 433.text;Escolha uma criatura aliada. Todas as suas criaturas se tornam uma cópia dela.
 500.name;Macaco Gênio
-500.text;{taunt}\n{gift} - No próximo turno do seu oponente, ganha +2/+2 sempre que uma criatura inimiga coletar faeria.
+500.text;{taunt}\n{gift} - No próximo turno do seu oponente, esta criatura ganha +2/+2 sempre que uma criatura inimiga coletar faeria.
 501.name;Explorador Intrépido
 501.text;{gift} - Acrescenta uma carta <b>Explorar</b> à mão de cada jogador.
 502.name;Flor de Cristal
-502.text;{gift} - {swallow} uma criatura.\nNo fim do seu turno, causa 1 de dano a esta estrutura.
+502.text;{gift} - {swallow} uma criatura.\nAo final dos seus turnos, esta estrutura sofre 1 de dano.
 503.name;Iaquepulta
 503.text;{ranged_attack}\nSempre que esta criatura atacar, invoca um <b>Iaque Furioso</b> 2/2 em um hexágono adjacente aleatório ao alvo.
 504.name;Goki, Minerador Camarada
-504.text;{gift} - Acrescenta um tesouro aleatório à mão do seu aliado.
-505.name;Baleia Celeste Lazúli
+504.text;{gift} - Acrescenta um <b>Tesouro</b> aleatório à mão do seu aliado.
+505.name;Mobie, Baleia Celestial Lazúli
 505.text;{flying}, {charge|3}\nNão pode coletar faeria.\n{gift} - {swallow} uma criatura.
 506.name;Peixe Balão
-506.text;{flying}, {dash|3}\n{gift} - {swallow} uma criatura aliada. Se não puder, o Peixe Balão morre.
+506.text;{flying}, {dash|2}\n{gift} - {swallow} uma criatura aliada. Se não puder, o Peixe Balão morre.
 507.name;Imperador Kaios
-507.text;{production] - Dá -1/-0 a todas as criaturas inimigas. Em seguida, destrói todas as criaturas inimigas com 0 de Ataque.
+507.text;{production} - Dá -1/-0 a todas as criaturas inimigas. Em seguida, destrói todas as criaturas inimigas com 0 de Ataque.
 508.name;Semente do Paraíso
 508.text;{flying}, {dash|1}\n{gift} - {options|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um lago.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma floresta.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma montanha.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um deserto.}\nQuando esta criatura coletar faeria sobre o oceano, ela morre e cria um terreno da cor escolhida.\n
 509.name;A Árvore da Vida Eterna
-509.text;Você é imune a dano.\nNo fim do seu turno, dá +7/+7 a todas as criaturas verdes em sua mão.
+509.text;{production} - Você recupera 7 de Vida.\nDá +7/+7 a uma criatura aleatória na sua mão.
 510.name;Presente dos Rakoas
-510.text;Dá +1/+1 a uma criatura para cada criatura que você controla.
+510.text;Dá a uma criatura +1/+1 para cada criatura que você controla.
 511.name;Biomante Curioso
 511.text;{gift} - Compra uma criatura não-azul do seu baralho para cada criatura inimiga.
 512.name;Fugoro, Mercador de Maravilhas
 512.text;{jump}\n{gift} - {options|Compra uma <b>Urna de Gabria</b>|Compra um <b>Dragão de Cristal</b>|Compra um <b>Medalhão de Ulani</b>}\n- Compra uma <b>Urna de Gabria</b>\n- Compra um <b>Dragão de Cristal</b>\n- Compra um <b>Medalhão de Ulani</b>
 513.name;Fugu Saltitante
-513.text;{jump}\n{gift} - Se você controla 8 ou mais terrenos especiais, ganha +3/+3.
+513.text;{jump}\n{gift} - Se você controlar 8 ou mais terrenos especiais, ganha +3/+3.
 514.name;Arpéu
 514.text;Dá {ranged_attack} a uma criatura durante este turno. Após esta criatura atacar, você pode movê-la para um hexágono adjacente ao alvo.
 515.name;Revelador Rakoano
-515.text;{last_words} - Ganha faeria igual ao ataque desta criatura.
+515.text;{last_words} - Ganha {faeria|1} igual ao ataque dessa criatura.
 516.name;CAP-10, Pirata Celeste
 516.text;{combat} - Compra um <b>Dom do Aço</b> do seu baralho. Se não há nenhum, embaralhe um no seu baralho.
 517.name;Salmão Ligeiro
-517.text;{flying}, {haste}, {charge|2}\nNão pode coletar faeria.\nNo fim do seu turno, esta criatura se destrói e compra uma carta.
+517.text;{divine}, {flying}, {haste}, {charge|2}\nNão pode coletar faeria.\nNo final de seu turno, destroi essa criatura e compra uma carta.
 518.name;Cavalga-Raia
 518.text;{flying}, {charge|2}\n{last_words} - Invoca uma <b>Raia</b> 2/2 com {flying} e {charge|2} onde esta criatura morrer.
 519.name;Istanu, Luz Eterna
-519.text;{flying}, {charge|3}\n{last_words} - Uma criatura aliada aleatória se torna o novo <b>Istanu</b>. Esta criatura não pode atacar neste turno.
+519.text;{flying}, {charge|3}\n{last_words} - Uma criatura aliada aleatória se torna o novo <b>Istanu</b>.
 520.name;Polvo Mutável
 520.text;{options|Ganha +2/+0.|Ganha +0/+2.|Ganha {jump}.|Ganha {taunt}.}, duas vezes:\n- Ganha +2/+0\n- Ganha +0/+2\n- Ganha {jump}\n- Ganha {taunt}
 521.name;Lançador de Sapos
 521.text;{gift} - Luta com uma criatura inimiga. Invoca um <b>Sapo</b> 2/2 com {jump} em um hexágono adjacente aleatório ao alvo.
 522.name;Caminho para o Paraíso
-522.text;{options|Cria uma floresta.|Cria um lago.|Cria uma montanha.|Cria um deserto.} - Cria um terreno especial.\nCriaturas invocadas neste terreno neste turno ganham +2/+0.
+522.text;{options|Cria uma floresta.|Cria um lago.|Cria uma montanha.|Cria um deserto.} - Cria um terreno especial.\nDá +2/+0 a primeira criatura invocada neste terreno neste turno.
 523.name;Salamandra Esmeralda
 523.text;{gift} - Causa 2 de dano às criaturas inimigas adjacentes. Dá +2/+2 às criaturas aliadas adjacentes.
 524.name;Peixe-Espada Vigia Celeste
 524.text;{flying}, {taunt}, {dash|1}
-525.name;Iaque Celeste
-525.text;{flying}\nPode ser invocada adjacente a uma criatura aliada.\n{gift} - Invoca um <b>Iaque Celeste</b> para cada Iaque Celeste aliado que morreu nesta partida.
+525.name;Enxame de Carassius
+525.text;{flying}\nPode ser invocado adjacente a uma criatura aliada.\n{gift} - Invoca um <b>Enxame de Carassius</b> para cada outro Carassius amigo que morreu neste jogo.
 526.name;Protedor de Sonhos
 526.text;{taunt}\n{gift} - Reduz o custo de todas as cartas da sua mão em {faeria|1}. Em seguida, as embaralha no seu baralho e compra a mesma quantidade de cartas.
 527.name;Tartaruga Casco-de-Gemas
-527.text;{gift} - Compra uma carta e a copia. As duas cartas custam {faeria|3} a menos.
+527.text;{gift} - Compre uma carta e copie ela. As duas custam {faeria|2} a menos.
 528.name;Voo das Raias
 528.text;Quando você comprar esta carta, copie-a.\nInvoca uma <b>Raia</b> 2/2 com {flying} e {charge|2}.
 529.name;Nave-Reboque do Céu-Acima
 529.text;{flying}, {dash|1}\nSempre que esta criatura for sair de um terreno, ela trás o terreno com ela.
 530.name;Chefe Rakoano
-530.text;{dash|1}\n Dá +2/+0 às criaturas aliadas adjacentes.
+530.text;{dash|1}\nCriaturas aliadas adjacentes possuem +1/+0.
 531.name;Anêmona Celeste
 531.text;{flying}, {taunt}\nPode ser invocada em qualquer lugar.
 532.name;Ulani, Xamã do Céu-Acima
 532.text;{gift} - Compra uma carta verde, uma carta azul, uma carta vermelha e uma carta amarela do seu baralho.
+601.name;Laya, Senhora dos Pesares
+601.text;{deathtouch}\n{last_words} - Invoca uma <b>Estátua Cintilante</b> no lugar de Laya.
+602.name;Caveleiro de Daconídeo Imperial
+602.text;{flying}, {charge|2}\n{corrupt} - Ganha +2/+2.
+603.name;Macaco enlouquecido
+603.text;{gift} - Esvazia todos os poços de faeria. Ganha +1/+1 para cada poço esvaziado.
+604.name;Soldado Imperial
+604.text;{corrupt} - Ganhe controle do terreno em que esta criatura está.
+605.name;Explorador Perdido
+605.text;{corrupt} - Compre uma carta e ganhe {faeria|1}.
+606.name;Cavaleiro da Espada da Ruína
+606.text;Todo dano sofrido por esta criatura também é inflingido a você.
+607.name;Fada de seda da sombra
+607.text;{flying}, {charge|2}, {protection}\n{corrupt} - Compre dois eventos de seu baralho.
+608.name;Kaios, Mentalista Ensandecido
+608.text;{divine}\nKaios tem Ataque sempre igual à sua Vida.\n{corrupt} - Drena 1 de Vida de TUDO.
+609.name;Chuva de Peixes
+609.text;Invoca 6 <b>Peixes-Rubi</b> em espaços aleatórios. Cada peixe que atinge um terreno causa 1 de dano aos inimigos adjacentes.
+610.name;Piranha Voadora
+610.text;{flying}\nQuando uma criatura adjacente morre, ganha {deathtouch} e {jump}.
+611.name;Hidra Monstruosa
+611.text;{corrupt} - Invoca uma <b>Cabeça de Hidra</b> com 2/1 e {haste} em cada terreno adjacente. Elas morrem ao final do turno.
+612.name;Salgueiro Assombrado
+612.text;{taunt}
+613.name;Javali Decrépto
+613.text;{dash|1}\n{corrupt} - Compre próxima criatura com 5 ou mais de vida do seu baralho. Ela ganha +2/+2.
+614.name;Nekomata
+614.text;{taunt}\n{corrupt} - Dobra o ataque desta criatura.
+615.name;Baldurion, Armeiro Maligno
+615.text;{protection}\n{corrupt} - Adicione um <b>Martelo da Destruição</b> à sua mão.
+616.name;Duente Despeitoso
+616.text;{last_words} - Causa 2 de dano a você.
+617.name;Devastação
+617.text;Causa 9 de dano a uma criatura ou estrutura inimiga.
+618.name;Salmão Demoníaco
+618.text;{haste}, {flying}, {charge|2}\nNão pode coletar faeria.\nSempre que ataca um deus, esta criatura ganha +1/+1.
+619.name;Roubo de Espírito
+619.text;Drene 1 de Vida de uma criatura inimiga, se isto a matar, adicione uma cópia dela à sua mão. Ela se torna {wild}
+620.name;Solem
+620.text;{flying}, {divine}\n{corrupt} - Destrua um poço de faeria.

@@ -15,7 +15,7 @@ Faeria Cards Builder is composed of 3 main things:
 - Cards Illustrations: contains the illustrations for each Faeria cards
 
 ### Merlin
-Merlin is our own coding languages for cards. Inside the shortened version, you'll be able to pull: card_id;color;card_name;card_type;card_subtype;wild_land;faeria;lake;forest;mountain;desert;power;life;codex_id;rarity
+Merlin is our own coding languages for cards. Inside the shortened version, you'll be able to pull: card_id;color;card_name;card_type;card_subtype;faeria;wild_land;lake;forest;mountain;desert;power;life;codex_id;rarity
 
 ### Different functions
 Here is a listing and their meaning of the functions used on the Merlin_shortened.csv file:

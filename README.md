@@ -15,7 +15,7 @@ Faeria Cards Builder is composed of 3 main things:
 - Cards Illustrations: contains the illustrations for each Faeria cards
 
 ### Merlin
-Merlin is our own coding languages for cards. Inside the shortened version, you'll be able to pull: card_id;color;card_name;card_type;wild_land;faeria;lake;forest;mountain;desert;power;life;codex_id;rarity
+Merlin is our own coding languages for cards. Inside the shortened version, you'll be able to pull: card_id;color;card_name;card_type;card_subtype;wild_land;faeria;lake;forest;mountain;desert;power;life;codex_id;rarity
 
 ### Different functions
 Here is a listing and their meaning of the functions used on the Merlin_shortened.csv file:
@@ -35,9 +35,11 @@ Here is a listing and their meaning of the functions used on the Merlin_shortene
 - {activate}: _Activate:_ Once per turn, you may click structure to activate its effect.
 - {options|option_1|option_2}: _Choose one:_ Allows you to choose between different options.
 - {faeria|}: _Faeria {0}:_ Receives {0} Faeria
-- {dash}: _Dash:_ When summoned, move this creature up to {0} spaces in a straight line.
+- {dash|}: _Dash {0}:_ When summoned, move this creature up to {0} spaces in a straight line.
 - {swallow}: _Swallow:_ Imprisons a creature inside this. When this dies, the creature is released (you can't swallow a creature which swallowed another one).
 - {divine}: _Divine:_  Cannot be targeted by events or abilities.
+- {corrupt}: _Corrupt:_  Does something the first time this creature moves onto enemy land any turn after it is played.
+- {wild}: _Wild:_  A card is wild when all the lands it requires are wild.
 
 ## When is this git updated?
 Each time a new master version is published on our platforms this git is updated. This should happen once per week but on some occasion, it might happen multiple times per week.

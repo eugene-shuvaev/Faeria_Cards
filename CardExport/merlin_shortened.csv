@@ -252,28 +252,8 @@
 314;HUMAN;Crackthorn Beast;creature;beast;6;;;3;3;;3;3;101000;EPIC
 315;HUMAN;Soul Eater;creature;;5;;;3;;3;1;1;101000;EPIC
 316;HUMAN;Scourgeflame Specter;creature;;7;;;;3;3;2;5;101000;EPIC
-317;BLUE;Gabrian Soldier;creature;;3;;2;;;;4;2;106666;RARE
-318;BLUE;Frog;creature;triton;2;;2;;;;2;2;106666;COMMON
-319;HUMAN;Cartographer;creature;;3;;;;;;1;1;106666;COMMON
-321;HUMAN;Sky Swallower;creature;;10;;;;;;10;10;106666;RARE
-322;HUMAN;Angry Prairie Yak;creature;yak;3;;;;;;2;4;106666;EPIC
-323;HUMAN;Explore;event;;0;;;;;;;;106666;COMMON
-324;HUMAN;Angry Yak;creature;yak;3;;;;;;2;2;106666;COMMON
-325;GREEN;Thorn Wisp;creature;;4;;;2;;;1;3;106666;COMMON
-328;YELLOW;Ostregoth, Hand of Oblivion;creature;;13;;;;;3;13;13;106666;LEGENDARY
 329;HUMAN;Cutthroat Bandit;creature;;3;;;;;;4;1;100002;COMMON
-330;HUMAN;Savage Horseman;creature;;3;;;;;;3;2;106666;COMMON
-331;HUMAN;Wisdom;event;;3;;;;;;;;106666;COMMON
-332;HUMAN;Healing Prayer;event;;3;;;;;;;;106666;COMMON
-333;HUMAN;Me Not Playable;event;;3;;;;;;;;106666;COMMON
-334;HUMAN;Greater Wisdom;event;;3;;;;;;;;106666;COMMON
 335;HUMAN;Rebel Slinger;creature;;3;;;;;;2;2;100002;COMMON
-336;HUMAN;Spirit of the Nexus;creature;;3;;1;1;1;1;10;10;106666;LEGENDARY
-337;RED;Godfire Storm;event;;2;;;;1;;;;106666;EPIC
-338;BLUE;Tidal Force;event;;1;;1;;;;;;106666;COMMON
-339;YELLOW;Rushing Wind;event;;0;;;;;2;;;106666;RARE
-340;HUMAN;Syland Warrior;creature;;5;;;;;;1;6;106666;COMMON
-342;RED;Kojin, Divine Flame;creature;;0;;;;3;;0;6;106666;COMMON
 350;HUMAN;Three Wishes;event;;3;;2;2;2;2;;;101000;EPIC
 351;HUMAN;Rebel Glider;creature;;3;;;;;;2;3;101000;COMMON
 352;HUMAN;Radiance, Imperial Airship;creature;;20;;;;;;10;10;101000;LEGENDARY
@@ -297,9 +277,6 @@
 370;GREEN;Deepwood Stalker;creature;beast;3;;;2;;;2;4;101000;EPIC
 371;RED;Krog's Dinner;creature;beast;3;;;;2;;3;3;101000;EPIC
 372;YELLOW;Iona's Smile;event;;2;;;;;2;;;101000;EPIC
-400;PANDORA;Shard of Pandora;artifact;;0;;;;;;;;106666;COMMON
-401;PANDORA;Pandora Awakens!;artifact;;0;;;;;;;;106666;RARE
-402;PANDORA;Treasure Found!;artifact;;0;;;;;;;;106666;RARE
 403;PANDORA;Dark Crystal;event;;8;;;;;;;;107777;RARE
 404;PANDORA;Yakhorn Warhorn;event;;6;;;;;;;;107777;RARE
 405;PANDORA;Astral Weapon;creature;;14;;;;;;7;7;107777;RARE
@@ -364,14 +341,6 @@
 530;HUMAN;Rakoan Chieftain;creature;rakoan;4;;;;2;2;3;5;102002;RARE
 531;HUMAN;Sky Anemone;structure;;0;;;;1;1;;3;102004;RARE
 532;HUMAN;Ulani, Oversky Shaman;creature;rakoan;4;;1;1;1;1;2;2;102002;LEGENDARY
-549;HUMAN;Reality Breaker;structure;;6;;;;;;;6;106666;EPIC
-550;HUMAN;Crystal Flower;structure;;4;4;;;;;;4;106666;EPIC
-551;HUMAN;Crystal Flower;structure;;4;4;;;;;;4;106666;EPIC
-552;HUMAN;Crystal Flower;structure;;4;4;;;;;;4;106666;EPIC
-553;HUMAN;Flying Manta;creature;;3;;1;;;1;2;2;106666;COMMON
-555;HUMAN;Angry Yak;creature;yak;3;;;;;;2;2;106666;COMMON
-556;HUMAN;A Winner Is You!;event;;9;;;;;;;;106666;LEGENDARY
-557;HUMAN;Emperor Kaios the Great;creature;;5;6;;;;;3;5;106666;LEGENDARY
 601;HUMAN;Laya, Lady of Sorrows;creature;;4;3;;;;;3;4;102006;LEGENDARY
 602;HUMAN;Imperial Drakerider;creature;;5;2;;;;;3;4;102006;RARE
 603;HUMAN;Deranged Monkey;creature;beast;4;2;;;;;0;2;102006;COMMON
@@ -392,11 +361,3 @@
 618;YELLOW;Demonic Salmon;creature;;2;;;;;2;1;1;102006;COMMON
 619;YELLOW;Spirit Theft;event;;1;;;;;3;;;102006;EPIC
 620;YELLOW;Solem;creature;;7;;;;;4;7;7;102006;LEGENDARY
-648;HUMAN;Rakoan Shield Mates;creature;rakoan;2;;;1;;1;2;2;106666;COMMON
-653;HUMAN;Tower of Curses;structure;;4;4;;;;;;4;106666;RARE
-694;BLUE;Hydra Head;creature;;2;;1;;;;2;1;106666;COMMON
-695;HUMAN;Yak Guard;creature;yak;4;;;;;;4;4;106666;COMMON
-696;HUMAN;Baby Yak;creature;yak;1;;;;;;1;1;106666;COMMON
-697;YELLOW;Dune Drake;creature;;4;;;;;;4;4;106666;COMMON
-698;BLUE;msatnahP ssalG gnikooL;creature;;5;3;1;;;;5;3;106666;EPIC
-699;HUMAN;Rakoan;creature;rakoan;1;;;;;;1;1;106666;COMMON

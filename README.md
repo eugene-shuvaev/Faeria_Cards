@@ -15,7 +15,7 @@ Faeria Cards Builder is composed of 3 main things:
 - Cards Illustrations: contains the illustrations for each Faeria cards
 
 ### Merlin
-Merlin is our own coding languages for cards. Inside the shortened version, you'll be able to pull: card_id;color;card_name;card_type;wild_land;faeria;lake;forest;mountain;desert;power;life;text;codex;number_in_codex;_codex_id;rarity
+Merlin is our own coding languages for cards. Inside the shortened version, you'll be able to pull: card_id;color;card_name;card_type;wild_land;faeria;lake;forest;mountain;desert;power;life;codex_id;rarity
 
 ### Different functions
 Here is a listing and their meaning of the functions used on the Merlin_shortened.csv file:
@@ -40,7 +40,7 @@ Here is a listing and their meaning of the functions used on the Merlin_shortene
 - {divine}: _Divine:_  Cannot be targeted by events or abilities.
 
 ## When is this git updated?
-Each time a new master version is published on our platforms (Steam, iOS, Android etc.), this git is updated. This should happen once per week but on some occasion, it might happen multiple times per week.
+Each time a new master version is published on our platforms this git is updated. This should happen once per week but on some occasion, it might happen multiple times per week.
 
 ## Usage
 Even though this is a public repository, everyone here is subject to our [Terms & Conditions](https://www.faeria.com/terms)

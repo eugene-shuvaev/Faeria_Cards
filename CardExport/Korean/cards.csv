@@ -289,9 +289,9 @@
 183.name;고대 멧돼지
 183.text;{dash|2}\n생명력이 5 이상인 생물을 가지고 있다면, 비용이 {faeria|2} 감소합니다.
 184.name;루닌의 인도
-184.text;{options|생물 하나에게 +2/+2를 줍니다.|생명력을 5 얻습니다.}\n- 생물 하나에게 +2/+2를 줍니다.\n- 생명력을 5 얻습니다.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;허기진 목소리
-185.text;{gift} - 인접한 모든 아군 생물을 파괴합니다. 파괴한 생물들의 생명력 합만큼 공격력과 생명력을 나누어 얻습니다.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;묘목령
 186.text;{production} - 생명력이 5미만이면 +1/+1을 얻습니다.
 187.name;숲의 대변인 에레돈
@@ -547,7 +547,7 @@
 367.name;성스러운 수호자
 367.text;{divine}\n내가 치명적인 피해를 입을 때 그 피해를 무효화하고 대신 이 생물을 파괴합니다.
 368.name;황제의 지령
-368.text;{options|생물 하나에게 -2/-1을 줍니다.|건물 하나에 3 피해를 줍니다.|생명력을 4 얻습니다.}\n- 생물 하나에게 -2/-1을 줍니다\n- 건물 하나에 3 피해를 줍니다\n- 생명력을 4 얻습니다.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;웅장한 환상
 369.text;{charge|2}\n내가 비용이 {faeria|1} 이하인 생물을 소환할 때마다 그 생물의 공격력과 생명력만큼 공격력과 생명력을 얻습니다(손이나 덱에 있는 동안).
 370.name;깊은숲 추적자
@@ -647,7 +647,7 @@
 513.name;뛰는 복어
 513.text;{jump}\n{gift} - 색이 있는 땅을 8개 이상가지고 있다면, +3/+3을 얻습니다.
 514.name;갈고리 닻
-514.text;생물 하나에게 {ranged_attack}을 줍니다. 그 생물이 공격한 후 근처 공간으로 이동시킬 수 있습니다.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;라코아 놀이꾼
 515.text;{last_words} - 이 생물의 공격력만큼 {faeria|1}을 얻습니다.
 516.name;하늘 해적 CAP-10

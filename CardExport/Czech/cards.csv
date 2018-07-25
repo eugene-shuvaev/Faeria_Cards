@@ -289,9 +289,9 @@
 183.name;Dávný kanec
 183.text;{dash|2}\nPokud máte bytost s životem 5 nebo více, stojí o {faeria|2} méně.
 184.name;Ruuninino vedení
-184.text;{options|Přidat bytosti +2/+2.|Získat 5 životů.}\n- Přidá bytosti +2/+2.\n- Získáte 5 životů.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Hlas hladu
-185.text;{gift} - Tato bytost zničí všechny přilehlé spojenecké bytosti a získá útok a život rovný jejich celkovému životu.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Sazenice
 186.text;{production} - Pokud má tato bytost méně než 5 životů, získá +1/+1.
 187.name;Eredon, hlas všeho
@@ -547,7 +547,7 @@
 367.name;Božský ochránce
 367.text;{divine}\nKdyž by vám mělo být uděleno smrtelné poškození, zabrání mu a zničí místo toho tuto bytost.
 368.name;Císařův příkaz
-368.text;{options|Odebrat bytosti -2/-1.||Udělit budově 3 poškození.|Získat 4 životy.}\n- Odebere bytosti -2/-1.\n- Udělí bytosti 3 poškození.\n- Získáte 4 životy.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Iluze vznešenosti
 369.text;{charge|2}\nKdykoliv přivoláte bytost, která stojí {faeria|1} nebo méně, získá její útok a život (zatímco je ve vašem balíčku nebo ruce).
 370.name;Stopař z hlubin lesa
@@ -647,7 +647,7 @@
 513.name;Skákající fugu
 513.text;{jump}\n{gift} - Má +3/+3, pokud ovládáte alespoň 8 speciálních pevnin.
 514.name;Cestovní hák
-514.text;Zvolená bytost získá pro tento tah schopnost {ranged_attack}. Poté, co zaútočí, ji smíte přesunout na pole přilehlé k cíli.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Rakoanský buřič
 515.text;{last_words} - Získejte {faeria|1} rovnou útoku této bytosti.
 516.name;CAP-10, pirát nebes

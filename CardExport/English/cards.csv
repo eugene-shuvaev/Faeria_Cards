@@ -289,9 +289,9 @@
 183.name;Ancient Boar
 183.text;{dash|2}\nIf you control a creature with 5 Life or more, costs {faeria|2} less.
 184.name;Ruunin's Guidance
-184.text;{options|Give a creature +2/+2.|Gain 5 Life.}\n- Give a creature +2/+2.\n- Gain 5 Life.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Voice of Hunger
-185.text;{gift} - Destroy all adjacent friendly creatures. This gains Attack AND Life equal to their combined Life.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Seedling
 186.text;{production} - If this has less than 5 Life, it gains +1/+1.
 187.name;Eredon, Voice of All
@@ -547,7 +547,7 @@
 367.name;Divine Guardian
 367.text;{divine}\nWhen you would take lethal damage, prevent it and destroy this instead.
 368.name;The Emperor's Command
-368.text;{options|Give a creature -2/-1.|Deal 3 damage to a structure.|Gain 4 life.}\n- Give a creature -2/-1\n- Deal 3 damage to a structure\n- Gain 4 life.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Illusion of Grandeur
 369.text;{charge|2}\nWhenever you summon a creature that costs {faeria|1} or less, this gains Attack and Life equal to that creature's (while in your hand or deck).
 370.name;Deepwood Stalker
@@ -647,7 +647,7 @@
 513.name;Leaping Fugu
 513.text;{jump}\n{gift} - If you control 8 or more special lands, this gains +3/+3.
 514.name;Grappling Hook
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a space adjacent to the target.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Rakoan Reveller
 515.text;{last_words} - Gain {faeria|1} equal to this creature's attack.
 516.name;CAP-10, Sky Pirate

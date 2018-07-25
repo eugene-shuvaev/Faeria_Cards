@@ -289,9 +289,9 @@
 183.name;Javali Ancestral
 183.text;{dash|2}\nCusta {faeria|2} a menos se você controla uma criatura que tenha 5 ou mais de vida.
 184.name;Orientação de Ruunin
-184.text;{options|Dá +2/+2 a uma criatura|Você recupera 5 de vida}\nDá +2/+2 a uma criatura.\nVocê recupera 5 de vida.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Voz da Fome
-185.text;{gift} - Destrua todas as criaturas aliadas adjacentes. Esta criatura ganha Ataque E Vida igual às Vidas das criaturas combinadas.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Sementoide
 186.text;{production} - Se isto tem menos de 5 de Vida, ganha +1/+1.
 187.name;Eredon, Voz de Todos
@@ -547,7 +547,7 @@
 367.name;Guardiã Divina
 367.text;{divine}\nQuando você for receber dano fatal, ignore-o e destrua esta criatura no lugar.
 368.name;A Ordem do Imperador
-368.text;{options|Dá -2/-1 a uma criatura|Causa 3 de dano a uma estrutura|Recupera 4 de vida}\n- Dá -2/-1 a uma criatura.\n- Causa 3 de dano a uma estrutura.\n- Recupera 4 de vida.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Ilusão da Grandeza
 369.text;{charge|2}\n Sempre que você invocar uma criatura com o custo de {faeria|1} ou menos, esta criatura ganha Ataque e Vida iguais àquela criatura (enquanto estiver na sua mão ou no seu baralho).
 370.name;Perseguidor da Mata Densa
@@ -647,7 +647,7 @@
 513.name;Fugu Saltitante
 513.text;{jump}\n{gift} - Se você controlar 8 ou mais terrenos especiais, ganha +3/+3.
 514.name;Arpéu
-514.text;Dá {ranged_attack} a uma criatura durante este turno. Após esta criatura atacar, você pode movê-la para um hexágono adjacente ao alvo.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Revelador Rakoano
 515.text;{last_words} - Ganha {faeria|1} igual ao ataque dessa criatura.
 516.name;CAP-10, Pirata Celeste

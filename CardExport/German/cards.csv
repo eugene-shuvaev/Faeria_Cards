@@ -289,9 +289,9 @@
 183.name;Uralter Eber
 183.text;{dash|2}\nKostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
 184.name;Ruunins Ratschlag
-184.text;{options|Gib einer Kreatur +2/+2.|Erhalte 5 Leben.}\nGib einer Kreatur +2/+2.\nErhalte 5 Leben.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Stimme des Hungers
-185.text;{gift} - Zerstöre alle benachbarten verbündeten Kreaturen. Diese Kreatur erhält Angriff UND Leben in Höhe der Leben der zerstörten Kreaturen.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Setzling
 186.text;{production} - Wenn diese Kreatur weniger als 5 Leben hat, erhält sie +1/+1.
 187.name;Eredon, die Stimme von Allen
@@ -547,7 +547,7 @@
 367.name;Heilige Wächterin
 367.text;{divine}\n Wenn du tödlichen Schaden erleiden würdest, verhindere ihn und zerstöre stattdessen diese Kreatur.
 368.name;Befehl des Imperators
-368.text;{options|Gib einer Kreatur -2/-1.|Füge einem Bauwerk 3 Schaden zu.|Erhalte 4 Leben.}\n- Gib einer Kreatur -2/-1\n- Füge einem Bauwerk 3 Schaden zu\n- Erhalte 4 Leben.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Illusion von Erhabenheit
 369.text;{charge|2}\nJedes Mal, wenn du eine Kreatur beschwörst, die {faeria|1} oder weniger kostet, erhält diese Karte Angriff und Leben gleich den Werten jener Kreatur (solange sie in deiner Hand oder deinem Deck ist).
 370.name;Düsterforst-Pirscher
@@ -647,7 +647,7 @@
 513.name;Hüpfender Fugu
 513.text;{jump}\n{gift} - Erhält +3/+3, wenn du 8 oder mehr farbige Länder kontrollierst.
 514.name;Enterhaken
-514.text;Gib einer Kreatur für diesen Zug {ranged_attack}. Nachdem sie angegriffen hat, kannst du sie auf ein dem Ziel angrenzendes Feld bewegen.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Nachtschwärmer der Rakoan
 515.text;{last_words} - Du erhältst {faeria|1} in Höhe des Angriffs dieser Kreatur.
 516.name;CAP-10, Schrecken der Lüfte

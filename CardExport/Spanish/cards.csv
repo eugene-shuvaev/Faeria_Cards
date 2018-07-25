@@ -289,9 +289,9 @@
 183.name;Jabalí Antiguo
 183.text;{dash|2}\nCuesta {faeria|2} menos si controlas una criatura con 5 de vida o más.
 184.name;Guía de Ruunin
-184.text;{options|Otorga +2/+2 a una criatura.|Ganas 5 de vida.}\nOtorga +2/+2 a una criatura.\nGanas 5 de vida.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Voz del Hambre
-185.text;{gift} - Destruye todas las criaturas amistosas adyacentes. Esto gana Ataque y Vida igual a sus vidas combinadas.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Planta de Semillero
 186.text;{production} - Si esto tiene menos de 5 de Vida, gana +1/+1.
 187.name;Éredon, Vocal de Todos
@@ -547,7 +547,7 @@
 367.name;Guardiana Divina
 367.text;{divine}\nCuando vayas a recibir daño letal, prevenlo y en cambio destruye esto.
 368.name;El Comando del Emperador
-368.text;{options|Otorga -2/-1 a una criatura.|Inflige 3 de daño a una estructura.|Gana 4 de vida.}\n- Otorga -2/-1 a una criatura\n- Inflige 3 de daño a una estructura\n- Gana 4 de vida.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Ilusión de Grandeza
 369.text;{charge|2}\nCada vez que invoques una criatura que cueste {faeria|1} o menos, esta gana Ataque y Vida igual a la de esa criatura (mientras esté en tu mano o mazo).
 370.name;Acechador de los bosques profundos
@@ -647,7 +647,7 @@
 513.name;Pez Globo Saltador
 513.text;{jump}\n{gift} - Si controlas 8 o más tierras especiales, esto gana +3/+3.
 514.name;Gancho de Amarre
-514.text;Otorga {ranged_attack} a una criatura este turno. Luego de atacar, puedes mover dicha criatura a un espacio adyacente al objetivo.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Rakoa Parrandero
 515.text;{last_words} - Gana {faeria|1} igual al ataque de esta criatura.
 516.name;CAP-10, Pirata del Cielo

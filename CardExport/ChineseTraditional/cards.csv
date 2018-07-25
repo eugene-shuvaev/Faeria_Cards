@@ -289,9 +289,9 @@
 183.name;上古野豬
 183.text;{dash|2}\n若您操控著生命值大於等於5的生物，此生物的召喚費用減少{faeria|2}。
 184.name;茹妮的引導
-184.text;{options|目標生物獲得+2/+2|您獲得5點生命值}\n- 給予目標生物+2/+2。\n- 獲得5點生命值。
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;飢渴之聲
-185.text;{gift}：摧毀所有相鄰友方生物，獲得因此而摧毀之生命值總和的攻擊力與生命值。
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;林間幼苖
 186.text;{production}：若此生物的生命值小於5，則獲得+1/+1。
 187.name;珥頓，萬物之音
@@ -547,7 +547,7 @@
 367.name;神佑護衛
 367.text;{divine}\n當您遭到致死傷害時，此生物將自毀並隔擋該次傷害。
 368.name;王之諭令
-368.text;{options|目標生物獲得-2/-1。|對目標建築物造成3點傷害。|您獲得4點生命。}\n- 目標生物獲得-2/-1。\n- 對目標建築物造成3點傷害。\n- 您獲得4點生命。
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;權慾幻影
 369.text;{charge|2}\n每當您召喚費用小於或等於{faeria|1}的生物時，權慾幻影獲得其攻擊力與生命值 (當此生物位於您的牌庫或手牌時)。
 370.name;深林潛獵者
@@ -647,7 +647,7 @@
 513.name;跳跳河豚君
 513.text;{jump}\n{gift} - 若您控制大於等於8個特殊地塊，此生物獲得 +3/+3。
 514.name;拖曳爪鈎
-514.text;目標生物於本回合獲得{ranged_attack}。該生物可於攻擊後移動到攻擊目標的周圍。
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;瑞寇狂歡者
 515.text;{last_words} - 獲得等同於此生物攻擊力的{faeria|1}。
 516.name;CAP-10，御空海賊

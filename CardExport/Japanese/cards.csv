@@ -289,9 +289,9 @@
 183.name;古代のイノシシ
 183.text;{dash|2}\nライフ5以上のクリーチャーをコントロールしている場合、コストは{faeria|2}少なくなる。
 184.name;ルーニンの導き
-184.text;{options|対象のクリーチャー1体は+2/+2を得る。|あなたは5ライフを得る。}\n-  対象のクリーチャー1体は+2/+2を得る。\n- あなたは5ライフを得る。
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;空腹の声
-185.text;{gift} - 隣接する全ての味方クリーチャーを破壊する。破壊したクリーチャーのライフの合計値分、このクリーチャーは攻撃値とライフを得る。
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;実生
 186.text;{production} - このクリーチャーのライフが5未満の時、+1/+1を得る。
 187.name;万物の声　エラドン
@@ -547,7 +547,7 @@
 367.name;神聖なる守護者
 367.text;{divine}\nあなたが致命的なダメージを受ける時、それを防ぎ、代わりにこのクリーチャーを破壊する。
 368.name;皇帝の命令
-368.text;{options|対象のクリーチャー1体は-2/-1を得る。|対象のストラクチャーに3ダメージを与える。|あなたは4ライフを得る。}\n- 対象のクリーチャー1体は-2/-1を得る\n- 対象のストラクチャーに3ダメージを与える\n- あなたは4ライフを得る。
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;壮大な幻影
 369.text;{charge|2}\n{faeria|1}以下のクリーチャーを召喚したとき、このクリーチャーは召喚したクリーチャーの攻撃値とライフと同数の攻撃値とライフを得る。（あなたの手札とデッキの中にある間）
 370.name;深森の追跡者
@@ -647,7 +647,7 @@
 513.name;飛び跳ねるフグ
 513.text;{jump}\n{gift} - あなたが特殊な土地を8個以上コントロールしている場合、+3/+3を得る。
 514.name;グラップリングフック
-514.text;クリーチャー1体にこのターン{ranged_attack}を与える。攻撃後、攻撃した対象に隣接するマスにこのクリーチャーを移動させてもよい。
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;ラコア族のお祭り好き
 515.text;{last_words} - このクリーチャーの攻撃値に等しい{faeria|1}を得る。
 516.name;空賊 CAP-10

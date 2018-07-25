@@ -289,9 +289,9 @@
 183.name;远古战猪
 183.text;{dash|2}\n如果你控制的一个生物生命大于或等于5，消耗减少{faeria|2}。
 184.name;茹妮的指引
-184.text;{options|给予一个生物+2/+2|获得5点生命}\n- 给予一个生物+2/+2。\n- 获得5点生命。
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;饥渴之声
-185.text;{gift} - 摧毁所有相邻友方生物，此生物获得生命和攻击力，数值等同于所有被摧毁生物的生命总和。
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;幼苗
 186.text;{production} - 如果此生物的生命低于5点，获得+1/+1。
 187.name;艾瑞顿，万物之音
@@ -547,7 +547,7 @@
 367.name;神圣守护者
 367.text;{divine}\n当你的主神承受致命伤害时，此生物阻止该次伤害并且自毁。
 368.name;皇帝圣旨
-368.text;{options|给予一个生物-2/-1。|对一个建筑造成3点伤害。|获得4点生命值。}\n- 给予一个生物-2/-1。\n- 对一个建筑造成3点伤害。\n- 获得4点生命值。
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;辉幻蜃像
 369.text;{charge|2}\n每当你召唤一个消耗小于或等于{faeria|1}的生物，此生物获得召唤生物的攻击和生命(在套牌或手牌中)。
 370.name;深林潜伏者
@@ -647,7 +647,7 @@
 513.name;跳跳蛙
 513.text;{jump}\n{gift} - 如果你控制大于或等于8个特殊地块，此生物获得 +3/+3。
 514.name;抓钩
-514.text;本回合给予一个生物 {ranged_attack}。它攻击过后，你可以把它移动到被攻击目标的周围。
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;瑞寇狂欢者
 515.text;{last_words} - 获得与此生物的攻击力相等的 {faeria|1}
 516.name;CAP-10, 天际海盗

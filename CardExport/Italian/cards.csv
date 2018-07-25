@@ -289,9 +289,9 @@
 183.name;Antico Cinghiale
 183.text;{dash|2}\nCosto ridotto di {faeria|2} se controlli una creatura con almeno 5 punti vita.
 184.name;Guida di Ruunin
-184.text;{options|Dona +2/+2 a una creatura.|Ottieni 5 punti vita.}\n- Dona +2/+2 a una creatura.\n- Ottieni 5 punti vita.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Urlo della Fame
-185.text;{gift} - Distruggi tutte le creature alleate adiacenti. Ottiene attacco E vita pari alla somma dei punti vita delle creature distrutte.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Piantina
 186.text;{production} - Se ha meno di 5 punti vita ottiene +1/+1.
 187.name;Eredon, Voce del Tutto
@@ -547,7 +547,7 @@
 367.name;Guardiano Divino
 367.text;{divine}\nQuando dovresti subire del danno letale, previenilo e distruggi questa creatura.
 368.name;Il comando dell'Imperatore
-368.text;{options|Dona ad una creatura -2/-1|Infliggi 3 danni ad una struttura.|Ottiene 4 punti vita}\n- Dona ad una creatura -2/-1\n- Infliggi 3 danni ad una struttura\n- Ottiene 4 punti vita.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Illusione di grandezza
 369.text;{charge|2}\n Ogniqualvolta evochi una creatura con un costo pari o inferiore a {faeria|1}, questa creatura ottiene un valore di attacco e punti vita pari all'ammontare di quello della creatura evocata (se questa carta si trova nella tua mano o nel tuo mazzo).
 370.name;Cacciatore di Bosco Cupo
@@ -647,7 +647,7 @@
 513.name;Fugu Saltellante
 513.text;{jump}\n{gift} - Se controlli 8 o più terre speciali, ottiene +3/+3.
 514.name;Rampino
-514.text;Dona ad una creatura {ranged_attack} durante questo turno. Dopo aver attaccato, puoi muoverla in una casella adiacente al bersaglio.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Rakoano Festaiolo
 515.text;{last_words} - Ottieni {faeria|1} pari all'attacco di questa creatura.
 516.name;CAP-10, Pirata dei Cieli

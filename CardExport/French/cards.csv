@@ -289,9 +289,9 @@
 183.name;Sanglier antique
 183.text;{dash|2}\nCoûte {faeria|2} de moins si vous contrôlez une créature à la vie supérieure ou égale à 5.
 184.name;Auspices de Ruunin
-184.text;{options|Donne +2/+2 à une créature.|Gagnez 5 PV.}\nDonne +2/+2 à une créature.\nGagnez 5 PV.
+184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
 185.name;Râle de la Faim
-185.text;{gift} - Détruit toutes les créatures alliées adjacentes. Gagne un nombre de points d'attaque et de PV équivalent à la somme de leurs PV.
+185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
 186.name;Jeune pousse
 186.text;{production} - Gagne +1/+1 tant qu'elle a moins de 5 PV.
 187.name;Eredon, Voix de Tous
@@ -547,7 +547,7 @@
 367.name;Gardienne divine
 367.text;{divine}\nQuand vous devriez subir des dégâts mortels, cette créature vous protège et est détruite à votre place.
 368.name;Commandement de l'Empereur
-368.text;{options|Donne à une créature -2/-1.|Inflige 3 dégâts à une structure.|Gagnez 4 PV.}\n- Donne -2/-1 à une créature\n- Inflige 3 dégâts à une structure\n- Gagnez 4 PV.
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
 369.name;Illusion des grandeurs
 369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de points de vie que les créatures que vous invoquez et qui coûtent  {faeria|1} ou moins.
 370.name;Tisseuse des Bois Enfouis
@@ -647,7 +647,7 @@
 513.name;Fugu sauteur
 513.text;{jump}\n{gift} - Gagne +3/+3 si vous contrôlez au moins 8 terrains spéciaux.
 514.name;Crochet-grappin
-514.text;Donne {ranged_attack} à une créature pendant ce tour. Après son attaque, vous pouvez la déplacez sur un espace adjacent à sa cible.
+514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
 515.name;Fêtard Rakoan
 515.text;{last_words} - Gagnez {faeria|1} pour chaque point d'attaque de cette créature.
 516.name;CAP-10, Pirate du Ciel

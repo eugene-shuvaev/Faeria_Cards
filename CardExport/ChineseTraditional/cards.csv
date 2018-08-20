@@ -289,9 +289,9 @@
 183.name;上古野豬
 183.text;{dash|2}\n若您操控著生命值大於等於5的生物，此生物的召喚費用減少{faeria|2}。
 184.name;茹妮的引導
-184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
+184.text;Give a target:\n- creature: +2/+2\n- god: 5 Life
 185.name;飢渴之聲
-185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
+185.text;{gift} - Destroy all adjacent friendly creatures. This gains Attack AND Life equal to their combined Life.
 186.name;林間幼苖
 186.text;{production}：若此生物的生命值小於5，則獲得+1/+1。
 187.name;珥頓，萬物之音
@@ -301,7 +301,7 @@
 189.name;茹妮之靈
 189.text;將一張隨機綠色生物放入您的手牌，給予該生物+6/+6。
 190.name;茹妮，堅韌之心
-190.text;{dash|2}\n{last_words}：茹妮返回到您的手牌並獲得+2/+2。
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
 191.name;黑幫暴匪
 191.text;{combat}：獲得{faeria|2}。
 192.name;狗頭人軍閥
@@ -547,7 +547,7 @@
 367.name;神佑護衛
 367.text;{divine}\n當您遭到致死傷害時，此生物將自毀並隔擋該次傷害。
 368.name;王之諭令
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
+368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 Life
 369.name;權慾幻影
 369.text;{charge|2}\n每當您召喚費用小於或等於{faeria|1}的生物時，權慾幻影獲得其攻擊力與生命值 (當此生物位於您的牌庫或手牌時)。
 370.name;深林潛獵者
@@ -655,7 +655,7 @@
 517.name;閃光三文魚
 517.text;{divine},{flying}, {haste}, {charge|2}\n無法採集靈力。\n回合結束時摧毀此生物並抽一張牌。
 518.name;鬼蝠魟騎士
-518.text;{flying}, {charge|2}\n{last_words} - 於此生物死亡之處召喚一個擁有{flying}以及{charge|2}的2/2<b>飛天蝠魟</b>。
+518.text;{flying}\n{last_words} - 於此生物死亡之處召喚一個擁有{flying} 以及{charge|2} 的2/2<b>飛天蝠魟</b>。
 519.name;伊斯塔努，永恆之光
 519.text;{flying}, {charge|3}\n{last_words} - 隨機友方生物變成<b>伊斯塔努</b>。
 520.name;幻形章魚
@@ -717,10 +717,50 @@
 616.name;怨靈
 616.text;{last_words}：對自己主神造成2點傷害。
 617.name;浩劫
-617.text;對一個敵方生物或建築造成9點傷害。
+617.text;Deal 6 damage to an enemy creature or structure.
 618.name;著魔鮭魚
 618.text;{haste}、{flying}、{charge|2}\n無法收穫靈力。\n當此生物攻擊敵方主神，獲得+1/+1。
 619.name;心靈竊取
 619.text;從一個敵方生物吸取1點生命。如果因此殺了它，加入一張複製品到你的手中。其轉化為{wild}。
 620.name;熾陽
 620.text;{flying},{divine}\n{corrupt}：破壞一個靈井。
+622.name;Mother of All Yaks
+622.text;{gift} - Summon two 4/4 <b>Yak Guards</b> with {taunt} and {flying} adjacent to Mother of Yaks.\nCosts {faeria|1} less for each friendly yak that has died this game.
+623.name;Rakoan Champion
+623.text;{dash|2}\n{gift} - Gains +1/+1 for each other friendly Rakoan in play.
+624.name;Orphan Fugu
+624.text;Has +2/+0 and {jump} while you control another beast.
+625.name;Rapala, the Dopefish
+625.text;{aquatic}\n{gift} - Fill your opponent's hand with <b>Ruby Fish</b>. What an idiot.
+626.name;Sapphire Yak
+626.text;Whenever a friendly yak harvests faeria from an enemy well, give it +2/+2.
+627.name;Hunt Down
+627.text;Give a friendly beast +2/+0. Then it Fights an enemy creature.
+628.name;Emerald Yak
+628.text;{gift} - Summon a 1/1 <b>Baby Yak</b> with {taunt} and <b>Can't harvest faeria</b> on a prairie you control.
+629.name;Majinata, Spirit of Everlife
+629.text;{protection}, {divine}\n{gift} - A friendly creature swallows this. Give it +5/+5, {flying} and {charge|2}.
+630.name;Lavasurge Axolotl
+630.text;
+640.name;Rakoakopter
+640.text;{flying}, {dash|1}\n{gift} - Deal 2 damage to adjacent enemy creatures.
+641.name;Ruby Yak
+641.text;Whenever a friendly Yak is dealt damage, deal 1 damage to your opponent.
+642.name;Ghost Dragon
+642.text;{flying}, {charge|2}, {protection}
+643.name;Lion Fish
+643.text;{flying}, {deathtouch}
+644.name;Topaz Yak
+644.text;Can be summoned next to friendly Yaks. If it is, this gains {haste}.
+645.name;Rakoan War Machine
+645.text;{charge|2}\n{gift} - This may {swallow} another friendly Rakoan to gain +2/+0.
+646.name;Rakoan Cannoneer
+646.text;{gift} - You may sacrifice a Rakoan. If you do, deal 3 damage.
+647.name;Rakoan Illusionist
+647.text;{gift} - Transform another friendly Rakoan into a 4/4 {flying} {charge|2} <b>Dune Drake</b> until the start of your next turn.
+648.name;瑞寇護盾兵
+648.text;{last_words}：在死亡的地方召喚一隻1/1瑞寇。
+649.name;Rakoan Warleader
+649.text;{combat} - Give a random Rakoan in your hand +1/+1.
+650.name;Rakoan Recruiter
+650.text;{gift} - Add a 1/1 Rakoan to your hand. It costs {faeria|0}.

@@ -129,7 +129,7 @@
 83.name;Guerrier Triton
 83.text;{jump}
 84.name;Bête mystique
-84.text;{gift} - Gagne +2/+0 ainsi que {jump} si invoquée sur une case adjacente à un puits adverse.
+84.text;{gift} - Cette créature gagne +2/+0 ainsi que {jump} si elle est invoquée sur une case adjacente à un puits adverse.
 85.name;Reflet illusoire
 85.text;{gift} - Transforme une autre créature en <b>Reflet Illusoire</b> 5/5.
 86.name;Marmiton en Chef Triton
@@ -289,9 +289,9 @@
 183.name;Sanglier antique
 183.text;{dash|2}\nCoûte {faeria|2} de moins si vous contrôlez une créature à la vie supérieure ou égale à 5.
 184.name;Auspices de Ruunin
-184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
+184.text;Donne à une cible :\n- créature : +2/+2\n- divinité : 5 PV
 185.name;Râle de la Faim
-185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
+185.text;{gift} - Détruit toutes les créatures alliées adjacentes. Gagne un nombre de points d'attaque et de PV équivalent à la somme de leurs PV.
 186.name;Jeune pousse
 186.text;{production} - Gagne +1/+1 tant qu'elle a moins de 5 PV.
 187.name;Eredon, Voix de Tous
@@ -301,7 +301,7 @@
 189.name;Présence de Ruunin
 189.text;Ajoute une créature verte aléatoire à votre main et lui donne +6/+6.
 190.name;Ruunin, l'Eternelle
-190.text;{dash|2}\n{last_words} - Replace Ruunin dans votre main. Elle gagne +2/+2.
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
 191.name;Brigand des souterrains
 191.text;{combat} - Gagnez {faeria|2}.
 192.name;Seigneur de guerre Kobold
@@ -375,11 +375,11 @@
 238.name;Sèmefeu
 238.text;Tant que cette carte est dans votre deck ou votre main, gagne +1/+1 à chaque fois que vous invoquez une créature avec plus de points d'attaque que de PV.
 239.name;Salamandre ardente
-239.text;{gift} - Inflige 2 points de dégâts à toutes les créatures ennemies adjacentes.
+239.text;{gift} - Inflige 2 points de dégâts à tous les ennemis adjacents.
 240.name;Esprit Pierre-de-Sang
 240.text;À chaque fois que vous récoltez depuis un puits adverse, inflige 1 point de dégâts à votre adversaire.
 241.name;Courroux de Seifer
-241.text;Inflige 2 points de dégâts à une créature. Si elle meurt, inflige 2 points de dégâts à son contrôleur.
+241.text;Inflige 2 points de dégâts à une créature. Si elle meurt, inflige 2 points de dégâts à celui qui la contrôle.
 242.name;Plante vorace
 242.text;{taunt}\n{production} - Inflige 2 points de dégâts à toutes les créatures ennemies adjacentes.
 243.name;Bombe incendiaire
@@ -438,13 +438,13 @@
 273.text;{haste}, {charge|3}\nLe soldat du vent meurt à la fin du tour.
 274.name;Drakkar céleste
 274.text;{flying}\nChaque créature volante que vous piochez gagne +1/+1.
-275.name;Émissaire éolien
+275.name;Émissaire Éolien
 275.text;{flying}.\nA +2/+0 tant que vous contrôlez une autre créature volante.
 276.name;Charognard Shaytan
 276.text;Coûte {faeria|2} de moins si vous attaquez une divinité à ce tour.
 277.name;Drakon des dunes
 277.text;{flying}, {charge|2}\nNe peut pas récolter de faeria.
-278.name;Champion éolien
+278.name;Champion Éolien
 278.text;{flying}, {charge|5}\n{gift} - Déplace une créature.
 287.name;Colosse tempétueux
 287.text;{dash|3}\nCoûte {faeria|1} de moins pour chaque évènement que vous avez joué durant la partie (minimum : {faeria|5}).
@@ -466,7 +466,7 @@
 295.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, gagne +1/+1 à chaque fois qu'une créature alliée attaque une divinité.
 296.name;Soldat Keldran
 296.text;
-297.name;Seigneur des terres désolées
+297.name;Seigneur Nécrophage
 297.text;{gift} - Vous pouvez sacrifier une autre créature pour gagner {faeria|3}.
 298.name;Assassin Shaytan
 298.text;{deathtouch}\n{gift} - Vous pouvez sacrifier une autre créature pour donner {protection} à cette créature.
@@ -547,7 +547,7 @@
 367.name;Gardienne divine
 367.text;{divine}\nQuand vous devriez subir des dégâts mortels, cette créature vous protège et est détruite à votre place.
 368.name;Commandement de l'Empereur
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
+368.text;Donne à une cible :\n- créature : -2/-1\n- structure : 3 points de dégâts\n- divinité : 4 PV
 369.name;Illusion des grandeurs
 369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de points de vie que les créatures que vous invoquez et qui coûtent  {faeria|1} ou moins.
 370.name;Tisseuse des Bois Enfouis
@@ -635,19 +635,19 @@
 507.name;Empereur Kaios
 507.text;{production} - Donne -1/-0 à toutes les créatures ennemies. Puis détruit toutes les créatures ennemies qui ont 0 d'attaque.
 508.name;Graine du Paradis
-508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte sur l'océan, elle meurt et crée un lac.|Quand cette créature récolte sur l'océan, elle meurt et crée une forêt.|Quand cette créature récolte sur l'océan, elle meurt et crée une montagne.|Quand cette créature récolte sur l'océan, elle meurt et crée un désert.}\nQuand cette créature récolte sur l'océan, elle meurt et crée un terrain de la couleur choisie.\n
-509.name;Arbre de Vieternelle
+508.text;{flying}, {dash|1}\n{gift} - {options|Quand cette créature récolte sur l'océan, elle meurt et crée une forêt.|Quand cette créature récolte sur l'océan, elle meurt et crée un lac.|Quand cette créature récolte sur l'océan, elle meurt et crée une montagne.|Quand cette créature récolte sur l'océan, elle meurt et crée un désert.}\nQuand cette créature récolte sur l'océan, elle meurt et crée un terrain de la couleur choisie.\n
+509.name;L'Arbre d'Éternité
 509.text;{production} - Vous gagnez 7 points de vie.\n Donne +7/+7 à une créature au hasard dans votre main.
 510.name;Don des Rakoa
 510.text;Donne +1/+1 à une créature, autant de fois qu'il y a de créatures alliées.
 511.name;Biomancien curieux
 511.text;{gift} - Piochez une créature non-bleue dans votre deck, autant de fois qu'il y a de créatures ennemies.
 512.name;Fugoro, Marchand de Merveilles
-512.text;{jump}\n{gift} - {options|Piochez une <b>Urne de Gabria</b>|Piochez un <b>Dragon de cristal</b>|Piochez un <b>Médaillon d'Ulani</b>}\n- Piochez une <b>Urne de Gabria</b>\n- Piochez un <b>Dragon  de cristal</b>\n- Piochez un <b>Médaillon d'Ulani</b>
+512.text;{jump}\n{gift} - {options|Piochez une <b>Urne de Gabria</b>|Piochez un <b>Dragon de cristal</b>|Piochez un <b>Médaillon d'Ulani</b>}\n- Piochez une <b>Urne de Gabria</b>\n- Piochez un <b>Dragon de cristal</b>\n- Piochez un <b>Médaillon d'Ulani</b>
 513.name;Fugu sauteur
 513.text;{jump}\n{gift} - Gagne +3/+3 si vous contrôlez au moins 8 terrains spéciaux.
 514.name;Crochet-grappin
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
+514.text;Donne {ranged_attack} à une créature durant ce tour. Après son attaque, vous pouvez déplacer cette créature sur un espace adjacent à sa cible.
 515.name;Fêtard Rakoan
 515.text;{last_words} - Gagnez {faeria|1} pour chaque point d'attaque de cette créature.
 516.name;CAP-10, Pirate du Ciel
@@ -655,7 +655,7 @@
 517.name;Saumon fulgurant
 517.text;{divine}, {flying}, {haste}, {charge|2}\nNe peut pas récolter de faeria.\nÀ la fin de votre tour, cette créature est détruite et vous piochez une carte.
 518.name;Chevaucheur de Manta
-518.text;{flying}, {charge|2}\n{last_words} - Invoquez une <b>Manta</b> 2/2 avec {flying} et {charge|2} à l'endroit où il est mort.
+518.text;{flying}\n{last_words} - Invoquez une <b>Manta</b> 2/2 avec {flying} et {charge|2} à l'endroit où il est mort.
 519.name;Istanu, Lumière Éternelle
 519.text;{flying}, {charge|3}\n{last_words} - Une créature alliée aléatoire devient le nouvel <b>Istanu</b>.
 520.name;Poulpe évolutif
@@ -724,3 +724,43 @@
 619.text;Draine 1 PV à une créature ennemie. Si elle meurt, ajoute une copie de cette créature à votre main. Elle devient {wild}.
 620.name;Solem
 620.text;{flying}, {divine}\n{corrupt} - Détruit un puits à faeria.
+622.name;La Matriyark
+622.text;{gift} - Invoque deux 4/4 <b>Yaks protecteurs</b> avec {taunt} et {flying} adjacents à la Matriyark.\nCoûte {faeria|1} de moins pour chaque yak allié mort durant cette partie.
+623.name;Champion Rakoan
+623.text;{dash|2}\n{gift} - Gagne +1/+1 pour chaque autre Rakoan allié en jeu.
+624.name;Fugu orphelin
+624.text;A +2/+0 et {jump} tant que vous contrôlez une autre bête.
+625.name;Rapala, Fêlé du Bocal
+625.text;{aquatic}\n{gift} - Remplit la main de votre adversaire avec des <b>Poisson rubis</b>. Quel idiot.
+626.name;Yak Saphir
+626.text;À chaque fois qu'un Yak allié récolte de la faeria dans un puit adverse, lui donne +2/+2.
+627.name;Hunt Down
+627.text;Donne +2/+0 à une bête alliée puis la fait combattre une créature ennemie.
+628.name;Yak Émeraude
+628.text;{gift} - Invoque un <b>Bébé Yak</b> avec {taunt} et <b>Ne peut pas récolter de faeria</b> sur une de vos prairies.
+629.name;Majinata, Esprit d'Éternité
+629.text;{protection}, {divine}\n{gift} - Une créature alliée gobe Majinata et reçoit +5/+5, {flying} et {charge|2}.
+630.name;Axolotl volcanique
+630.text;
+640.name;Rakoakoptère
+640.text;{flying}, {dash|1}\n{gift} - Inflige 2 points de dégâts aux créatures ennemies adjacentes.
+641.name;Yak Rubis
+641.text;À chaque fois qu'un Yak allié reçoit des dégâts, inflige 1 point de dégâts à votre adversaire.
+642.name;Dragon spectral
+642.text;{flying}, {charge|2}, {protection}
+643.name;Rascasse
+643.text;{flying}, {deathtouch}
+644.name;Yak Topaze
+644.text;Peut-être invoqué à côté des yaks alliés, et gagne alors {haste}.
+645.name;Machine de guerre Rakoan
+645.text;{charge|2}\n{gift} - Gagne +2/+0 s'il {swallow} un Rakoan allié.
+646.name;Canonnier Rakoan
+646.text;{gift} - Inflige 3 points de dégâts si vous sacrifiez un Rakoan.
+647.name;Illusionniste Rakoan
+647.text;{gift} - Transforme un autre Rakoan allié en <b>Drakon des dunes</b> 4/4 avec {flying} et {charge|2} jusqu'au début de votre prochain tour.
+648.name;Compagnons protecteurs Rakoan
+648.text;{last_words} - Invoque un <b>Rakoan</b> 1/1 au même endroit.
+649.name;Chef de guerre Rakoan
+649.text;{combat} - Donne +1/+1 à un Rakoan aléatoire de votre main.
+650.name;Recruteur Rakoan
+650.text;{gift} - Ajoute un <b>Rakoan</b> 1/1 dans votre main. Il coûte {faeria|0}.

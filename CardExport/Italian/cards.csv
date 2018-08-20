@@ -29,7 +29,7 @@
 24.name;Picchiata del Falco
 24.text;Infligge 1 danno a una creatura.
 29.name;Maestro Spadaccino
-29.text;Has +2/+0 during your turn (while in your hand or in play).
+29.text;Ottiene +2/+0 durante il tuo turno (quando si trova nella tua mazzo o in gioco)
 30.name;Yak della Prateria
 30.text;
 32.name;Attacco Yak
@@ -85,7 +85,7 @@
 57.name;Saggezza
 57.text;Pesca 2 carte.
 58.name;Yak da Guerra
-58.text;Ha +2/+0 fintanto che il tuo avversario ha 10 punti vita o meno.
+58.text;Ottiene +2/+0 fintanto che il tuo avversario ha 10 punti vita o meno.
 59.name;Difensore della Patria
 59.text;{taunt}\n{gift} - Se sei stato attaccato durante il turno precedente, evoca un altro <b>Difensore della Patria</b>.
 60.name;Assassino della Regina
@@ -101,11 +101,11 @@
 65.name;Esploratore della Giungla
 65.text;Ha +1/+1 se controlli almeno 2 laghi e +0/+2 se controlli almeno 2 foreste.
 66.name;Esploratore di Vulcani
-66.text;Ha +1/+1 se controlli almeno 2 laghi e +2/+0 se controlli almeno 2 montagne.
+66.text;Ottiene +1/+1 se controlli almeno 2 laghi e +2/+0 se controlli almeno 2 montagne.
 67.name;Esploratore di Oasi
-67.text;Ha +1/+1 se controlli almeno 2 laghi e +1/+1 se controlli almeno 2 deserti.
+67.text;Ottiene +1/+1 se controlli almeno 2 laghi e +1/+1 se controlli almeno 2 deserti.
 68.name;Esploratore della Taiga
-68.text;Ha +2/+0 se controlli almeno 2 montagne e +0/+2 se controlli almeno 2 foreste.
+68.text;Ottiene +2/+0 se controlli almeno 2 montagne e +0/+2 se controlli almeno 2 foreste.
 69.name;Esploratore della Savana
 69.text;Ha +1/+1 se controlli almeno 2 deserti e +0/+2 se controlli almeno 2 foreste.
 70.name;Esploratore delle Rocce
@@ -289,9 +289,9 @@
 183.name;Antico Cinghiale
 183.text;{dash|2}\nCosto ridotto di {faeria|2} se controlli una creatura con almeno 5 punti vita.
 184.name;Guida di Ruunin
-184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
+184.text;Scegli un bersaglio:\n- creatura: ottiene +2/+2\n- dio: ottiene 5 punti vita
 185.name;Urlo della Fame
-185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
+185.text;{gift} - Distruggi tutte le creature alleate adiacenti. Ottiene attacco E vita pari alla somma dei punti vita delle creature distrutte.
 186.name;Piantina
 186.text;{production} - Se ha meno di 5 punti vita ottiene +1/+1.
 187.name;Eredon, Voce del Tutto
@@ -301,7 +301,7 @@
 189.name;Spirito di Ruunin
 189.text;Aggiungi una creatura verde casuale alla tua mano. Ottiene +6/+6.
 190.name;Ruunin l'Implacabile
-190.text;{dash|2}\n{last_words} - Fai tornare Ruunin nella tua mano. Ottiene +2/+2.
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
 191.name;Brigante dei Sotterranei
 191.text;{combat} - Ottieni {faeria|2}.
 192.name;Condottiero Koboldo
@@ -431,7 +431,7 @@
 266.name;Demone Shayatiano
 266.text;{production} - Infliggi 2 danni a te stesso.
 267.name;Guardiano dei Cieli di Khalim
-267.text;{flying}\nSi può evocare vicino a una creatura alleata.
+267.text;{flying}\nSi può evocare in una casella adiacente a una creatura alleata.
 268.name;Insegnamento di Khalim
 268.text;Dona +1/+0, {flying} e {charge|2} a una creatura.
 273.name;Soldato del Vento
@@ -439,7 +439,7 @@
 274.name;Capitano dei Cieli di Drakkar
 274.text;{flying}\nOgniqualvolta peschi una creatura con {flying} essa ottiene +1/+1.
 275.name;Emissario del Vento
-275.text;{flying}\nHa +2/+0 fintanto che controlli altre creature volanti.
+275.text;{flying}\nOttiene +2/+0 fintanto che controlli altre creature volanti.
 276.name;Saprofago Shayatiano
 276.text;Costa {faeria|2} in meno se hai attaccato un dio in questo turno.
 277.name;Draghetto delle Dune
@@ -499,7 +499,7 @@
 312.name;Behemoth del Ghiaccio
 312.text;{taunt}, {protection}
 313.name;Spirito Gemello
-313.text;{flying} \nSi può evocare vicino a una creatura alleata.\n{gift} - Evoca un altro <b>Spirito Gemello</b>.
+313.text;{flying} \nSi può evocare in una casella adiacente a una creatura alleata.\n{gift} - Evoca un altro <b>Spirito Gemello</b>.
 314.name;Bestia Spezzaspine
 314.text;{dash|2}\n{gift} - Infliggi 4 danni distribuiti casualmente tra i tuoi nemici. Distribuisci casualmente +4/+4 tra i tuoi alleati.
 315.name;Mangiatore di Anime
@@ -543,11 +543,11 @@
 365.name;Messaggero di Guerra
 365.text;{combat} - Dona alla prossima creatura con {combat} che evochi +1/+1.
 366.name;Guida delle Nebbie
-366.text;{flying}\nLe creature alleate evocate adiacenti a questa creatura ottengono {dash|2} e {flying}.
+366.text;{flying}\nLe creature alleate evocate in una casella adiacente a questa creatura ottengono {dash|2} e {flying}.
 367.name;Guardiano Divino
 367.text;{divine}\nQuando dovresti subire del danno letale, previenilo e distruggi questa creatura.
 368.name;Il comando dell'Imperatore
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
+368.text;Scegli un bersaglio:\n- creatura: ottiene -2/-1\n- struttura: infliggi 3 danni\n- dio: ottiene 4 punti vita
 369.name;Illusione di grandezza
 369.text;{charge|2}\n Ogniqualvolta evochi una creatura con un costo pari o inferiore a {faeria|1}, questa creatura ottiene un valore di attacco e punti vita pari all'ammontare di quello della creatura evocata (se questa carta si trova nella tua mano o nel tuo mazzo).
 370.name;Cacciatore di Bosco Cupo
@@ -635,8 +635,8 @@
 507.name;Imperatore Kaios
 507.text;{production} - dona a tutte le creature nemiche -1/-0. Distruggi tutte le creature nemiche con un valore di attacco pari a 0.
 508.name;Seme del Paradiso
-508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura estrae faeria sull'oceano, muore e crea un lago.|Quando questa creatura estrae faeria sull'oceano, muore e crea una foresta.|Quando questa creatura estrae faeria sull'oceano, muore e crea una montagna.|Quando questa creatura estrae faeria sull'oceano, muore e crea un deserto.}\nQuando questa creatura estrae faeria sull'oceano, muore e crea una terra del colore scelto.\n
-509.name;L'Albero di Lungavita
+508.text;{flying}, {dash|1}\n{gift} - {options|Quando questa creatura estrae faeria sull'oceano, muore e crea una foresta.|Quando questa creatura estrae faeria sull'oceano, muore e crea un lago.|Quando questa creatura estrae faeria sull'oceano, muore e crea una montagna.|Quando questa creatura estrae faeria sull'oceano, muore e crea un deserto.}\nQuando questa creatura estrae faeria sull'oceano, muore e crea una terra del colore scelto.\n
+509.name;L'Albero di Eternavita
 509.text;{production} - Guadagna 7 punti vita.\nDona +7/+7 a una creatura casuale nella tua mano.
 510.name;Dono dei Rakoa
 510.text;Una creatura ottiene +1/+1 per ogni creatura alleata.
@@ -647,7 +647,7 @@
 513.name;Fugu Saltellante
 513.text;{jump}\n{gift} - Se controlli 8 o più terre speciali, ottiene +3/+3.
 514.name;Rampino
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
+514.text;Dona ad una creatura {ranged_attack} durante questo turno. Dopo aver attaccato, puoi muoverla in una terra adiacente al bersaglio.
 515.name;Rakoano Festaiolo
 515.text;{last_words} - Ottieni {faeria|1} pari all'attacco di questa creatura.
 516.name;CAP-10, Pirata dei Cieli
@@ -655,7 +655,7 @@
 517.name;Salmone Guizzante
 517.text;{divine}, {flying}, {haste}, {charge|2}\nNon può raccogliere faeria.\nAlla fine del turno, distruggi questa creatura e pesca una carta.
 518.name;Cavalcatore di Manta
-518.text;{flying}, {charge|2}\n{last_words} - Evoca una <b>Manta</b> 2/2 con {flying} e {charge|2} nella casella dove questa creatura è stata distrutta.
+518.text;{flying}\n{last_words} - Evoca una <b>Manta</b> 2/2 con {flying} e {charge|2} nella casella dove questa creatura è stata distrutta.
 519.name;Istanu, Luce Eterna
 519.text;{flying}, {charge|3}\n{last_words} - Una creatura amica casuale diventa la nuova <b>Istanu</b>.
 520.name;Polpo Mutevole
@@ -668,8 +668,8 @@
 523.text;{gift} - Infliggi 2 danni alle creature nemiche adiacenti. Dona alle creature amiche adiacenti +2/+2.
 524.name;Pesce Spada Guardiano del Cielo
 524.text;{flying}, {taunt}, {dash|1}
-525.name;Swarming Carassius
-525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Swarming Carassius</b> for each friendly one that died this game.
+525.name;Banco di carassi
+525.text;{flying}\nPuò essere evocato in una casella adiacente ad una creatura alleata.\n{gift} - Evoca un <b>Swarming Carassius</b> per ogni creatura alleata che è morta in questa partita.
 526.name;Custode dei Sogni
 526.text;{taunt}\n{gift} - Riduci il costo di tutte le carte nella tua mano di {faeria|1}, quindi rimescolale nel tuo mazzo e pesca un uguale numero di carte.
 527.name;Tartaruga Gemmata
@@ -720,7 +720,47 @@
 617.text;Infliggi 9 danni ad una creatura o struttura nemica.
 618.name;Salmone Demoniaco
 618.text;{haste}, {flying}, {charge|2}\nNon può raccogliere faeria.\nOgniqualvolta questa creatura attacca un dio, ottiene +1/+1.
-619.name;Futro dello Spirito
+619.name;Furto dello Spirito
 619.text;Sottrai 1 punto vita ad una creatura nemica. Se muore, aggiungine una copia alla tua mano. Diventa {wild}
 620.name;Solem
 620.text;{flying},{divine}\n{corrupt} - Distruggi un pozzo di faeria.
+622.name;Madre degli Yak
+622.text;{gift} - Evoca 2 <b>Guardie Yak</b> 4/4 con {taunt} e {flying} adiacenti alla Madre degli Yak.\nCosta {faeria|1} in meno per ogni yak alleato morto in questa partita.
+623.name;Campione Rakoano
+623.text;{dash|2}\n{gift} - Ottiene +1/+1 per ogni altro Rakoa alleato.
+624.name;Fugu Orfano
+624.text;Ha +2/+0 e {jump} finchè controlli un'altra bestia.
+625.name;Rapala, the Dopefish
+625.text;{aquatic}\n{gift} - Riempi la mano del tuo avversario di <b>Pesci Rubino</b>. Che idiota.
+626.name;Yak di Zaffiro
+626.text;Ogniqualvolta uno yak alleato raccoglie faeria da un pozzo avversario, esso ottiene +2/+2.
+627.name;Cacciare
+627.text;Una bestia alleata ottiene +2/+0. Poi Combatte con una creatura nemica.
+628.name;Yak di Smeraldo
+628.text;{gift} - Evoca un <b>Cucciolo di Yak</b> 1/1 con {taunt} e <b>Non può raccogliere faeria<b> in una prateria che controlli.
+629.name;Majinata, Spirito di Eternavita
+629.text;{protection}, {divine}\n{gift} - Una creatura alleata divora questa creatura. Ottiene +5/+5, {flying} e {charge|2}.
+630.name;Axolotl impeto di lava
+630.text;
+640.name;Rakoakoptero
+640.text;{flying}, {dash|1}\n{gift} - Infliggi 2 danni alle creature nemice adiacenti.
+641.name;Yak di Rubino
+641.text;Ogniqualvolta uno yak alleato subisce danno, infliggi 1 danno al tuo avversario.
+642.name;Drago Fantasma
+642.text;{flying}, {charge|2}, {protection}
+643.name;Pesce Leone
+643.text;{flying}, {deathtouch}
+644.name;Yak di Topazio
+644.text;Può essere evocato vicino ad uno yak alleato. Se lo fai, questa creatura ottiene {haste}-
+645.name;Macchina da guerra Rakoana
+645.text;{charge|2}\n{gift} - Puoi {swallow} un Rakoa alleato, se lo fai questa creatura ottiene +2/+0.
+646.name;Cannoniere Rakoano
+646.text;{gift} - Puoi sacrificare un Rakoa. Se lo fai, infliggi 3 danni.
+647.name;Illusionista Rakoano
+647.text;{gift} - Trasforma un altro Rakoa alleato in un <b>Draghetto delle Dune</b> 4/4 con {flying} {charge|2} fino all'inizio del tuo prossimo turno.
+648.name;Compagni di scudo Rakoani
+648.text;{last_words} - Evoca un Rakoa 1/1 dove è morta questa creatura.
+649.name;Capoguerra Rakoano
+649.text;{combat} - Un Rakoa casuale nella tua mano ottiene +1/+1.
+650.name;Reclutatore Rakoano
+650.text;{gift} - Aggiungi un Rakoa 1/1 alla tua mano. Costa {faeria|0}.

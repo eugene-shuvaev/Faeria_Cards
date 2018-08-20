@@ -29,7 +29,7 @@
 24.name;猎鹰俯冲
 24.text;对一个生物造成1点伤害。
 29.name;剑术大师
-29.text;Has +2/+0 during your turn (while in your hand or in play).
+29.text;在你的回合拥有+2/+0(当此生物在你手牌中或在场上时)。
 30.name;草原牦牛
 30.text;
 32.name;进击的牦牛
@@ -289,9 +289,9 @@
 183.name;远古战猪
 183.text;{dash|2}\n如果你控制的一个生物生命大于或等于5，消耗减少{faeria|2}。
 184.name;茹妮的指引
-184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
+184.text;给予目标:\n- 生物: +2/+2\n- 神明: 5点生命值
 185.name;饥渴之声
-185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
+185.text;{gift} - 摧毁所有相邻友方生物。 此生物获得攻击<b>和</b>生命，数值等同于所有被摧毁生物的生命总和。
 186.name;幼苗
 186.text;{production} - 如果此生物的生命低于5点，获得+1/+1。
 187.name;艾瑞顿，万物之音
@@ -301,7 +301,7 @@
 189.name;茹妮现灵
 189.text;将一张随机绿色生物加入你的手牌中，并给予其+6/+6。
 190.name;茹妮，百折不挠
-190.text;{dash|2}\n{last_words} - 茹妮会回到你的手牌中，她获得+2/+2。
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
 191.name;地下暴匪
 191.text;{combat} - 获得{faeria|2}。
 192.name;地精军阀
@@ -547,7 +547,7 @@
 367.name;神圣守护者
 367.text;{divine}\n当你的主神承受致命伤害时，此生物阻止该次伤害并且自毁。
 368.name;皇帝圣旨
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
+368.text;给予目标:\n- 生物: -2/-1\n- 建筑: 3点伤害\n- 神明: 4点生命值
 369.name;辉幻蜃像
 369.text;{charge|2}\n每当你召唤一个消耗小于或等于{faeria|1}的生物，此生物获得召唤生物的攻击和生命(在套牌或手牌中)。
 370.name;深林潜伏者
@@ -559,7 +559,7 @@
 403.name;黑暗水晶
 403.text;从敌方神明吸取4点生命，对所有敌方生物造成3点伤害，抽2张卡。
 404.name;牛角战号
-404.text;Summon three 2/4 <b>Angry Prairie Yaks</b> with {haste}.
+404.text;召唤三头拥有{haste}的2/4<b>愤怒的草原牦牛</b>。
 405.name;星际武器
 405.text;{flying}\n{gift} - 摧毁所有相邻生物，建筑物以及地块。
 406.name;時之笛
@@ -647,7 +647,7 @@
 513.name;跳跳蛙
 513.text;{jump}\n{gift} - 如果你控制大于或等于8个特殊地块，此生物获得 +3/+3。
 514.name;抓钩
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
+514.text;本回合给予一个生物 {ranged_attack}。它攻击过后，你可以把它移动到被攻击目标相邻的地块。
 515.name;瑞寇狂欢者
 515.text;{last_words} - 获得与此生物的攻击力相等的 {faeria|1}
 516.name;CAP-10, 天际海盗
@@ -655,7 +655,7 @@
 517.name;闪光三文鱼
 517.text;{divine}, {flying}, {haste}, {charge|2}\n不能收集faeria。\n在你回合结束，摧毁这个生物并且抽一张卡。
 518.name;鹰鲂骑士
-518.text;{flying}, {charge|2}\n{last_words} - 在此生物死亡的地方，召唤一个拥有{flying} 以及 {charge|2} 2/2 <b>鹰鲂</b>。
+518.text;{flying}\n{last_words} - 在此生物死亡的地方，召唤一个拥有{flying} 以及 $2/2 <b>鹰鲂</b>。
 519.name;伊斯塔努，永恒之光
 519.text;{flying}, {charge|3}\n{last_words} - 一个随机友方生物变成新的<b>伊斯塔努</b>。
 520.name;变形章鱼
@@ -668,8 +668,8 @@
 523.text;{gift} - 对周围敌方生物造成2点伤害。 给予周围友方生物 +2/+2。
 524.name;云巅守护 剑鱼
 524.text;{flying}， {taunt}， {dash|1}
-525.name;Swarming Carassius
-525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Swarming Carassius</b> for each friendly one that died this game.
+525.name;蜂拥鲫鱼
+525.text;{flying}\n可以召唤在友方生物周围。\n{gift} - 在这场游戏中，每死亡一只蜂拥鲫鱼，便召唤一只 <b>蜂拥鲫鱼</b>。
 526.name;守梦人
 526.text;{taunt}\n{gift} - 降低手牌中所有卡牌消耗 {faeria|1}， 然后把他们放回套牌，并且抽取同样牌数卡牌。
 527.name;宝石壳龟
@@ -717,10 +717,50 @@
 616.name;愤怒仙灵
 616.text;{last_words} - 对自己造成2点伤害。
 617.name;浩劫
-617.text;对目标敌方生物或建筑造成9点伤害。
+617.text;对目标敌方生物或建筑造成9点伤害
 618.name;魔化三文鱼
 618.text;{haste}, {flying}, {charge|2}\n不能收集faeria\n每当此生物攻击神明，获得+1/+1。
 619.name;灵魂盗窃
 619.text;吸取目标敌方生物1点生命值。若目标因此死亡，将它复制并加入你的手牌，它的费用转化为{wild}。
 620.name;所罗姆
 620.text;{flying}, {divine}\n{corrupt} - 摧毁一座灵泉。
+622.name;众牛之母
+622.text;{gift} - 在众牛之母周围召唤两个具有{taunt}和{flying}的4/4<b>牦牛护卫</b>。\n在本场游戏中，每当友方牦牛死亡时此卡费用减少{faeria|1}。
+623.name;瑞寇斗士
+623.text;{dash|2}\n{gift} - 获得与场上的友方瑞寇数量相等的+1/+1。
+624.name;孤儿蛙
+624.text;当你控制另一个野兽时，此生物获得+2/+0和{jump}。
+625.name;拉帕拉，蠢若木鱼
+625.text;{aquatic}\n{gift} - 给对手的手牌塞满<b>红宝石鱼</b>。 真是太蠢了。
+626.name;蓝宝石牦牛
+626.text;每当一个友方牦牛从地方灵泉收集Faeria时，给予其+2/+2。
+627.name;追猎
+627.text;给予一个友方野兽+2/+0。然后其与目标敌方生物交战。
+628.name;翡翠牦牛
+628.text;{gift} - 在你的平原召唤一个拥有1/1{taunt}但<b>无法收集faeria</b>的<b>牦牛宝宝</b>。
+629.name;玛巾纳塔，永生之灵
+629.text;{protection}, {divine}\n{gift} - 目标友军吞噬此生物。给予吞噬者+5/+5{flying}与{charge|2}。
+630.name;炎涌蝾螈
+630.text;
+640.name;瑞寇直升机
+640.text;{flying}, {dash|1}\n{gift} - 对周围敌方生物造成2点伤害。
+641.name;红宝石牦牛
+641.text;每当一个友方牦牛受到伤害，对敌方神明造成1点伤害。
+642.name;幽灵龙
+642.text;{flying}, {charge|2}, {protection}
+643.name;狮子鱼
+643.text;{flying}, {deathtouch}
+644.name;黄玉牦牛
+644.text;可以在友方牦牛周围召唤此生物。若这么做，此生物获得{haste}。
+645.name;瑞寇战争机器
+645.text;{charge|2}\n{gift} - 此生物可以{swallow}另一个友方瑞寇以获得+2/+0。
+646.name;瑞寇炮手
+646.text;{gift} - 你可以牺牲一个瑞寇。 若这么做的话，造成3点伤害。
+647.name;瑞寇幻术师
+647.text;{gift} - 在你的下回合开始为止，将另一个友方转化为一个拥有{flying}和{charge|2}的4/4<b>沙丘幼龙</b>。
+648.name;瑞寇护盾牌队友
+648.text;{last_words} - 在此生物死亡的位置召唤一个1/1瑞寇士兵。
+649.name;瑞寇领军者
+649.text;{combat} - 随机给予你手中的一个瑞寇+1/+1。
+650.name;瑞寇征募官
+650.text;{gift} - 将一张1/1的瑞寇士兵放入你的手牌。其费用为{faeria|0}。

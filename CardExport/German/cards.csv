@@ -29,7 +29,7 @@
 24.name;Sturzflug
 24.text;Füge einer Kreatur 1 Schaden zu.
 29.name;Schwertmeister
-29.text;Has +2/+0 during your turn (while in your hand or in play).
+29.text;Hat +2/+0 während deines Zuges (während in deiner Hand oder im Spiel).
 30.name;Prärie-Yak
 30.text;
 32.name;Yak-Angriff
@@ -289,9 +289,9 @@
 183.name;Uralter Eber
 183.text;{dash|2}\nKostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
 184.name;Ruunins Ratschlag
-184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
+184.text;Das Ziel erhält:\n- Kreatur: +2/+2\n- Gott: 5 Leben
 185.name;Stimme des Hungers
-185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
+185.text;{gift} - Zerstöre alle angrenzenden Verbündeten Kreaturen. Diese Kreatur erhält Angriff UND Leben gleich der zerstörten Leben.
 186.name;Setzling
 186.text;{production} - Wenn diese Kreatur weniger als 5 Leben hat, erhält sie +1/+1.
 187.name;Eredon, die Stimme von Allen
@@ -301,7 +301,7 @@
 189.name;Ruunins Gegenwart
 189.text;Füge deiner Hand eine zufällige Kreatur hinzu. Sie bekommt +6/+6.
 190.name;Ruunin, die Unnachgiebige
-190.text;{dash|2}\n{last_words} - Bring Ruunin auf deine Hand zurück. Sie erhält +2/+2.
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
 191.name;Räuber aus dem Untergrund
 191.text;{combat} - Erhalte {faeria|2}.
 192.name;Kriegsherr der Kobolde
@@ -547,7 +547,7 @@
 367.name;Heilige Wächterin
 367.text;{divine}\n Wenn du tödlichen Schaden erleiden würdest, verhindere ihn und zerstöre stattdessen diese Kreatur.
 368.name;Befehl des Imperators
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
+368.text;Das Ziel erhält:\n- Kreatur: -2/-1\n- Struktur: 3 Schaden \n- Gott: 4 Leben
 369.name;Illusion von Erhabenheit
 369.text;{charge|2}\nJedes Mal, wenn du eine Kreatur beschwörst, die {faeria|1} oder weniger kostet, erhält diese Karte Angriff und Leben gleich den Werten jener Kreatur (solange sie in deiner Hand oder deinem Deck ist).
 370.name;Düsterforst-Pirscher
@@ -635,7 +635,7 @@
 507.name;Kaios, der Imperator
 507.text;{production} - Alle gegnerischen Kreaturen erhalten -1/-0. Dann zerstöre alle gegnerischen Kreaturen mit 0 Angriff.
 508.name;Samenkorn aus dem Paradies
-508.text;{flying}, {dash|1}\n{gift} - {options|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen See.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen Wald.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Gebirge.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert eine Wüste.}\nWenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Land der gewählten Farbe.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen Wald.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert einen See.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Gebirge.|Wenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert eine Wüste.}\nWenn diese Kreatur über dem Ozean sammelt, stirbt sie und kreiert ein Land der gewählten Farbe.\n
 509.name;Der Baum des Ewigen Lebens
 509.text;{production} - Erhalte 7 Leben.\nEine zufällig ausgewählte Kreatur in deiner Hand erhält +7/+7.
 510.name;Geschenk der Rakoa
@@ -647,7 +647,7 @@
 513.name;Hüpfender Fugu
 513.text;{jump}\n{gift} - Erhält +3/+3, wenn du 8 oder mehr farbige Länder kontrollierst.
 514.name;Enterhaken
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
+514.text;Die Zielkreatur erhält {ranged_attack} bis zum Ende des Zuges. Nachdem sie angreift, kannst du sie auf ein Land neben der angegriffenen Kreatur bewegen.
 515.name;Nachtschwärmer der Rakoan
 515.text;{last_words} - Du erhältst {faeria|1} in Höhe des Angriffs dieser Kreatur.
 516.name;CAP-10, Schrecken der Lüfte
@@ -655,7 +655,7 @@
 517.name;Lichtblitz-Lachs
 517.text;{divine}, {flying}, {haste}, {charge|2}\n Kann kein Faeria sammeln. \nZerstöre diese Kreatur am Ende deines Zuges und ziehe eine Karte.
 518.name;Manta-Reiter
-518.text;{flying}, {charge|2}\n{last_words} - Beschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2} wo diese Kreatur gestorben ist.
+518.text;{flying}\n{last_words} - Beschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2} wo diese Kreatur gestorben ist.
 519.name;Istanu, das Ewige Licht
 519.text;{flying}, {charge|3}\n{last_words} - Eine zufällig ausgewählte verbündete Kreatur wird der neue <b>Istanu</b>.
 520.name;Wandelbarer Oktopus
@@ -668,8 +668,8 @@
 523.text;{gift} - Füge angrenzenden gegnerischen Kreaturen 2 Schaden zu. Gib angrenzenden verbündeten Kreaturen +2/+2.
 524.name;Himmelstrebender Schwertfisch
 524.text;{flying}, {taunt}, {dash|1}
-525.name;Swarming Carassius
-525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Swarming Carassius</b> for each friendly one that died this game.
+525.name;Karpfenschwarm
+525.text;{flying}\n Kann neben verbündeten Kreaturen beschworen werden. \n {gift} Beschwöre einen <b>Karpfenschwarm </b> für jeden der in diesem Spiel gestorben ist.
 526.name;Traumbewahrer
 526.text;{taunt}\n{gift} - Reduziere die Kosten aller deiner Handkarten um {faeria|1}, dann mische sie in dein Deck und ziehe soviele Karten nach.
 527.name;Edelsteinpanzer-Schildkröte
@@ -717,10 +717,50 @@
 616.name;Boshafte Elfe
 616.text;{last_words} - Füge dir selbst 2 Schaden zu.
 617.name;Verwüstung
-617.text;Füge einer feindlichen Kreatur oder Bauwerk 9 Schaden zu.
+617.text;Füge einer gegnerischen Kreatur oder Bauwerk 9 Schaden zu.
 618.name;Dämonischer Lachs
 618.text;{haste}, {flying}, {charge|2}\n Kann kein Faeria sammeln.\nWenn diese Kreatur einen Gott angreift, erhält sie +1/+1.
 619.name;Seelenraub
 619.text;Entziehe einer gegnerischen Kreatur 1 Leben. Wenn dies die Kreatur tötet, nimm eine Kopie von ihr auf die Hand. Sie ist {wild}.
 620.name;Solem
 620.text;{flying}, {divine}\n{corrupt} - Zerstöre einen Faeria-Brunnen.
+622.name;Mutter aller Yaks
+622.text;{gift} - Beschwöre zwei 4/4 <b>Yak Wächter</b> mit {taunt} und {flying} neben Mutter aller Yaks.\n Kostet {faeria|1} weniger für jeden verbündeten Yak der in diesem Spiel gestorben ist.
+623.name;Champion der Rakoa
+623.text;{dash|2}\n{gift}- Erhält +1/+1 für jeden anderen Rakoan auf dem Spielfeld.
+624.name;Waisenfugu
+624.text;Hat +2/+0 und {jump} solange du eine andere Bestie kontrollierst.
+625.name;Rapala, der Dummfisch
+625.text;{aquatic}\n{gift}- Fülle die Hand deines Gegners mit <b>Rubinfisch</b>. Was ein Idiot.
+626.name;Saphiryak
+626.text;Immer wenn ein verbündeter Yak Faeria von einem gegnerischen Brunnen sammelt, gib ihm +2/+2.
+627.name;Erlegen
+627.text;Gib einer verbündeten Bestie +2/+0. Dann kämpft es gegen eine gegnerische Kreatur.
+628.name;Smaragdtyak
+628.text;{gift}- Beschwöre ein 1/1 <b>Baby Yak</b> mit {taunt} und <b> Kann kein Faeria sammeln</b> auf einer Prärie unter deiner Kontrolle.
+629.name;Majinata, Geist des Ewigen Lebens
+629.text;{protection}, {divine}\n{gift}- Eine verbündete Kreatur verschlingt dies. Sie erhält +5/+5, {flying} und {charge|2}.
+630.name;Lavasurge Axolotl
+630.text;
+640.name;Rakoakopter
+640.text;{flying}, {dash|1}\n{gift} - Deal 2 damage to adjacent enemy creatures.
+641.name;Rubinyak
+641.text;Whenever a friendly Yak is dealt damage, deal 1 damage to your opponent.
+642.name;Geisterdrache
+642.text;{flying}, {charge|2}, {protection}
+643.name;Löwenfisch
+643.text;{flying}, {deathtouch}
+644.name;Topazyak
+644.text;Can be summoned next to friendly Yaks. If it is, this gains {haste}.
+645.name;Rakoan Kriegsmaschine
+645.text;{charge|2}\n{gift} - This may {swallow} another friendly Rakoan to gain +2/+0.
+646.name;Rakoan Kanonier
+646.text;{gift} - You may sacrifice a Rakoan. If you do, deal 3 damage.
+647.name;Rakoan Illusionist
+647.text;{gift} - Transform another friendly Rakoan into a 4/4 {flying} {charge|2} <b>Dune Drake</b> until the start of your next turn.
+648.name;Rakoanische Schildbrüder
+648.text;{last_words} - Beschwöre einen 1/1 Rakoaner an dieser Position.
+649.name;Rakoan Warleader
+649.text;{combat} - Give a random Rakoan in your hand +1/+1.
+650.name;Rakoan Rekrutierer
+650.text;{gift} - Add a 1/1 Rakoan to your hand. It costs {faeria|0}.

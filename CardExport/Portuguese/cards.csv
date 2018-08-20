@@ -164,7 +164,7 @@
 108.text;{flying}, {charge|2}\n{gift} - Transforma todas as suas outras criaturas em criaturas que custam {faeria|2} a mais.
 109.name;Elemental da Água
 109.text;{jump}\n{gift} - Cria um lago.
-110.name;Fada da Gema de Seda
+110.name;Fada de Seda da Gema
 110.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +2/+2, e {charge|2}.
 111.name;Torre Afundada
 111.text;{activate} - Move um terreno. Isto sofre 1 de dano.
@@ -262,7 +262,7 @@
 169.text;{flying}, {charge|2}\n{gift} - Dá +5/+5 a uma criatura.
 170.name;Elemental da Madeira
 170.text;{taunt}\n{gift} - Cria uma floresta.
-171.name;Fada da Flor de Seda
+171.name;Fada de Seda da Flor
 171.text;{flying}\nNa priemria vez em que você comprar um evento, ganha +1/+4, {taunt} e {charge|2}.
 172.name;Torre Encoberta
 172.text;{activate} - Dá +1/+1 a uma criatura. Isto sofre 1 de dano.
@@ -289,9 +289,9 @@
 183.name;Javali Ancestral
 183.text;{dash|2}\nCusta {faeria|2} a menos se você controla uma criatura que tenha 5 ou mais de vida.
 184.name;Orientação de Ruunin
-184.text;Pick a target, if it's:\n- a creature it gains +2/+2.\n- your god 5 Life.
+184.text;Escolha um alvo:\n- criatura: +2/+2\n- deus: 5 de Vida
 185.name;Voz da Fome
-185.text;Give a target:\n- creature: +2/+2\n- god: 5 life
+185.text;{gift} - Destrói todas as criaturas aliadas adjacentes. Esta criatura ganha Ataque E Vida igual à soma das vidas das criaturas destruídas.
 186.name;Sementoide
 186.text;{production} - Se isto tem menos de 5 de Vida, ganha +1/+1.
 187.name;Eredon, Voz de Todos
@@ -301,7 +301,7 @@
 189.name;Presença de Ruunin
 189.text;Adiciona uma carta verde aleatória a sua mão. Ela ganha +6/+6.
 190.name;Ruunin, a Implacável
-190.text;{dash|2}\n{last_words} - Retorna Ruunin à sua mão. Ela ganha +2/+2.
+190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
 191.name;Bandido Subterrâneo
 191.text;{combat} - Ganha {faeria|2}.
 192.name;Comandante Kobold
@@ -364,7 +364,7 @@
 232.text;{flying}, {charge|2}\n{gift} - Causa 3 de dano a todas as criaturas inimigas.
 233.name;Elemental do Fogo
 233.text;{gift} - Cria uma montanha.
-234.name;Fada da Chama de Seda
+234.name;Fada de Seda da Chama
 234.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +3/+1 e {ranged_attack}.
 235.name;Torre Abandonada
 235.text;{activate} - Causa 1 de dano. Causa 1 de dano a esta estrutura.
@@ -452,7 +452,7 @@
 288.text;{flying}, {charge|2}\n{gift} - Azarai drena 2 de Ataque de cada criatura inimiga.
 289.name;Elemental do Ar
 289.text;{flying}\n{gift} - Cria um deserto.
-290.name;Fada do Sol de Seda
+290.name;Fada de Seda do Sol
 290.text;{flying}\nNa primeira vez em que você comprar um evento, ganha +3/+1 e {charge|3}.
 291.name;Torre Celestial
 291.text;{activate} - Dá 1 de dano a essa estrutura e dê a uma criatura {charge|3} esse turno.
@@ -547,7 +547,7 @@
 367.name;Guardiã Divina
 367.text;{divine}\nQuando você for receber dano fatal, ignore-o e destrua esta criatura no lugar.
 368.name;A Ordem do Imperador
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 life
+368.text;Escolha um alvo:\n- criatura: -2/-1\n- estrutura: 3 de dano\n- deus: 5 de Vida
 369.name;Ilusão da Grandeza
 369.text;{charge|2}\n Sempre que você invocar uma criatura com o custo de {faeria|1} ou menos, esta criatura ganha Ataque e Vida iguais àquela criatura (enquanto estiver na sua mão ou no seu baralho).
 370.name;Perseguidor da Mata Densa
@@ -635,7 +635,7 @@
 507.name;Imperador Kaios
 507.text;{production} - Dá -1/-0 a todas as criaturas inimigas. Em seguida, destrói todas as criaturas inimigas com 0 de Ataque.
 508.name;Semente do Paraíso
-508.text;{flying}, {dash|1}\n{gift} - {options|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um lago.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma floresta.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma montanha.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um deserto.}\nQuando esta criatura coletar faeria sobre o oceano, ela morre e cria um terreno da cor escolhida.\n
+508.text;{flying}, {dash|1}\n{gift} - {options|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma floresta.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um lago.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria uma montanha.|Quando esta criatura coletar faeria sobre o oceano, ela morre e cria um deserto.}\nQuando esta criatura coletar faeria sobre o oceano, ela morre e cria um terreno da cor escolhida.\n
 509.name;A Árvore da Vida Eterna
 509.text;{production} - Você recupera 7 de Vida.\nDá +7/+7 a uma criatura aleatória na sua mão.
 510.name;Presente dos Rakoas
@@ -647,7 +647,7 @@
 513.name;Fugu Saltitante
 513.text;{jump}\n{gift} - Se você controlar 8 ou mais terrenos especiais, ganha +3/+3.
 514.name;Arpéu
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
+514.text;Dá {ranged_attack} a uma criatura durante este turno. Após esta criatura atacar, você pode movê-la para um terreno adjacente ao alvo.
 515.name;Revelador Rakoano
 515.text;{last_words} - Ganha {faeria|1} igual ao ataque dessa criatura.
 516.name;CAP-10, Pirata Celeste
@@ -655,7 +655,7 @@
 517.name;Salmão Ligeiro
 517.text;{divine}, {flying}, {haste}, {charge|2}\nNão pode coletar faeria.\nNo final de seu turno, destroi essa criatura e compra uma carta.
 518.name;Cavalga-Raia
-518.text;{flying}, {charge|2}\n{last_words} - Invoca uma <b>Raia</b> 2/2 com {flying} e {charge|2} onde esta criatura morrer.
+518.text;{flying}\n{last_words} - Invoca uma <b>Raia</b> 2/2 com {flying} e {charge|2} onde esta criatura morrer.
 519.name;Istanu, Luz Eterna
 519.text;{flying}, {charge|3}\n{last_words} - Uma criatura aliada aleatória se torna o novo <b>Istanu</b>.
 520.name;Polvo Mutável
@@ -677,7 +677,7 @@
 528.name;Voo das Raias
 528.text;Quando você comprar esta carta, copie-a.\nInvoca uma <b>Raia</b> 2/2 com {flying} e {charge|2}.
 529.name;Nave-Reboque do Céu-Acima
-529.text;{flying}, {dash|1}\nSempre que esta criatura for sair de um terreno, ela trás o terreno com ela.
+529.text;{flying}, {dash|1}\nSempre que esta criatura for se mover para fora de um terreno, ela traz o terreno em que estiver com ela.
 530.name;Chefe Rakoano
 530.text;{dash|1}\nCriaturas aliadas adjacentes possuem +1/+0.
 531.name;Anêmona Celeste
@@ -696,7 +696,7 @@
 605.text;{corrupt} - Compre uma carta e ganhe {faeria|1}.
 606.name;Cavaleiro da Espada da Ruína
 606.text;Todo dano sofrido por esta criatura também é inflingido a você.
-607.name;Fada de seda da sombra
+607.name;Fada de Seda da Sombra
 607.text;{flying}, {charge|2}, {protection}\n{corrupt} - Compre dois eventos de seu baralho.
 608.name;Kaios, Mentalista Ensandecido
 608.text;{divine}\nKaios tem Ataque sempre igual à sua Vida.\n{corrupt} - Drena 1 de Vida de TUDO.
@@ -724,3 +724,43 @@
 619.text;Drene 1 de Vida de uma criatura inimiga, se isto a matar, adicione uma cópia dela à sua mão. Ela se torna {wild}
 620.name;Solem
 620.text;{flying}, {divine}\n{corrupt} - Destrua um poço de faeria.
+622.name;Mãe de Todos os Iaques
+622.text;{gift} - Invoca dois <b>Guardas Iaques</b> 4/4 com {taunt} e {flying} adjacentes à Mãe dos Iaques.\nCusta {faeria|1} a menos para cada Iaque aliado que morreu neste jogo.
+623.name;Campeão Rakoano
+623.text;{dash|2}\n{gift} - Ganha +1/+1 para cada outro Rakoano aliado em jogo.
+624.name;Fugu Orfão
+624.text;Tem +2/+0 e {jump} enquanto você controla outra besta.
+625.name;Rapala, o Peixe Dopado.
+625.text;{aquatic}\n{gift} - Enche a mão do seu oponente de <b>Peixe-Rubi</b>. Que idiota.
+626.name;Iaque Safira
+626.text;Semrpe que um iaque aliado coletar faeria de um poço inimigo, dá ao iaque +2/+2.
+627.name;Caçada
+627.text;Dá a uma besta aliada +2/+0. Então ela Luta com uma criatura inimiga.
+628.name;Iaque Esmeralda
+628.text;{gift} - Invoca um <b>Iaque Bebê</b> 1/1 com {taunt} e <b>Can't harvest faeria</b> em uma pradaria que você controla.
+629.name;Majinata, Espírito da Vida Eterna
+629.text;{protection}, {divine}\n{gift} - Uma criatura aliada engole esta. Dá a ela +5/+5, {flying} e {charge|2}.
+630.name;Axolotles Ímpeto-de-Lava
+630.text;
+640.name;Rakoacóptero
+640.text;{flying}, {dash|1}\n{gift} - Causa 2 de dano a criaturas inimigas adjacentes.
+641.name;Iaque Rubi
+641.text;Sempre que um iaque aliado sofrer dano, causa 1 de dano ao seu oponente.
+642.name;Dragão Fantasma
+642.text;{flying}, {charge|2}, {protection}
+643.name;Peixe Leão
+643.text;{flying}, {deathtouch}
+644.name;Iaque Topázio
+644.text;Pode ser invocado próximo a iaques aliados. Caso seja, ganha {haste}.
+645.name;Máquina de Guerra Rakoana
+645.text;{charge|2}\n{gift} - Pode {swallow} um outro rakoano aliado para ganhar +2/+0.
+646.name;Canhoneiro Rakoano
+646.text;{gift} - Você pode sacrificar um Rakoano. Se o fizer, cause 3 de dano.
+647.name;Ilusionista Rakoano
+647.text;{gift}- Transforme outro Rakoano aliado em um 4/4 {flying} {charge|2} <b>Dragonete das Dunas</b> até o início de seu próximo turno.
+648.name;Companheiros de Escudo Rakoanos
+648.text;{last_words} - Invoca um Rakoano 1/1 onde isto morreu.
+649.name;Líder de Guerra Rakoano
+649.text;{combat}- Dá a um Rakoano aleatório em sua mão +1/+1.
+650.name;Recrutador Rakoano
+650.text;{gift}- Adicione Rakoano 1/1 à sua mão. Ele custa {faeria|0}.

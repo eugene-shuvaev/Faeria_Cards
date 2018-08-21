@@ -343,21 +343,42 @@
 532;HUMAN;Ulani, Oversky Shaman;creature;rakoan;4;;1;1;1;1;2;2;102002;LEGENDARY
 601;HUMAN;Laya, Lady of Sorrows;creature;;4;3;;;;;3;4;102006;LEGENDARY
 602;HUMAN;Imperial Drakerider;creature;;5;2;;;;;3;4;102006;RARE
-603;HUMAN;Deranged Monkey;creature;beast;4;2;;;;;0;2;102006;COMMON
+603;HUMAN;Deranged Monkey;creature;beast;4;2;;;;;0;1;102006;COMMON
 604;HUMAN;Imperial Trooper;creature;;4;3;;;;;4;4;102006;COMMON
 605;HUMAN;Lost Explorer;creature;;3;1;;;;;3;3;102006;COMMON
 606;HUMAN;Blightblade Knight;creature;;4;2;;;;;6;4;102006;RARE
-607;HUMAN;Shadowsilk Faerie;creature;;2;4;;;;;1;1;102006;EPIC
+607;HUMAN;Shadowsilk Faerie;creature;;3;4;;;;;1;1;102006;EPIC
 608;HUMAN;Kaios, Demented Overmind;creature;;6;6;;;;;6;6;102006;LEGENDARY
 609;BLUE;Rain of Fish;event;;6;2;4;;;;;;102006;EPIC
 610;BLUE;Flying Piranha;creature;;3;2;1;;;;1;3;102006;COMMON
-611;BLUE;Monstrous Hydra;creature;;6;;3;;;;5;5;102006;RARE
+611;BLUE;Monstrous Hydra;creature;;6;;3;;;;5;6;102006;RARE
 612;GREEN;Haunted Willow;creature;;2;;;2;;;7;1;102006;COMMON
 613;GREEN;Rotting Boar;creature;beast;5;2;;1;;;5;4;102006;RARE
 614;GREEN;Nekomata;creature;beast;4;;;4;;;3;5;102006;RARE
 615;RED;Baldurion, Evil Archsmith;creature;;5;;;;5;;5;5;102006;LEGENDARY
 616;RED;Spite Sprite;creature;;1;;;;1;;2;1;102006;COMMON
-617;RED;Havoc;event;;5;;;;5;;;;102006;EPIC
+617;RED;Havoc;event;;6;;;;5;;;;102006;EPIC
 618;YELLOW;Demonic Salmon;creature;;2;;;;;2;1;1;102006;COMMON
-619;YELLOW;Spirit Theft;event;;1;;;;;3;;;102006;EPIC
+619;YELLOW;Spirit Theft;event;;1;2;;;;2;;;102006;EPIC
 620;YELLOW;Solem;creature;;7;;;;;4;7;7;102006;LEGENDARY
+622;HUMAN;Mother of All Yaks;creature;yak;15;;;;;;5;8;102007;LEGENDARY
+623;HUMAN;Rakoan Champion;creature;rakoan;5;3;;;;;4;4;102007;EPIC
+624;BLUE;Orphan Fugu;creature;beast;4;1;1;;;;3;5;102007;COMMON
+625;BLUE;Rapala, the Dopefish;creature;;1;3;1;;;;1;1;102007;LEGENDARY
+626;BLUE;Sapphire Yak;creature;yak;4;;1;;;;2;4;102007;COMMON
+627;GREEN;Hunt Down;event;;3;2;;1;;;;;102007;EPIC
+628;GREEN;Emerald Yak;creature;yak;3;;;1;;;3;3;102007;COMMON
+629;GREEN;Majinata, Spirit of Everlife;creature;;10;3;;2;;;5;5;102007;LEGENDARY
+630;RED;Lavasurge Axolotl;creature;beast;4;3;;;2;;12;3;102007;COMMON
+640;RED;Rakoakopter;creature;rakoan;5;1;;;2;;3;3;102007;RARE
+641;RED;Ruby Yak;creature;yak;5;;;;1;;4;5;102007;RARE
+642;YELLOW;Ghost Dragon;creature;;3;;;;;2;6;0;102007;EPIC
+643;YELLOW;Lion Fish;creature;;3;;;;;1;0;4;102007;COMMON
+644;YELLOW;Topaz Yak;creature;yak;4;;;;;1;4;2;102007;RARE
+645;HUMAN;Rakoan War Machine;creature;rakoan;4;;1;;1;;4;4;102007;COMMON
+646;HUMAN;Rakoan Cannoneer;creature;rakoan;3;;;;1;1;3;2;102007;RARE
+647;HUMAN;Rakoan Illusionist;creature;rakoan;2;;1;;;1;1;1;102007;EPIC
+648;HUMAN;Rakoan Shield Mates;creature;rakoan;2;;;1;;1;2;2;102007;COMMON
+649;HUMAN;Rakoan Warleader;creature;rakoan;4;;;1;1;;3;5;102007;RARE
+650;HUMAN;Rakoan Recruiter;creature;rakoan;4;;1;1;;;3;4;102007;COMMON
+

@@ -189,7 +189,7 @@
 121.name;Profeta delle Maree
 121.text;{gift} - Muovi la terra di questa creatura due volte.
 122.name;Visione Avvilente
-122.text;Dimezza (per eccesso) il valore di attacco e i punti vita di una creatura.
+122.text;Dimezza i valori di Attacco e Vita di una creatura (arrotondati per difetto).
 123.name;Vecchio Messaggero
 123.text;{gift} - La prossima creatura che peschi e che possiede almeno 5 punti vita ti costerà {faeria|2} in meno.
 124.name;Banchetto del Tritone
@@ -213,7 +213,7 @@
 133.name;Vincolatore Sagami
 133.text;{last_words} - Una creatura alleata casuale ottiene 3/+5.
 134.name;Sagami Evocatore del Bosco
-134.text;{gift} - Teletrasporta un'altra creatura alleata in una foresta che controlli.
+134.text;{gift} - Puoi teletrasportare un'altra creatura alleata in una foresta che controlli.
 135.name;Vecchio Addestratore
 135.text;Quando evoci una creatura con almeno 5 punti vita, essa ottiene +1/+1.
 136.name;Grazia di Gaia
@@ -301,7 +301,7 @@
 189.name;Spirito di Ruunin
 189.text;Aggiungi una creatura verde casuale alla tua mano. Ottiene +6/+6.
 190.name;Ruunin l'Implacabile
-190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
+190.text;{dash|2}\n{last_words} - Alla fine del turno metti Ruunin nella tua mano. Ottiene +2/+2.
 191.name;Brigante dei Sotterranei
 191.text;{combat} - Ottieni {faeria|2}.
 192.name;Condottiero Koboldo
@@ -385,7 +385,7 @@
 243.name;Bomba di Fuoco
 243.text;Infliggi 4 danni a una creatura o struttura.
 244.name;Tempesta di Fuoco
-244.text;Infliggi 3 danni a tutte le creature nemiche.
+244.text;Scegli una casella. Infliggi 3 danni a tutte le creature nemiche su quella casella o su una adiacente.
 245.name;Furia da Combattimento
 245.text;Ogniqualvolta subisce danno, infliggi lo stesso danno al tuo avversario.
 246.name;Golem in Frantumi
@@ -409,7 +409,7 @@
 255.name;Sagittario Oradriano
 255.text;{ranged_attack}\nOgniqualvolta una creatura alleata attacca un dio, ottieni {faeria|1}.
 256.name;Fanatico Oradriano
-256.text;{jump}\n{gift} - Sposta una creatura che controlli.
+256.text;{jump}\n{gift} - Puoi muovere una creatura alleata.
 257.name;Tornado del Deserto
 257.text;Teletrasporta una creatura in un deserto sotto il tuo controllo.
 258.name;Porta del Vento
@@ -459,7 +459,7 @@
 292.name;Spiritello del Vento
 292.text;{flying}, {charge|3}\nOttiene +3/+0 ogniqualvolta una creatura alleata attacca un dio.
 293.name;Lampo nel Vento
-293.text;{options|Sposta una creatura alleata.| Puoi pagare {faeria|2} in più per spostare una creatura nemica.}\n- Sposta una creatura alleata. \n- Puoi pagare {faeria|2} in più per spostare una creatura nemica.
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;Voliera Dorata
 294.text;Tutte le creature volanti che controlli ottengono +1/+0.
 295.name;Crociato Zelante
@@ -539,7 +539,7 @@
 363.name;Tritone Addestratore
 363.text;{jump}\n{gift} - La prossima creatura con {jump} che evochi ottiene +1/+1.
 364.name;Voce della Verità
-364.text;{gift} - Fai tornare una creatura ai suoi valori iniziali di attacco e vita.
+364.text;{gift} - Puoi far tornare una creatura ai suoi valori originali di attacco e vita.
 365.name;Messaggero di Guerra
 365.text;{combat} - Dona alla prossima creatura con {combat} che evochi +1/+1.
 366.name;Guida delle Nebbie
@@ -551,7 +551,7 @@
 369.name;Illusione di grandezza
 369.text;{charge|2}\n Ogniqualvolta evochi una creatura con un costo pari o inferiore a {faeria|1}, questa creatura ottiene un valore di attacco e punti vita pari all'ammontare di quello della creatura evocata (se questa carta si trova nella tua mano o nel tuo mazzo).
 370.name;Cacciatore di Bosco Cupo
-370.text;{gift} - Combatti una craetura nemica.
+370.text;{gift} - Può combattere con una creatura nemica
 371.name;Banchetto di Krog
 371.text;Il tuo Krog costa {faeria|7} in meno. Quando evochi Krog, distruggi questa creatura.\n{gift} - Se Krog è morto o è nel tuo mazzo, pescalo.
 372.name;Sorriso di Iona
@@ -730,7 +730,7 @@
 623.text;{dash|2}\n{gift} - Ottiene +1/+1 per ogni altro Rakoa alleato.
 624.name;Fugu Orfano
 624.text;Ha +2/+0 e {jump} finchè controlli un'altra bestia.
-625.name;Rapala, the Dopefish
+625.name;Rapala, il Pesce Idiota
 625.text;{aquatic}\n{gift} - Riempi la mano del tuo avversario di <b>Pesci Rubino</b>. Che idiota.
 626.name;Yak di Zaffiro
 626.text;Ogniqualvolta uno yak alleato raccoglie faeria da un pozzo avversario, esso ottiene +2/+2.
@@ -755,12 +755,52 @@
 645.name;Macchina da guerra Rakoana
 645.text;{charge|2}\n{gift} - Puoi {swallow} un Rakoa alleato, se lo fai questa creatura ottiene +2/+0.
 646.name;Cannoniere Rakoano
-646.text;{gift} - Puoi sacrificare un Rakoa. Se lo fai, infliggi 3 danni.
+646.text;{gift} - Puoi sacrificare un'altro Rakoa. Se lo fai, infliggi 3 danni.
 647.name;Illusionista Rakoano
-647.text;{gift} - Trasforma un altro Rakoa alleato in un <b>Draghetto delle Dune</b> 4/4 con {flying} {charge|2} fino all'inizio del tuo prossimo turno.
+647.text;{gift} - Puoi trasformare un altro Rakoa alleato in un <b>Draghetto delle Dune</b> 4/4 con {flying} e {charge|2} fino all'inizio del tuo prossimo turno.
 648.name;Compagni di scudo Rakoani
 648.text;{last_words} - Evoca un Rakoa 1/1 dove è morta questa creatura.
 649.name;Capoguerra Rakoano
 649.text;{combat} - Un Rakoa casuale nella tua mano ottiene +1/+1.
 650.name;Reclutatore Rakoano
 650.text;{gift} - Aggiungi un Rakoa 1/1 alla tua mano. Costa {faeria|0}.
+652.name;Sacerdote Schiavizzato
+652.text;Ogni qualvolta una creatura che controlli attiva un'abilità {corrupt}, sottrai 2 punti vita al tuo avversario.
+653.name;Torre delle maledizioni
+653.text;{activate} - Una creatura ottiene -1/-1. Infliggi un danno a questa struttura.
+654.name;Shozen, il Mangia Cielo
+654.text;{flying}, {charge|3}\nLa prima volta che Shozen ucciderebbe una creatura in combattimento, divorala e prendine il controllo.
+655.name;Avamposto Imperiale
+655.text;Tutte le creature neutrali alleate hanno +1/+0.
+656.name;Raffica Distruttiva
+656.text;Infliggi 2 danni ad una creatura. Se è una creatura con {flying}, infliggi invece 5 danni.
+657.name;Gagana, Navevolatile Arcobaleno
+657.text;{flying}\nLe carte nella tua mano sono {wild}.\n{gift} - Aggiungi un membro della ciurma di Gagana casuale alla tua mano. Costa {faeria|0}
+658.name;Splendore, Flagello di Altocielo
+658.text;{flying}\n{gift} - Le creature nemiche non possono muoversi e/o attaccare il prossimo turno.
+659.name;Ippopotamo Prorompente
+659.text;{combat} - Infliggi 2 danni a tutti i nemici adiacenti.
+660.name;Addestratore di Bestie
+660.text;{gift} - Riduci il costo di una Bestia casuale nella tua mano di {faeria|5}.
+661.name;Contrabbandiere Koboldo
+661.text;{corrupt} - Evoca uno <b>Scagnozzo di Seifer</b> 4/5 in una terra adiacente casuale.
+662.name;Ira di Ignius
+662.text;Infliggi 4 danni distribuiti casualmente tra i tuoi nemici.\nCosta {faeria|1} in meno per ogni volta che hai selezionato +{faeria|1} dalla ruota del potere in questa partita (mentre si trova nella tua mano o nel mazzo).
+663.name;Ritualista di Ignius
+663.text;{gift} - Ricarica la tua ruota del potere.\n{corrupt} - Ricarica la tua ruota del potere.
+664.name;Fuochista
+664.text;Ottiene +1/+1 ogniqualvolta selezioni +{faeria|1} dalla ruota del potere.
+665.name;Parassiti del Cielo Arido
+665.text;{gift} - Combatte con il tuo avversario.
+666.name;Moscone Spregevole
+666.text;{flying}\n{corrupt} - Aggiungi un <b>Moscone Spregievole</b> alla tua mano.
+667.name;Spettro della Rovina
+667.text;{charge|2}\n{production} - Se il tuo avversario ha 4 o più carte in mano, ottiene +1/+1.
+668.name;Spettro della Polvere
+668.text;{corrupt} - Aumenta il costo di ogni carta nella mano del tuo avversario di {faeria|1}-
+669.name;Avvoltoio del Cielo Arido
+669.text;{flying}\n{gift} - Distruggi una creatura con 1 punto vita e sottrae il suo attacco.
+670.name;Guscio Posseduto
+670.text;{production} - Se il tuo avversario ha 4 o più carte nella sua mano, pesca una carta e sottrai 1 punto vita al tuo avversario.
+671.name;Anguilla Tuonante
+671.text;{flying}\n{gift} - Infliggi 2 danni ad una creatura. Se si trova su di un oceano, infliggi invece 4 danni.

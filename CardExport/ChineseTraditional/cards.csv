@@ -29,7 +29,7 @@
 24.name;獵鷹俯沖
 24.text;對目標生物造成1點傷害。
 29.name;劍術大師
-29.text;Has +2/+0 during your turn (while in your hand or in play).
+29.text;在您的回合額外+2/+0。(當在您的手中獲在場上時)
 30.name;草原氂牛
 30.text;
 32.name;進擊的氂牛
@@ -189,7 +189,7 @@
 121.name;潮汐先知
 121.text;{gift}：移動此生物所在的地塊兩次。
 122.name;懾人幻視
-122.text;將目標生物的攻擊力和生命值減半(向上進位)。
+122.text;將目標生物的攻擊力和生命值減半(無條件捨去)。
 123.name;遠古傳令官
 123.text;{gift}：您下一次抽得生命值大於等於5的生物牌時，該生物的召喚費用減少{faeria|2}。
 124.name;崔頓盛宴
@@ -213,7 +213,7 @@
 133.name;薩迦密繫魂師
 133.text;{last_words}：隨機一個友方生物獲得+3/+5。
 134.name;薩迦密守林員
-134.text;{gift}：將另一個友方生物指定傳送至一座你所控制的森林。
+134.text;{gift}：你可以將另一個友方生物指定傳送至一座你所控制的森林。
 135.name;上古馴獸師
 135.text;每當您召喚生命值大於等於5的生物時，給予該生物+1/+1。
 136.name;蓋亞恩賜
@@ -289,9 +289,9 @@
 183.name;上古野豬
 183.text;{dash|2}\n若您操控著生命值大於等於5的生物，此生物的召喚費用減少{faeria|2}。
 184.name;茹妮的引導
-184.text;Give a target:\n- creature: +2/+2\n- god: 5 Life
+184.text;給予一個目標：\n- 生物：+2/+2\n-主神：5生命
 185.name;飢渴之聲
-185.text;{gift} - Destroy all adjacent friendly creatures. This gains Attack AND Life equal to their combined Life.
+185.text;{gift}：摧毀所有相鄰友方生物，此生物獲得因此而摧毀之總和的攻擊力與生命值。
 186.name;林間幼苖
 186.text;{production}：若此生物的生命值小於5，則獲得+1/+1。
 187.name;珥頓，萬物之音
@@ -301,7 +301,7 @@
 189.name;茹妮之靈
 189.text;將一張隨機綠色生物放入您的手牌，給予該生物+6/+6。
 190.name;茹妮，堅韌之心
-190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
+190.text;{dash|2}\n{last_words}：回合結束時將茹妮返回到您的手牌，並獲得+2/+2。
 191.name;黑幫暴匪
 191.text;{combat}：獲得{faeria|2}。
 192.name;狗頭人軍閥
@@ -385,7 +385,7 @@
 243.name;烈焰爆彈
 243.text;對目標生物或建築造成4點傷害。
 244.name;火焰風暴
-244.text;對所有的敵方生物造成3點傷害。
+244.text;選擇一個區域。對所有位於或相鄰該區域的敵方生物造成3點傷害。
 245.name;戰爭狂怒獸
 245.text;每當此生物受到傷害，對敵方主神造成等量的傷害。
 246.name;崩裂魔像
@@ -409,7 +409,7 @@
 255.name;奧拉丁射手
 255.text;{ranged_attack}\n每當友方生物主神時，獲得{faeria|1}。
 256.name;奧拉丁狂信者
-256.text;{jump}\n{gift}：移動一個友方生物。
+256.text;{jump}\n{gift}：你可以移動一個友方生物。
 257.name;沙漠龍捲風
 257.text;將目標生物傳送到一座您控制的沙漠上。
 258.name;風之港
@@ -459,7 +459,7 @@
 292.name;疾風幽光
 292.text;{flying}、{charge|3}\n每當友方生物攻擊主神，此生物獲得+3/+0。
 293.name;閃瞬疾風
-293.text;{options|移動一個友方生物|您可以多支付{faeria|2}來移動一個敵方生物}\n- 移動一個友方生物。\n- 您可以多支付{faeria|2}來移動一個敵方生物。
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;黃金鳥舍
 294.text;您的飛行生物獲得+1/+0。
 295.name;狂熱鬥士
@@ -539,7 +539,7 @@
 363.name;崔頓訓練員
 363.text;{jump}\n{gift}：您下一個召喚的{jump}生物獲得+1/+1。
 364.name;真實之音
-364.text;{gift}：將目標生物的攻擊力與生命值回復到原始數值。
+364.text;{gift}：你可以將目標生物的攻擊力與生命值回復到原始數值。
 365.name;戰爭傳令官
 365.text;{combat}：您召喚的下一個{combat}生物獲得+1/+1。
 366.name;陰風指引者
@@ -547,11 +547,11 @@
 367.name;神佑護衛
 367.text;{divine}\n當您遭到致死傷害時，此生物將自毀並隔擋該次傷害。
 368.name;王之諭令
-368.text;Give a target:\n- creature: -2/-1\n- structure: 3 damage\n- god: 4 Life
+368.text;給予一個目標:\n- 生物: -2/-1\n建築: 3傷害\n-主神: 4生命
 369.name;權慾幻影
 369.text;{charge|2}\n每當您召喚費用小於或等於{faeria|1}的生物時，權慾幻影獲得其攻擊力與生命值 (當此生物位於您的牌庫或手牌時)。
 370.name;深林潛獵者
-370.text;{gift} - 與目標敵方生物交戰。
+370.text;{gift}：你可以與目標敵方生物交戰。
 371.name;克羅格的晚餐
 371.text;您的克羅格的召喚費用減少{faeria|7}，當您召喚克羅格時摧毀此生物。 \n{gift} - 若克羅格已死亡或仍在您的牌組之中，將其抽至您的手牌。
 372.name;愛歐娜的微笑
@@ -647,7 +647,7 @@
 513.name;跳跳河豚君
 513.text;{jump}\n{gift} - 若您控制大於等於8個特殊地塊，此生物獲得 +3/+3。
 514.name;拖曳爪鈎
-514.text;Give a creature {ranged_attack} this turn. After it attacks, you may move it to a land adjacent to the target.
+514.text;目標生物於本回合獲得{ranged_attack}。該生物可於攻擊後移動到攻擊目標的周圍地塊。
 515.name;瑞寇狂歡者
 515.text;{last_words} - 獲得等同於此生物攻擊力的{faeria|1}。
 516.name;CAP-10，御空海賊
@@ -668,8 +668,8 @@
 523.text;{gift} - 對周圍的敵方生物造成2點傷害。周圍友方生物獲得+2/+2。
 524.name;空之劍魚
 524.text;{flying}，{taunt}，{dash|1}
-525.name;Swarming Carassius
-525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Swarming Carassius</b> for each friendly one that died this game.
+525.name;蜂擁鯽魚
+525.text;{flying}\n可以召喚於友方生物周圍。\n{gift} - 依據友方<b>蜂擁鯽魚<b>的死亡次數額外召喚此生物。
 526.name;守夢者
 526.text;{taunt}\n{gift} - 將你所有手牌的費用減少{faeria|1}，然後將它們洗入你的牌庫並抽取同樣數量的手牌。
 527.name;寶殼烏龜
@@ -717,50 +717,90 @@
 616.name;怨靈
 616.text;{last_words}：對自己主神造成2點傷害。
 617.name;浩劫
-617.text;Deal 6 damage to an enemy creature or structure.
+617.text;對一個敵方生物或建築造成9點傷害。
 618.name;著魔鮭魚
 618.text;{haste}、{flying}、{charge|2}\n無法收穫靈力。\n當此生物攻擊敵方主神，獲得+1/+1。
 619.name;心靈竊取
 619.text;從一個敵方生物吸取1點生命。如果因此殺了它，加入一張複製品到你的手中。其轉化為{wild}。
 620.name;熾陽
 620.text;{flying},{divine}\n{corrupt}：破壞一個靈井。
-622.name;Mother of All Yaks
-622.text;{gift} - Summon two 4/4 <b>Yak Guards</b> with {taunt} and {flying} adjacent to Mother of Yaks.\nCosts {faeria|1} less for each friendly yak that has died this game.
-623.name;Rakoan Champion
-623.text;{dash|2}\n{gift} - Gains +1/+1 for each other friendly Rakoan in play.
-624.name;Orphan Fugu
-624.text;Has +2/+0 and {jump} while you control another beast.
-625.name;Rapala, the Dopefish
-625.text;{aquatic}\n{gift} - Fill your opponent's hand with <b>Ruby Fish</b>. What an idiot.
-626.name;Sapphire Yak
-626.text;Whenever a friendly yak harvests faeria from an enemy well, give it +2/+2.
-627.name;Hunt Down
-627.text;Give a friendly beast +2/+0. Then it Fights an enemy creature.
-628.name;Emerald Yak
-628.text;{gift} - Summon a 1/1 <b>Baby Yak</b> with {taunt} and <b>Can't harvest faeria</b> on a prairie you control.
-629.name;Majinata, Spirit of Everlife
-629.text;{protection}, {divine}\n{gift} - A friendly creature swallows this. Give it +5/+5, {flying} and {charge|2}.
-630.name;Lavasurge Axolotl
+622.name;氂牛之母
+622.text;{gift} - 在氂牛之母周圍召喚兩隻有{taunt}和{flying}的 4/4 <b>氂牛守衛<b>。\n每隻本場遊戲中死去的氂牛都會降低{faeria|1}。
+623.name;瑞寇英雄
+623.text;{dash|2}\n{gift}：場上其他每個友方瑞寇讓此生物獲得+1/+1。
+624.name;孤獨河豚
+624.text;當你控制另一隻野獸的時候具有+2/+0和{jump}。
+625.name;拉帕拉，狂亂之魚
+625.text;{aquatic}\n{gift}：用<b>紅寶魚<b>塞滿你對手的手牌。看看那個傻子。
+626.name;寶藍氂牛
+626.text;當友方氂牛從敵方靈井收穫靈力時，給予它+2/+2。
+627.name;獵殺
+627.text;給予一個友方野獸+2/+0，然後與目標敵方生物交戰。
+628.name;翡翠氂牛
+628.text;{gift}：在一片你控制的草原上召喚一個<b>無法收穫靈力</b>且具{taunt}的1/1<b>幼年氂牛<b>。
+629.name;瑪金娜塔，永生之魂
+629.text;{protection}、{divine}\n{gift}：一個友方生物吞噬此生物。給予它+5/+5、{flying}和{charge|2}。
+630.name;炎浪蠑螈
 630.text;
-640.name;Rakoakopter
-640.text;{flying}, {dash|1}\n{gift} - Deal 2 damage to adjacent enemy creatures.
-641.name;Ruby Yak
-641.text;Whenever a friendly Yak is dealt damage, deal 1 damage to your opponent.
-642.name;Ghost Dragon
+640.name;瑞寇直升機
+640.text;{flying}, {dash|1}\n{gift}：對相鄰的敵方生物造成2點傷害。
+641.name;紅寶氂牛
+641.text;每當友方氂牛受到傷害，對敵方主神造成1點傷害。
+642.name;幽魂龍
 642.text;{flying}, {charge|2}, {protection}
-643.name;Lion Fish
+643.name;獅子魚
 643.text;{flying}, {deathtouch}
-644.name;Topaz Yak
-644.text;Can be summoned next to friendly Yaks. If it is, this gains {haste}.
-645.name;Rakoan War Machine
-645.text;{charge|2}\n{gift} - This may {swallow} another friendly Rakoan to gain +2/+0.
-646.name;Rakoan Cannoneer
-646.text;{gift} - You may sacrifice a Rakoan. If you do, deal 3 damage.
-647.name;Rakoan Illusionist
-647.text;{gift} - Transform another friendly Rakoan into a 4/4 {flying} {charge|2} <b>Dune Drake</b> until the start of your next turn.
+644.name;黃玉氂牛
+644.text;你可以在另一隻氂牛旁召喚此生物。如果你這麼做，此生物獲得{haste}。
+645.name;瑞寇戰爭機器
+645.text;{charge|2}\n{gift}：此生物會{swallow}另一個友方的瑞寇以獲得+2/+0。
+646.name;瑞寇砲手
+646.text;{gift}：你可以犧牲一隻瑞寇。如果你這麼做，造成3點傷害。
+647.name;瑞寇幻術師
+647.text;{gift}：你可以變形另一個友方瑞寇成為4/4 {flying} {charge|2}的<b>Dune Drake</b>到你的下個回合開始為止。
 648.name;瑞寇護盾兵
 648.text;{last_words}：在死亡的地方召喚一隻1/1瑞寇。
-649.name;Rakoan Warleader
-649.text;{combat} - Give a random Rakoan in your hand +1/+1.
-650.name;Rakoan Recruiter
-650.text;{gift} - Add a 1/1 Rakoan to your hand. It costs {faeria|0}.
+649.name;瑞寇號令者
+649.text;{combat}：給予自己手中隨機一隻瑞寇+1/+1。
+650.name;瑞寇招募官
+650.text;{gift}：新增一隻1/1的瑞寇到你的手中。它花費為{faeria|0}。
+652.name;奴化牧師
+652.text;當一個你控制的生物觸發{corrupt}能力時，你從敵方主神吸取兩點生命。
+653.name;詛咒之塔
+653.text;{activate}：給予一個生物-1/-1。對此建築造成1點傷害。
+654.name;嘯憎，噬天者
+654.text;{flying},{charge|3}\n當嘯憎第一次在戰鬥中殺死生物時，改為吞噬它並獲得其控制權。
+655.name;帝國前哨站
+655.text;所有友方中立生物獲得+1/+0。
+656.name;毀滅齊射
+656.text;對一個生物造成2點傷害。如果它具有{flying}，改為造成5點傷害。
+657.name;嘉迦納，彩虹之船
+657.text;{flying}\n所有你手中的卡片視為{wild}。\n{gift}：新增一個隨機的彩虹之船的操縱手到你的手牌中。它的消費為{faeria|0}。
+658.name;雷迪恩，蒼空之災
+658.text;{flying}\n{gift}：敵方生物下個回合無法移動和攻擊。
+659.name;爆裂河馬
+659.text;{combat}：對所有相鄰敵方造成2點傷害。
+660.name;野獸訓練師
+660.text;{gift}：你手中隨機一隻野獸召喚費用減少{faeria|5}。
+661.name;狗頭人走私者
+661.text;{corrupt}：在相鄰的位置隨機召喚一個4/3的塞弗的飼料。
+662.name;伊努斯之怒
+662.text;造成4點傷害，隨機分給敵方。\n每當你從神力輪選擇+{faeria|1}時，費用減少{faeria|1}。 (當位於您的牌庫或手牌時)
+663.name;伊努斯祭祀
+663.text;{gift}：刷新你的神力輪。\n{corrupt}：刷新你的神力輪。
+664.name;火焰監視者
+664.text;每當你從神力輪選擇+{faeria|1}時，此生物獲得+1/+1。
+665.name;遮天荒蟲
+665.text;{gift}：和你的對手交戰。
+666.name;穢蠅
+666.text;{flying}\n{corrupt}：新增一個<b>穢蠅<b>到你的手中。
+667.name;枯萎幽魂
+667.text;{charge|2}\n{production}：如果你的對手持有四張以上的手牌，此生物獲得+1/+1。
+668.name;塵埃怨靈
+668.text;{corrupt}：你的對手的所有手牌消費增加{faeria|1}。
+669.name;瘠空禿鷹
+669.text;{flying}\n{gift}：破壞一個生命值為1的生物並獲得它的攻擊力。
+670.name;作祟稻穀
+670.text;{production}：如果你的對手手牌為4張以上，抽1張卡並從你的對手吸取1點生命值。
+671.name;霹靂電鰻
+671.text;{flying}\n{gift}：對一個生物造成2點傷害。如果它在海洋上，改為造成4點傷害。

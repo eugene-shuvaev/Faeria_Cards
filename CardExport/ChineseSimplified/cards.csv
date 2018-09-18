@@ -189,7 +189,7 @@
 121.name;潮汐先知
 121.text;{gift} - 移动此生物所在的地块两次。
 122.name;慑心愿景
-122.text;将一个生物的攻击和生命变为一半(向上取整)。
+122.text;Halve a creature's base Attack and Life (rounded down).
 123.name;远古使者
 123.text;{gift} - 你抽的下一张生物卡生命大于或等于5，此生物消耗减少{faeria|2}。
 124.name;崔顿盛宴
@@ -213,7 +213,7 @@
 133.name;萨嘎米附魂师
 133.text;{last_words} - 随机给予一个友方生物+3/+5。
 134.name;萨嘎米唤林者
-134.text;{gift} - 将另一个场上友方生物传送到你控制的森林。
+134.text;{gift} - You may teleport another friendly creature to a forest you control.
 135.name;远古驯兽师
 135.text;每当你召唤一个生命值大于或等于5的生物，召唤生物获得+1/+1。
 136.name;盖亚的恩赐
@@ -385,7 +385,7 @@
 243.name;火焰爆弹
 243.text;对一个生物或建筑造成4点伤害。
 244.name;烈焰风暴
-244.text;对所有敌方生物各造成3点伤害。
+244.text;Choose a space. Deal 3 damage to all enemy creatures on or adjacent to that space.
 245.name;战地狂暴者
 245.text;每当此生物受到伤害时，对敌方神明造成等量的伤害。
 246.name;崩裂魔像
@@ -409,7 +409,7 @@
 255.name;奥拉蒂姆射手
 255.text;{ranged_attack}\n每当友方生物攻击神明时，获得{faeria|1}。
 256.name;奥拉蒂姆狂信徒
-256.text;{jump}\n{gift} - 移动一个友方生物。
+256.text;{jump}\n{gift} - You may move a friendly creature.
 257.name;沙漠龙卷风
 257.text;将一个生物传送到一个你控制的沙漠上
 258.name;风之港
@@ -459,7 +459,7 @@
 292.name;风之光灵
 292.text;{flying}, {charge|3}\n每当一个友方生物攻击神明，此生物获得+3/+0。
 293.name;极速疾风
-293.text;{options|移动一个友方生物|你可以多消耗{faeria|2}来移动一个敌方生物}\n- 移动一个友方生物。\n- 你可以多消耗{faeria|2}来移动一个敌方生物。
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;黄金鸟舍
 294.text;所有你的飞行生物获得 +1/+0。
 295.name;狂热圣徒
@@ -539,7 +539,7 @@
 363.name;崔顿教练
 363.text;{jump}\n{gift} - 给予你召唤的下一个{jump}生物+2/+0。
 364.name;真理唤灵
-364.text;{gift} - 将目标生物的攻击力与生命值恢复至原始数值。
+364.text;{gift} - You may return a creature to its original Attack and Life.
 365.name;烽火先驱
 365.text;{combat} - 给予你下一个召唤的{combat}生物+1/+1。
 366.name;寒风指引者
@@ -551,7 +551,7 @@
 369.name;辉幻蜃像
 369.text;{charge|2}\n每当你召唤一个消耗小于或等于{faeria|1}的生物，此生物获得召唤生物的攻击和生命(在套牌或手牌中)。
 370.name;深林潜伏者
-370.text;{gift} - 与目标敌方生物交战。
+370.text;{gift} - You may fight an enemy creature.
 371.name;克罗格的晚饭
 371.text;你的克罗格费用减少 {faeria|7}。 当你召唤出克罗格时，摧毁此生物。\n{gift} - 若克罗格已死亡或者尚在你的套牌中，将其抽入至你的手牌。
 372.name;伊欧娜的微笑
@@ -755,12 +755,52 @@
 645.name;瑞寇战争机器
 645.text;{charge|2}\n{gift} - 此生物可以{swallow}另一个友方瑞寇以获得+2/+0。
 646.name;瑞寇炮手
-646.text;{gift} - 你可以牺牲一个瑞寇。 若这么做的话，造成3点伤害。
+646.text;{gift} - You may sacrifice another Rakoan. If you do, deal 3 damage.
 647.name;瑞寇幻术师
-647.text;{gift} - 在你的下回合开始为止，将另一个友方转化为一个拥有{flying}和{charge|2}的4/4<b>沙丘幼龙</b>。
+647.text;{gift} - You may transform another friendly Rakoan into a 4/4 {flying} {charge|2} <b>Dune Drake</b> until the start of your next turn.
 648.name;瑞寇护盾牌队友
 648.text;{last_words} - 在此生物死亡的位置召唤一个1/1瑞寇士兵。
 649.name;瑞寇领军者
 649.text;{combat} - 随机给予你手中的一个瑞寇+1/+1。
 650.name;瑞寇征募官
 650.text;{gift} - 将一张1/1的瑞寇士兵放入你的手牌。其费用为{faeria|0}。
+652.name;Enslaved Priest
+652.text;Whenever a creature you control triggers a {corrupt} ability, you drain 2 life from your opponent.
+653.name;诅咒之塔
+653.text;{activate} - 给予一个生物-1/-1。 对此建筑造成1点伤害。
+654.name;Shozen, the Sky Eater
+654.text;{flying}, {charge|3}\nThe first time Shozen would kill a creature in combat, instead swallow and gain control of it.
+655.name;Imperial Outpost
+655.text;All friendly neutral creatures have +1/+0.
+656.name;Destructive Volley
+656.text;Deal 2 damage to a creature. If it is a {flying} creature, deal 5 damage instead.
+657.name;Gagana, Rainbow Birdship
+657.text;{flying}\nCards in your hand are {wild}.\n{gift} - Add a random Gagana crew member to your hand. It costs {faeria|0}.
+658.name;Radiance, Scourge of Oversky
+658.text;{flying}\n{gift} - Enemy creatures can't move or attack next turn.
+659.name;Bursting Hippo
+659.text;{combat} - Deal 2 damage to all adjacent enemies.
+660.name;Beast Trainer
+660.text;{gift} - Reduce the cost of a random Beast in your hand by {faeria|5}.
+661.name;Kobold Smuggler
+661.text;{corrupt} - Summon a 4/3 <b>Seifer's Fodder</b> in a random adjacent land.
+662.name;Wrath of Ignus
+662.text;Deal 4 damage randomly split among enemies.\nCosts {faeria|1} less for each time you have selected +{faeria|1} from the power wheel this game (while in your hand or deck).
+663.name;Ignusi Ritualist
+663.text;{gift} - Refresh your power wheel.\n{corrupt} - Refresh your power wheel.
+664.name;Flamestoker
+664.text;Whenever you select +{faeria|1} from the power wheel, this gains +1/+1.
+665.name;Barrensky Vermin
+665.text;{gift} - Fight your opponent.
+666.name;Vile Bloatfly
+666.text;{flying}\n{corrupt} - Add a <b>Vile Bloatfly</b> to your hand.
+667.name;Blightborn Spectre
+667.text;{charge|2}\n{production} - If your opponent has 4 or more cards in hand, this gains +1/+1.
+668.name;Dustbringer Wraith
+668.text;{corrupt} - Increase the cost of each card in your opponent's hand by {faeria|1}.
+669.name;Barrensky Vulture
+669.text;{flying}\n{gift} - Destroy a creature with 1 life and drain its attack.
+670.name;Haunted Husk
+670.text;{production} - If your opponent has 4 or more cards in hand, draw 1 card and drain 1 life from your opponent.
+671.name;Thunder Eel
+671.text;{flying}\n{gift} - Deal 2 damage to a creature. If it is on an ocean space, deal 4 damage instead.

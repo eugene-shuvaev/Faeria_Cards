@@ -189,7 +189,7 @@
 121.name;Prorok přílivu
 121.text;{gift} - Dvakrát posune pevninu, na níž tato bytost stojí.
 122.name;Ponižující vidina
-122.text;Zkrátí základní útok a život bytosti na polovinu (zaokrouhleno nahoru).
+122.text;Sníží základní útok a život bytosti na polovinu (zaokrouhleno dolů).
 123.name;Davný hlasatel
 123.text;{gift} - Další líznutá bytost s životem 5 nebo více vás stojí o {faeria|2} méně.
 124.name;Tritonská hostina
@@ -213,7 +213,7 @@
 133.name;Duchovní Sagami
 133.text;{last_words} - Přidá náhodné spojenecké bytosti +3/+5.
 134.name;Sagamský vyvolávač háje
-134.text;{gift} - Teleportuje jinou spojeneckou bytost na les pod vaší vládou.
+134.text;{gift} - Smíte teleportovat jinou spojeneckou bytost na les pod vaší nadvládou.
 135.name;Pradávný pán bestií
 135.text;Každá bytost s 5 a více životy, kterou vyvoláte, získá +1/+1.
 136.name;Gaeina milost
@@ -301,7 +301,7 @@
 189.name;Ruuninina přítomnost
 189.text;Přidá do vaší ruky náhodnou zelenou bytost, která ihned získá +6/+6.
 190.name;Ruunin, neúprosná
-190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
+190.text;{dash|2}\n{last_words} - Na konci tahu se Ruunin vrátí do vaší ruky a získá +2/+2.
 191.name;Zbojník z Podsvětí
 191.text;{combat} - Získáte {faeria|2}.
 192.name;Koboldí vojevůdce
@@ -385,7 +385,7 @@
 243.name;Ohnivá bomba
 243.text;Udělí 4 poškození bytosti nebo budově.
 244.name;Ohnivá bouře
-244.text;Udělí 3 poškození všem nepřátelským bytostem.
+244.text;Zvolte si pole. Udělí 3 poškození všem nepřátelským bytostem na daném poli nebo na polích přilehlých.
 245.name;Bitevní zuřič
 245.text;Je-li této bytosti uděleno poškození, udělí stejné poškození vašemu nepříteli.
 246.name;Rozpadající se golem
@@ -409,7 +409,7 @@
 255.name;Oradrimský střelec
 255.text;{ranged_attack}\nZískáte {faeria|1}, kdykoliv spojenecká bytost zaútočí na boha.
 256.name;Oradrimský fanatik
-256.text;{jump}\n{gift} - Pohne spojeneckou bytostí.
+256.text;{jump}\n{gift} - Můžete pohnout spojeneckou bytostí.
 257.name;Překroucení pouště
 257.text;Teleportuje bytost na poušť pod vaší vládou.
 258.name;Větrná brána
@@ -459,7 +459,7 @@
 292.name;Větrná bludička
 292.text;{flying}, {charge|3}\nZíská +3/+0, kdykoliv spojenecká bytost zaútočí na boha.
 293.name;Záblesk větru
-293.text;{options|Posunout spojeneckou bytost.| Zaplatit o {faeria|2} více a posunout nepřátelskou bytost.}\n- Posune spojeneckou bytost. \n- Můžete zaplatit o {faeria|2} více a posunout nepřátelskou bytost.
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;Zlatá voliéra
 294.text;Všechny vaše létající bytosti mají +1/+0.
 295.name;Fanatický křižák
@@ -499,7 +499,7 @@
 312.name;Ledový Behemot
 312.text;{taunt}, {protection}
 313.name;Spřízněné duše
-313.text;{flying}\nMůže být vyvolán kdekoliv vedle spojenecké bytosti.\n{gift} - Přivolá dalšího <b>Ducha dvou duší</b>.
+313.text;{flying}\nMůže být vyvolána kdekoliv vedle spojenecké bytosti.\n{gift} - Přivolá další <b>Spřízněnou duši</b>.
 314.name;Puklinová trnovka
 314.text;{dash|2}\n{gift} - Náhodně rozdělí 4 poškození mezi neprátele. Náhodně rozdělí +4/+4 mezi spojence.
 315.name;Pojídač duší
@@ -539,7 +539,7 @@
 363.name;Tritonský trenér
 363.text;{jump}\n{gift} - Další bytost s vlastností {jump}, kterou vyvoláte, získá +1/+1.
 364.name;Hlas pravdy
-364.text;{gift} - Obnoví bytosti její původní útok a život.
+364.text;{gift} - Můžete obnovit bytosti její původní útok a život.
 365.name;Posel války
 365.text;{combat} - Další bytost se schopností {combat}, kterou přivoláte, získá +1/+1.
 366.name;Průvodce mistrálu
@@ -551,7 +551,7 @@
 369.name;Iluze vznešenosti
 369.text;{charge|2}\nKdykoliv přivoláte bytost, která stojí {faeria|1} nebo méně, získá její útok a život (zatímco je ve vašem balíčku nebo ruce).
 370.name;Stopař z hlubin lesa
-370.text;{gift} - Zaútočí na libovolnou nepřátelskou bytost.
+370.text;{gift} - Může zaútočit na libovolnou nepřátelskou bytost.
 371.name;Krogova večeře
 371.text;Váš Krog stojí o {faeria|7} méně. Když jej vyvoláte, zničte tuto bytost.\n{gift} - Pokud Krog zemřel nebo jej máte v balíčku, líznete si jej.
 372.name;Ionin úsměv
@@ -755,12 +755,52 @@
 645.name;Rakoanský válečný stoj
 645.text;{charge|2}\n{gift} - Pokud chcete, {swallow} spojeneckého rakoana a získá +2/+0.
 646.name;Rakoanský kanón
-646.text;{gift} - Smíte obětovat Rakoana, abyste udělili 3 poškození.
+646.text;{gift} - Můžete obětovat jiného Rakoana, abyste udělili 3 poškození.
 647.name;Rakoanský kejklíř
-647.text;{gift} - Přemění jiného přátelského rakoana na <b>Drakóna z duny</b> (4/4, {flying}, {charge|2} ) do začátku vašeho příštího tahu.
+647.text;{gift} - Můžete přeměnit jiného přátelského rakoana na <b>Drakóna z duny</b> (4/4, {flying}, {charge|2} ) do začátku vašeho příštího tahu.
 648.name;Rakoanské štíty
 648.text;{last_words} - Na místě, kde zemřou, vyvolají Rakoana (1/1).
 649.name;Rakoanský vojevůdce
 649.text;{combat} - Přidá náhodnému Rakoanovi ve vaší ruce +1/+1.
 650.name;Rakoanský verbíř
 650.text;{gift} - Přidá do vaší ruky Rakoana (1/1). Stojí {faeria|0}.
+652.name;Zotročený kněží
+652.text;Kdykoliv bytost pod vaší nadvládou aktivuje vlastnost {corrupt}, vysajete 2 body života ze svého protivníka.
+653.name;Věž kleteb
+653.text;{activate} - Ubere zvolené bytosti -1/-1. Udělí 1 poškození této budově.
+654.name;Shozen, Požírač nebes
+654.text;{flying}, {charge|3}\nPoprvé, kdy by Shozen zničil v souboji bytost, ji namísto toho spolkne a převezme nad ní kontrolu.
+655.name;Říšská základna
+655.text;Všechny spojenecké neutrální bytosti mají +1/+0.
+656.name;Smrtící salva
+656.text;Udělí bytosti 2 poškození. 5, pokud má tato bytost vlastnost {flying}.
+657.name;Gagana, Duhová ptakoloď
+657.text;{flying}\nKarty ve vaší ruce mají vlastnost {wild}.\n{gift} - Přidá do vaší ruky náhodného člena gaganské posádky. Ten bude stát {faeria|0}.
+658.name;Třpyt, postrach Zánebí
+658.text;{flying}\n{gift} - V příštím tahu se nepřátelské bytosti nemohou pohybovat ani útočit.
+659.name;Těkavý hroch
+659.text;{combat} - Udělí 2 poškození všem přilehlým nepřátelům.
+660.name;Krotitel šelem
+660.text;{gift} - Sníží cenu náhodné šelmy ve vaší ruce o {faeria|5}.
+661.name;Pašerácký kobold
+661.text;{corrupt} - Vyvolá na náhodném přilehlém místě Seiferovo krmivo (4/3).
+662.name;Hněv Ignův
+662.text;Udělí 4 poškození náhodně rozdělené mezi nepřátele. \nZatímco je ve vaší ruce nebo balíčku, sníží se jeho cena o {faeria|1} pokaždé, když z kola moci zvolíte +{faeria|1}.
+663.name;Uctívač Ignuse
+663.text;{gift} - Smíte znovu použít kolo moci.\n{corrupt} - Smíte znovu použít kolo moci.
+664.name;Topič
+664.text;Kdykoliv si v kole moci zvolíte +{faeria|1}, získá Topič +1/+1.
+665.name;Havěť ze Zkáznebí
+665.text;{gift} - Zaútočí na vašeho protihráče.
+666.name;Odporná zbobtnalice
+666.text;{flying}\n{corrupt} - Přidá do vaší ruky <b>Odpornou zbobtnalici</b>.
+667.name;Zjevení moru
+667.text;{charge|2}\n{production} - Získá +1/+1, pokud má váš nepřítel v ruce 4 nebo více karet.
+668.name;Přízračný prášil
+668.text;{corrupt} - Zvýší cenu všech karet v soupeřově ruce o {faeria|1}.
+669.name;Sup ze Zkáznebí
+669.text;{flying}\n{gift} - Zničí bytost s 1 životem a vysaje její útok.
+670.name;Posedlá schránka
+670.text;{production} - Pokud má váš protivník v ruce 4 či více karet, líznete si 1 kartu a vysajete ze svého protivníka 1 život.
+671.name;Hromový úhoř
+671.text;{flying}\n{gift} - Udělí bytosti 2 poškození. Pokud je ona bytost na oceánu, udělí jí 4.

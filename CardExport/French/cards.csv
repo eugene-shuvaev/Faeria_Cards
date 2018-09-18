@@ -189,7 +189,7 @@
 121.name;Prophète des marées
 121.text;{gift} - Déplacez deux fois le terrain de cette créature.
 122.name;Vision d'humilité
-122.text;Divise les PV et l'attaque de base d'une créature par deux (arrondis au nombre supérieur).
+122.text;Divise les PV et l'attaque de base d'une créature par deux (arrondis au nombre inférieur).
 123.name;Héraut antique
 123.text;{gift} - La prochaine créature que vous piochez avec 5 PV ou plus coûte {faeria|2} de moins.
 124.name;Banquet des Tritons
@@ -213,7 +213,7 @@
 133.name;Sagami à l'âme recluse
 133.text;{last_words} - Donne +3/+5 à une créature alliée aléatoire.
 134.name;Clameur des bosquets Sagami
-134.text;{gift} - Téléportez une autre créature alliée sur l'une de vos forêts.
+134.text;{gift} - Vous pouvez téléporter une autre créature alliée sur l'une de vos forêts.
 135.name;Belluaire antique
 135.text;Quand vous invoquez une créature ayant au moins 5 PV, lui donne +1/+1.
 136.name;Grâce de Gaïa
@@ -301,7 +301,7 @@
 189.name;Présence de Ruunin
 189.text;Ajoute une créature verte aléatoire à votre main et lui donne +6/+6.
 190.name;Ruunin, l'Eternelle
-190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
+190.text;{dash|2}\n{last_words} - Replace Ruunin dans votre main à la fin du tour. Elle gagne +2/+2.
 191.name;Brigand des souterrains
 191.text;{combat} - Gagnez {faeria|2}.
 192.name;Seigneur de guerre Kobold
@@ -365,7 +365,7 @@
 233.name;Élémentaire de feu
 233.text;{gift} - Crée une montagne.
 234.name;Fée de Flammesoie
-234.text;{flying}\nLa première fois que vous piochez un évènement, gagne +3/+1 et {ranged_attack}.
+234.text;{flying}\nGagne +3/+1 et {ranged_attack} la première fois que vous piochez un évènement.
 235.name;Tour délabrée
 235.text;{activate} - Infligez 1 point de dégâts à une cible. Cette structure s'inflige 1 point de dégâts.
 236.name;Follet Feu-de-Sang
@@ -385,7 +385,7 @@
 243.name;Bombe incendiaire
 243.text;Inflige 4 points de dégâts à une créature ou à une structure.
 244.name;Tempête de feu
-244.text;Inflige 3 points de dégâts à toutes les créatures ennemies.
+244.text;Choisissez un espace. Inflige 3 points de dégât à toutes les créatures ennemies sur cet espace ou un espace adjacent.
 245.name;Combattant enragé
 245.text;À chaque fois que cette créature subit des dégâts, elle inflige à votre adversaire un nombre de points de dégâts équivalent.
 246.name;Golem croulant
@@ -409,7 +409,7 @@
 255.name;Sagittaire Oradrim
 255.text;{ranged_attack}\nChaque fois qu'une créature alliée attaque une divinité, gagnez {faeria|1}.
 256.name;Fanatique Oradrim
-256.text;{jump}\n{gift} - Déplacez une créature alliée.
+256.text;{jump}\n{gift} - Vous pouvez déplacer une créature alliée.
 257.name;Tornade du désert
 257.text;Téléporte une créature vers un désert que vous contrôlez.
 258.name;Porte du vent
@@ -459,7 +459,7 @@
 292.name;Follet du vent
 292.text;{flying}, {charge|3}\nGagne +3/+0 chaque fois que vous attaquez une divinité.
 293.name;Vent éclair
-293.text;{options|Déplace une créature alliée.| Vous pouvez payer {faeria|2} pour déplacer une créature ennemie à sa place.}\nDéplace une créature alliée. \nVous pouvez payer {faeria|2} de plus pour déplacer une créature ennemie à sa place.
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;Volière dorée
 294.text;Toutes vos créatures volantes gagnent +1/+0.
 295.name;Croisé zélé
@@ -539,7 +539,7 @@
 363.name;Entraineur triton
 363.text;{jump}\n{gift} - Donne +1/+1 à la prochaine créature avec {jump} que vous invoquez.
 364.name;Voix de la vérité
-364.text;{gift} - Restaure le nombre de points d'attaque et les PV de base d'une créature.
+364.text;{gift} - Vous pouvez restaurer le nombre de points d'attaque et les PV de base d'une créature.
 365.name;Héraut de guerre
 365.text;{combat} - Donne +1/+1 à la prochaine créature avec {combat} que vous invoquez.
 366.name;Guide céleste
@@ -551,7 +551,7 @@
 369.name;Illusion des grandeurs
 369.text;{charge|2}\nTant que cette carte est dans votre deck ou votre main, elle gagne autant d'attaque et de points de vie que les créatures que vous invoquez et qui coûtent  {faeria|1} ou moins.
 370.name;Tisseuse des Bois Enfouis
-370.text;{gift} - Se bat contre une créature ennemie.
+370.text;{gift} - Vous pouvez combattre une créature ennemie.
 371.name;Dîner de Krog
 371.text;Krog vous coûte {faeria|7} de moins à invoquer. Quand vous le faites, cette créature est détruite.\n{gift} - Si Krog est déjà mort ou est encore dans votre deck, piochez-le.
 372.name;Sourire de Iona
@@ -668,8 +668,8 @@
 523.text;{gift} - Inflige 2 points de dégât aux créatures adjacentes. Donne +2/+2 aux créatures alliées adjacentes.
 524.name;Espadon du Firmament
 524.text;{flying}, {taunt}, {dash|1}
-525.name;Swarming Carassius
-525.text;{flying}\nCan be summoned adjacent to friendly creatures.\n{gift} - Summon a <b>Swarming Carassius</b> for each friendly one that died this game.
+525.name;Carpe envahissante
+525.text;{flying}\nPeut être invoquée sur toute case adjacente à une créature alliée.\n{gift} Invoque une autre <b>Carpe envahissante</b> pour chaque carpe alliée morte durant la partie.
 526.name;Veilleur des songes
 526.text;{taunt}\n{gift} - Réduit le coût de toutes les cartes de votre main de {faeria|1}, puis les mélange à votre deck. Repiochez-en autant.
 527.name;Tortue Coquibrille
@@ -733,8 +733,8 @@
 625.name;Rapala, Fêlé du Bocal
 625.text;{aquatic}\n{gift} - Remplit la main de votre adversaire avec des <b>Poisson rubis</b>. Quel idiot.
 626.name;Yak Saphir
-626.text;À chaque fois qu'un Yak allié récolte de la faeria dans un puit adverse, lui donne +2/+2.
-627.name;Hunt Down
+626.text;À chaque fois qu'un Yak allié récolte de la faeria dans un puits adverse, lui donne +2/+2.
+627.name;Traque mortelle
 627.text;Donne +2/+0 à une bête alliée puis la fait combattre une créature ennemie.
 628.name;Yak Émeraude
 628.text;{gift} - Invoque un <b>Bébé Yak</b> avec {taunt} et <b>Ne peut pas récolter de faeria</b> sur une de vos prairies.
@@ -755,12 +755,52 @@
 645.name;Machine de guerre Rakoan
 645.text;{charge|2}\n{gift} - Gagne +2/+0 s'il {swallow} un Rakoan allié.
 646.name;Canonnier Rakoan
-646.text;{gift} - Inflige 3 points de dégâts si vous sacrifiez un Rakoan.
+646.text;{gift} - Vous pouvez infliger 3 points de dégâts si vous sacrifiez un autre Rakoan.
 647.name;Illusionniste Rakoan
-647.text;{gift} - Transforme un autre Rakoan allié en <b>Drakon des dunes</b> 4/4 avec {flying} et {charge|2} jusqu'au début de votre prochain tour.
+647.text;{gift} - Vous pouvez transformer un autre Rakoan allié en <b>Drakon des dunes</b> 4/4 avec {flying} et {charge|2} jusqu'au début de votre prochain tour.
 648.name;Compagnons protecteurs Rakoan
 648.text;{last_words} - Invoque un <b>Rakoan</b> 1/1 au même endroit.
 649.name;Chef de guerre Rakoan
 649.text;{combat} - Donne +1/+1 à un Rakoan aléatoire de votre main.
 650.name;Recruteur Rakoan
 650.text;{gift} - Ajoute un <b>Rakoan</b> 1/1 dans votre main. Il coûte {faeria|0}.
+652.name;Prêtre asservi
+652.text;Chaque fois qu'une créature que vous contrôlez déclenche un effet de {corrupt}, vous drainez 2 PV à votre adversaire.
+653.name;Tour maudite
+653.text;{activate} - Donne -1/-1 à une créature. Cette structure s'inflige 1 point de dégâts.
+654.name;Shozen, le Mange-Cieux
+654.text;{flying}, {charge|3}\nGobe la première créature à qui Shozen porte un coup fatal, et vous en prenez le contrôle.
+655.name;Avant-poste impérial
+655.text;Toutes les créatures neutres alliées ont +1/+0.
+656.name;Salve destructrice
+656.text;Inflige 2 points de dégât à une créature. Si elle a {flying}, infligez-lui-en 5.
+657.name;Gagana, Oiseau Barque-en-Ciel
+657.text;{flying}\nLes cartes de votre main sont {wild}.\n{gift} - Ajoute un équipier de Gagana aléatoire à votre main. Il coûte {faeria|0}.
+658.name;Radiance, Fléau d'Outreciel
+658.text;{flying}\n{gift} - Les créatures ennemies ne peuvent pas se déplacer ou attaquer durant le prochain tour.
+659.name;Hippo explosif
+659.text;{combat} - Inflige 2 points de dégât à tous les ennemis adjacents.
+660.name;Dresseur de bêtes
+660.text;{gift} - Réduit le coût d'une Bête aléatoire de votre main de {faeria|5}.
+661.name;Contrebandier Kobold
+661.text;{corrupt} - Invoque un <b>Sbire de Seifer</b> 4/3 sur un terrain adjacent aléatoire.
+662.name;Rage d'Ignus
+662.text;Inflige 4 points de dégâts répartis aléatoirement entre les ennemis.\nTant que cette carte est dans votre deck ou votre main, elle coûte {faeria|1} de moins pour chaque fois où vous avez sélectionné +{faeria|1} dans la roue des pouvoirs.
+663.name;Ritualiste Ignusi
+663.text;{gift} - Réinitialise votre roue des pouvoirs.\n{corrupt} - Réinitialise votre roue des pouvoirs.
+664.name;Glouton flamboyant
+664.text;Gagne +1/+1 quand vous sélectionnez +{faeria|1} dans la roue des pouvoirs.
+665.name;Vermine des Hautes-Landes
+665.text;{gift} - Combat votre adversaire.
+666.name;Mouche bouffie
+666.text;{flying}\n{corrupt} - Ajoute une <b>Mouche bouffie</b> à votre main.
+667.name;Engeance du Fléau
+667.text;{charge|2}\n{production} - Si votre adversaire a 4 cartes ou plus en main, gagne +1/+1.
+668.name;Esprit des sables torturé
+668.text;{corrupt} - Augmente le coût de chaque carte dans la main de votre adversaire de {faeria|1}.
+669.name;Vautour des Hautes-Landes
+669.text;{flying}\n{gift} - Détruit une créature avec 1 PV et draine son attaque.
+670.name;Souche hantée
+670.text;{production} - Si votre adversaire a 4 cartes ou plus en main, piochez 1 carte et drainez 1 PV à votre adversaire.
+671.name;Anguille foudroyante
+671.text;{flying}\n{gift} - Inflige 2 points de dégât à une creature. Si elle est au dessus de l'océan, lui en inflige 4 à la place.

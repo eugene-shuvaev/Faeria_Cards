@@ -189,7 +189,7 @@
 121.name;Prophet der Gezeiten
 121.text;{gift} - Bewege das Land, auf dem diese Kreatur steht, zweimal.
 122.name;Vision von Demut
-122.text;Verringere den Grundangriff und das Leben einer Kreatur um die Hälfte (wird aufgerundet).
+122.text;Halbiere den Angriff und die Verteidigung einer Kreatur (runded ab).
 123.name;Uralter Bote
 123.text;{gift} - Die nächste Kreatur mit 5 oder mehr Leben, die du ziehst, kostet {faeria|2} weniger.
 124.name;Triton-Bankett
@@ -213,7 +213,7 @@
 133.name;Seelengebundener Sagami
 133.text;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
 134.name;Hainrufer der Sagami
-134.text;{gift} - Teleportiere eine verbündete Kreatur auf einen Wald unter deiner Kontrolle.
+134.text;{gift} - Du kannst eine verbündete Kreatur auf einen Wald unter deiner Kontrolle teleportieren.
 135.name;Uralter Bändiger
 135.text;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
 136.name;Gaias Gnade
@@ -301,7 +301,7 @@
 189.name;Ruunins Gegenwart
 189.text;Füge deiner Hand eine zufällige Kreatur hinzu. Sie bekommt +6/+6.
 190.name;Ruunin, die Unnachgiebige
-190.text;{dash|2}\n{last_words} - Return Ruunin to your hand at the end of the turn. She gains +2/+2.
+190.text;{dash|2}\n{last_words} - Ruunin kehrt am Ende des Zuges in deine Hand zurück. Sie erhält +2/+2.
 191.name;Räuber aus dem Untergrund
 191.text;{combat} - Erhalte {faeria|2}.
 192.name;Kriegsherr der Kobolde
@@ -385,7 +385,7 @@
 243.name;Flammenbombe
 243.text;Füge einer Kreatur oder einem Bauwerk 4 Schaden zu.
 244.name;Feuersturm
-244.text;Füge allen feindlichen Kreaturen 3 Schaden zu.
+244.text;Wähle ein Feld aus. Füge allen feindlichen Kreaturen auf oder neben diesem Feld 3 Schaden zu.
 245.name;Kampfwüter
 245.text;Immer wenn diese Kreatur Schaden erleidet, füge deinem Gegner denselben Schaden zu.
 246.name;Zerbröckelnder Golem
@@ -409,7 +409,7 @@
 255.name;Schütze der Oradrim
 255.text;{ranged_attack}\n Immer wenn eine verbündete Kreatur einen Gott angreift, erhälst du {faeria|1}.
 256.name;Fanatiker der Oradrim
-256.text;{jump}\n{gift} - Bewege eine verbündete Kreatur.
+256.text;{jump}\n{gift} - Du kannst eine befreundete Kreatur bewegen.
 257.name;Wirbelnder Wüstenwind
 257.text;Teleportiere eine Kreatur auf eine von dir kontrollierte Wüste.
 258.name;Windportal
@@ -459,7 +459,7 @@
 292.name;Wolkenweißes Irrlicht
 292.text;{flying}, {charge|3}\nErhält +3/+0, wenn eine verbündete Kreatur einen Gott angreift.
 293.name;Plötzlicher Windstoß
-293.text;{options|Bewege eine verbündete Kreatur.|Bezahle {faeria|2} mehr, um stattdessen eine feindliche Kreatur zu bewegen.}\nBewege eine verbündete Kreatur.\nBezahle {faeria|2} mehr, um stattdessen eine feindliche Kreatur zu bewegen.
+293.text;Move a friendly creature or pay {faeria|2} and move an enemy creature.
 294.name;Goldenes Aviarium
 294.text;Alle deine fliegenden Kreaturen haben +1/+0.
 295.name;Fanatischer Kreuzritter
@@ -539,7 +539,7 @@
 363.name;Triton-Ausbilder
 363.text;{jump}\n{gift} - Die nächste Kreatur mit {jump}, die du beschwörst, erhält +1/+1.
 364.name;Stimme der Wahrheit
-364.text;{gift} - Setze eine Kreatur auf ihren ursprünglichen Angriff und Leben zurück.
+364.text;{gift} - Du kannst eine Kreatur auf ihren Originalen angriffs und verteidigungs-Wert zurücksetzen.
 365.name;Vorbote des Krieges
 365.text;{combat} - Die nächste von dir beschworene {combat} Kreatur erhält +1/+1.
 366.name;Wolken-Wegweiser
@@ -551,7 +551,7 @@
 369.name;Illusion von Erhabenheit
 369.text;{charge|2}\nJedes Mal, wenn du eine Kreatur beschwörst, die {faeria|1} oder weniger kostet, erhält diese Karte Angriff und Leben gleich den Werten jener Kreatur (solange sie in deiner Hand oder deinem Deck ist).
 370.name;Düsterforst-Pirscher
-370.text;{gift} - Kämpfe gegen eine gegnerische Kreatur.
+370.text;{gift} - Du kannst eine gegnerische Kreatur bekämpfen.
 371.name;Krogs Abendessen
 371.text;Dein Krog kostet {faeria|7} weniger. Wenn du Krog beschwörst, zerstöre diese Kreatur. \n {gift} Wenn Krog gestorben ist oder in deinem Deck ist, ziehe ihn.
 372.name;Ionas Lächeln
@@ -740,27 +740,67 @@
 628.text;{gift}- Beschwöre ein 1/1 <b>Baby Yak</b> mit {taunt} und <b> Kann kein Faeria sammeln</b> auf einer Prärie unter deiner Kontrolle.
 629.name;Majinata, Geist des Ewigen Lebens
 629.text;{protection}, {divine}\n{gift}- Eine verbündete Kreatur verschlingt dies. Sie erhält +5/+5, {flying} und {charge|2}.
-630.name;Lavasurge Axolotl
+630.name;Lavastrom Axolotl
 630.text;
 640.name;Rakoakopter
-640.text;{flying}, {dash|1}\n{gift} - Deal 2 damage to adjacent enemy creatures.
+640.text;{flying}, {dash|1}\n{gift} - Füge angrenzenden feindlichen Kreaturen 2 Schaden zu.
 641.name;Rubinyak
-641.text;Whenever a friendly Yak is dealt damage, deal 1 damage to your opponent.
+641.text;Immer wenn ein verbündeter Yak schaden erleidet, füge deinem Gegner 1 Schaden zu.
 642.name;Geisterdrache
 642.text;{flying}, {charge|2}, {protection}
 643.name;Löwenfisch
 643.text;{flying}, {deathtouch}
 644.name;Topazyak
-644.text;Can be summoned next to friendly Yaks. If it is, this gains {haste}.
+644.text;Kann neben verbündeten Yaks beschworen werden. Wenn dies passiert, erhält diese Kreatur {haste}.
 645.name;Rakoan Kriegsmaschine
-645.text;{charge|2}\n{gift} - This may {swallow} another friendly Rakoan to gain +2/+0.
+645.text;{charge|2}\n{gift} - Diese Kreatur kann einen anderen verbündeten Rakoan {swallow} um +2/+0 zu erhalten.
 646.name;Rakoan Kanonier
-646.text;{gift} - You may sacrifice a Rakoan. If you do, deal 3 damage.
+646.text;{gift} - Du kannst einen anderen Rakoan opfern. Wenn du dies tust, füge 3 Schaden zu.
 647.name;Rakoan Illusionist
-647.text;{gift} - Transform another friendly Rakoan into a 4/4 {flying} {charge|2} <b>Dune Drake</b> until the start of your next turn.
+647.text;{gift} - Du kannst einen anderen Rakoan, bis zum ende deeines nächsten Zuges, in einen 4/4 {flying} {charge|2} <b>Dune Drake</b> verwandeln.
 648.name;Rakoanische Schildbrüder
 648.text;{last_words} - Beschwöre einen 1/1 Rakoaner an dieser Position.
-649.name;Rakoan Warleader
-649.text;{combat} - Give a random Rakoan in your hand +1/+1.
+649.name;Rakoan Truppführer
+649.text;{combat} - Gib einem zufälligen Rakoan in deiner Hand +1/+1.
 650.name;Rakoan Rekrutierer
-650.text;{gift} - Add a 1/1 Rakoan to your hand. It costs {faeria|0}.
+650.text;{gift} - Füge deiner Hand einen 1/1 Rakoan hinzu. Er kostet {faeria|0}.
+652.name;Versklavter Prister
+652.text;Wenn eine andere verbündete Kreatur ihre {corrupt} Fähigkeit auslöst, entziehe deinem Gegner 2 Leben.
+653.name;Turm der Flüche
+653.text;{activate} - Gib einer Kreatur -1/-1. Füge diesem Bauwerk 1 Schaden zu.
+654.name;Shozen, der Himmelsschlinger
+654.text;{flying}, {charge|3}\n Wenn Shozen das erste mal eine Kreatur im Kampf zerstören würde, verschlingt er sie und du erhälst die kontrolle über die Kreatur.
+655.name;Imperialer Außenposten
+655.text;Alle verbündeten neutralen Kreaturen haben +1/+0
+656.name;Zerstörerische Salve
+656.text;Füge einer Kreatur 2 Schaden zu. Falls es eine {flying} Kreatur ist, füge ihr stattdessen 5 Schaden zu.
+657.name;Gagana, Regenbogen Vogelschiff
+657.text;{flying}\nKarten in deiner Hand sind {wild}.\n{gift} - Nimm ein zufälliges Gagana Mannschaftsmitglied auf die hand. Es kostet {faeria|0}
+658.name;Silberstrahl, Geißel der Wolkenwelt
+658.text;{flying}\n{gift} - Gegnerische Kreaturen können den nächsten Zug nich angreifen oder sich bewegen.
+659.name;Sprenghippo
+659.text;{combat} - Füge allen anliegenden Gegnern 2 Schaden zu.
+660.name;Bestien Trainer
+660.text;{gift} - Eine zufällige Bestie in deiner Hand kostet {faeria|5} weniger.
+661.name;Kobold Schmuggler
+661.text;{corrupt} - Beschwöre einen 4/3 <b>Seifers Kanonenfutter</b> auf einem zufälligen anliegenden Land.
+662.name;Zorn des Ignus
+662.text;Verteile insgesamt 4 Schaden auf zufällige Gegner. \nKostet {faeria|1} weniger, für jedes mal das du +{faeria|1} von dem Kraftrad gewählt hast. (Während diese Karte in deinem Deck oder deiner Hand ist.)
+663.name;Ignusi Ritualist
+663.text;{gift} - Lade das Kraftrad neu auf. \n{corrupt} - Lade das Kraftrad neu auf.
+664.name;Flammenentfacher
+664.text;Erhält +1/+1 jedes mal das du +{faeria|1} von dem Kraftrad wählst.
+665.name;Wolkenödlands Pest
+665.text;{gift} - Bekämpfe deinen Gegner.
+666.name;Aasige Blähfliege
+666.text;{flying}{corrupt} - Nimm eine <b>Aasige Blähfliege</b> auf die Hand.
+667.name;Schandbrut Schemen
+667.text;{charge|2}\n{production} - Falls dein gegner 4 oder mehr Karten in der Hand hat, erhällt diese Kreatur +1/+1.
+668.name;Sandsturm Geist
+668.text;{corrupt} - Erhöhe die Kosten aller Karten in der gegnerischen Hand um {faeria|1}.
+669.name;Wolkenödlands Geier
+669.text;{flying}\n{gift} - Zerstöre eine kreatur mit 1 Leben und entziehe ihre Angriffskraft.
+670.name;Ruhelose Hülle
+670.text;{production} - Falls dein Gegner 4 oder mehr Karten in der Hand hat, ziehe eine Karte und entziehe deinem Gegner 1 Leben.
+671.name;Donner Aal
+671.text;{flying}\n {gift} - Füge einer Kreatur 2 Schaden zu. Falls Sie sich auf einem Ozean Feld befindet, füge Ihr stattdessen 4 Schaden zu.

@@ -97,13 +97,13 @@
 123;BLUE;Ancient Herald;creature;;6;;1;;;;5;6;101000;COMMON
 124;BLUE;Triton Banquet;event;;3;;1;;;;;;101000;RARE
 125;BLUE;Aurora, Myth Maker;creature;;4;;3;;;;1;1;101000;LEGENDARY
-126;BLUE;Wavecrafter;creature;;6;;3;;;;5;6;101000;EPIC
+126;BLUE;Wavecrafter;creature;;6;;3;;;;6;6;101000;EPIC
 127;BLUE;Failed Experiment;event;;1;;1;;;;;;101000;EPIC
 128;BLUE;Aurora's Trick;event;;4;;5;;;;;;101000;EPIC
 129;BLUE;Battle Toads;event;;4;;2;;;;;;101000;RARE
 130;BLUE;Windfall;event;;10;;2;;;;;;101000;COMMON
 131;GREEN;Sagami Warrior;creature;;3;;;1;;;3;4;101000;COMMON
-132;GREEN;Bone Collector;creature;;2;;;1;;;1;3;101000;COMMON
+132;GREEN;Bone Collector;creature;;2;;;1;;;0;3;101000;COMMON
 133;GREEN;Soulbound Sagami;creature;;6;;;2;;;3;5;100008;COMMON
 134;GREEN;Sagami Grovecaller;creature;;4;;;3;;;2;4;101000;RARE
 135;GREEN;Ancient Beastmaster;creature;;4;;;2;;;3;4;101000;COMMON
@@ -115,7 +115,7 @@
 141;GREEN;Tiki Piper;creature;;3;;;1;;;1;1;101000;COMMON
 142;GREEN;Shamanic Dance;event;;2;;;2;;;;;101000;COMMON
 143;GREEN;Tiki Totem;structure;;3;;;2;;;;3;101000;RARE
-144;GREEN;Possessed Ursus;creature;beast;5;;;2;;;1;8;101000;EPIC
+144;GREEN;Possessed Ursus;creature;beast;5;;;2;;;1;6;101000;EPIC
 149;GREEN;Oakling;creature;;5;;;2;;;1;5;101000;RARE
 150;GREEN;Thyrian Golem;creature;;5;;;5;;;5;10;100007;RARE
 151;GREEN;Seed Sower;creature;;6;;;1;;;4;6;100007;COMMON
@@ -153,7 +153,7 @@
 191;RED;Underground Brigand;creature;;3;;;;2;;2;3;100013;COMMON
 192;RED;Kobold Warlord;creature;;7;;;;1;;5;7;100013;COMMON
 193;RED;Kobold Warbeast;creature;yak;4;;;;2;;5;4;100014;COMMON
-194;RED;Gift of Steel;event;;3;;;;2;;;;100014;COMMON
+194;RED;Gift of Steel;event;;4;;;;2;;;;100014;COMMON
 195;RED;Underground Boss;creature;;5;;;;2;;3;4;100013;COMMON
 196;RED;Architect;creature;;2;1;;;1;;2;2;101000;EPIC
 197;RED;Exalted Ogre;creature;;5;;;;1;;5;5;101000;COMMON
@@ -191,7 +191,7 @@
 241;RED;Seifer's Wrath;event;;2;;;;2;;;;101000;RARE
 242;RED;Devouring Plant;structure;;2;;;;1;;;5;101000;COMMON
 243;RED;Firebomb;event;;4;;;;2;;;;101000;COMMON
-244;RED;Firestorm;event;;6;;;;3;;;;101000;EPIC
+244;RED;Firestorm;event;;5;;;;3;;;;101000;EPIC
 245;RED;Battle Rager;creature;;7;;;;1;;7;3;101000;RARE
 246;RED;Crumbling Golem;creature;;5;;;;1;;7;6;101000;EPIC
 247;RED;Ogre Dance;event;;4;;;;2;;;;101000;COMMON
@@ -199,7 +199,7 @@
 249;RED;Red Devil;creature;;9;;;;2;;6;4;101000;COMMON
 250;RED;Ignus, the First Flame;creature;;8;;;;3;;4;4;101000;LEGENDARY
 251;YELLOW;Oradrim Monk;creature;;3;;;;;2;2;1;101000;RARE
-252;YELLOW;Khalim's Prayer;event;;0;;;;;2;;;101000;RARE
+252;YELLOW;Khalim's Prayer;event;;0;;;;;3;;;101000;RARE
 253;YELLOW;Khalim's Follower;creature;;1;;;;;2;0;1;101000;COMMON
 254;YELLOW;Oradrim Templar;creature;;3;;;;;1;3;3;101000;COMMON
 255;YELLOW;Oradrim Sagittarius;creature;;3;;;;;2;1;3;101000;EPIC
@@ -259,7 +259,7 @@
 352;HUMAN;Radiance, Imperial Airship;creature;;20;;;;;;10;10;101000;LEGENDARY
 353;BLUE;Forbidden Library;structure;;1;;5;;;;;2;101000;RARE
 354;BLUE;Dream Reaver;creature;;7;;7;;;;7;10;101000;EPIC
-355;GREEN;Feral Kodama;creature;;5;1;;2;;;5;5;101000;EPIC
+355;GREEN;Feral Kodama;creature;;5;1;;2;;;5;6;101000;EPIC
 356;GREEN;God Hunter;creature;;3;;;2;;;5;4;101000;EPIC
 357;RED;Blood Song;event;;4;;;;2;;;;101000;RARE
 358;RED;Hellfire;event;;7;;;;2;;;;101000;EPIC
@@ -310,15 +310,15 @@
 433;PANDORA;Ulani's Medallion;event;;6;;;;;;;;107778;RARE
 500;HUMAN;Monkey Genius;creature;beast;4;;;;;;0;2;102005;RARE
 501;HUMAN;Intrepid Explorer;creature;;3;1;;;;;3;3;102001;COMMON
-502;HUMAN;Crystal Flower;structure;;4;4;;;;;;5;102001;EPIC
+502;HUMAN;Crystal Flower;structure;;4;;1;1;1;1;;5;102001;EPIC
 503;HUMAN;Yakkapult;creature;;4;6;;;;;2;5;102002;EPIC
 504;HUMAN;Goki, Friendly Miner;creature;triton;2;4;;;;;2;4;102001;LEGENDARY
-505;HUMAN;Mobie, Azure Skywhale;creature;beast;6;8;;;;;6;6;102002;LEGENDARY
+505;HUMAN;Mobie, Azure Skywhale;creature;;6;8;;;;;6;6;102002;LEGENDARY
 506;HUMAN;Balloon Fish;creature;;3;2;;;;;3;3;102005;RARE
 507;HUMAN;Emperor Kaios;creature;;5;6;;;;;3;5;102005;LEGENDARY
 508;GREEN;Seed of Paradise;creature;;2;;;1;;;0;3;102003;EPIC
 509;GREEN;The Tree of Everlife;structure;;7;7;;3;;;;7;102005;LEGENDARY
-510;GREEN;Gift of the Rakoa;event;;3;;;2;;;;;102002;EPIC
+510;GREEN;Gift of the Rakoa;event;;4;;;2;;;;;102002;EPIC
 511;BLUE;Curious Biomancer;creature;rakoan;3;2;2;;;;1;3;102005;RARE
 512;BLUE;Fugoro, Merchant of Wonders;creature;triton;5;3;3;;;;3;5;102003;LEGENDARY
 513;BLUE;Leaping Fugu;creature;beast;3;;2;;;;2;3;102003;COMMON
@@ -381,4 +381,24 @@
 648;HUMAN;Rakoan Shield Mates;creature;rakoan;2;;;1;;1;2;2;102007;COMMON
 649;HUMAN;Rakoan Warleader;creature;rakoan;4;;;1;1;;3;5;102007;RARE
 650;HUMAN;Rakoan Recruiter;creature;rakoan;4;;1;1;;;3;4;102007;COMMON
+652;HUMAN;Enslaved Priest;creature;;3;;;;;;2;3;102008;COMMON
+653;HUMAN;Tower of Curses;structure;;4;4;;;;;;4;102008;RARE
+654;HUMAN;Shozen, the Sky Eater;creature;;6;6;;;;;6;6;102008;LEGENDARY
+655;HUMAN;Imperial Outpost;structure;;2;;;;;;;2;102008;COMMON
+656;HUMAN;Destructive Volley;event;;3;;;;;;;;102008;RARE
+657;HUMAN;Gagana, Rainbow Birdship;creature;;6;4;;;;;3;7;102008;LEGENDARY
+658;HUMAN;Radiance, Scourge of Oversky;creature;;10;4;;;;;10;10;102008;LEGENDARY
+659;RED;Bursting Hippo;creature;beast;6;;;;3;;5;5;102008;RARE
+660;RED;Beast Trainer;creature;;5;2;;;1;;3;3;102008;COMMON
+661;RED;Kobold Smuggler;creature;;5;;;;1;;5;3;102008;RARE
+662;RED;Wrath of Ignus;event;;6;;;;3;;;;102008;EPIC
+663;RED;Ignusi Ritualist;creature;;4;;;;3;;3;3;102008;RARE
+664;RED;Flamestoker;creature;;5;;;;3;;4;4;102008;COMMON
+665;YELLOW;Barrensky Vermin;creature;beast;1;;;;;2;1;1;102008;COMMON
+666;YELLOW;Vile Bloatfly;creature;;2;;;;;4;3;3;102008;RARE
+667;YELLOW;Blightborn Spectre;creature;;5;;;;;2;3;6;102008;RARE
+668;YELLOW;Dustbringer Wraith;creature;;4;1;;;;2;3;6;102008;EPIC
+669;YELLOW;Barrensky Vulture;creature;beast;4;;;;;4;0;3;102008;COMMON
+670;YELLOW;Haunted Husk;structure;;1;;;;;2;;3;102008;EPIC
+671;HUMAN;Thunder Eel;creature;;6;;;;2;2;6;4;102008;COMMON
 
